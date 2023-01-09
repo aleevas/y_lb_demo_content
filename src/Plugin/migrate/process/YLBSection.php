@@ -2,11 +2,14 @@
 
 namespace Drupal\y_lb_demo_content\Plugin\migrate\process;
 
+use Drupal\Core\Plugin\ContainerFactoryPluginInterface;
 use Drupal\layout_builder\Section;
 use Drupal\layout_builder\SectionComponent;
 use Drupal\migrate\MigrateExecutableInterface;
+use Drupal\migrate\Plugin\MigrationInterface;
 use Drupal\migrate\ProcessPluginBase;
 use Drupal\migrate\Row;
+use Symfony\Component\DependencyInjection\ContainerInterface;
 
 /**
  * Fills in Layout Builder sections.
@@ -15,7 +18,30 @@ use Drupal\migrate\Row;
  *   id = "lb_sections"
  * )
  */
-class YLBSection extends ProcessPluginBase {
+class YLBSection extends ProcessPluginBase implements ContainerFactoryPluginInterface {
+
+  /**
+   * The entity type manager.
+   *
+   * @var \Drupal\Core\Entity\EntityStorageInterface
+   */
+  protected $blockContentStorage;
+
+  /**
+   * {@inheritdoc}
+   */
+  public static function create(ContainerInterface $container, array $configuration, $plugin_id, $plugin_definition, MigrationInterface $migration = NULL) {
+    $instance = new static(
+      $configuration,
+      $plugin_id,
+      $plugin_definition
+    );
+
+    $instance->blockContentStorage = $container->get('entity_type.manager')->getStorage('block_content');
+    return $instance;
+  }
+
+
   /**
    * {@inheritdoc}
    */
@@ -25,7 +51,6 @@ class YLBSection extends ProcessPluginBase {
     }
 
     $sections = [];
-
     foreach ( $value as $section ) {
       $components = [];
       $layout_id = "bootstrap_layout_builder:{$section['bs_col']}";
@@ -46,10 +71,17 @@ class YLBSection extends ProcessPluginBase {
         "context_mapping" => $section['context_mapping'] ?? [],
         "remove_gutters" => $section['remove_gutters'] ?? "0",
       ];
-
       if (!empty($section['components'])) {
         foreach ($section['components'] as $key => $componentConfig) {
-          $component = new SectionComponent($componentConfig['uuid'], $componentConfig['region'], $componentConfig['config'], $additional = []);
+          $blocks = $this->blockContentStorage->loadByProperties(['uuid' => $componentConfig['uuid']]);
+          if (!$blocks) {
+            continue;
+          }
+          $block = array_shift($blocks);
+          $revisionId = $block->getRevisionId();
+          $config = $componentConfig['config'];
+          $config['block_revision_id'] = $revisionId;
+          $component = new SectionComponent($componentConfig['uuid'], $componentConfig['region'], $config , $additional = []);
           $components[$componentConfig['uuid']] = $component;
         }
       }
