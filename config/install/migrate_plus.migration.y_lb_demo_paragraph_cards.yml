@@ -79,14 +79,19 @@ process:
   field_card_description/format:
     plugin: default_value
     default_value: full_html
-  field_card_image/target_id: image
+  field_card_image:
+    -
+      plugin: migration_lookup
+      migration: y_lb_demo_media_image
+      source: image
   field_card_cta: cta
   field_card_topic_tag/target_id: topic_tag
 destination:
   plugin: 'entity:paragraph'
   default_bundle: 'lb_card'
 migration_dependencies:
+  required:
+    - y_lb_demo_media_image
   optional:
-    - openy_demo_nnews_media_image
     - openy_demo_taxonomy_term_blog_category
     - openy_demo_taxonomy_term_news_category

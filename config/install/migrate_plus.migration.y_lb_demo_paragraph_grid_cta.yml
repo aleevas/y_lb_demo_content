@@ -76,11 +76,15 @@ process:
   field_grid_item_description/format:
     plugin: default_value
     default_value: full_html
-  field_grid_item_icon/target_id: image
+  field_grid_item_icon:
+    -
+      plugin: migration_lookup
+      migration: y_lb_demo_media_image
+      source: image
   field_grid_item_cta_link: cta
 destination:
   plugin: 'entity:paragraph'
   default_bundle: 'lb_cta_item'
 migration_dependencies:
-  optional:
-    - openy_demo_nnews_media_image
+  required:
+    - y_lb_demo_media_image

@@ -165,7 +165,7 @@ source:
       sections:
         body:
           bs_col: 'blb_col_3'
-          container: 'container-fluid'
+          container: 'container'
           breakpoints:
             desktop: 'blb_col_3_6_3'
             tablet: 'blb_col_12'

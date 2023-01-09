@@ -48,11 +48,13 @@ process:
     plugin: default_value
     default_value: full_html
   field_hero_cta: cta
-  field_media/target_id: media
+  field_media:
+    - plugin: migration_lookup
+      migration: y_lb_demo_media_image
+      source: media
 
 destination:
   plugin: entity:block_content
 migration_dependencies:
-  required: {}
-  optional:
-    - openy_demo_nnews_media_image
+  required:
+    - y_lb_demo_media_image

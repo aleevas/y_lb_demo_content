@@ -76,11 +76,15 @@ process:
   field_carousel_description/format:
     plugin: default_value
     default_value: full_html
-  field_carousel_image/target_id: image
+  field_carousel_image:
+    -
+      plugin: migration_lookup
+      migration: y_lb_demo_media_image
+      source: image
   field_carousel_cta: cta
 destination:
   plugin: 'entity:paragraph'
   default_bundle: 'lb_carousel_item'
 migration_dependencies:
-  optional:
-    - openy_demo_nnews_media_image
+  required:
+    - y_lb_demo_media_image

@@ -70,7 +70,6 @@ process:
     default_value: full_html
   field_section_title: section_title
   field_section_subtitle: section_subtitle
-
 destination:
   plugin: entity:block_content
 migration_dependencies:
