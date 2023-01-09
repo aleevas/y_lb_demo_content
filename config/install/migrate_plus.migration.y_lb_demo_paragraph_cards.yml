@@ -1,0 +1,92 @@
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - y_lb_demo_content
+id: y_lb_demo_paragraph_cards
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags: {  }
+migration_group: y_lb_demo_content
+label: 'Create Card paragraphs for Cards component'
+source:
+  plugin: embedded_data
+  data_rows:
+    -
+      id: cards_1
+      parent_id: 21
+      title: 'Card 1'
+      body: '<p>Card 1 description</p>'
+      image: 1
+      cta:
+        - uri: 'entity:node/17'
+          title: 'CTA'
+      topic_tag: 19
+    -
+      id: cards_2
+      parent_id: 21
+      title: 'Card 2'
+      body: '<p>Card 2 description</p>'
+      image: 2
+      cta:
+        - uri: 'entity:node/10'
+          title: 'CTA'
+      topic_tag: 75
+    -
+      id: cards_3
+      parent_id: 21
+      title: 'Card 3'
+      body: '<p>Card 3 description</p>'
+      image: 3
+      cta:
+        - uri: 'entity:node/9'
+          title: 'CTA'
+      topic_tag: 64
+  ids:
+    id:
+      type: string
+process:
+  langcode:
+    plugin: default_value
+    source: language
+    default_value: en
+  status:
+    plugin: default_value
+    default_value: 1
+  uid:
+    plugin: default_value
+    default_value: 1
+  parent_id:
+    plugin: migration_lookup
+    migration: y_lb_demo_block_cards
+    no_stub: true
+    source: parent_id
+  parent_type:
+    plugin: default_value
+    default_value: block_content
+  parent_field_name:
+    plugin: default_value
+    default_value: field_cards
+  type:
+    plugin: skip_if_bundle_not_exist
+    method: row
+    entity: paragraph
+    bundle: lb_card
+  field_card_title: title
+  field_card_description/value: body
+  field_card_description/format:
+    plugin: default_value
+    default_value: full_html
+  field_card_image/target_id: image
+  field_card_cta: cta
+  field_card_topic_tag/target_id: topic_tag
+destination:
+  plugin: 'entity:paragraph'
+  default_bundle: 'lb_card'
+migration_dependencies:
+  optional:
+    - openy_demo_nnews_media_image
+    - openy_demo_taxonomy_term_blog_category
+    - openy_demo_taxonomy_term_news_category

@@ -1,0 +1,77 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - y_lb_demo_content
+  enforced:
+    module:
+      - y_lb_demo_content
+id: y_lb_demo_block_grid_cta
+migration_tags: {}
+migration_group: y_lb_demo_content
+label: 'Import demo Layout Builder - Grid CTA block'
+source:
+  plugin: embedded_data
+  data_rows:
+    -
+      id: 22
+      uuid: 'de48f6ed-0456-4044-a1a0-8fd407a8e7c0'
+      title: 'Grid CTA Section title'
+      subtitle: 'Grid CTA section subtitle'
+      columns: 3
+      cta:
+        - uri: 'entity:node/10'
+          title: 'CTA'
+      content_ids:
+        -
+          content_id: grid_cta_1
+        -
+          content_id: grid_cta_2
+        -
+          content_id: grid_cta_3
+  ids:
+    id:
+      type: integer
+process:
+  id: id
+  revision_id: id
+  langcode:
+    plugin: default_value
+    source: language
+    default_value: en
+  status:
+    plugin: default_value
+    default_value: 1
+  reusable:
+    plugin: default_value
+    default_value: 0
+  type:
+    plugin: default_value
+    default_value: lb_grid_cta
+  uuid: uuid
+
+  field_section_title: title
+  field_section_subtitle: subtitle
+  field_grid_section_cta_link: cta
+  field_columns: columns
+  field_grid_items:
+    plugin: sub_process
+    source: content_ids
+    process:
+      target_id:
+        plugin: migration_lookup
+        migration:
+          - y_lb_demo_paragraph_grid_cta
+        source: content_id
+      target_revision_id:
+        plugin: migration_lookup
+        migration:
+          - y_lb_demo_paragraph_grid_cta
+        source: content_id
+
+destination:
+  plugin: entity:block_content
+migration_dependencies:
+  required:
+    - y_lb_demo_paragraph_grid_cta
+  optional: {}

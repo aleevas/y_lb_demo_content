@@ -1,0 +1,70 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - y_lb_demo_content
+  enforced:
+    module:
+      - y_lb_demo_content
+id: y_lb_demo_block_carousel
+migration_tags: {}
+migration_group: y_lb_demo_content
+label: 'Import demo Layout Builder - Carousel block'
+source:
+  plugin: embedded_data
+  data_rows:
+    -
+      id: 23
+      uuid: '848ca9ce-92c2-4a52-b241-e86449c1f6d6'
+      title: 'Carousel Section title'
+      subtitle: 'Carousel section subtitle'
+      content_ids:
+        -
+          content_id: carousel_1
+        -
+          content_id: carousel_2
+        -
+          content_id: carousel_3
+  ids:
+    id:
+      type: integer
+process:
+  id: id
+  revision_id: id
+  langcode:
+    plugin: default_value
+    source: language
+    default_value: en
+  status:
+    plugin: default_value
+    default_value: 1
+  reusable:
+    plugin: default_value
+    default_value: 0
+  type:
+    plugin: default_value
+    default_value: lb_carousel
+  uuid: uuid
+  field_section_title: title
+  field_subtitle: subtitle
+  field_carousel_items:
+    plugin: sub_process
+    source: content_ids
+    process:
+      target_id:
+        plugin: migration_lookup
+        migration:
+          - y_lb_demo_paragraph_carousel
+        source: content_id
+      target_revision_id:
+        plugin: migration_lookup
+        migration:
+          - y_lb_demo_paragraph_carousel
+        source: content_id
+
+destination:
+  plugin: entity:block_content
+migration_dependencies:
+  required:
+    - y_lb_demo_paragraph_carousel
+  optional: {}

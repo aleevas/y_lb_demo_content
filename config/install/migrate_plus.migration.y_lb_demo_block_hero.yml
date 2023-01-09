@@ -1,0 +1,58 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - y_lb_demo_content
+  enforced:
+    module:
+      - y_lb_demo_content
+id: y_lb_demo_block_hero
+migration_tags: {}
+migration_group: y_lb_demo_content
+label: 'Import demo Layout Builder - Hero block'
+source:
+  plugin: embedded_data
+  data_rows:
+    -
+      id: 18
+      uuid: 'aaa3168a-883c-4899-938b-c4cd1ddcdf14'
+      title: 'Demo Hero'
+      description: "<p>Demo hero content goes here</p>"
+      media: 1
+      cta:
+        - uri: 'entity:node/10'
+          title: 'CTA'
+  ids:
+    id:
+      type: integer
+process:
+  id: id
+  revision_id: id
+  langcode:
+    plugin: default_value
+    source: language
+    default_value: en
+  status:
+    plugin: default_value
+    default_value: 1
+  reusable:
+    plugin: default_value
+    default_value: 0
+  type:
+    plugin: default_value
+    default_value: lb_hero
+  uuid: uuid
+  field_title: title
+  field_description/value: description
+  field_description/format:
+    plugin: default_value
+    default_value: full_html
+  field_hero_cta: cta
+  field_media/target_id: media
+
+destination:
+  plugin: entity:block_content
+migration_dependencies:
+  required: {}
+  optional:
+    - openy_demo_nnews_media_image

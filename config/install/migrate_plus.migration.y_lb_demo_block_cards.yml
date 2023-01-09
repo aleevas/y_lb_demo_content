@@ -1,0 +1,76 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - y_lb_demo_content
+  enforced:
+    module:
+      - y_lb_demo_content
+id: y_lb_demo_block_cards
+migration_tags: {}
+migration_group: y_lb_demo_content
+label: 'Import demo Layout Builder - Cards block'
+source:
+  plugin: embedded_data
+  data_rows:
+    -
+      id: 21
+      uuid: '37ee3c4a-f66c-4247-affa-c65e35d97994'
+      title: 'Cards Section title'
+      subtitle: 'Cards section subtitle'
+      columns: 3
+      cta:
+        - uri: 'entity:node/10'
+          title: 'CTA'
+      content_ids:
+        -
+          content_id: cards_1
+        -
+          content_id: cards_2
+        -
+          content_id: cards_3
+  ids:
+    id:
+      type: integer
+process:
+  id: id
+  revision_id: id
+  langcode:
+    plugin: default_value
+    source: language
+    default_value: en
+  status:
+    plugin: default_value
+    default_value: 1
+  reusable:
+    plugin: default_value
+    default_value: 0
+  type:
+    plugin: default_value
+    default_value: lb_cards
+  uuid: uuid
+  field_section_title: title
+  field_subtitle: subtitle
+  field_cta: cta
+  field_columns: columns
+  field_cards:
+    plugin: sub_process
+    source: content_ids
+    process:
+      target_id:
+        plugin: migration_lookup
+        migration:
+          - y_lb_demo_paragraph_cards
+        source: content_id
+      target_revision_id:
+        plugin: migration_lookup
+        migration:
+          - y_lb_demo_paragraph_cards
+        source: content_id
+
+destination:
+  plugin: entity:block_content
+migration_dependencies:
+  required:
+    - y_lb_demo_paragraph_cards
+  optional: {}
