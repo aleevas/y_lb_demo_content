@@ -16,36 +16,28 @@ source:
     -
       id: 10
       uuid: '9e14de28-6440-4268-a2f0-660ac62cd1b5'
-      title: 'Demo Table'
       body: |
+        <p>At the Y, you can discover your passion and a lifelong career helping solve some of the nation's most pressing social issues. Find a job with the Y today!</p>
         <table border="1" cellpadding="1" cellspacing="1">
         	<thead>
         		<tr>
-        			<th scope="col">Header 1</th>
-        			<th scope="col">Header 2</th>
-        			<th scope="col">Header 3</th>
+        			<th scope="col">This</th>
+        			<th scope="col">is</th>
         		</tr>
         	</thead>
         	<tbody>
         		<tr>
-        			<td>Row 1.1</td>
-        			<td>Row 1.2</td>
-        			<td>Row 1.3</td>
+        			<td>a</td>
+        			<td>table</td>
         		</tr>
         		<tr>
-        			<td>Row 2.1</td>
-        			<td>Row 2.2</td>
-        			<td>Row 2.3</td>
-        		</tr>
-        		<tr>
-        			<td>Row 3.1</td>
-        			<td>Row 3.2</td>
-        			<td>Row 3.3</td>
+        			<td>this</td>
+        			<td>headers</td>
         		</tr>
         	</tbody>
         </table>
-      section_title: "Table section title"
-      section_subtitle: "Table section subtitle"
+      section_title: "Table title"
+      section_subtitle: "Table subtitle"
   ids:
     id:
       type: integer

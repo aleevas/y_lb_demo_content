@@ -17,30 +17,30 @@ source:
     -
       id: carousel_1
       parent_id: 23
-      title: 'Slide 1'
-      body: '<p>Slide 1 description</p>'
-      image: 1
+      title: 'Y Membership'
+      body: "<p>It's always a good time to join the Y! Become a member today.</p>"
+      image: active_older_adults
       cta:
-        - uri: 'entity:node/17'
-          title: 'CTA'
+        - uri: 'entity:node/45'
+          title: 'Join Today'
     -
       id: carousel_2
       parent_id: 23
-      title: 'Slide 2'
-      body: '<p>Slide 2 description</p>'
-      image: 2
+      title: 'Group Exercise Classes'
+      body: '<p>The secret to sticking with a health and fitness program is finding activities you enjoy and that keep you moving.</p>'
+      image: active_older_adults
       cta:
-        - uri: 'entity:node/10'
-          title: 'CTA'
+        - uri: 'internal:/programs/health-and-fitness/group-exercise-classes?location=All&program=58&category=66&activity=All'
+          title: 'Find Classes'
     -
       id: carousel_3
       parent_id: 23
-      title: 'Slide 3'
-      body: '<p>Slide 3 description</p>'
-      image: 3
+      title: 'YMCA Gift Certificates'
+      body: '<p>Give a gift of experience with YMCA Holiday Gift Certificates for membership and programs.</p>'
+      image: active_older_adults
       cta:
-        - uri: 'entity:node/9'
-          title: 'CTA'
+        - uri: 'entity:node/38'
+          title: 'Buy now'
   ids:
     id:
       type: string

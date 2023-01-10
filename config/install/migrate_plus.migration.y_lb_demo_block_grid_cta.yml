@@ -21,12 +21,20 @@ source:
       columns: 3
       cta: {}
       content_ids:
-        -
-          content_id: grid_cta_1
-        -
-          content_id: grid_cta_2
-        -
-          content_id: grid_cta_3
+        - content_id: grid_cta_1
+        - content_id: grid_cta_2
+        - content_id: grid_cta_3
+    - id: 27
+      uuid: 'ab48f6ed-0456-4044-a1a0-8fd407a8e7c4'
+      title: ''
+      subtitle: ''
+      columns: 4
+      cta: { }
+      content_ids:
+        - content_id: grid_cta_1
+        - content_id: grid_cta_2
+        - content_id: grid_cta_3
+        - content_id: grid_cta_4
   ids:
     id:
       type: integer

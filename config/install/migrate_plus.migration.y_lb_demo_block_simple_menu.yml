@@ -16,17 +16,17 @@ source:
     -
       id: 12
       uuid: '1a9725f1-d4ef-4bd1-aeeb-467bb0e704c7'
-      title: 'Demo Simple Menu'
+      title: 'Simple Menu 1'
       links:
         -
-          uri: 'entity:node/10'
-          title: 'Link Item 1'
+          uri: 'internal:/'
+          title: 'About the YMCA'
         -
           uri: 'internal:/'
-          title: 'Link Item 2'
+          title: 'Join Now'
         -
-          uri: 'https://y.org'
-          title: 'Link Item 3'
+          uri: 'internal:/'
+          title: 'Check the Schedule'
   ids:
     id:
       type: integer

@@ -17,33 +17,43 @@ source:
     -
       id: cards_1
       parent_id: 21
-      title: 'Card 1'
-      body: '<p>Card 1 description</p>'
-      image: 1
+      title: 'Operating with Care'
+      body: "<p>We're excited to welcome you to our Ys! The health and safety of our members, volunteers and staff are always our top priority.</p>"
+      image: lb_image_10
       cta:
-        - uri: 'entity:node/17'
-          title: 'CTA'
-      topic_tag: 19
+        - uri: 'internal:/'
+          title: 'Read our guidelines'
+      topic_tag: 67
     -
       id: cards_2
       parent_id: 21
-      title: 'Card 2'
-      body: '<p>Card 2 description</p>'
-      image: 2
+      title: 'Make a Reservation'
+      body: '<p>To ensure you have a great visit, reservations are available for areas where capacity is limited.</p>'
+      image: lb_image_7
       cta:
-        - uri: 'entity:node/10'
-          title: 'CTA'
-      topic_tag: 75
+        - uri: 'internal:/'
+          title: 'Make a reservation'
+      topic_tag: 67
     -
       id: cards_3
       parent_id: 21
-      title: 'Card 3'
-      body: '<p>Card 3 description</p>'
-      image: 3
+      title: 'Capacity at your Local Y'
+      body: '<p>See how active your local YMCA branch is if you plan to visit today.</p>'
+      image: recreation
       cta:
-        - uri: 'entity:node/9'
-          title: 'CTA'
-      topic_tag: 64
+        - uri: 'internal:/'
+          title: 'View capacity'
+      topic_tag: 67
+    -
+      id: cards_4
+      parent_id: 21
+      title: 'Free Virtual Resources'
+      body: '<p>We invite you to try our online fitness classes! Visit our Virtual Y site and check in using your member barcode to access our resources.</p>'
+      image: small_group_and_specialty_training
+      cta:
+        - uri: 'internal:/'
+          title: 'Visit VirtualY'
+      topic_tag: 67
   ids:
     id:
       type: string

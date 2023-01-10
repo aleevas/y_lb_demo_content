@@ -14,14 +14,13 @@ label: 'Create Grid Item paragraphs for Grid CTA component'
 source:
   plugin: embedded_data
   data_rows:
-    -
-      id: grid_cta_1
+    - id: grid_cta_1
       parent_id: 22
       title: 'YMCA Camps'
       body: '<p>Our summer camp programs for kids and teens offer powerful learning environments.</p>'
       image: lb_image_9
       cta:
-        - uri: 'entity:node/17'
+        - uri: 'internal:/'
           title: 'Let’s go camp'
     -
       id: grid_cta_2
@@ -30,7 +29,7 @@ source:
       body: "<p>The YMCA is the nation's favorite swim instructor. We teach people of all ages and from all backgrounds that water can be fun — not feared.</p>"
       image: 'drop-in_swim'
       cta:
-        - uri: 'entity:node/10'
+        - uri: 'internal:/'
           title: 'Find your pool'
     -
       id: grid_cta_3
@@ -39,8 +38,16 @@ source:
       body: '<p>The YMCA is dedicated to helping everyone in our community become their best selves.</p>'
       image: lb_image_12
       cta:
-        - uri: 'entity:node/9'
+        - uri: 'internal:/'
           title: 'See our schedule'
+    - id: grid_cta_4
+      parent_id: 22
+      title: 'YMCA Careers'
+      body: "<p>At the Y, you can discover your passion and a lifelong career helping solve some of the nation's most pressing social issues. Find a job with the Y today!</p>"
+      image: lb_image_11
+      cta:
+        - uri: 'internal:/'
+          title: 'Work at the Y'
   ids:
     id:
       type: string

@@ -24,6 +24,14 @@ source:
         - content_id: accordion_4
         - content_id: accordion_5
         - content_id: accordion_6
+    - id: 26
+      uuid: 'dd85d0bc-6e17-4526-8e61-4dd2bc4228e1'
+      title: 'What’s Happening at the Y?'
+      content_ids:
+        - content_id: accordion_1
+        - content_id: accordion_2
+        - content_id: accordion_3
+        - content_id: accordion_4
   ids:
     id:
       type: integer

@@ -87,6 +87,15 @@ source:
     - id: day_camps
       name: 'Day Camps'
       file: day_camps
+    - id: recreation
+      name: 'Recreation'
+      file: recreation
+    - id: small_group_and_specialty_training
+      name: 'Small Group & Specialty Training'
+      file: small_group_and_specialty_training
+    - id: active_older_adults
+      name: 'Active Older Adults'
+      file: active_older_adults
   ids:
     id:
       type: string

@@ -62,6 +62,12 @@ source:
       name: jeff-dunham-fq673rUxrsQ-unsplash.jpg
     - id: day_camps
       name: anna-samoylova-w55SpMmoPgE-unsplash.jpg
+    - id: recreation
+      name: stage-7-photography-1226559-unsplash.jpg
+    - id: small_group_and_specialty_training
+      name: justyn-warner-529957-unsplash.jpg
+    - id: active_older_adults
+      name: ekta-agarwal-AJdjW36KOQs-unsplash.jpg
   ids:
     id:
       type: string

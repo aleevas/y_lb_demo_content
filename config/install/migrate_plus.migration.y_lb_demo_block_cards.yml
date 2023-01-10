@@ -16,19 +16,17 @@ source:
     -
       id: 21
       uuid: '37ee3c4a-f66c-4247-affa-c65e35d97994'
-      title: 'Cards Section title'
-      subtitle: 'Cards section subtitle'
-      columns: 3
+      title: 'Welcome Back!'
+      subtitle: 'We are excited to welcome you back'
+      columns: 4
       cta:
-        - uri: 'entity:node/10'
-          title: 'CTA'
+        - uri: 'entity:node/41'
+          title: 'Find your Y - locations'
       content_ids:
-        -
-          content_id: cards_1
-        -
-          content_id: cards_2
-        -
-          content_id: cards_3
+        - content_id: cards_1
+        - content_id: cards_2
+        - content_id: cards_3
+        - content_id: cards_4
   ids:
     id:
       type: integer

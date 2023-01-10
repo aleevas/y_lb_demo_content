@@ -16,15 +16,12 @@ source:
     -
       id: 23
       uuid: '848ca9ce-92c2-4a52-b241-e86449c1f6d6'
-      title: 'Carousel Section title'
-      subtitle: 'Carousel section subtitle'
+      title: 'Carousel Title'
+      subtitle: 'Carousel Subtitle'
       content_ids:
-        -
-          content_id: carousel_1
-        -
-          content_id: carousel_2
-        -
-          content_id: carousel_3
+        - content_id: carousel_1
+        - content_id: carousel_2
+        - content_id: carousel_3
   ids:
     id:
       type: integer

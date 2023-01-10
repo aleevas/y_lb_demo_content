@@ -39,6 +39,22 @@ source:
       cta:
         - uri: 'internal:/'
           title: 'Get Involved'
+
+    -
+      id: 28
+      uuid: 'c8c1483c-c1b1-4e70-be16-9954901029c4'
+      section_title: 'Ping Pong Section Title'
+      section_subtitle: 'Ping Pong Section Subtitle'
+      item_title: 'Bringing people together with passion and purpose'
+      item_description: "<p>We are the YMCA of Everytown. That means we're part of the national Y, the leading nonprofit committed to strengthening community by empowering young people, improving the health and well-being of people of all ages and inspiring action in and across communities.</p>"
+      image: day_camps
+      image_position: 'right'
+      cta:
+        - uri: 'internal:/'
+          title: 'Learn More About Who We Are'
+        - uri: 'https://ymca.org'
+          title: 'Learn about the national YMCA'
+
   ids:
     id:
       type: integer

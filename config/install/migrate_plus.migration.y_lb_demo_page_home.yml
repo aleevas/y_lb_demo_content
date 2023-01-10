@@ -8,7 +8,7 @@ dependencies:
       - y_lb_demo_content
 id: y_lb_demo_page_home
 migration_tags: {}
-migration_group: y_lb_demo_content_home
+migration_group: y_lb_demo_content_page
 label: 'Import demo Layout Builder page - Home'
 source:
   plugin: embedded_data
