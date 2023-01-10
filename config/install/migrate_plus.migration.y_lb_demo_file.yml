@@ -12,45 +12,59 @@ label: 'Import demo LB files'
 source:
   plugin: embedded_data
   data_rows:
-    -
-      id: 1
+    - id: lb_image_1
       name: abigail-miller-r4sxIf0gTfs-unsplash.jpg
-    -
-      id: 2
-      name: anna-samoylova-w55SpMmoPgE-unsplash.jpg
-    -
-      id: 3
+    - id: lb_image_3
       name: guillermo-diaz-mier-y-teran-UrsIDtdBDVQ-unsplash.jpg
-    -
-      id: 4
+    - id: lb_image_4
       name: sheri-hooley-khQYktTLkLc-unsplash.jpg
-    -
-      id: 5
+    - id: lb_image_5
       name: jesper-stechmann-nb2l7FmbSdA-unsplash.jpg
-    -
-      id: 6
+    - id: lb_image_6
       name: patricia-prudente-6UyWK8mDcWo-unsplash.jpg
-    -
-      id: 7
+    - id: lb_image_7
       name: erik-brolin-ZARfCYDaVg0-unsplash.jpg
-    -
-      id: 8
+    - id: lb_image_8
       name: eddy-billard-EJLpBC6rUv8-unsplash.jpg
-    -
-      id: 9
+    - id: lb_image_9
       name: rafaela-biazi-Z1gUDZusp7s-unsplash.jpg
-    -
-      id: 10
+    - id: lb_image_10
       name: inspired-horizons-digital-marketing-kufLAiPoIlI-unsplash.jpg
-    -
-      id: 11
+    - id: lb_image_11
       name: allgo-an-app-for-plus-size-people-lAXOrQqrEjM-unsplash.jpg
-    -
-      id: 12
+    - id: lb_image_12
       name: trust-tru-katsande-A_ftsTh53lM-unsplash.jpg
+    - id: homepage_banner
+      name: rawpixel-1137676-unsplash.jpg
+    - id: about
+      name: perry-grone-lbLgFFlADrY-unsplash.jpg
+    - id: give
+      name: matt-nelson-2Rb2I8TZ6O8-unsplash.jpg
+    - id: accelerator_one
+      name: rawpixel-284728-unsplash.jpg
+    - id: accelerator_two
+      name: brandless-jmIZ-q-qoZY-unsplash.jpg
+    - id: accelerator_three
+      name: blake-barlow-iHP1sEmn92I-unsplash.jpg
+    - id: education_and_employment
+      name: adeolu-eletu-134760-unsplash.jpg
+    - id: housing_and_transition_planning
+      name: maria-ziegler-jJnZg7vBfMs-unsplash.jpg
+    - id: join_one
+      name: clay-banks-LjqARJaJotc-unsplash.jpg
+    - id: join_two
+      name: bruce-mars-gJtDg6WfMlQ-unsplash.jpg
+    - id: join_three
+      name: meghan-holmes-buWcS7G1_28-unsplash.jpg
+    - id: swimming_banner
+      name: henry-russell-Jcb37oy1nU0-unsplash.jpg
+    - id: drop-in_swim
+      name: jeff-dunham-fq673rUxrsQ-unsplash.jpg
+    - id: day_camps
+      name: anna-samoylova-w55SpMmoPgE-unsplash.jpg
   ids:
     id:
-      type: integer
+      type: string
   constants:
     source_relative_path: assets/images
     uri_file: 'public:/'

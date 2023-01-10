@@ -17,30 +17,30 @@ source:
     -
       id: grid_cta_1
       parent_id: 22
-      title: 'Card 1'
-      body: '<p>Card 1 description</p>'
-      image: 1
+      title: 'YMCA Camps'
+      body: '<p>Our summer camp programs for kids and teens offer powerful learning environments.</p>'
+      image: lb_image_9
       cta:
         - uri: 'entity:node/17'
-          title: 'CTA'
+          title: 'Let’s go camp'
     -
       id: grid_cta_2
       parent_id: 22
-      title: 'Card 2'
-      body: '<p>Card 2 description</p>'
-      image: 2
+      title: 'Swim Lessons'
+      body: "<p>The YMCA is the nation's favorite swim instructor. We teach people of all ages and from all backgrounds that water can be fun — not feared.</p>"
+      image: 'drop-in_swim'
       cta:
         - uri: 'entity:node/10'
-          title: 'CTA'
+          title: 'Find your pool'
     -
       id: grid_cta_3
       parent_id: 22
-      title: 'Card 3'
-      body: '<p>Card 3 description</p>'
-      image: 3
+      title: 'Health and Fitness'
+      body: '<p>The YMCA is dedicated to helping everyone in our community become their best selves.</p>'
+      image: lb_image_12
       cta:
         - uri: 'entity:node/9'
-          title: 'CTA'
+          title: 'See our schedule'
   ids:
     id:
       type: string

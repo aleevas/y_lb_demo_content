@@ -16,29 +16,29 @@ source:
     -
       id: 14
       uuid: 'b8c1373c-c1b1-4e70-be16-9954901029c3'
-      section_title: 'Section title'
-      section_subtitle: 'Section subtitle'
-      item_title: 'Item 1 title'
-      item_description: '<p>Item 1 description</p>'
-      image: 1
-      image_position: 'left'
+      section_title: ''
+      section_subtitle: ''
+      item_title: 'Bringing people together with passion and purpose'
+      item_description: "<p>We are the YMCA of Everytown. That means we're part of the national Y, the leading nonprofit committed to strengthening community by empowering young people, improving the health and well-being of people of all ages and inspiring action in and across communities.</p>"
+      image: day_camps
+      image_position: 'right'
       cta:
-        - uri: 'entity:node/10'
-          title: 'CTA'
-        - uri: 'entity:node/13'
-          title: 'CTA'
+        - uri: 'internal:/'
+          title: 'Learn More About Who We Are'
+        - uri: 'https://ymca.org'
+          title: 'Learn about the national YMCA'
     -
       id: 15
       uuid: 'a133b2f0-c816-484c-ab86-66ab1b0a6e3c'
       section_title: ''
       section_subtitle: ''
-      item_title: 'Item 2 title'
-      item_description: '<p>Item 2 description</p>'
-      image: 2
-      image_position: 'right'
+      item_title: 'Youth development, social responsibility and healthy living are at our core'
+      item_description: "<p>The Y is here for you, serving your town and beyond in every way we can. We strive to help those in our community become the best people they can be, whether that's through fitness or providing crucial learning, social activity or shelter.</p>"
+      image: about
+      image_position: 'left'
       cta:
         - uri: 'internal:/'
-          title: 'Button'
+          title: 'Get Involved'
   ids:
     id:
       type: integer
@@ -68,11 +68,13 @@ process:
     default_value: full_html
   field_item_cta: cta
   field_item_image_position/value: image_position
-  field_item_image/target_id: image
+  field_item_image:
+    - plugin: migration_lookup
+      migration: y_lb_demo_media_image
+      source: image
 
 destination:
   plugin: entity:block_content
 migration_dependencies:
-  required: {}
-  optional:
-    - openy_demo_nnews_media_image
+  required:
+    - y_lb_demo_media_image

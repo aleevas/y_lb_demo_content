@@ -16,12 +16,10 @@ source:
     -
       id: 22
       uuid: 'de48f6ed-0456-4044-a1a0-8fd407a8e7c0'
-      title: 'Grid CTA Section title'
-      subtitle: 'Grid CTA section subtitle'
+      title: ''
+      subtitle: ''
       columns: 3
-      cta:
-        - uri: 'entity:node/10'
-          title: 'CTA'
+      cta: {}
       content_ids:
         -
           content_id: grid_cta_1
@@ -33,8 +31,6 @@ source:
     id:
       type: integer
 process:
-  id: id
-  revision_id: id
   langcode:
     plugin: default_value
     source: language

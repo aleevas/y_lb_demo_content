@@ -16,17 +16,12 @@ source:
     -
       id: 20
       uuid: 'e6a1139f-43e7-4a89-9042-fe9450819fb7'
-      title: 'Tabs Section title'
-      subtitle: 'Tabs section subtitle'
+      title: ''
+      subtitle: ''
       content_ids:
-        -
-          content_id: tabs_1
-        -
-          content_id: tabs_2
-        -
-          content_id: tabs_3
-        -
-          content_id: tabs_4
+        - content_id: tabs_1
+        - content_id: tabs_2
+        - content_id: tabs_3
   ids:
     id:
       type: integer

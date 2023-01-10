@@ -16,12 +16,10 @@ source:
     -
       id: 24
       uuid: 'ad542225-af8e-4a5b-a4fb-3a5828b4bd06'
-      title: 'Statistics Section title'
-      subtitle: 'Statistics section subtitle'
-      columns: 3
-      cta:
-        - uri: 'entity:node/10'
-          title: 'CTA'
+      title: 'Our Impact'
+      subtitle: 'Each year, we strive to transform lives and strengthen communities worldwide.'
+      columns: 4
+      cta: {}
       content_ids:
         -
           content_id: statistics_1
@@ -29,6 +27,8 @@ source:
           content_id: statistics_2
         -
           content_id: statistics_3
+        -
+          content_id: statistics_4
   ids:
     id:
       type: integer

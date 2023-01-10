@@ -16,14 +16,14 @@ source:
     -
       id: 19
       uuid: 'ee85d0bc-6e17-4526-8e61-4dd2bc4228e0'
-      title: 'Demo Accordion'
+      title: 'What’s Happening at the Y?'
       content_ids:
-        -
-          content_id: accordion_1
-        -
-          content_id: accordion_2
-        -
-          content_id: accordion_3
+        - content_id: accordion_1
+        - content_id: accordion_2
+        - content_id: accordion_3
+        - content_id: accordion_4
+        - content_id: accordion_5
+        - content_id: accordion_6
   ids:
     id:
       type: integer

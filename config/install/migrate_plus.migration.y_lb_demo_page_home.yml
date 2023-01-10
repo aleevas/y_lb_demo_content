@@ -1,0 +1,152 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - y_lb_demo_content
+  enforced:
+    module:
+      - y_lb_demo_content
+id: y_lb_demo_page_home
+migration_tags: {}
+migration_group: y_lb_demo_content_home
+label: 'Import demo Layout Builder page - Home'
+source:
+  plugin: embedded_data
+  data_rows:
+    -
+      id: 1
+      title: 'Demo Layout Builder page - Home'
+      sections:
+        header:
+          components:
+            lb_hero:
+              uuid: "aaa3168a-883c-4899-938b-c4cd1ddcdf14"
+              region: 'blb_region_col_1'
+              config:
+                id: "inline_block:lb_hero"
+                label: "home hero"
+                provider: "layout_builder"
+        body:
+          components:
+            lb_grid_cta:
+              uuid: "de48f6ed-0456-4044-a1a0-8fd407a8e7c0"
+              region: 'blb_region_col_1'
+              config:
+                id: "inline_block:lb_grid_cta"
+                label: "home Grid CTA"
+                provider: "layout_builder"
+            lb_ping_pong_1:
+              uuid: "b8c1373c-c1b1-4e70-be16-9954901029c3"
+              region: 'blb_region_col_1'
+              config:
+                id: "inline_block:lb_ping_pong"
+                label: "home ping-pong 1"
+                provider: "layout_builder"
+            lb_ping_pong_2:
+              uuid: "a133b2f0-c816-484c-ab86-66ab1b0a6e3c"
+              region: 'blb_region_col_1'
+              config:
+                id: "inline_block:lb_ping_pong"
+                label: "home ping-pong 2"
+                provider: "layout_builder"
+            lb_statistics:
+              uuid: "ad542225-af8e-4a5b-a4fb-3a5828b4bd06"
+              region: 'blb_region_col_1'
+              config:
+                id: "inline_block:lb_statistics"
+                label: "home Statistics"
+                provider: "layout_builder"
+            lb_accordion:
+              uuid: "ee85d0bc-6e17-4526-8e61-4dd2bc4228e0"
+              region: 'blb_region_col_1'
+              config:
+                id: "inline_block:lb_accordion"
+                label: "What’s Happening at the Y?"
+                provider: "layout_builder"
+        footer:
+          components:
+            lb_tabs:
+              uuid: "e6a1139f-43e7-4a89-9042-fe9450819fb7"
+              region: 'blb_region_col_1'
+              config:
+                id: "inline_block:lb_tabs"
+                label: "home tabs"
+                provider: "layout_builder"
+            lb_promo:
+              uuid: "9a94f89b-587d-4da2-afcc-2056b03a99a0"
+              region: 'blb_region_col_2'
+              config:
+                id: "inline_block:lb_promo"
+                label: "home promo"
+                provider: "layout_builder"
+  ids:
+    id:
+      type: integer
+process:
+  langcode:
+    plugin: default_value
+    source: language
+    default_value: en
+  title: title
+  type:
+    -
+      plugin: default_value
+      default_value: landing_page_lb
+  status:
+    -
+      plugin: default_value
+      default_value: 1
+  uid:
+    -
+      plugin: default_value
+      default_value: 1
+  __layout_builder__layout: sections
+  __layout_builder__layout_defaults:
+    plugin: default_value
+    default_value:
+      header:
+        bs_col: "blb_col_1"
+        label: "Header"
+        container: "w-100"
+        remove_gutters: "1"
+      body:
+        bs_col: "blb_col_1"
+        label: "Body"
+        container: "container-fluid"
+        remove_gutters: "0"
+      footer:
+        bs_col: "blb_col_2"
+        label: "Footer"
+        container: "container"
+        breakpoints:
+          desktop: 'blb_col_9_3'
+          tablet: 'blb_col_9_3'
+          mobile: 'blb_col_12'
+        layout_regions_classes:
+          blb_region_col_1:
+            - 'col-lg-9'
+            - 'col-md-9'
+            - 'col-12'
+          blb_region_col_2:
+            - 'col-lg-3'
+            - 'col-md-3'
+            - 'col-12'
+  layout_builder__layout:
+    -
+      plugin: merge_recursive
+      source:
+        - '@__layout_builder__layout_defaults'
+        - '@__layout_builder__layout'
+    - plugin: lb_sections
+destination:
+  plugin: 'entity:node'
+migration_dependencies:
+  required:
+    - y_lb_demo_block_hero
+    - y_lb_demo_block_grid_cta
+    - y_lb_demo_block_ping_pong
+    - y_lb_demo_block_statistics
+    - y_lb_demo_block_accordion
+    - y_lb_demo_block_tabs
+    - y_lb_demo_block_promo
+  optional: { }

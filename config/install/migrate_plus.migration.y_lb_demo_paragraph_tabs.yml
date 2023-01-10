@@ -17,23 +17,18 @@ source:
     -
       id: tabs_1
       parent_id: 20
-      title: 'Item 1'
-      body: '<p>Item 1 Content</p>'
+      title: 'For Families'
+      body: '<p>At the heart of YMCA youth activities is learning skills, developing character and making friends.</p>'
     -
       id: tabs_2
       parent_id: 20
-      title: 'Item 2'
-      body: '<p>Item 2 Content</p>'
+      title: 'For Seniors'
+      body: '<p>Breathe, Stretch, Re-charge Join instructor Jenny Leung as she helps you use yoga as a therapeutic antidote to stress: slowing down, doing less, and open to receiving.</p>'
     -
       id: tabs_3
       parent_id: 20
-      title: 'Item 3'
-      body: '<p>Item 3 Content</p>'
-    -
-      id: tabs_4
-      parent_id: 20
-      title: 'Item 3'
-      body: '<p>Item 3 Content</p>'
+      title: 'For Everyone'
+      body: "<p>Get Some Sleep! You're never too old for a bedtime.</p>"
   ids:
     id:
       type: string

@@ -16,18 +16,16 @@ source:
     -
       id: 18
       uuid: 'aaa3168a-883c-4899-938b-c4cd1ddcdf14'
-      title: 'Demo Hero'
-      description: "<p>Demo hero content goes here</p>"
-      media: 1
+      title: 'Explore YMCA Website Services!'
+      description: "<p>Learn how to use your content management system to deliver brand-compliant digital experiences.</p>"
+      media: homepage_banner
       cta:
-        - uri: 'entity:node/10'
-          title: 'CTA'
+        - uri: 'https://ds-docs.y.org/docs/user-documentation/layout-builder/'
+          title: 'Read more about Layout Builder'
   ids:
     id:
       type: integer
 process:
-  id: id
-  revision_id: id
   langcode:
     plugin: default_value
     source: language

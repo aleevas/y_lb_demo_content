@@ -12,57 +12,84 @@ label: Import LB demo media images
 source:
   plugin: embedded_data
   data_rows:
-    -
-      id: 1
+    - id: lb_image_1
       name: 'LB image 1'
-      file: 1
-    -
-      id: 2
-      name: 'LB image 2'
-      file: 2
-    -
-      id: 3
+      file: lb_image_1
+    - id: lb_image_3
       name: 'LB image 3'
-      file: 3
-    -
-      id: 4
+      file: lb_image_3
+    - id: lb_image_4
       name: 'LB image 4'
-      file: 4
-    -
-      id: 5
+      file: lb_image_4
+    - id: lb_image_5
       name: 'LB image 5'
-      file: 5
-    -
-      id: 6
+      file: lb_image_5
+    - id: lb_image_6
       name: 'LB image 6'
-      file: 6
-    -
-      id: 7
+      file: lb_image_6
+    - id: lb_image_7
       name: 'LB image 7'
-      file: 7
-    -
-      id: 8
+      file: lb_image_7
+    - id: lb_image_8
       name: 'LB image 8'
-      file: 8
-    -
-      id: 9
+      file: lb_image_8
+    - id: lb_image_9
       name: 'LB image 9'
-      file: 9
-    -
-      id: 10
+      file: lb_image_9
+    - id: lb_image_10
       name: 'LB image 10'
-      file: 10
-    -
-      id: 11
+      file: lb_image_10
+    - id: lb_image_11
       name: 'LB image 11'
-      file: 11
-    -
-      id: 12
+      file: lb_image_11
+    - id: lb_image_12
       name: 'LB image 12'
-      file: 12
+      file: lb_image_12
+    - id: homepage_banner
+      name: 'Home page banner'
+      file: homepage_banner
+    - id: about
+      name: 'About'
+      file: about
+    - id: give
+      name: 'Give'
+      file: give
+    - id: accelerator_one
+      name: 'Accelerator One'
+      file: accelerator_one
+    - id: accelerator_two
+      name: 'Accelerator Two'
+      file: accelerator_two
+    - id: accelerator_three
+      name: 'Accelerator Three'
+      file: accelerator_three
+    - id: education_and_employment
+      name: 'Education & Employment'
+      file: education_and_employment
+    - id: housing_and_transition_planning
+      name: 'Housing & Transition Planning'
+      file: housing_and_transition_planning
+    - id: join_one
+      name: 'Join One'
+      file: join_one
+    - id: join_two
+      name: 'Join Two'
+      file: join_two
+    - id: join_three
+      name: 'Join Three'
+      file: join_three
+    - id: swimming_banner
+      name: 'Swimming Lessons banner'
+      file: swimming_banner
+    - id: drop-in_swim
+      name: 'Drop-in Swim'
+      file: drop-in_swim
+    - id: day_camps
+      name: 'Day Camps'
+      file: day_camps
   ids:
     id:
-      type: integer
+      type: string
 process:
   langcode:
     plugin: default_value

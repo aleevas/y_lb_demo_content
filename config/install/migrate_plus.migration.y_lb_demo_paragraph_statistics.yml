@@ -14,21 +14,22 @@ label: 'Create Statistics paragraphs for Statistics component'
 source:
   plugin: embedded_data
   data_rows:
-    -
-      id: statistics_1
+    - id: statistics_1
       parent_id: 20
-      number: '123k'
-      body: 'Description here'
-    -
-      id: statistics_2
+      number: '11M'
+      body: 'people reached in communities across the USA'
+    - id: statistics_2
       parent_id: 20
-      number: '1.23M'
-      body: 'Description here'
-    -
-      id: statistics_3
+      number: '$4M'
+      body: 'in groceries provided to families each month'
+    - id: statistics_3
       parent_id: 20
-      number: '4567'
-      body: 'Description here'
+      number: '10000'
+      body: 'campers each year building lifelong skills, confidence and friendships'
+    - id: statistics_4
+      parent_id: 20
+      number: '2650'
+      body: 'locations across 50 states, plus the District of Columbia and Puerto Rico'
   ids:
     id:
       type: string
