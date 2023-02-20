@@ -1,0 +1,70 @@
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - y_lb_demo_content
+id: y_lb_demo_paragraph_tabs
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags: {  }
+migration_group: y_lb_demo_content
+label: 'Create Tab paragraphs for Tabs component'
+source:
+  plugin: embedded_data
+  data_rows:
+    -
+      id: tabs_1
+      parent_id: 20
+      title: 'For Families'
+      body: '<p>At the heart of YMCA youth activities is learning skills, developing character and making friends.</p>'
+    -
+      id: tabs_2
+      parent_id: 20
+      title: 'For Seniors'
+      body: '<p>Breathe, Stretch, Re-charge Join instructor Jenny Leung as she helps you use yoga as a therapeutic antidote to stress: slowing down, doing less, and open to receiving.</p>'
+    -
+      id: tabs_3
+      parent_id: 20
+      title: 'For Everyone'
+      body: "<p>Get Some Sleep! You're never too old for a bedtime.</p>"
+  ids:
+    id:
+      type: string
+process:
+  langcode:
+    plugin: default_value
+    source: language
+    default_value: en
+  status:
+    plugin: default_value
+    default_value: 1
+  uid:
+    plugin: default_value
+    default_value: 1
+  parent_id:
+    plugin: migration_lookup
+    migration: y_lb_demo_block_tabs
+    no_stub: true
+    source: parent_id
+  parent_type:
+    plugin: default_value
+    default_value: block_content
+  parent_field_name:
+    plugin: default_value
+    default_value: field_tabs
+  type:
+    plugin: skip_if_bundle_not_exist
+    method: row
+    entity: paragraph
+    bundle: tab
+  field_title: title
+  field_body/value: body
+  field_body/format:
+    plugin: default_value
+    default_value: full_html
+destination:
+  plugin: 'entity:paragraph'
+  default_bundle: tab
+migration_dependencies: {  }

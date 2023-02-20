@@ -1,0 +1,69 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - y_lb_demo_content
+  enforced:
+    module:
+      - y_lb_demo_content
+id: y_lb_demo_block_table
+migration_tags: {}
+migration_group: y_lb_demo_content
+label: 'Import demo Layout Builder - Table block'
+source:
+  plugin: embedded_data
+  data_rows:
+    -
+      id: 10
+      uuid: '9e14de28-6440-4268-a2f0-660ac62cd1b5'
+      body: |
+        <p>At the Y, you can discover your passion and a lifelong career helping solve some of the nation's most pressing social issues. Find a job with the Y today!</p>
+        <table border="1" cellpadding="1" cellspacing="1">
+        	<thead>
+        		<tr>
+        			<th scope="col">This</th>
+        			<th scope="col">is</th>
+        		</tr>
+        	</thead>
+        	<tbody>
+        		<tr>
+        			<td>a</td>
+        			<td>table</td>
+        		</tr>
+        		<tr>
+        			<td>this</td>
+        			<td>headers</td>
+        		</tr>
+        	</tbody>
+        </table>
+      section_title: "Table title"
+      section_subtitle: "Table subtitle"
+  ids:
+    id:
+      type: integer
+process:
+  langcode:
+    plugin: default_value
+    source: language
+    default_value: en
+  status:
+    plugin: default_value
+    default_value: 1
+  reusable:
+    plugin: default_value
+    default_value: 0
+  type:
+    plugin: default_value
+    default_value: lb_table
+  uuid: uuid
+  body/value: body
+  body/format:
+    plugin: default_value
+    default_value: full_html
+  field_section_title: section_title
+  field_section_subtitle: section_subtitle
+destination:
+  plugin: entity:block_content
+migration_dependencies:
+  required: {}
+  optional: {}

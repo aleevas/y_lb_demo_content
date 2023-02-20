@@ -1,0 +1,79 @@
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - y_lb_demo_content
+id: y_lb_demo_paragraph_accordion
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags: {  }
+migration_group: y_lb_demo_content
+label: 'Create Accordion paragraphs for Accordion component'
+source:
+  plugin: embedded_data
+  data_rows:
+    - id: accordion_1
+      parent_id: 19
+      title: 'Love Your Heart'
+      body: '<p>Love and hearts often come to mind at the mention February. During this month in American culture, we traditionally celebrate Valentine’s Day on February 14th. February is also American Heart Month.</p>'
+    - id: accordion_2
+      parent_id: 19
+      title: '5 Ways to do Parents Night Out'
+      body: "<p>Parents Night Out (PNO) is offered at branches across King and south Snohomish counties. Whether you want to catch the newest movie in Bellevue, enjoy a romantic dinner in the University District or catch up on chores at home, there’s a Y nearby. If you need a little bit of date night inspiration, we've got you covered: Around the World in a Single Yelp.</p>"
+    - id: accordion_3
+      parent_id: 19
+      title: 'Motivational Mondays'
+      body: "<p>Get Some Sleep! You're never too old for a bedtime. Getting enough sleep is crucial for cognitive function that helps you to make healthy decisions throughout the day.</p>"
+    - id: accordion_4
+      parent_id: 19
+      title: 'Learning Skills, Developing Character & Making Friends'
+      body: '<p>At the heart of YMCA youth activities is learning skills, developing character and making friends. But few program environments are as special as summer day camp, where kids become a community as they learn both how to be more independent and how to contribute to a group as they engage in physical, social and educational activities.</p>'
+    - id: accordion_5
+      parent_id: 19
+      title: '5 Ways to be a Great Sports Parent'
+      body: '<p>Think you are raising the next LeBron James or Michael Phelps? Probably not, but parents’ behavior can be a reason children stop wanting to play sports. Check out these five ways to be a great sports parent to keep your child happy and playing.</p>'
+    - id: accordion_6
+      parent_id: 19
+      title: 'Yoga for Stress Resilience'
+      body: '<p>Breathe, Stretch, Re-charge Join instructor Jenny Leung as she helps you use yoga as a therapeutic antidote to stress: slowing down, doing less, and open to receiving. The practice of restorative yoga allows the release of mental, physical and emotional exhaustion, tension and patterning, thus building resilience on all levels.</p>'
+  ids:
+    id:
+      type: string
+process:
+  langcode:
+    plugin: default_value
+    source: language
+    default_value: en
+  status:
+    plugin: default_value
+    default_value: 1
+  uid:
+    plugin: default_value
+    default_value: 1
+  parent_id:
+    plugin: migration_lookup
+    migration: y_lb_demo_block_accordion
+    no_stub: true
+    source: parent_id
+  parent_type:
+    plugin: default_value
+    default_value: block_content
+  parent_field_name:
+    plugin: default_value
+    default_value: field_entity_reference_paragraph
+  type:
+    plugin: skip_if_bundle_not_exist
+    method: row
+    entity: paragraph
+    bundle: lb_accordion_item
+  field_title: title
+  field_body/value: body
+  field_body/format:
+    plugin: default_value
+    default_value: full_html
+destination:
+  plugin: 'entity:paragraph'
+  default_bundle: lb_accordion_item
+migration_dependencies: {  }

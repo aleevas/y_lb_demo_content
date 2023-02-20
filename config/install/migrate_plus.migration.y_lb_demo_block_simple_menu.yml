@@ -1,0 +1,56 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - y_lb_demo_content
+  enforced:
+    module:
+      - y_lb_demo_content
+id: y_lb_demo_block_simple_menu
+migration_tags: {}
+migration_group: y_lb_demo_content
+label: 'Import demo Layout Builder - Simple Menu block'
+source:
+  plugin: embedded_data
+  data_rows:
+    -
+      id: 12
+      uuid: '1a9725f1-d4ef-4bd1-aeeb-467bb0e704c7'
+      title: 'Simple Menu 1'
+      links:
+        -
+          uri: 'internal:/'
+          title: 'About the YMCA'
+        -
+          uri: 'internal:/'
+          title: 'Join Now'
+        -
+          uri: 'internal:/'
+          title: 'Check the Schedule'
+  ids:
+    id:
+      type: integer
+process:
+  id: id
+  revision_id: id
+  langcode:
+    plugin: default_value
+    source: language
+    default_value: en
+  status:
+    plugin: default_value
+    default_value: 1
+  reusable:
+    plugin: default_value
+    default_value: 0
+  type:
+    plugin: default_value
+    default_value: lb_simple_menu
+  uuid: uuid
+  field_lb_simple_menu_links: links
+
+destination:
+  plugin: entity:block_content
+migration_dependencies:
+  required: {}
+  optional: {}

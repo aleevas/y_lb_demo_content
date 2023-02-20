@@ -1,0 +1,61 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - y_lb_demo_content
+  enforced:
+    module:
+      - y_lb_demo_content
+id: y_lb_demo_block_webform
+migration_tags: {}
+migration_group: y_lb_demo_content
+label: 'Import demo Layout Builder - Webform block'
+source:
+  plugin: embedded_data
+  data_rows:
+    -
+      id: 11
+      uuid: '33f993d1-6f59-4e8b-95eb-c351bd259f68'
+      section_title: "Contact"
+      section_subtitle: "Complete and submit the form below to contact us."
+      webform: 'contact'
+  ids:
+    id:
+      type: integer
+process:
+  id: id
+  revision_id: id
+  langcode:
+    plugin: default_value
+    source: language
+    default_value: en
+  status:
+    plugin: default_value
+    default_value: 1
+  reusable:
+    plugin: default_value
+    default_value: 0
+  type:
+    plugin: default_value
+    default_value: lb_webform
+  uuid: uuid
+  field_title: section_title
+  field_subtitle: section_subtitle
+  field_webform/target_id: webform
+  field_webform/status:
+    plugin: default_value
+    default_value: 'open'
+  field_webform/bundle:
+    plugin: default_value
+    default_value: 'lb_webform'
+  field_webform/entity_id: id
+  field_webform/revision_id: id
+  field_webform/delta:
+    plugin: default_value
+    default_value: 0
+  field_webform/langcode: '@langcode'
+destination:
+  plugin: entity:block_content
+migration_dependencies:
+  required: {}
+  optional: {}

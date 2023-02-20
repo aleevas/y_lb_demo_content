@@ -1,0 +1,68 @@
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - y_lb_demo_content
+id: y_lb_demo_paragraph_statistics
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags: {  }
+migration_group: y_lb_demo_content
+label: 'Create Statistics paragraphs for Statistics component'
+source:
+  plugin: embedded_data
+  data_rows:
+    - id: statistics_1
+      parent_id: 20
+      number: '11M'
+      body: 'people reached in communities across the USA'
+    - id: statistics_2
+      parent_id: 20
+      number: '$4M'
+      body: 'in groceries provided to families each month'
+    - id: statistics_3
+      parent_id: 20
+      number: '10000'
+      body: 'campers each year building lifelong skills, confidence and friendships'
+    - id: statistics_4
+      parent_id: 20
+      number: '2650'
+      body: 'locations across 50 states, plus the District of Columbia and Puerto Rico'
+  ids:
+    id:
+      type: string
+process:
+  langcode:
+    plugin: default_value
+    source: language
+    default_value: en
+  status:
+    plugin: default_value
+    default_value: 1
+  uid:
+    plugin: default_value
+    default_value: 1
+  parent_id:
+    plugin: migration_lookup
+    migration: y_lb_demo_block_tabs
+    no_stub: true
+    source: parent_id
+  parent_type:
+    plugin: default_value
+    default_value: block_content
+  parent_field_name:
+    plugin: default_value
+    default_value: field_tabs
+  type:
+    plugin: skip_if_bundle_not_exist
+    method: row
+    entity: paragraph
+    bundle: statistics_item
+  field_number: number
+  field_description: body
+destination:
+  plugin: 'entity:paragraph'
+  default_bundle: statistics_item
+migration_dependencies: {  }

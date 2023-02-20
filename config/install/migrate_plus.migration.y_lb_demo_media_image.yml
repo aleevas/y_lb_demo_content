@@ -1,0 +1,129 @@
+dependencies:
+  module:
+    - openy_media_image
+  enforced:
+    module:
+      - y_lb_demo_content
+id: y_lb_demo_media_image
+migration_tags: { }
+# No need to add migration tag, migration started by dependency.
+migration_group: y_lb_demo_content
+label: Import LB demo media images
+source:
+  plugin: embedded_data
+  data_rows:
+    - id: lb_image_1
+      name: 'LB image 1'
+      file: lb_image_1
+    - id: lb_image_3
+      name: 'LB image 3'
+      file: lb_image_3
+    - id: lb_image_4
+      name: 'LB image 4'
+      file: lb_image_4
+    - id: lb_image_5
+      name: 'LB image 5'
+      file: lb_image_5
+    - id: lb_image_6
+      name: 'LB image 6'
+      file: lb_image_6
+    - id: lb_image_7
+      name: 'LB image 7'
+      file: lb_image_7
+    - id: lb_image_8
+      name: 'LB image 8'
+      file: lb_image_8
+    - id: lb_image_9
+      name: 'LB image 9'
+      file: lb_image_9
+    - id: lb_image_10
+      name: 'LB image 10'
+      file: lb_image_10
+    - id: lb_image_11
+      name: 'LB image 11'
+      file: lb_image_11
+    - id: lb_image_12
+      name: 'LB image 12'
+      file: lb_image_12
+    - id: homepage_banner
+      name: 'Home page banner'
+      file: homepage_banner
+    - id: about
+      name: 'About'
+      file: about
+    - id: give
+      name: 'Give'
+      file: give
+    - id: accelerator_one
+      name: 'Accelerator One'
+      file: accelerator_one
+    - id: accelerator_two
+      name: 'Accelerator Two'
+      file: accelerator_two
+    - id: accelerator_three
+      name: 'Accelerator Three'
+      file: accelerator_three
+    - id: education_and_employment
+      name: 'Education & Employment'
+      file: education_and_employment
+    - id: housing_and_transition_planning
+      name: 'Housing & Transition Planning'
+      file: housing_and_transition_planning
+    - id: join_one
+      name: 'Join One'
+      file: join_one
+    - id: join_two
+      name: 'Join Two'
+      file: join_two
+    - id: join_three
+      name: 'Join Three'
+      file: join_three
+    - id: swimming_banner
+      name: 'Swimming Lessons banner'
+      file: swimming_banner
+    - id: drop-in_swim
+      name: 'Drop-in Swim'
+      file: drop-in_swim
+    - id: day_camps
+      name: 'Day Camps'
+      file: day_camps
+    - id: recreation
+      name: 'Recreation'
+      file: recreation
+    - id: small_group_and_specialty_training
+      name: 'Small Group & Specialty Training'
+      file: small_group_and_specialty_training
+    - id: active_older_adults
+      name: 'Active Older Adults'
+      file: active_older_adults
+  ids:
+    id:
+      type: string
+process:
+  langcode:
+    plugin: default_value
+    source: language
+    default_value: en
+  name:
+    -
+      plugin: get
+      source: name
+  bundle:
+    -
+      plugin: default_value
+      default_value: image
+  uid:
+    -
+      plugin: default_value
+      default_value: 1
+  field_media_image:
+    -
+      plugin: migration_lookup
+      migration: y_lb_demo_file
+      source: file
+destination:
+  plugin: 'entity:media'
+migration_dependencies:
+  required:
+    - y_lb_demo_file
+  optional: {  }
