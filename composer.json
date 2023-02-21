@@ -3,7 +3,7 @@
     "description": "Demo Content migrations for Y Layout Builder module.",
     "type": "drupal-module",
     "require": {
-        "ycloudyusa/y_lb" : "^1.0",
+        "ycloudyusa/y_lb" : "*",
         "php": ">=8.1"
     },
     "license": "GPL-2.0+",
