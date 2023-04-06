@@ -18,7 +18,7 @@ source:
       id: cards_1
       parent_id: 21
       title: 'Operating with Care'
-      body: "<p>We're excited to welcome you to our Ys! The health and safety of our members, volunteers and staff are always our top priority.</p>"
+      body: "We're excited to welcome you to our Ys! The health and safety of our members, volunteers and staff are always our top priority."
       image: lb_image_10
       cta:
         - uri: 'internal:/'
@@ -28,7 +28,7 @@ source:
       id: cards_2
       parent_id: 21
       title: 'Make a Reservation'
-      body: '<p>To ensure you have a great visit, reservations are available for areas where capacity is limited.</p>'
+      body: 'To ensure you have a great visit, reservations are available for areas where capacity is limited.'
       image: lb_image_7
       cta:
         - uri: 'internal:/'
@@ -38,7 +38,7 @@ source:
       id: cards_3
       parent_id: 21
       title: 'Capacity at your Local Y'
-      body: '<p>See how active your local YMCA branch is if you plan to visit today.</p>'
+      body: 'See how active your local YMCA branch is if you plan to visit today.'
       image: recreation
       cta:
         - uri: 'internal:/'
@@ -48,7 +48,7 @@ source:
       id: cards_4
       parent_id: 21
       title: 'Free Virtual Resources'
-      body: '<p>We invite you to try our online fitness classes! Visit our Virtual Y site and check in using your member barcode to access our resources.</p>'
+      body: 'We invite you to try our online fitness classes! Visit our Virtual Y site and check in using your member barcode to access our resources.'
       image: small_group_and_specialty_training
       cta:
         - uri: 'internal:/'
@@ -85,10 +85,7 @@ process:
     entity: paragraph
     bundle: lb_card
   field_card_title: title
-  field_card_description/value: body
-  field_card_description/format:
-    plugin: default_value
-    default_value: full_html
+  field_card_description: body
   field_card_image:
     -
       plugin: migration_lookup
