@@ -19,6 +19,7 @@ source:
       title: 'Our Impact'
       subtitle: 'Each year, we strive to transform lives and strengthen communities worldwide.'
       columns: 4
+      image: day_camps
       cta: {}
       content_ids:
         -
@@ -53,6 +54,10 @@ process:
   field_section_subtitle: subtitle
   field_columns: columns
   field_cta: cta
+  field_media:
+    - plugin: migration_lookup
+      migration: y_lb_demo_media_image
+      source: image
   field_items:
     plugin: sub_process
     source: content_ids
