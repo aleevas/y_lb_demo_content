@@ -1,0 +1,40 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - lb_hero
+  enforced:
+    module:
+      - y_lb_init_demo_content
+id: y_lb_init_demo_block_events_listing
+migration_tags: {}
+migration_group: y_lb_init_demo_content
+label: 'Import demo Layout Builder - All Events'
+source:
+  plugin: embedded_data
+  data_rows:
+    -
+      id: 113
+      uuid: '92468ff3-8ce8-52ef-9baf-74871b74b315'
+  ids:
+    id:
+      type: integer
+process:
+  langcode:
+    plugin: default_value
+    source: language
+    default_value: en
+  status:
+    plugin: default_value
+    default_value: 1
+  reusable:
+    plugin: default_value
+    default_value: 0
+  type:
+    plugin: default_value
+    default_value: events_listing
+  uuid: uuid
+destination:
+  plugin: entity:block_content
+  default_bundle: 'events_listing'
+migration_dependencies: {  }

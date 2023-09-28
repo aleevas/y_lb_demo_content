@@ -57,7 +57,12 @@ class YLBSection extends ProcessPluginBase implements ContainerFactoryPluginInte
     if (!$value) {
       return NULL;
     }
-
+//    $third_party_settings['y_lb']['override_styles'] = 1;
+//    $third_party_settings['y_lb']['styles'] = [
+//      'colorway' => 'ws_colorway_blue',
+//      'border_radius' => 'ws_border_radius_20',
+//      'border_style_global' => 'ws_border_style_global_drop_shadow',
+//    ];
     $sections = [];
     foreach ( $value as $section ) {
       $components = [];
@@ -83,6 +88,7 @@ class YLBSection extends ProcessPluginBase implements ContainerFactoryPluginInte
       if (!empty($section['components'])) {
         foreach ($section['components'] as $key => $componentConfig) {
           $config = $componentConfig['config'];
+          $additional = $componentConfig['additional'] ?? [];
           if(empty($componentConfig['block_config'])) {
             $blocks = $this->blockContentStorage->loadByProperties(['uuid' => $componentConfig['uuid']]);
             if (!$blocks) {
@@ -94,7 +100,7 @@ class YLBSection extends ProcessPluginBase implements ContainerFactoryPluginInte
           }
 
           $uuid = $componentConfig['uuid'] ?? $this->uuidService->generate();
-          $component = new SectionComponent($uuid, $componentConfig['region'], $config , $additional = []);
+          $component = new SectionComponent($uuid, $componentConfig['region'], $config , $additional);
           $components[$uuid] = $component;
         }
       }

@@ -1,0 +1,56 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - lb_hero
+  enforced:
+    module:
+      - y_lb_init_demo_content
+id: y_lb_init_demo_block_banner_frame
+migration_tags: {}
+migration_group: y_lb_init_demo_content
+label: 'Import demo Layout Builder - Frame banner'
+source:
+  plugin: embedded_data
+  data_rows:
+    -
+      id: 19
+      uuid: 'c5e7dd8e-2bd2-4d64-afef-8cff3e0ef581'
+      title: 'Uniting People Through Passion and Purpose'
+      description: "Strengthening the [Springfield] community is at the core of everything we do. Every day, we work side by side with our neighbors to make sure everyone has the opportunity to grow. See how we put our ambitions into action."
+      media: homepage_image_5
+      cta:
+        - uri: 'internal:/'
+          title: 'Learn more'
+  ids:
+    id:
+      type: integer
+process:
+  langcode:
+    plugin: default_value
+    source: language
+    default_value: en
+  status:
+    plugin: default_value
+    default_value: 1
+  reusable:
+    plugin: default_value
+    default_value: 0
+  type:
+    plugin: default_value
+    default_value: lb_hero
+  uuid: uuid
+  field_title: title
+  field_description/value: description
+  field_description/format:
+    plugin: default_value
+    default_value: full_html
+  field_hero_cta: cta
+  field_media:
+    - plugin: migration_lookup
+      migration: y_lb_init_demo_media_image
+      source: media
+
+destination:
+  plugin: entity:block_content
+migration_dependencies: {  }
