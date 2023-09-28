@@ -1,0 +1,60 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - lb_testimonial_blocks
+  enforced:
+    module:
+      - y_lb_init_demo_content
+id: y_lb_init_demo_block_testimonial_item
+migration_tags: {  }
+migration_group: y_lb_init_demo_content
+label: 'Create Testimonials component'
+source:
+  plugin: embedded_data
+  data_rows:
+    -
+      id: testimonial_1
+      uuid: 'c6e7dd8e-2bn2-4d64-aded-8cvb3e0ef581'
+      name: 'Operating with Care'
+      body: "I joined the [Southwest Family YMCA] four years ago at the suggestion of a friend. I have MS, and poor balance is a big part of that. Tai chi has helped my balance and muscle control, and the water classes have helped my muscle tone!"
+      image: testimonials_image_1
+    -
+      id: testimonial_2
+      uuid: 'q5v7dd8e-2bd2-4d67-afef-8cff3e0ef321'
+      name: 'Lorem ipsum'
+      body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et do.'
+    -
+      id: testimonial_3
+      uuid: 'c517dd8e-2bd2-4d64-bfef-8cff3e0ef521'
+      name: 'Dolor sit amet'
+      body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+  ids:
+    id:
+      type: string
+process:
+  langcode:
+    plugin: default_value
+    source: language
+    default_value: en
+  status:
+    plugin: default_value
+    default_value: 1
+  reusable:
+    plugin: default_value
+    default_value: 0
+  type:
+    plugin: default_value
+    default_value: testimonial_item
+  uuid: uuid
+  field_name: name
+  field_body: body
+  field_media:
+    -
+      plugin: migration_lookup
+      migration: y_lb_init_demo_media_image
+      source: image
+destination:
+  plugin: entity:block_content
+  default_bundle: 'testimonial_item'
+migration_dependencies: {  }

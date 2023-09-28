@@ -1,0 +1,12 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - y_lb_init_demo_content
+  enforced:
+    module:
+      - y_lb_init_demo_content
+id: demo-helpful-links
+label: 'Demo helpful links navigations'
+description: 'Init Demo Helpful links menu'
+locked: false

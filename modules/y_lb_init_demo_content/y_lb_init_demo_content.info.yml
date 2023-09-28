@@ -1,0 +1,15 @@
+name: 'Y Layout Builder - Init Demo Pages'
+type: module
+description: 'Stores migrations to import INIT demo layout builder components and pages.'
+package: 'YMCA Website Services'
+core_version_requirement: ^8.7.7 || ^9 || ^10
+dependencies:
+  - drupal:migrate
+  - migrate_plus:migrate_plus
+  - migrate_tools:migrate_tools
+  - y_lb
+  - y_lb_demo_content
+  - drupal:lb_cards
+  - drupal:lb_grid_cta
+  - drupal:lb_hero
+  - drupal:lb_ping_pong

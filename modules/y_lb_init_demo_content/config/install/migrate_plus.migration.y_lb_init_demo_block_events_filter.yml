@@ -1,0 +1,44 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - lb_hero
+  enforced:
+    module:
+      - y_lb_init_demo_content
+id: y_lb_init_demo_block_events_filter
+migration_tags: {}
+migration_group: y_lb_init_demo_content
+label: 'Import demo Layout Builder - Events filter'
+source:
+  plugin: embedded_data
+  data_rows:
+    -
+      id: 1
+      uuid: '82468ff3-8ce8-42ef-9baf-74871b74b215'
+      title: "Find Events Near You"
+      field_block: 'views_exposed_filter_block:listing_events-block'
+  ids:
+    id:
+      type: integer
+process:
+  langcode:
+    plugin: default_value
+    source: language
+    default_value: en
+  status:
+    plugin: default_value
+    default_value: 1
+  reusable:
+    plugin: default_value
+    default_value: 0
+  type:
+    plugin: default_value
+    default_value: events_filter
+  uuid: uuid
+  field_block/plugin_id: field_block
+
+destination:
+  plugin: entity:block_content
+  default_bundle: 'events_filter'
+migration_dependencies: {  }

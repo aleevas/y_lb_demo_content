@@ -1,0 +1,95 @@
+dependencies:
+  module:
+    - file
+  enforced:
+    module:
+      - y_lb_init_demo_content
+id: y_lb_init_demo_file
+migration_tags: { }
+# No need to add migration tag, migration started by dependency.
+migration_group: y_lb_init_demo_content
+label: 'Import init demo LB files'
+source:
+  plugin: embedded_data
+  data_rows:
+    - id: homepage_image_1
+      name: 51e7c03492ed63181c36c057a0cac20f.jpeg
+    - id: homepage_image_2
+      name: e33fddb7b02cd420316a02ff9ab59169.jpeg
+    - id: homepage_image_3
+      name: a111d2a84a37c483f34b564466aff554.jpeg
+    - id: homepage_image_4
+      name: ef12f667a36156fdf054d504c1a45931.jpeg
+    - id: homepage_image_5
+      name: f9d66171742d557e6a0134ad134f0b8a.jpeg
+    - id: homepage_image_6
+      name: 120fc9507c3b13faa809f14c1796c04e.jpeg
+    - id: homepage_image_7
+      name: a51a5c7ac15de774417574337a986f3c.jpeg
+    - id: homepage_image_8
+      name: 15afb3e70e4b1e2ae4b2ec51a6db876d.jpeg
+    - id: homepage_image_9
+      name: 628efddc21d234c06e66240325c44426.jpeg
+    - id: homepage_image_10
+      name: f1ff886f7df5408753215421007d66bd.jpeg
+    - id: homepage_image_11
+      name: fbf59b9df2bfa17497c242a574a0a443.jpeg
+    - id: homepage_image_12
+      name: 218381245a187a7275dbeb9ee963c502.jpeg
+    - id: homepage_image_13
+      name: 2e4a44bbb7ae69a87fac3e48d64757b1.jpeg
+    - id: testimonials_image_1
+      name: 6c3bb9ebf6c96083a2c4a32f94b04578.jpeg
+  ids:
+    id:
+      type: string
+  constants:
+    source_relative_path: assets/images
+    uri_file: 'public:/'
+    module: y_lb_init_demo_content
+process:
+  langcode:
+    plugin: default_value
+    source: language
+    default_value: en
+  module_path:
+    plugin: module_path
+    source: constants/module
+  source_full_path:
+    -
+      plugin: concat
+      delimiter: /
+      source:
+        - '@module_path'
+        - constants/source_relative_path
+        - name
+    -
+      plugin: urlencode
+  uri_file:
+    -
+      plugin: concat
+      delimiter: /
+      source:
+        - constants/uri_file
+        - name
+    -
+      plugin: urlencode
+  filename: name
+  uri:
+    plugin: file_copy
+    source:
+      - '@source_full_path'
+      - '@uri_file'
+  status:
+    -
+      plugin: default_value
+      default_value: 1
+  uid:
+    -
+      plugin: default_value
+      default_value: 1
+destination:
+  plugin: 'entity:file'
+migration_dependencies:
+  required: {  }
+  optional: {  }

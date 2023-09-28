@@ -1,0 +1,18 @@
+<?php
+
+/**
+ * @file
+ * Primary module hooks for Y LB Init Demo Pages.
+ */
+
+
+/**
+ * Implements hook_theme().
+ */
+function y_lb_init_demo_content_theme() : array {
+  return [
+    'menu__demo_main' => [
+      'base hook' => 'menu',
+    ],
+  ];
+}

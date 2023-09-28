@@ -1,0 +1,400 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - y_lb_init_demo_content
+  enforced:
+    module:
+      - y_lb_init_demo_content
+id: y_lb_init_demo_homepage
+migration_tags: {}
+migration_group: y_lb_init_demo_content
+label: 'Import demo Layout Builder page - Home'
+source:
+  plugin: embedded_data
+  data_rows:
+    -
+      id: 1
+      title: 'Init Demo Home Page'
+      sections:
+        1header:
+          components:
+            logo:
+              block_config: true
+              region: 'header_bottom_left'
+              config:
+                id: 'ws_site_logo'
+                label: 'Site Logo Block'
+                label_display: visible
+                provider: y_lb
+                context_mapping: { }
+                logo_type: colorway
+            website_name:
+              block_config: true
+              region: 'header_top_left'
+              config:
+                id: 'ws_site_name'
+                label: 'Website Name Block'
+                label_display: '0'
+                provider: y_lb
+                context_mapping: { }
+            menu:
+              block_config: true
+              region: 'header_bottom_middle'
+              config:
+                id: 'system_menu_block:demo-main'
+                label: 'Demo Main navigation'
+                label_display: '0'
+                provider: system
+                context_mapping: { }
+                level: 1
+                depth: 0
+                expand_all_items: false
+            account:
+              block_config: true
+              region: 'header_bottom_right'
+              config:
+                id: 'system_menu_block:demo-utility'
+                label: 'Demo Utility menu'
+                label_display: '0'
+                provider: system
+                context_mapping: { }
+                level: 1
+                depth: 0
+                expand_all_items: false
+            translate:
+              block_config: true
+              region: 'header_top_right'
+              config:
+                id: openy_gtranslate_block
+                label: 'Open Y Google Translate'
+                label_display: '0'
+                provider: openy_gtranslate
+                context_mapping: { }
+            search:
+              block_config: true
+              region: 'header_bottom_middle'
+              config:
+                id: ws_search_bar
+                label: 'Search Bar Block'
+                label_display: '0'
+                provider: y_lb
+                context_mapping: { }
+        2banner:
+          components:
+            lb_hero:
+              uuid: "92468ff3-8ce8-42ef-9baf-74871b74b214"
+              region: 'blb_region_col_1'
+              config:
+                id: "inline_block:lb_hero"
+                label_display: "hidden"
+                label: "Chevron banner"
+                view_mode: "full"
+                provider: "layout_builder"
+              additional:
+                bootstrap_styles:
+                  block_style:
+                    ws_style_option:
+                      hero_banner: lb_hero_chevron
+                      button_fill_component: ws_button_fill_component_outlined
+        3grid_cta:
+          components:
+            lb_grid_cta:
+              uuid: "ab47f6ed-0456-4044-a1a0-8fd407a8e9c4"
+              region: 'blb_region_col_1'
+              config:
+                id: "inline_block:lb_grid_cta"
+                label: "Featured Programs"
+                provider: "layout_builder"
+              additional:
+                bootstrap_styles:
+                  block_style:
+                    ws_style_option:
+                      border_style_component: ws_border_style_component_solid
+        4second_banner:
+          components:
+            lb_hero:
+              uuid: "c5e7dd8e-2bd2-4d64-afef-8cff3e0ef581"
+              region: 'blb_region_col_1'
+              config:
+                id: "inline_block:lb_hero"
+                label_display: "hidden"
+                label: "Frame banner"
+                view_mode: "full"
+                provider: "layout_builder"
+              additional:
+                bootstrap_styles:
+                  block_style:
+                    ws_style_option:
+                      hero_banner: lb_hero_frame
+                      button_fill_component: ws_button_fill_component_outlined
+        5events:
+          components:
+            events_filter:
+              uuid: '82468ff3-8ce8-42ef-9baf-74871b74b215'
+              region: 'blb_region_col_1'
+              config:
+                id: "inline_block:events_filter"
+                label: "Find Events Near You"
+                label_display: 'visible'
+                provider: "layout_builder"
+                view_mode: "full"
+            featured_events:
+              uuid: "57b6bdc9-a572-46cf-a4de-feb83876599e"
+              region: 'blb_region_col_1'
+              config:
+                label: "Featured Event"
+                id: "inline_block:featured_events"
+                label_display: 'visible'
+                provider: "layout_builder"
+                view_mode: "full"
+            events_listing:
+              uuid: '92468ff3-8ce8-52ef-9baf-74871b74b315'
+              region: 'blb_region_col_1'
+              config:
+                label: "All events"
+                id: "inline_block:events_listing"
+                label_display: 'visible'
+                provider: "layout_builder"
+                view_mode: "full"
+        6ping_pong:
+          components:
+            lb_ping_pong_1:
+              uuid: "6c99b87a-2213-4c5e-8c53-0007f4a73bf6"
+              region: 'blb_region_col_1'
+              config:
+                id: "inline_block:lb_ping_pong"
+                label: "home ping-pong 1"
+                provider: "layout_builder"
+            lb_ping_pong_2:
+              uuid: "a133b2f0-c816-484c-ab86-66ab1b0a6e4c"
+              region: 'blb_region_col_1'
+              config:
+                id: "inline_block:lb_ping_pong"
+                label: "home ping-pong 2"
+                provider: "layout_builder"
+            lb_ping_pong_3:
+              uuid: "9facdd94-f5ae-460d-a878-671417545d2c"
+              region: 'blb_region_col_1'
+              config:
+                id: "inline_block:lb_ping_pong"
+                label: "home ping-pong 3"
+                provider: "layout_builder"
+        7testimonials:
+          components:
+            testimonials:
+              uuid: "3ef481d1-0c7c-49c9-ac7a-6a3794df75dd"
+              region: 'blb_region_col_1'
+              config:
+                id: "inline_block:lb_testimonials"
+                label: "What Our Members Say"
+                provider: "layout_builder"
+        8third_banner:
+          components:
+            lb_hero:
+              uuid: "2caea7c1-3ed5-468a-8691-a5bbdcef979f"
+              region: 'blb_region_col_1'
+              config:
+                id: "inline_block:lb_hero"
+                label_display: "hidden"
+                label: "Overlay banner"
+                view_mode: "full"
+                provider: "layout_builder"
+              additional:
+                bootstrap_styles:
+                  block_style:
+                    ws_style_option:
+                      hero_banner: lb_hero_overlay
+                      button_fill_component: ws_button_fill_component_outlined
+        9footer:
+          components:
+            copyright:
+              region: 'footer_bottom_left'
+              uuid: 'cb76bc7c-a957-4b69-96fb-e565ee85f38a'
+              config:
+                id: 'block_content:cb76bc7c-a957-4b69-96fb-e565ee85f38a'
+                label: 'Footer Copyright Block'
+                label_display: 0
+                provider: block_content
+                status: true
+                info: ''
+                view_mode: full
+                context_mapping: { }
+            site_logo:
+              block_config: true
+              region: 'footer_top_left'
+              config:
+                id: ws_site_logo
+                label: 'Site Logo'
+                label_display: '0'
+                provider: y_lb
+                context_mapping: { }
+                logo_type: white
+            menu_right:
+              block_config: true
+              region: 'footer_top_middle'
+              config:
+                id: 'system_menu_block:demo-helpful-links'
+                label: 'Helpful Links'
+                label_display: 1
+                provider: system
+                context_mapping: { }
+                level: 1
+                depth: 0
+                expand_all_items: false
+            stay_connected:
+              block_config: true
+              region: 'footer_top_right'
+              config:
+                id: 'block_content:e350fe26-bc73-4c69-af18-a51a052dbcd3'
+                label: 'Stay Connected'
+                label_display: visible
+                provider: block_content
+                status: true
+                info: ''
+                view_mode: full
+                context_mapping: { }
+            menu:
+              block_config: true
+              region: 'footer_bottom_right'
+              config:
+                id: 'system_menu_block:footer'
+                label: Footer
+                label_display: 0
+                provider: system
+                context_mapping: { }
+                level: 1
+                depth: 0
+                expand_all_items: false
+  ids:
+    id:
+      type: integer
+  defaults:
+    section_margin_top: mt-4
+process:
+  langcode:
+    plugin: default_value
+    source: language
+    default_value: en
+  title: title
+  type:
+    -
+      plugin: default_value
+      default_value: landing_page_lb
+  status:
+    -
+      plugin: default_value
+      default_value: 1
+  uid:
+    -
+      plugin: default_value
+      default_value: 1
+  override_styles:
+    - plugin: default_value
+      default_value: 1
+  styles/value:
+    - plugin: default_value
+      default_value: 'a:6:{s:8:"colorway";s:17:"ws_colorway_green";s:13:"border_radius";s:19:"ws_border_radius_10";s:19:"border_style_global";s:34:"ws_border_style_global_drop_shadow";s:21:"text_alignment_global";s:29:"ws_text_alignment_global_left";s:22:"button_position_global";s:32:"ws_button_position_global_inside";s:18:"button_fill_global";s:28:"ws_button_fill_global_filled";}'
+  __layout_builder__layout: sections
+  __layout_builder__layout_defaults:
+    plugin: default_value
+    default_value:
+      1header:
+        label: "Header"
+        id: 'ws_header'
+        wrapper_classes: ''
+      2banner:
+        bs_col: "blb_col_1"
+        label: "Banner"
+        container: "w-100"
+        remove_gutters: "1"
+      3grid_cta:
+        bs_col: "blb_col_1"
+        label: "Body"
+        container: "container-fluid"
+        remove_gutters: "0"
+        section_classes: 'mt-5'
+        container_wrapper:
+          bootstrap_styles:
+            margin_top:
+              class: "bs-mt-4"
+      4second_banner:
+        bs_col: "blb_col_1"
+        label: "Banner"
+        container: "w-100"
+        remove_gutters: "1"
+        section_classes: 'mt-5'
+        container_wrapper:
+          bootstrap_styles:
+            margin_top:
+              class: "bs-mt-4"
+      5events:
+        bs_col: "blb_col_1"
+        label: "Events"
+        container: "container"
+        remove_gutters: "0"
+        section_classes: 'mt-5'
+        container_wrapper:
+          bootstrap_styles:
+            margin_top:
+              class: "bs-mt-4"
+      6ping_pong:
+        bs_col: "blb_col_1"
+        label: "Ping Pong"
+        container: "container"
+        remove_gutters: "1"
+        section_classes: 'mt-5'
+        container_wrapper:
+          bootstrap_styles:
+            margin_top:
+              class: "bs-mt-4"
+      7testimonials:
+        bs_col: "blb_col_1"
+        label: "Testimonials"
+        container: "container"
+        remove_gutters: "0"
+        section_classes: 'mt-5'
+        container_wrapper:
+          bootstrap_styles:
+            margin_top:
+              class: "bs-mt-4"
+      8third_banner:
+        bs_col: "blb_col_1"
+        label: "Banner"
+        container: "w-100"
+        remove_gutters: "1"
+        section_classes: 'mt-5'
+        container_wrapper:
+          bootstrap_styles:
+            margin_top:
+              class: "bs-mt-4"
+      9footer:
+        label: "Footer"
+        id: 'ws_footer'
+        wrapper_classes: ''
+  layout_builder__layout:
+    -
+      plugin: merge_recursive
+      source:
+        - '@__layout_builder__layout_defaults'
+        - '@__layout_builder__layout'
+    - plugin: lb_sections
+destination:
+  plugin: 'entity:node'
+  default_bundle: landing_page_lb
+migration_dependencies:
+  required:
+    - y_lb_init_demo_block_banner_chevron
+    - y_lb_init_demo_block_banner_frame
+    - y_lb_init_demo_block_banner_overlay
+    - y_lb_init_demo_block_grid_cta
+    - y_lb_init_demo_block_ping_pong
+    - y_lb_init_demo_block_testimonials
+    - y_lb_init_demo_block_featured_event
+    - y_lb_init_demo_block_events_filter
+    - y_lb_init_demo_block_events_listing
+    - y_lb_init_demo_events
+    - y_lb_init_demo_menu_link_main
+    - y_lb_init_demo_menu_link_helpful_links
+    - y_lb_init_demo_menu_link_utility
+  optional: { }
