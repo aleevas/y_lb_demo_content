@@ -8,6 +8,7 @@ dependencies:
   - migrate_plus:migrate_plus
   - migrate_tools:migrate_tools
   - y_lb
+  - drupal:lb_grid_icon
   - drupal:lb_accordion
   - drupal:lb_cards
   - drupal:lb_carousel

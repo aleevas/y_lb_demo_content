@@ -40,6 +40,36 @@ source:
       name: 2e4a44bbb7ae69a87fac3e48d64757b1.jpeg
     - id: testimonials_image_1
       name: 6c3bb9ebf6c96083a2c4a32f94b04578.jpeg
+    - id: partner_logo_1
+      name: logo-ab5cc8314658dcbce4226affc4772f78.jpg
+    - id: partner_logo_2
+      name: logo-dc5cc8314658dcbce4536affc4772f78.png
+    - id: partner_logo_3
+      name: logo-dc5cc9314658dcbad4536affc4772f78.jpg
+    - id: partner_logo_4
+      name: logo-dc8cc8314658dcbce4536afac4772f78.jpg
+    - id: wwa_page_image_1
+      name: 14f0a0ca67a74e24583ac88bdeb05a77.jpeg
+    - id: wwa_page_image_2
+      name: 91585918869935065ff0923c10f8511c.jpeg
+    - id: wwa_page_image_3
+      name: 5c040a9dead068de85843e6738a7f2d3.jpeg
+    - id: wwa_page_image_4
+      name: a9a5165a92faf4fd8327dadf46057e2c.jpeg
+    - id: wwa_page_image_5
+      name: a38f35b7c33ead52672563cd69b4a33e.jpeg
+    - id: icon_1
+      name: icon-handshake.png
+    - id: icon_2
+      name: icon-look-at-me.png
+    - id: icon_3
+      name: icon-summer.png
+    - id: icon_4
+      name: icon-sports-yoga.png
+    - id: icon_5
+      name: icon-sports-aerobics.png
+    - id: icon_6
+      name: icon-sports-climbing.png
   ids:
     id:
       type: string

@@ -51,6 +51,33 @@ source:
       cta:
         - uri: 'internal:/'
           title: 'Learn More'
+    -
+      id: 123
+      uuid: '0a2bf49a-98c3-4dea-905d-8ecd3255c21a'
+      section_title: 'What We Do'
+      section_subtitle: ''
+      item_title: 'Youth Development'
+      item_description: "All kids deserve a chance to discover who they are and what they can achieve. Through the Y, millions of youth are cultivating the values, skills and relationships that lead to a lifetime of enrichment."
+      image: wwa_page_image_2
+      image_position: 'right'
+    -
+      id: 124
+      uuid: '0a9bf49f-98c3-4dff-9q5d-8ecd3255c21d'
+      section_title: ''
+      section_subtitle: ''
+      item_title: 'Healthy Living'
+      item_description: "The Y has long been a leading voice on health and well-being. From sports and fitness to safety training and family time, we have countless programs supporting our mission of a balanced, healthier lifestyle."
+      image: wwa_page_image_3
+      image_position: 'left'
+    -
+      id: 125
+      uuid: '0a9bf49f-98c3-4dff-9q5d-671417545d2c'
+      section_title: ''
+      section_subtitle: ''
+      item_title: 'Social Responsibility'
+      item_description: "We're committed to supporting a healthy, safe community. If you're interested in donating or volunteering, or are in need of our Safe Place Services, we're here for you."
+      image: wwa_page_image_4
+      image_position: 'right'
   ids:
     id:
       type: integer

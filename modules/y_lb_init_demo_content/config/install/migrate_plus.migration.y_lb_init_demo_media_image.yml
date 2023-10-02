@@ -54,6 +54,51 @@ source:
     - id: testimonials_image_1
       name: 'Testimonial image 1'
       file: testimonials_image_1
+    - id: partner_logo_1
+      name: 'Partner logo 1'
+      file: partner_logo_1
+    - id: partner_logo_2
+      name: 'Partner logo 2'
+      file: partner_logo_2
+    - id: partner_logo_3
+      name: 'Partner logo 3'
+      file: partner_logo_3
+    - id: partner_logo_4
+      name: 'Partner logo 4'
+      file: partner_logo_4
+    - id: wwa_page_image_1
+      name: 'Who we are image 1'
+      file: wwa_page_image_1
+    - id: wwa_page_image_2
+      name: 'Who we are image 2'
+      file: wwa_page_image_2
+    - id: wwa_page_image_3
+      name: 'Who we are image 3'
+      file: wwa_page_image_3
+    - id: wwa_page_image_4
+      name: 'Who we are image 4'
+      file: wwa_page_image_4
+    - id: wwa_page_image_5
+      name: 'Who we are image 5'
+      file: wwa_page_image_5
+    - id: icon_1
+      name: 'Icon 1'
+      file: icon_1
+    - id: icon_2
+      name: 'Icon 2'
+      file: icon_2
+    - id: icon_3
+      name: 'Icon 3'
+      file: icon_3
+    - id: icon_4
+      name: 'Icon 4'
+      file: icon_4
+    - id: icon_5
+      name: 'Icon 5'
+      file: icon_5
+    - id: icon_6
+      name: 'Icon 6'
+      file: icon_6
   ids:
     id:
       type: string

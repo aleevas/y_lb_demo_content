@@ -1,0 +1,51 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - lb_hero
+  enforced:
+    module:
+      - y_lb_init_demo_content
+id: y_lb_init_demo_block_code_block
+migration_tags: {}
+migration_group: y_lb_init_demo_content
+label: 'Import demo Layout Builder - Basic HTML'
+source:
+  plugin: embedded_data
+  data_rows:
+    -
+      id: 111
+      uuid: 'aaa97648-dafa-4ce6-8e38-7ae6c98a1d71'
+      text: '<div class="ml-md-4"><h2 class="text-align-center">Serving Our Community</h2><p>&nbsp;</p><p>Above all else, the YMCA of [Springfield] strives to serve everyone regardless of income, background or age. Check out the quick links to discover how we put our passion and ambitions into action.</p></div>'
+      format: 'full_html'
+
+    - id: 112
+      uuid: '3e04cbed-0edd-4a5b-a4fa-8da5d268f9aa'
+      text: "<h2 class='text-align-center'>The YMCAs History and Mission</h2><p >&nbsp;</p><p>The first YMCA was founded in London during the Industrial Revolution, when a former farmer and his friends organized a refuge for young men seeking shelter from hazardous streets. Just seven years later, in 1851, the first U.S. outpost opened at the Old South Church in Boston.</p><p>The last two centuries have seen the Y's mission grow exponentially, serving more than 10,000 communities in the U.S. alone. As the nation's leading nonprofit, the Y is committed to empowering people by improving their well-being, inspiring action, strengthening their communities and ensuring safe, healthy spaces for all.</p>"
+      format: 'full_html'
+  ids:
+    id:
+      type: integer
+process:
+  langcode:
+    plugin: default_value
+    source: language
+    default_value: en
+  status:
+    plugin: default_value
+    default_value: 1
+  reusable:
+    plugin: default_value
+    default_value: 0
+  type:
+    plugin: default_value
+    default_value: lb_code_block
+  uuid: uuid
+  field_code/value: text
+  field_code/format:
+    plugin: default_value
+    default_value: full_html
+destination:
+  plugin: entity:block_content
+  default_bundle: 'lb_code_block'
+migration_dependencies: {  }
