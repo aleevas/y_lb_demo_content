@@ -19,7 +19,6 @@ source:
       title: 'Featured Programs'
       subtitle: 'Here are just a few of the programs we offer our members.'
       columns: 3
-      cta: {}
       content_ids:
         - content_id: grid_item_1
         - content_id: grid_item_2

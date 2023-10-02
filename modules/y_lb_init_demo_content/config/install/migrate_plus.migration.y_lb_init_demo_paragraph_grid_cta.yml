@@ -16,6 +16,7 @@ source:
   data_rows:
     -
       id: grid_item_1
+      uuid: 'be3aeb06-0915-4c01-94c5-af55437d9123'
       parent_id: 31
       title: 'Youth Sports'
       body: "<p>We're dedicated to making sure our leagues are safe, fair and, most of all, fun. Learn the basics, improve your skills and make new friends!</p>"
@@ -25,6 +26,7 @@ source:
           title: 'See Youth Sports'
     -
       id: grid_item_2
+      uuid: 'ae3aeb06-0915-94c5-4c01-af55437d9125'
       parent_id: 31
       title: 'Health and Fitness'
       body: "<p>Take advantage of group fitness classes, personal training, and sports leagues that improve strength and mindfulness.</p>"
@@ -34,6 +36,7 @@ source:
           title: 'Explore Options'
     -
       id: grid_item_3
+      uuid: 'af55437d-0915-94c5-4c01-ae3aeb069456'
       parent_id: 31
       title: 'Community'
       body: "<p>These programs aim to bring members together, because we're all stronger when we're looking out for one another.</p>"
@@ -52,9 +55,7 @@ process:
   status:
     plugin: default_value
     default_value: 1
-  uid:
-    plugin: default_value
-    default_value: 1
+  uuid:  uuid
   parent_id:
     plugin: migration_lookup
     migration: y_lb_init_demo_block_grid_cta
