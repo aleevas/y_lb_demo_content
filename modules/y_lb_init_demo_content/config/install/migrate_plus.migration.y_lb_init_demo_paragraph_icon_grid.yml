@@ -19,7 +19,7 @@ source:
       uuid: '13ff2285-b1a2-42e3-90c7-8f11f6729a6f'
       parent_id: 1
       title: "Welcoming"
-      body: "We're open to all and create spaces where you can be, belong, and become."
+      body: "<span id='guiding-principles'>We</span>'re open to all and create spaces where you can be, belong, and become."
       image: icon_2
     -
       id: icon_grid_item_2

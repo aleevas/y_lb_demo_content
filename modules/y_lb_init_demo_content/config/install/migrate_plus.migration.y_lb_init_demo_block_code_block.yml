@@ -21,7 +21,12 @@ source:
 
     - id: 112
       uuid: '3e04cbed-0edd-4a5b-a4fa-8da5d268f9aa'
-      text: "<h2 class='text-align-center'>The YMCAs History and Mission</h2><p >&nbsp;</p><p>The first YMCA was founded in London during the Industrial Revolution, when a former farmer and his friends organized a refuge for young men seeking shelter from hazardous streets. Just seven years later, in 1851, the first U.S. outpost opened at the Old South Church in Boston.</p><p>The last two centuries have seen the Y's mission grow exponentially, serving more than 10,000 communities in the U.S. alone. As the nation's leading nonprofit, the Y is committed to empowering people by improving their well-being, inspiring action, strengthening their communities and ensuring safe, healthy spaces for all.</p>"
+      text: "<h2 class='text-align-center' id='history-and-mission'>The YMCAs History and Mission</h2><p >&nbsp;</p><p>The first YMCA was founded in London during the Industrial Revolution, when a former farmer and his friends organized a refuge for young men seeking shelter from hazardous streets. Just seven years later, in 1851, the first U.S. outpost opened at the Old South Church in Boston.</p><p>The last two centuries have seen the Y's mission grow exponentially, serving more than 10,000 communities in the U.S. alone. As the nation's leading nonprofit, the Y is committed to empowering people by improving their well-being, inspiring action, strengthening their communities and ensuring safe, healthy spaces for all.</p>"
+      format: 'full_html'
+
+    - id: 113
+      uuid: '06a07d84-cf9e-42c6-8af9-77d098efe937'
+      text: "<div class='ml-md-4'><h2 class='text-align-center' id='something-for-everyone'>Something for Everyone</h2><p >&nbsp;</p><p>We believe in a well-balanced life, giving members the resources they need to spend time with family, maintain good health and foster connections in their community. From swimming lessons to community service projects, the programs at the YMCA of [Springfield] strengthen spirit, body and mind.</p><p>Click one of the quick links to learn more.</p></div>"
       format: 'full_html'
   ids:
     id:

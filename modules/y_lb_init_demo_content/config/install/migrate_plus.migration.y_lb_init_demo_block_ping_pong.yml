@@ -57,7 +57,7 @@ source:
       section_title: 'What We Do'
       section_subtitle: ''
       item_title: 'Youth Development'
-      item_description: "All kids deserve a chance to discover who they are and what they can achieve. Through the Y, millions of youth are cultivating the values, skills and relationships that lead to a lifetime of enrichment."
+      item_description: "<p id='what-we-do'>All kids deserve a chance to discover who they are and what they can achieve. Through the Y, millions of youth are cultivating the values, skills and relationships that lead to a lifetime of enrichment.</p>"
       image: wwa_page_image_2
       image_position: 'right'
     -
@@ -78,6 +78,42 @@ source:
       item_description: "We're committed to supporting a healthy, safe community. If you're interested in donating or volunteering, or are in need of our Safe Place Services, we're here for you."
       image: wwa_page_image_4
       image_position: 'right'
+    -
+      id: 126
+      uuid: '0ce0cba7-fef3-4016-9ebc-061b1eff95dd'
+      section_title: ''
+      section_subtitle: ''
+      item_title: 'Youth Sports'
+      item_description: "<p id='youth-sports'>Our leagues are safe, fair and, most of all, fun. Kids will learn the basics, improve their skills and make new friends!</p>"
+      image: program_overview_page_image_2
+      image_position: 'right'
+      cta:
+        - uri: 'internal:/'
+          title: 'See Program Details'
+    -
+      id: 127
+      uuid: '3b1f74d9-d51b-455a-8aac-f7e185210b54'
+      section_title: ''
+      section_subtitle: ''
+      item_title: 'Health & Fitness'
+      item_description: "Take advantage of group fitness classes, personal training, and sports leagues that improve strength and mindfulness."
+      image: program_overview_page_image_3
+      image_position: 'left'
+      cta:
+        - uri: 'internal:/'
+          title: 'Explore Options'
+    -
+      id: 128
+      uuid: 'bdad32ab-7c9e-4a1d-975d-6ae1390c7a05'
+      section_title: ''
+      section_subtitle: ''
+      item_title: 'Community'
+      item_description: "These programs aim to bring members together, because we're all stronger when we're looking out for one another."
+      image: program_overview_page_image_4
+      image_position: 'right'
+      cta:
+        - uri: 'internal:/'
+          title: 'Get Involved'
   ids:
     id:
       type: integer

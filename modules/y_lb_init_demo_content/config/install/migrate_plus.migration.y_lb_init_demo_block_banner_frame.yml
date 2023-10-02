@@ -14,7 +14,7 @@ source:
   plugin: embedded_data
   data_rows:
     -
-      id: 19
+      id: 1
       uuid: 'c5e7dd8e-2bd2-4d64-afef-8cff3e0ef581'
       title: 'Uniting People Through Passion and Purpose'
       description: "Strengthening the [Springfield] community is at the core of everything we do. Every day, we work side by side with our neighbors to make sure everyone has the opportunity to grow. See how we put our ambitions into action."
@@ -22,6 +22,15 @@ source:
       cta:
         - uri: 'internal:/'
           title: 'Learn more'
+    -
+      id: 12
+      uuid: '8ec7a116-6b9e-427f-9345-19105a5f19e8'
+      title: 'Youth Soccer'
+      description: "The Y introduces kids to the world's most popular sport with a focus on fun. Players of all levels can keep building skills, confidence and teamwork."
+      media: homepage_image_5
+      cta:
+        - uri: 'internal:/'
+          title: 'Register Now'
   ids:
     id:
       type: integer

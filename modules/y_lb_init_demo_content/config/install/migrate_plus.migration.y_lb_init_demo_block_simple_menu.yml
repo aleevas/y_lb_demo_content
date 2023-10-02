@@ -14,8 +14,8 @@ source:
   plugin: embedded_data
   data_rows:
     -
-      id: 12
-      uuid: '1f84e357-31c6-4ebf-aaeb-dfb660bbe0f5'
+      id: 1
+      uuid: '63b5be7f-85b7-4005-9011-15cd9d7d2119'
       title: 'Quick Links'
       image: icon_1
       links:
@@ -34,6 +34,18 @@ source:
         -
           uri: 'internal:/'
           title: 'Our Partners'
+    -
+      id: 2
+      uuid: 'a59eca39-1d02-4744-84c5-2a063c534d91'
+      title: 'Quick Links'
+      image: icon_7
+      links:
+        - uri: 'internal:/'
+          title: 'Youth Sports'
+        - uri: 'internal:/'
+          title: 'Health & Fitness'
+        - uri: 'internal:/'
+          title: 'Community'
   ids:
     id:
       type: integer

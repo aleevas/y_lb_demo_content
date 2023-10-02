@@ -99,6 +99,21 @@ source:
     - id: icon_6
       name: 'Icon 6'
       file: icon_6
+    - id: icon_7
+      name: 'Icon 7'
+      file: icon_7
+    - id: program_overview_page_image_1
+      name: 'Program Overview 1'
+      file: program_overview_page_image_1
+    - id: program_overview_page_image_2
+      name: 'Program Overview 2'
+      file: program_overview_page_image_2
+    - id: program_overview_page_image_3
+      name: 'Program Overview 3'
+      file: program_overview_page_image_3
+    - id: program_overview_page_image_4
+      name: 'Program Overview 4'
+      file: program_overview_page_image_4
   ids:
     id:
       type: string

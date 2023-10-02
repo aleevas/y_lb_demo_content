@@ -100,7 +100,7 @@ source:
         3two_columns:
           components:
             lb_simple_menu:
-              uuid: "1f84e357-31c6-4ebf-aaeb-dfb660bbe0f5"
+              uuid: "63b5be7f-85b7-4005-9011-15cd9d7d2119"
               region: 'blb_region_col_1'
               config:
                 id: "inline_block:lb_simple_menu"
@@ -309,7 +309,7 @@ process:
       4ping_pong:
         bs_col: "blb_col_1"
         label: "Ping Pong"
-        container: "container"
+        container: "container-fluid"
         remove_gutters: "1"
         section_classes: 'mt-5'
         container_wrapper:

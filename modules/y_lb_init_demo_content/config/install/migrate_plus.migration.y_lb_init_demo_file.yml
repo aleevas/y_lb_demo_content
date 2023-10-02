@@ -70,6 +70,16 @@ source:
       name: icon-sports-aerobics.png
     - id: icon_6
       name: icon-sports-climbing.png
+    - id: icon_7
+      name: icon-heartbeat.png
+    - id: program_overview_page_image_1
+      name: 16f6a90318a46adb0b11ed6730e24300.jpeg
+    - id: program_overview_page_image_2
+      name: fb7b49dbe072d1c3aa285cbafae45b68.jpeg
+    - id: program_overview_page_image_3
+      name: 752e2881d359abdbbe0aabdedd075375.jpeg
+    - id: program_overview_page_image_4
+      name: 10ad1686d46fdda3cd66173fb2771b4c.jpeg
   ids:
     id:
       type: string
