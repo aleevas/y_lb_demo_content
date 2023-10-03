@@ -72,6 +72,8 @@ source:
       name: icon-sports-climbing.png
     - id: icon_7
       name: icon-heartbeat.png
+    - id: icon_8
+      name: icon-corners.png
     - id: program_overview_page_image_1
       name: 16f6a90318a46adb0b11ed6730e24300.jpeg
     - id: program_overview_page_image_2
@@ -80,6 +82,16 @@ source:
       name: 752e2881d359abdbbe0aabdedd075375.jpeg
     - id: program_overview_page_image_4
       name: 10ad1686d46fdda3cd66173fb2771b4c.jpeg
+    - id: program_category_page_image_1
+      name: e321822085592bab6df847b5bfb0ab87.jpeg
+    - id: program_category_page_image_2
+      name: 4e6f6ba946dd75008073b141a5bac658.jpeg
+    - id: program_category_page_image_3
+      name: bfc005420880835e0984f7f70106a69f.jpeg
+    - id: program_category_page_image_4
+      name: decfdb1f76a83e7c3bba7d6040e5b2dd.jpeg
+    - id: program_category_page_image_5
+      name: 01043122af208d09f0006d0b56f8ccac.jpeg
   ids:
     id:
       type: string

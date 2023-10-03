@@ -23,11 +23,11 @@ source:
         - uri: 'internal:/'
           title: 'Learn more'
     -
-      id: 12
+      id: 2
       uuid: '8ec7a116-6b9e-427f-9345-19105a5f19e8'
       title: 'Youth Soccer'
       description: "The Y introduces kids to the world's most popular sport with a focus on fun. Players of all levels can keep building skills, confidence and teamwork."
-      media: homepage_image_5
+      media: program_category_page_image_1
       cta:
         - uri: 'internal:/'
           title: 'Register Now'

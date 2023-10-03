@@ -360,7 +360,7 @@ destination:
   default_bundle: landing_page_lb
 migration_dependencies:
   required:
-    - y_lb_init_demo_block_banner_who_we_are
+    - y_lb_init_demo_block_banner_standard
     - y_lb_init_demo_block_simple_menu
     - y_lb_init_demo_block_code_block
     - y_lb_init_demo_block_ping_pong

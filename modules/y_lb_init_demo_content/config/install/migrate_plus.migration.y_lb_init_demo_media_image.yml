@@ -102,6 +102,9 @@ source:
     - id: icon_7
       name: 'Icon 7'
       file: icon_7
+    - id: icon_8
+      name: 'Icon 8'
+      file: icon_8
     - id: program_overview_page_image_1
       name: 'Program Overview 1'
       file: program_overview_page_image_1
@@ -114,6 +117,21 @@ source:
     - id: program_overview_page_image_4
       name: 'Program Overview 4'
       file: program_overview_page_image_4
+    - id: program_category_page_image_1
+      name: 'Program Category 1'
+      file: program_category_page_image_1
+    - id: program_category_page_image_2
+      name: 'Program Category 2'
+      file: program_category_page_image_2
+    - id: program_category_page_image_3
+      name: 'Program Category 3'
+      file: program_category_page_image_3
+    - id: program_category_page_image_4
+      name: 'Program Category 4'
+      file: program_category_page_image_4
+    - id: program_category_page_image_5
+      name: 'Program Category 5'
+      file: program_category_page_image_5
   ids:
     id:
       type: string

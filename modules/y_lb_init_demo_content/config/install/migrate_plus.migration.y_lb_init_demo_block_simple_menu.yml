@@ -20,19 +20,19 @@ source:
       image: icon_1
       links:
         -
-          uri: 'internal:/'
+          uri: 'internal:/init-demo-who-we-are-page#inline-blocklb-ping-pong123'
           title: 'What We Do'
         -
-          uri: 'internal:/'
+          uri: 'internal:/init-demo-who-we-are-page#guiding-principles'
           title: 'Guiding Principles'
         -
-          uri: 'internal:/'
+          uri: 'internal:/init-demo-who-we-are-page#inline-blocklb-statistics224'
           title: 'Our Impact'
         -
-          uri: 'internal:/'
+          uri: 'internal:/init-demo-who-we-are-page#history-and-mission'
           title: 'History & Mission'
         -
-          uri: 'internal:/'
+          uri: 'internal:/init-demo-who-we-are-page#our-sponsors'
           title: 'Our Partners'
     -
       id: 2
@@ -40,12 +40,27 @@ source:
       title: 'Quick Links'
       image: icon_7
       links:
-        - uri: 'internal:/'
+        -
+          uri: 'internal:/init-demo-programs-overview#youth-sports'
           title: 'Youth Sports'
-        - uri: 'internal:/'
+        -
+          uri: 'internal:/init-demo-programs-overview#health-fitness'
           title: 'Health & Fitness'
-        - uri: 'internal:/'
+        -
+          uri: 'internal:/init-demo-programs-overview#community'
           title: 'Community'
+    -
+      id: 3
+      uuid: '58aae4de-b835-4cd8-9d4b-d6c45ebf24e5'
+      title: 'Quick Links'
+      image: icon_8
+      links:
+        - uri: 'internal:/init-demo-programs-category#inline-blocklb-ping-pong129'
+          title: 'Youth Soccer'
+        - uri: 'internal:/init-demo-programs-category#inline-blocklb-ping-pong130'
+          title: 'Tee-Ball/Baseball'
+        - uri: 'internal:/init-demo-programs-category#inline-blocklb-ping-pong131'
+          title: 'Basketball'
   ids:
     id:
       type: integer
