@@ -1,0 +1,80 @@
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - y_lb_init_demo_content
+id: y_lb_init_demo_paragraph_accordion
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags: {  }
+migration_group: y_lb_init_demo_content
+label: 'Create Accordion paragraphs for Accordion component'
+source:
+  plugin: embedded_data
+  data_rows:
+    -
+      id: accordion_1
+      uuid: 'be53a74d-5d5c-4912-b9e8-a29c0b365849'
+      parent_id: 40
+      title: 'Which nearby locations offer youth soccer?'
+      body: '<p>Visit the Locations page to find the youth soccer program(s) nearest you.</p>'
+
+    -
+      id: accordion_2
+      uuid: 'dcc15cba-0c46-4ee8-a204-20a98ed6ebc3'
+      parent_id: 40
+      title: 'Is youth soccer available year-round?'
+      body: "<p>Generally, yes! In the spring, we offer outdoor soccer from March–May. In the summer, we offer indoor soccer from June–August. In the fall, we offer outdoor soccer from August–October. In the winter, we offer indoor soccer from January–March.</p>"
+
+    -
+      id: accordion_3
+      uuid: 'bcc4780c-7b74-4a63-8362-6941b58cc726'
+      parent_id: 40
+      title: 'How often do the teams practice and play?'
+      body: "<p>Teams practice once a week on weeknights for an hour. Most games are played on Saturdays, but there may be a few weeknight games to accommodate holidays, school breaks, and make up games. Players are assigned to teams based on practice availability, requests, skill level and age in order to best balance teams.</p>"
+
+    -
+      id: accordion_4
+      uuid: '6188b49e-4205-4454-98b0-00e1d23c161c'
+      parent_id: 40
+      title: 'Can I sign up to be a coach?'
+      body: "<p>Yes! We can always use more volunteer coaches. It's only a few hours a week, and it makes a big difference in your community and in the lives of many children. Find out more about volunteer opportunities here.</p>"
+  ids:
+    id:
+      type: string
+process:
+  langcode:
+    plugin: default_value
+    source: language
+    default_value: en
+  status:
+    plugin: default_value
+    default_value: 1
+  uuid:  uuid
+  parent_id:
+    plugin: migration_lookup
+    migration: y_lb_init_demo_block_accordion
+    no_stub: true
+    source: parent_id
+  parent_type:
+    plugin: default_value
+    default_value: block_content
+  parent_field_name:
+    plugin: default_value
+    default_value: field_entity_reference_paragraph
+  type:
+    plugin: skip_if_bundle_not_exist
+    method: row
+    entity: paragraph
+    bundle: lb_accordion_item
+  field_title: title
+  field_body/value: body
+  field_body/format:
+    plugin: default_value
+    default_value: full_html
+destination:
+  plugin: 'entity:paragraph'
+  default_bundle: 'lb_accordion_item'
+migration_dependencies: {  }

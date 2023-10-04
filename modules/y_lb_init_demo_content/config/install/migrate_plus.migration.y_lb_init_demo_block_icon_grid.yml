@@ -32,6 +32,17 @@ source:
       content_ids:
         - content_id: icon_grid_item_4
         - content_id: icon_grid_item_5
+
+    -
+      id: 3
+      uuid: '84ff78d9-a5ac-412a-a7a6-880b0b247364'
+      title: ''
+      subtitle: ''
+      columns: 3
+      content_ids:
+        - content_id: icon_grid_item_6
+        - content_id: icon_grid_item_7
+        - content_id: icon_grid_item_8
   ids:
     id:
       type: integer

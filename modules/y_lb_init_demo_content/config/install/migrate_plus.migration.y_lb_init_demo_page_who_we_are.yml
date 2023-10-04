@@ -308,10 +308,12 @@ process:
             - 'col-12'
       4ping_pong:
         bs_col: "blb_col_1"
-        label: "Ping Pong"
+        label: "What We Do"
         container: "container-fluid"
         remove_gutters: "1"
         section_classes: 'mt-5'
+        container_wrapper_attributes:
+          id: 'what-we-do'
         container_wrapper:
           bootstrap_styles:
             margin_top:
@@ -322,12 +324,16 @@ process:
         container: "container"
         remove_gutters: "0"
         section_classes: 'mt-5'
+        container_wrapper_attributes:
+          id: 'guiding-principles'
       8statistics:
         bs_col: "blb_col_1"
         label: "Banner"
         container: "w-100"
         remove_gutters: "1"
         section_classes: 'mt-5'
+        container_wrapper_attributes:
+          id: 'our-impact'
         container_wrapper:
           bootstrap_styles:
             margin_top:
@@ -338,12 +344,16 @@ process:
         container: "container"
         remove_gutters: "0"
         section_classes: 'mt-5'
+        container_wrapper_attributes:
+          id: 'history-and-mission'
       10partners:
         bs_col: "blb_col_1"
         label: "Our Partners"
         container: "container"
         remove_gutters: "0"
         section_classes: 'mt-5'
+        container_wrapper_attributes:
+          id: 'our-partners'
       11footer:
         label: "Footer"
         id: 'ws_footer'

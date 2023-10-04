@@ -19,7 +19,7 @@ source:
       uuid: '13ff2285-b1a2-42e3-90c7-8f11f6729a6f'
       parent_id: 1
       title: "Welcoming"
-      body: "<span id='guiding-principles'>We</span>'re open to all and create spaces where you can be, belong, and become."
+      body: "We're open to all and create spaces where you can be, belong, and become."
       image: icon_2
     -
       id: icon_grid_item_2
@@ -52,6 +52,30 @@ source:
       title: 'Nurturing'
       body: "We work relentlessly to strengthen communities, starting with you."
       image: icon_6
+
+    -
+      id: icon_grid_item_6
+      uuid: '933ebc5a-7eb7-480a-abb8-980e72de1b6e'
+      parent_id: 3
+      title: 'Schedules'
+      body: "Spring soccer registration typically opens in January, and the season runs from March to May. Fall soccer registration typically opens in July, and the season runs from August to October."
+      image: icon_10
+
+    -
+      id: icon_grid_item_7
+      uuid: 'fbfffb92-8ef8-4056-8913-4332ae6c538b'
+      parent_id: 3
+      title: 'Ages'
+      body: "We offer leagues for kids ages 3–14, all with age-appropriate instruction as well as adjusted field sizes, ball sizes and number of players on the field."
+      image: icon_11
+
+    -
+      id: icon_grid_item_8
+      uuid: 'e73393c4-2698-4c0e-b7ac-a2f354eed816'
+      parent_id: 3
+      title: 'Pricing'
+      body: "Prices vary by age division, but start at $90 for YMCA facility members and $115 for youth soccer program members."
+      image: icon_12
   ids:
     id:
       type: string

@@ -27,8 +27,18 @@ source:
     - id: 381
       uuid: '06466af2-9449-4494-8bb5-aed8b1452050'
       title: "Our Sponsors"
-      subtitle/value: "<span id='our-sponsors'>Want to be a sponsor?</span> Email us at youthsports@ymcaspringfield.org for details."
-      subtitle/format: full_html
+      subtitle: "Want to be a sponsor? Email us at youthsports@ymcaspringfield.org for details."
+      format: full_html
+      content_ids:
+        - content_id: partner_1
+        - content_id: partner_2
+        - content_id: partner_3
+        - content_id: partner_4
+
+    - id: 382
+      uuid: 'a3ab972b-e6f5-4a6c-9c1e-1c7ccb94d7d4'
+      title: "Our Sponsors"
+      subtitle: "Youth Soccer is proudly sponsored by"
       content_ids:
         - content_id: partner_1
         - content_id: partner_2

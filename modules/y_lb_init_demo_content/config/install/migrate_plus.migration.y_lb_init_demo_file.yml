@@ -74,6 +74,14 @@ source:
       name: icon-heartbeat.png
     - id: icon_8
       name: icon-corners.png
+    - id: icon_9
+      name: icon-ball.png
+    - id: icon_10
+      name: icon-calendar.png
+    - id: icon_11
+      name: icon-kids.png
+    - id: icon_12
+      name: icon-vector.png
     - id: program_overview_page_image_1
       name: 16f6a90318a46adb0b11ed6730e24300.jpeg
     - id: program_overview_page_image_2
@@ -92,6 +100,26 @@ source:
       name: decfdb1f76a83e7c3bba7d6040e5b2dd.jpeg
     - id: program_category_page_image_5
       name: 01043122af208d09f0006d0b56f8ccac.jpeg
+    - id: program_individual_page_image_1
+      name: d2e04c902e2a8203022e2a61afc497e6.jpeg
+    - id: program_individual_page_image_2
+      name: c9ef09c261e8a9c5a8ae5df29e405143.jpeg
+    - id: program_individual_page_image_3
+      name: b8a6b79f2d52d44aae1437cdea6c803c.jpeg
+    - id: program_individual_page_image_4
+      name: 8c669d1631431622611f8a346d4424f1.jpeg
+    - id: program_individual_page_image_5
+      name: 2ed97746554fdff700bb12717485a642.jpeg
+    - id: program_individual_page_image_6
+      name: cccc84632104497cb971766bc7bf56b3.jpeg
+    - id: program_individual_page_image_7
+      name: 818875ea685e70553829416bd56254c0.jpeg
+    - id: program_individual_page_image_8
+      name: fc43181e0e91e3134105465d81f75144.jpeg
+    - id: program_individual_page_image_9
+      name: e25597d2255d74a8d947d1916c0a8dc7.jpeg
+    - id: program_individual_page_image_10
+      name: 308bb99f95a24c97827db582c1766a14.jpeg
   ids:
     id:
       type: string

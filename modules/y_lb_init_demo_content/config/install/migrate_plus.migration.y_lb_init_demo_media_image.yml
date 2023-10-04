@@ -105,6 +105,18 @@ source:
     - id: icon_8
       name: 'Icon 8'
       file: icon_8
+    - id: icon_9
+      name: 'Icon 9'
+      file: icon_9
+    - id: icon_10
+      name: 'Icon 10'
+      file: icon_10
+    - id: icon_11
+      name: 'Icon 11'
+      file: icon_11
+    - id: icon_12
+      name: 'Icon 12'
+      file: icon_12
     - id: program_overview_page_image_1
       name: 'Program Overview 1'
       file: program_overview_page_image_1
@@ -132,6 +144,36 @@ source:
     - id: program_category_page_image_5
       name: 'Program Category 5'
       file: program_category_page_image_5
+    - id: program_individual_page_image_1
+      name: 'Program Individual 1'
+      file: program_individual_page_image_1
+    - id: program_individual_page_image_2
+      name: 'Program Individual 2'
+      file: program_individual_page_image_2
+    - id: program_individual_page_image_3
+      name: 'Program Individual 3'
+      file: program_individual_page_image_3
+    - id: program_individual_page_image_4
+      name: 'Program Individual 4'
+      file: program_individual_page_image_4
+    - id: program_individual_page_image_5
+      name: 'Program Individual 5'
+      file: program_individual_page_image_5
+    - id: program_individual_page_image_6
+      name: 'Program Individual 6'
+      file: program_individual_page_image_6
+    - id: program_individual_page_image_7
+      name: 'Program Individual 7'
+      file: program_individual_page_image_7
+    - id: program_individual_page_image_8
+      name: 'Program Individual 8'
+      file: program_individual_page_image_8
+    - id: program_individual_page_image_9
+      name: 'Program Individual 9'
+      file: program_individual_page_image_9
+    - id: program_individual_page_image_10
+      name: 'Program Individual 10'
+      file: program_individual_page_image_10
   ids:
     id:
       type: string

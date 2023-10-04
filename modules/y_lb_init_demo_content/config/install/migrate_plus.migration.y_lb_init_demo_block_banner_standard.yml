@@ -30,6 +30,30 @@ source:
       uuid: '341eed75-0857-4ea3-a2be-945179a14182'
       title: 'Have questions?'
       description: "Reach out to us anytime at youthsports@ymcaspringfield.org."
+
+    - id: 4
+      uuid: 'd8f14c28-0869-492b-b1e2-e95294da14e8'
+      title: 'Youth Soccer'
+      description: "The Y introduces kids to the world's most popular sport with a focus on fun. Players of all levels can keep building skills, confidence and teamwork."
+      media: program_individual_page_image_1
+      cta:
+        - uri: 'internal:/'
+          title: 'Register Now'
+
+    - id: 5
+      uuid: 'fd8a8026-c151-43f3-ae86-640c076d86d6'
+      title: 'Financial Aid'
+      description: "Our leagues are for all kids. If our standard rates aren't in your budget, ask about membership or program rates based on household income. Please stop by or call us to find out if you're eligible for assistance, or visit our membership page to learn more."
+
+    - id: 6
+      uuid: '51805784-16b8-46dc-bfa2-7f612dc03582'
+      title: 'Ready to Register?'
+      description: "Click below to see which sessions are available for online registration."
+      media: program_individual_page_image_7
+      cta:
+        - uri: 'internal:/'
+          title: 'Register Now'
+
   ids:
     id:
       type: integer

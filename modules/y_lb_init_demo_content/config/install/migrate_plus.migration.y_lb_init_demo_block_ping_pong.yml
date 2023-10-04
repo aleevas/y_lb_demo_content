@@ -57,7 +57,7 @@ source:
       section_title: 'What We Do'
       section_subtitle: ''
       item_title: 'Youth Development'
-      item_description: "<p id='what-we-do'>All kids deserve a chance to discover who they are and what they can achieve. Through the Y, millions of youth are cultivating the values, skills and relationships that lead to a lifetime of enrichment.</p>"
+      item_description: "<p>All kids deserve a chance to discover who they are and what they can achieve. Through the Y, millions of youth are cultivating the values, skills and relationships that lead to a lifetime of enrichment.</p>"
       image: wwa_page_image_2
       image_position: 'right'
     -
@@ -84,7 +84,7 @@ source:
       section_title: ''
       section_subtitle: ''
       item_title: 'Youth Sports'
-      item_description: "<p id='youth-sports'>Our leagues are safe, fair and, most of all, fun. Kids will learn the basics, improve their skills and make new friends!</p>"
+      item_description: "<p>Our leagues are safe, fair and, most of all, fun. Kids will learn the basics, improve their skills and make new friends!</p>"
       image: program_overview_page_image_2
       image_position: 'right'
       cta:
@@ -96,7 +96,7 @@ source:
       section_title: ''
       section_subtitle: ''
       item_title: 'Health & Fitness'
-      item_description: "<p id='health-fitness'>Take advantage of group fitness classes, personal training, and sports leagues that improve strength and mindfulness.</p>"
+      item_description: "<p>Take advantage of group fitness classes, personal training, and sports leagues that improve strength and mindfulness.</p>"
       image: program_overview_page_image_3
       image_position: 'left'
       cta:
@@ -108,7 +108,7 @@ source:
       section_title: ''
       section_subtitle: ''
       item_title: 'Community'
-      item_description: "<p id='community'>These programs aim to bring members together, because we're all stronger when we're looking out for one another.</p>"
+      item_description: "<p>These programs aim to bring members together, because we're all stronger when we're looking out for one another.</p>"
       image: program_overview_page_image_4
       image_position: 'right'
       cta:
@@ -120,7 +120,7 @@ source:
       section_title: ''
       section_subtitle: ''
       item_title: 'Youth Soccer'
-      item_description: "<p id='youth-soccer'>Designed to introduce players of any skill level to the world's most popular sport, our program encourages teamwork and builds confidence.</p>"
+      item_description: "<p>Designed to introduce players of any skill level to the world's most popular sport, our program encourages teamwork and builds confidence.</p>"
       image: program_category_page_image_2
       image_position: 'right'
       cta:
@@ -132,7 +132,7 @@ source:
       section_title: ''
       section_subtitle: ''
       item_title: 'Youth Tee-Ball and Baseball'
-      item_description: "<p id='youth-tee-ball'>Kids ages 3–8 balance fun with fundamentals as they learn to hit, catch and throw in a team-building environment.</p>"
+      item_description: "<p>Kids ages 3–8 balance fun with fundamentals as they learn to hit, catch and throw in a team-building environment.</p>"
       image: program_category_page_image_3
       image_position: 'left'
       cta:
@@ -144,7 +144,7 @@ source:
       section_title: ''
       section_subtitle: ''
       item_title: 'Youth Basketball'
-      item_description: "<p id='youth-basketball'>These programs aim to bring members together, because we're all stronger when we're looking out for one another.</p>"
+      item_description: "<p>These programs aim to bring members together, because we're all stronger when we're looking out for one another.</p>"
       image: program_overview_page_image_4
       image_position: 'right'
       cta:

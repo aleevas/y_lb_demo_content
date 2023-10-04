@@ -20,19 +20,19 @@ source:
       image: icon_1
       links:
         -
-          uri: 'internal:/init-demo-who-we-are-page#inline-blocklb-ping-pong123'
+          uri: 'internal:/init-demo-who-we-are-page#what-we-do'
           title: 'What We Do'
         -
           uri: 'internal:/init-demo-who-we-are-page#guiding-principles'
           title: 'Guiding Principles'
         -
-          uri: 'internal:/init-demo-who-we-are-page#inline-blocklb-statistics224'
+          uri: 'internal:/init-demo-who-we-are-page#our-impact'
           title: 'Our Impact'
         -
           uri: 'internal:/init-demo-who-we-are-page#history-and-mission'
           title: 'History & Mission'
         -
-          uri: 'internal:/init-demo-who-we-are-page#our-sponsors'
+          uri: 'internal:/init-demo-who-we-are-page#our-partners'
           title: 'Our Partners'
     -
       id: 2
@@ -41,13 +41,13 @@ source:
       image: icon_7
       links:
         -
-          uri: 'internal:/init-demo-programs-overview#youth-sports'
+          uri: 'internal:/init-demo-programs-overview#inline-blocklb-ping-pong126'
           title: 'Youth Sports'
         -
-          uri: 'internal:/init-demo-programs-overview#health-fitness'
+          uri: 'internal:/init-demo-programs-overview#inline-blocklb-ping-pong127'
           title: 'Health & Fitness'
         -
-          uri: 'internal:/init-demo-programs-overview#community'
+          uri: 'internal:/init-demo-programs-overview#inline-blocklb-ping-pong128'
           title: 'Community'
     -
       id: 3
@@ -61,6 +61,22 @@ source:
           title: 'Tee-Ball/Baseball'
         - uri: 'internal:/init-demo-programs-category#inline-blocklb-ping-pong131'
           title: 'Basketball'
+    -
+      id: 4
+      uuid: '798aa271-a9b3-49f9-baa8-74b94f907905'
+      title: 'Quick Links'
+      image: icon_9
+      links:
+        - uri: 'internal:/init-demo-program-individual-page#schedules-ages-pricing'
+          title: 'Schedules, Ages & Pricing '
+        - uri: 'internal:/init-demo-program-individual-page#financial-aid'
+          title: 'Financial Aid'
+        - uri: 'internal:/init-demo-program-individual-page#program-levels-requirements'
+          title: 'Levels & Requirements'
+        - uri: 'internal:/init-demo-program-individual-page#how-to-register'
+          title: 'How to Register'
+        - uri: 'internal:/init-demo-program-individual-page#faq'
+          title: 'FAQs'
   ids:
     id:
       type: integer
