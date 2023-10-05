@@ -54,6 +54,20 @@ source:
         - uri: 'internal:/'
           title: 'Register Now'
 
+    - id: 7
+      uuid: '741a2672-8044-439a-b96a-68b0c70d9ffc'
+      title: 'Lorem Ipsum'
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+      media: program_category_page_image_5
+      cta:
+        - uri: 'internal:/'
+          title: 'Lorem Ipsum'
+
+    - id: 8
+      uuid: '8eaffb4c-8e04-44fb-9e19-c3fe1cf34804'
+      title: 'Lorem Ipsum'
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+
   ids:
     id:
       type: integer

@@ -76,6 +76,14 @@ source:
       title: 'Pricing'
       body: "Prices vary by age division, but start at $90 for YMCA facility members and $115 for youth soccer program members."
       image: icon_12
+
+    -
+      id: icon_grid_item_9
+      uuid: 'c7ddb5ff-7e86-4fe4-90dc-18bfe0fe5d13'
+      parent_id: 4
+      title: 'For new members'
+      body: "Get 50% off your first month of membership"
+      image: icon_13
   ids:
     id:
       type: string
@@ -84,6 +92,7 @@ process:
     plugin: default_value
     source: language
     default_value: en
+  uuid: uuid
   status:
     plugin: default_value
     default_value: 1

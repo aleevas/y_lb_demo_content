@@ -82,6 +82,8 @@ source:
       name: icon-kids.png
     - id: icon_12
       name: icon-vector.png
+    - id: icon_13
+      name: icon-theY.png
     - id: program_overview_page_image_1
       name: 16f6a90318a46adb0b11ed6730e24300.jpeg
     - id: program_overview_page_image_2
@@ -120,6 +122,34 @@ source:
       name: e25597d2255d74a8d947d1916c0a8dc7.jpeg
     - id: program_individual_page_image_10
       name: 308bb99f95a24c97827db582c1766a14.jpeg
+    - id: location_individual_page_image_1
+      name: cbfff24e346a28702c24442df3566c9d.jpeg
+    - id: location_individual_page_image_2
+      name: a3ba9b5b75f0305b58dcd9a5a1a1ea67.jpeg
+    - id: location_individual_page_image_3
+      name: c2a2ffbc2669432f55ebc9420d66ccc3.jpeg
+    - id: location_individual_page_image_4
+      name: a3a89a0b5ee079c7456bdc0df2313eec.jpeg
+    - id: location_individual_page_image_5
+      name: 76a27478d7b90a372dc324c54fb75067.jpeg
+    - id: location_individual_page_image_6
+      name: 9efa8e57f87e9f1046c85d40e49998e7.jpeg
+    - id: location_individual_page_image_7
+      name: 1008a5283f4fc8b0374fbbab78d034f4.jpeg
+    - id: location_individual_page_image_8
+      name: a85fb98720bc72dead261051b754042e.jpeg
+    - id: carousel_image_1
+      name: 0c2e643554a85c0d985cc7c2800c9c15.jpeg
+    - id: carousel_image_2
+      name: 747f7f3aef8e9b0a50803598cf62bfeb.jpeg
+    - id: carousel_image_3
+      name: 969efa2f52a5073e3f1740ecf950cda8.jpeg
+    - id: carousel_image_4
+      name: cd74a7783d56263857c2eecdf750bfb2.jpeg
+    - id: carousel_image_5
+      name: deae4315c2a4695e623731aa1c9a9e8a.jpeg
+    - id: carousel_image_6
+      name: f642d499b58cf6e4dfe92772201b352e.jpeg
   ids:
     id:
       type: string

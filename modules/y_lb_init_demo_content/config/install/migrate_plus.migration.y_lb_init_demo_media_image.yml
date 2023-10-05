@@ -117,6 +117,9 @@ source:
     - id: icon_12
       name: 'Icon 12'
       file: icon_12
+    - id: icon_13
+      name: 'Icon 13'
+      file: icon_13
     - id: program_overview_page_image_1
       name: 'Program Overview 1'
       file: program_overview_page_image_1
@@ -174,6 +177,48 @@ source:
     - id: program_individual_page_image_10
       name: 'Program Individual 10'
       file: program_individual_page_image_10
+    - id: location_individual_page_image_1
+      name: 'Location Individual 1'
+      file: location_individual_page_image_1
+    - id: location_individual_page_image_2
+      name: 'Location Individual 2'
+      file: location_individual_page_image_2
+    - id: location_individual_page_image_3
+      name: 'Location Individual 3'
+      file: location_individual_page_image_3
+    - id: location_individual_page_image_4
+      name: 'Location Individual 4'
+      file: location_individual_page_image_4
+    - id: location_individual_page_image_5
+      name: 'Location Individual 5'
+      file: location_individual_page_image_5
+    - id: location_individual_page_image_6
+      name: 'Location Individual 6'
+      file: location_individual_page_image_6
+    - id: location_individual_page_image_7
+      name: 'Location Individual 7'
+      file: location_individual_page_image_7
+    - id: location_individual_page_image_8
+      name: 'Location Individual 8'
+      file: location_individual_page_image_8
+    - id: carousel_image_1
+      name: 'Carousel Image 1'
+      file: carousel_image_1
+    - id: carousel_image_2
+      name: 'Carousel Image 2'
+      file: carousel_image_2
+    - id: carousel_image_3
+      name: 'Carousel Image 3'
+      file: carousel_image_3
+    - id: carousel_image_4
+      name: 'Carousel Image 4'
+      file: carousel_image_4
+    - id: carousel_image_5
+      name: 'Carousel Image 5'
+      file: carousel_image_5
+    - id: carousel_image_6
+      name: 'Carousel Image 6'
+      file: carousel_image_6
   ids:
     id:
       type: string

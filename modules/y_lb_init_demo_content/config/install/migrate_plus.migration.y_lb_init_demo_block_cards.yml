@@ -36,6 +36,17 @@ source:
         - content_id: card_item_6
         - content_id: card_item_7
         - content_id: card_item_8
+
+    -
+      id: 3
+      uuid: '369e92ff-f6cb-476b-9bc5-1362232165f2'
+      title: 'Featured Programs'
+      subtitle: ''
+      columns: 3
+      content_ids:
+        - content_id: card_item_9
+        - content_id: card_item_10
+        - content_id: card_item_11
   ids:
     id:
       type: integer

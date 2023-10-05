@@ -26,7 +26,7 @@ source:
       image: homepage_image_6
       date_start: '+31 days'
       date_end: '+32 days'
-      location_reference: 2
+      location_reference: 1
       tags: 101
     -
       id: 2
@@ -39,7 +39,7 @@ source:
       image: homepage_image_7
       date_start: '+30 days 10:00'
       date_end: '+30 days 11:00'
-      location_reference: 3
+      location_reference: 1
       tags: 101
     -
       id: 3
@@ -52,7 +52,7 @@ source:
       image: homepage_image_8
       date_start: '+7 days 16:00'
       date_end: '+14 days 16:00'
-      location_reference: 3
+      location_reference: 1
       tags: 102
     -
       id: 4
@@ -65,8 +65,9 @@ source:
       image: homepage_image_9
       start_date: '+7 days 15:00'
       date_end: '+7 days 17:00'
-      location_reference: 4
+      location_reference: 1
       tags: 103
+
   ids:
     id:
       type: integer
@@ -98,8 +99,9 @@ process:
   field_contact_phone: contact_phone
   field_location_reference/target_id:
     -
-      plugin: default_value
-      default_value: location_reference
+      plugin: migration_lookup
+      migration: y_lb_init_demo_page_location
+      source: location_reference
   field_header_image:
     -
       plugin: migration_lookup

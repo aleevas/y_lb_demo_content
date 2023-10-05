@@ -38,6 +38,16 @@ source:
       uuid: '30229bec-7348-46ef-baf8-624c867ee7e7'
       text: "<div class='ml-md-4'><h2 class='text-align-center'>At a Glance</h2><p >&nbsp;</p><p>Teams practice once a week on weeknights for an hour. Most games are played on Saturdays, but there may be a few weeknight games to accommodate holidays, school breaks and make-up games. Players are assigned to teams based on practice availability, requests, skill level and age in order to best balance teams. </p><p>Use this menu to find all the info you need about our youth soccer programs.</p></div>"
       format: 'full_html'
+
+    - id: 116
+      uuid: 'c16df42-b839-4af3-8eab-841e22d981c6'
+      text: "<div class='ml-md-4'><h2 class='text-align-center'>Join Our Community</h2><p >&nbsp;</p><p>Every day there's something new at the YMCA. We bring people of all ages together to encourage healthy living and foster connections through fitness, sports, fun, and community. We have the support, guidance, and resources you need to help you learn new things, meet your goals, and make new friends at any stage of life. Join us today!</p></div>"
+      format: 'full_html'
+
+    - id: 117
+      uuid: '295e1e55-28ea-4ce4-a430-fc9a25d2fa34'
+      text: "<div class='ml-md-4'><h2 class='text-align-center'>Lorem Ipsum</h2><p >&nbsp;</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>"
+      format: 'full_html'
   ids:
     id:
       type: integer

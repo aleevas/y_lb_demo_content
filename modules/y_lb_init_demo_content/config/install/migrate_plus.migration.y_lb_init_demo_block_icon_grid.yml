@@ -43,6 +43,16 @@ source:
         - content_id: icon_grid_item_6
         - content_id: icon_grid_item_7
         - content_id: icon_grid_item_8
+
+    -
+      id: 4
+      uuid: 'b0f1ef18-309d-4f5a-9077-aa8916875890'
+      title: 'Icon'
+      subtitle: ''
+      columns: 1
+      content_ids:
+        - content_id: icon_grid_item_9
+
   ids:
     id:
       type: integer

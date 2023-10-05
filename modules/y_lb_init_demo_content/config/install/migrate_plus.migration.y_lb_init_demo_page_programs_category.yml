@@ -309,7 +309,7 @@ process:
         label: "Ping Pong"
         container: "container-fluid"
         remove_gutters: "1"
-        section_classes: ''
+        section_classes: 'mt-5'
       5second_banner:
         bs_col: "blb_col_1"
         label: "Ping Pong"

@@ -80,10 +80,41 @@ source:
       parent_id: 2
       title: 'Swim Team'
       body: "You don't need to be an advanced swimmer to join the team! We teach kids of all abilities competitive swimming skills."
-      image: program_individual_page_image_10
+      image: location_individual_page_image_6
       cta:
         - uri: 'internal:/'
           title: 'See Program Details'
+
+    -
+      id: card_item_9
+      uuid: '47d40b39-9a0f-498a-95e6-a8bc516e6198'
+      parent_id: 3
+      title: 'Health and Fitness Programs'
+      body: "A vast array of activities, including group classes, personal training, and adult sport leagues, are designed to help members grow strong and enjoy life."
+      image: location_individual_page_image_7
+      cta:
+        - uri: 'internal:/'
+          title: 'Explore Options'
+    -
+      id: card_item_10
+      uuid: 'b549d519-6aa1-481c-bd4d-39cf7e6fa3c8'
+      parent_id: 3
+      title: 'Youth Sports Programs'
+      body: "We're dedicated to helping young people become their best selves with programs that encompass all that kids can achieve."
+      image: location_individual_page_image_8
+      cta:
+        - uri: 'internal:/'
+          title: 'View Programs'
+    -
+      id: card_item_11
+      uuid: '009b9dea-9b58-4f44-9975-dd283b42950c'
+      parent_id: 3
+      title: 'Community Programs and Events'
+      body: "The Y is all about community — which is why we also host events, lead volunteer opportunities and offer safety certification training."
+      image: program_individual_page_image_9
+      cta:
+        - uri: 'internal:/'
+          title: 'Get Involved'
   ids:
     id:
       type: string
@@ -95,10 +126,10 @@ process:
   status:
     plugin: default_value
     default_value: 1
-  uuid:  uuid
+  uuid: uuid
   parent_id:
     plugin: migration_lookup
-    migration: y_lb_init_demo_block_grid_cta
+    migration: y_lb_init_demo_block_cards
     no_stub: true
     source: parent_id
   parent_type:

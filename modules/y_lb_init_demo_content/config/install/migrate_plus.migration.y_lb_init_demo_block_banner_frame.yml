@@ -31,6 +31,14 @@ source:
       cta:
         - uri: 'internal:/'
           title: 'Register Now'
+
+    -
+      id: 3
+      uuid: '32b9a7ed-c807-4c0c-9376-b55472947187'
+      title: '[Downtown Springfield] Child Care'
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+      media: program_category_page_image_1
+
   ids:
     id:
       type: integer
