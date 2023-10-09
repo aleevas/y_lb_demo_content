@@ -286,6 +286,7 @@ process:
         label: "Banner"
         container: "w-100"
         remove_gutters: "1"
+        section_classes: 'mt-5'
       3two_columns:
         bs_col: "blb_col_2"
         label: "Serving Our Community"

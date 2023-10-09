@@ -164,6 +164,8 @@ source:
       name: 83a77c2a3679ef576238fae5a1b8fc77.jpeg
     - id: schedules_page_image_2
       name: 3c5682cd54969eedb39de59cf781762d.jpeg
+    - id: events_page_image_1
+      name: a738b6fe7373feb5c4803d5b29859123.jpeg
   ids:
     id:
       type: string

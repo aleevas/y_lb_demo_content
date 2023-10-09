@@ -36,6 +36,13 @@ source:
       description: "Becoming a member makes you part of a community that's dedicated to bringing about meaningful change for you, your family and your neighbors. Scroll on to explore all our membership options."
       media: membership_page_image_1
       cta: { }
+
+    - id: 21
+      uuid: '8e457df4-2415-4319-97e5-1b9a76127de2'
+      title: 'Events'
+      description: "We can't serve our community without having some fun. Scroll on to see what events are happening near you."
+      media: events_page_image_1
+      cta: { }
   ids:
     id:
       type: integer

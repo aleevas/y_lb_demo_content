@@ -63,6 +63,11 @@ source:
       uuid: 'e257a477-c857-4d5e-91c6-bc01b31fba5a'
       text: "<div class='ml-md-4'><h2 class='text-align-center'>Class Schedules</h2><p >&nbsp;</p><p>Placeholder for the schedules block.</p></div>"
       format: 'full_html'
+
+    - id: 121
+      uuid: '44e37de7-cafc-499d-a7fb-c1a4cb75daa7'
+      text: "<div class='ml-md-4'><h2 class='text-align-center'>Something for Everyone</h2><p >&nbsp;</p><p>From parents night out to activities for the whole family, and from cooking classes to turkey trots, our calendar of events reflects the diverse interests of our community.</p><p>Tap or click on any of the events below for more details and to register for a spot.</p></div>"
+      format: 'full_html'
   ids:
     id:
       type: integer

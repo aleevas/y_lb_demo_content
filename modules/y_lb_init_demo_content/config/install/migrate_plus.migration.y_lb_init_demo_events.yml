@@ -14,9 +14,7 @@ source:
     -
       id: 1
       title: 'Forever Young Picnic Lunch Cruise'
-      body: "<p>All aboard, seniors! Take a 2-hour tour 
-        of the city on this casual riverboat picnic
-        that includes a boxed lunch.</p>"
+      body: "<h2 class='text-align-center'>All Aboard, Seniors!</h2><p>Take in the city's sights from the placid waters of the Springfield River — you can even bring the grandkids! This casual, two-hour tour on the RMS Springfield includes a boxed lunch from Springfield Restaurant as well as activities for all ages. Meet at the West River Dock no later than 11:45 am. Carpool options from the YMCA of [Springfield] will also be available.</p><a href='/' class='btn btn-primary'>RSVP</a>"
       summary: "All aboard, seniors! Take a 2-hour tour 
         of the city on this casual riverboat picnic
         that includes a boxed lunch."
