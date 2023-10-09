@@ -47,6 +47,17 @@ source:
         - content_id: card_item_9
         - content_id: card_item_10
         - content_id: card_item_11
+
+    -
+      id: 6
+      uuid: '74168959-2134-42e8-8e38-f03ffe6f9053'
+      title: 'Some of Our Programs'
+      subtitle: ''
+      columns: 3
+      content_ids:
+        - content_id: card_item_20
+        - content_id: card_item_21
+        - content_id: card_item_22
   ids:
     id:
       type: integer

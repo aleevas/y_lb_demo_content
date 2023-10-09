@@ -150,6 +150,16 @@ source:
       name: deae4315c2a4695e623731aa1c9a9e8a.jpeg
     - id: carousel_image_6
       name: f642d499b58cf6e4dfe92772201b352e.jpeg
+    - id: membership_page_image_1
+      name: d376a00cf6767f605d314cb8b8f17f9e.jpeg
+    - id: membership_page_image_2
+      name: 7fd263dfd3f5e86d8b7088ae4498ab88.jpeg
+    - id: membership_page_image_3
+      name: 31d583df14b9bc0678ff13b62440c1f3.jpeg
+    - id: membership_page_image_4
+      name: 9eb776c2e1aa04e6f232963f0856e8a9.jpeg
+    - id: membership_page_image_5
+      name: b1e98dff0a2e1b1289dff05d8b39de4c.jpeg
   ids:
     id:
       type: string

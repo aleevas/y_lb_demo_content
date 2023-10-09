@@ -191,7 +191,6 @@ source:
     id:
       type: integer
 process:
-  id: id
   langcode:
     plugin: default_value
     source: language

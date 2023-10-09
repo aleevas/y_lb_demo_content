@@ -154,8 +154,6 @@ source:
   ids:
     id:
       type: integer
-  defaults:
-    section_margin_top: mt-4
 process:
   langcode:
     plugin: default_value
@@ -209,5 +207,5 @@ destination:
   default_bundle: landing_page_lb
 migration_dependencies:
   required:
-    - y_lb_init_demo_block_events_filter
+    - y_lb_init_demo_block_location_finder
   optional: { }

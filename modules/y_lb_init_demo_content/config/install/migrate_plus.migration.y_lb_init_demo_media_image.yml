@@ -219,6 +219,21 @@ source:
     - id: carousel_image_6
       name: 'Carousel Image 6'
       file: carousel_image_6
+    - id: membership_page_image_1
+      name: 'Membership Image 1'
+      file: membership_page_image_1
+    - id: membership_page_image_2
+      name: 'Membership Image 2'
+      file: membership_page_image_2
+    - id: membership_page_image_3
+      name: 'Membership Image 3'
+      file: membership_page_image_3
+    - id: membership_page_image_4
+      name: 'Membership Image 4'
+      file: membership_page_image_4
+    - id: membership_page_image_5
+      name: 'Membership Image 5'
+      file: membership_page_image_5
   ids:
     id:
       type: string

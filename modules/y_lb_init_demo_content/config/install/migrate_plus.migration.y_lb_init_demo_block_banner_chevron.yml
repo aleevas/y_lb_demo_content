@@ -29,6 +29,13 @@ source:
       description: "From fitness and sports to events and volunteering, there are countless ways to live your best life with us."
       media: program_overview_page_image_1
       cta: {  }
+
+    - id: 20
+      uuid: '4e4de786-6c2f-4d6b-a736-395b21cc403b'
+      title: 'YMCA Membership'
+      description: "Becoming a member makes you part of a community that's dedicated to bringing about meaningful change for you, your family and your neighbors. Scroll on to explore all our membership options."
+      media: membership_page_image_1
+      cta: { }
   ids:
     id:
       type: integer

@@ -24,39 +24,39 @@ source:
       contact_name: 'John Doe'
       contact_phone: '+1 (888) 123-4567'
       image: homepage_image_6
-      date_start: '+31 days'
-      date_end: '+32 days'
+      start_date: '+15 days 15:00'
+      date_end: '+15 days 17:00'
       location_reference: 1
       tags: 101
     -
       id: 2
-      title: 'Event Title Link'
+      title: 'Event Title'
       body: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
       summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
       contact_email: sXyimJuV@example.com
       contact_name: 'John Doe'
       contact_phone: '+1 (888) 123-4567'
       image: homepage_image_7
-      date_start: '+30 days 10:00'
-      date_end: '+30 days 11:00'
+      start_date: '+11 days 15:00'
+      date_end: '+11 days 17:00'
       location_reference: 1
       tags: 101
     -
       id: 3
-      title: 'Event Title Link'
+      title: 'Event Title'
       body: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
       summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
       contact_email: sXyimJuV@example.com
       contact_name: 'John Doe'
       contact_phone: '+1 (888) 123-4567'
       image: homepage_image_8
-      date_start: '+7 days 16:00'
-      date_end: '+14 days 16:00'
+      start_date: '+8 days 15:00'
+      date_end: '+8 days 17:00'
       location_reference: 1
       tags: 102
     -
       id: 4
-      title: 'Event Title Link'
+      title: 'Event Title'
       body: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
       summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
       contact_email: sXyimJuV@example.com

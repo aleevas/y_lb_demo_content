@@ -14,6 +14,7 @@ source:
   plugin: embedded_data
   data_rows:
     -
+      id: 1
       uuid: '81c8a88e-d788-47e7-97e1-e8b97a69959a'
       title: "Find your YMCA"
   ids:

@@ -68,6 +68,14 @@ source:
       title: 'Lorem Ipsum'
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
 
+    - id: 9
+      uuid: '5582c997-92df-485a-8ac8-b0fc22fdc757'
+      title: 'Ready To Join?'
+      description: "In just a few easy steps, we'll get your membership up and running."
+      media: membership_page_image_2
+      cta:
+        - uri: 'internal:/'
+          title: 'Get Started'
   ids:
     id:
       type: integer

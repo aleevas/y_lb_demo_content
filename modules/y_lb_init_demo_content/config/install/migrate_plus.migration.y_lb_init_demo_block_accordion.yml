@@ -18,17 +18,23 @@ source:
       uuid: '138c8c29-7d3b-4f32-94a1-991a264657b9'
       title: 'Frequently Asked Questions'
       content_ids:
-        - content_id: accordion_1
-        - content_id: accordion_2
-        - content_id: accordion_3
-        - content_id: accordion_4
+        - content_id: accordion_item_1
+        - content_id: accordion_item_2
+        - content_id: accordion_item_3
+        - content_id: accordion_item_4
 
+    -
+      id: 41
+      uuid: '6e5a856d-c0dd-4eec-903e-9d1904816288'
+      title: 'Other Membership Options'
+      content_ids:
+        - content_id: accordion_item_5
+        - content_id: accordion_item_6
+        - content_id: accordion_item_7
   ids:
     id:
       type: integer
 process:
-  id: id
-  revision_id: id
   langcode:
     plugin: default_value
     source: language
