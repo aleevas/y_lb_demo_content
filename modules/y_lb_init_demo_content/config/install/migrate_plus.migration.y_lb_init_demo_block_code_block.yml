@@ -50,8 +50,18 @@ source:
       format: 'full_html'
 
     - id: 118
-      uuid: '46df1521-d8e2-46f5-8f5a-9aa043c2a527'
+      uuid: '0c11449a-50ff-455e-8d00-80bfb41d6026'
       text: "<div class='ml-md-4'><h2 class='text-align-center'>Joining the Y</h2><p >&nbsp;</p><p>You might be surprised by all the Y has to offer. We have motivating group fitness classes, adult and youth sports leagues, healthy living programs for all ages, and a community of support. You'll find welcoming staff ready to help you meet your goals and live your healthiest, happiest life.</p></div>"
+      format: 'full_html'
+
+    - id: 119
+      uuid: 'e230ee9c-8852-4bf2-860f-af965608793f'
+      text: "<div class='ml-md-4'><h2 class='text-align-center'>The Y, on Your Schedule</h2><p >&nbsp;</p><p>At the YMCA of [Springfield], we do our best to make all of our classes and amenities available when our members need them. On our site, you can see all of our scheduled classes, events, and activities; make and modify reservations; and even view our holiday hours. Use the quick links menu to find what you need.</p></div>"
+      format: 'full_html'
+
+    - id: 120
+      uuid: 'e257a477-c857-4d5e-91c6-bc01b31fba5a'
+      text: "<div class='ml-md-4'><h2 class='text-align-center'>Class Schedules</h2><p >&nbsp;</p><p>Placeholder for the schedules block.</p></div>"
       format: 'full_html'
   ids:
     id:

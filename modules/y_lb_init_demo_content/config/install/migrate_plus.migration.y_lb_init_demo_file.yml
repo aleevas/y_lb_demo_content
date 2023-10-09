@@ -160,6 +160,10 @@ source:
       name: 9eb776c2e1aa04e6f232963f0856e8a9.jpeg
     - id: membership_page_image_5
       name: b1e98dff0a2e1b1289dff05d8b39de4c.jpeg
+    - id: schedules_page_image_1
+      name: 83a77c2a3679ef576238fae5a1b8fc77.jpeg
+    - id: schedules_page_image_2
+      name: 3c5682cd54969eedb39de59cf781762d.jpeg
   ids:
     id:
       type: string

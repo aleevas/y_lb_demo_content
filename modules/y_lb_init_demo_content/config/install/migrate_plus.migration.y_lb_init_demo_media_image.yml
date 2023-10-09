@@ -234,6 +234,12 @@ source:
     - id: membership_page_image_5
       name: 'Membership Image 5'
       file: membership_page_image_5
+    - id: schedules_page_image_1
+      name: 'Schedules Image 1'
+      file: schedules_page_image_1
+    - id: schedules_page_image_2
+      name: 'Schedules Image 2'
+      file: schedules_page_image_2
   ids:
     id:
       type: string

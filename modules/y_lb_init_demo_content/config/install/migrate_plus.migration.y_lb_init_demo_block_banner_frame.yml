@@ -39,6 +39,13 @@ source:
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
       media: program_category_page_image_1
 
+    -
+      id: 4
+      uuid: 'cb045fbe-0750-4db3-bf08-2f1fb29e9fa6'
+      title: 'Schedules'
+      description: "The Y is here for you, even on your busiest days. Scroll on to learn more about our scheduled offerings."
+      media: schedules_page_image_1
+
   ids:
     id:
       type: integer

@@ -187,6 +187,20 @@ source:
       cta:
         - uri: 'internal:/'
           title: 'Lorem Ipsum'
+
+    -
+      id: 135
+      uuid: '2864deeb-9b60-4510-807e-bc1210170f91'
+      section_title: ''
+      section_subtitle: ''
+      item_title: 'Holiday Hours'
+      item_description: "We may be closed or have modified hours and class offerings on various holidays. Branch amenities may also be modified or closed. Check with your local branch for details."
+      image: schedules_page_image_2
+      image_position: 'left'
+      cta:
+        - uri: 'internal:/'
+          title: 'See Locations'
+
   ids:
     id:
       type: integer
