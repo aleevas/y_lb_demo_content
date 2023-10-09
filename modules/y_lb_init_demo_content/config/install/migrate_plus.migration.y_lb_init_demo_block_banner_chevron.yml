@@ -43,6 +43,13 @@ source:
       description: "We can't serve our community without having some fun. Scroll on to see what events are happening near you."
       media: events_page_image_1
       cta: { }
+
+    - id: 22
+      uuid: '40c2d581-68a7-4228-952d-7fa82fae45a9'
+      title: 'Contact Us'
+      description: ""
+      media: contactus_page_image_1
+      cta: { }
   ids:
     id:
       type: integer

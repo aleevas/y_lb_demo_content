@@ -68,6 +68,12 @@ source:
       uuid: '44e37de7-cafc-499d-a7fb-c1a4cb75daa7'
       text: "<div class='ml-md-4'><h2 class='text-align-center'>Something for Everyone</h2><p >&nbsp;</p><p>From parents night out to activities for the whole family, and from cooking classes to turkey trots, our calendar of events reflects the diverse interests of our community.</p><p>Tap or click on any of the events below for more details and to register for a spot.</p></div>"
       format: 'full_html'
+
+    - id: 122
+      uuid: '4f2ef641-f3ef-4572-9a08-e3f52fd11e00'
+      text: "<div class='ml-md-4'><h2 class='text-align-center'><b>We want to hear from you!</b></h2><p >&nbsp;</p><ul><li><b>For membership changes or cancellations</b>, please contact your home branch directly.</li><li><b>For media inquiries</b>, check out our media room section.</li><li><b>For questions or comments on our programs, becoming a sponsor, or anything else</b>, reach out via the form below, and we will get back to you as soon as we can.</li></ul></div>"
+      format: 'full_html'
+
   ids:
     id:
       type: integer

@@ -243,6 +243,9 @@ source:
     - id: events_page_image_1
       name: 'Events Image 1'
       file: events_page_image_1
+    - id: contactus_page_image_1
+      name: 'Contact Us Image 1'
+      file: contactus_page_image_1
   ids:
     id:
       type: string

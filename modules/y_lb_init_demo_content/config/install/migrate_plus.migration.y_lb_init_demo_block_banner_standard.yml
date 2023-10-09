@@ -76,6 +76,11 @@ source:
       cta:
         - uri: 'internal:/'
           title: 'Get Started'
+
+    - id: 10
+      uuid: '582be3f4-f097-42eb-b009-f89566d23010'
+      title: 'Media Room'
+      description: "Contact media@ymcaspringfield.org to arrange to speak with one of our staff experts in health, community outreach, child care, water safety and more."
   ids:
     id:
       type: integer
