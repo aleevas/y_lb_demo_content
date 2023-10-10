@@ -9,6 +9,7 @@ dependencies:
   - migrate_tools:migrate_tools
   - y_lb
   - y_lb_demo_content
+  - drupal:y_donate
   - drupal:lb_cards
   - drupal:lb_grid_cta
   - drupal:lb_hero

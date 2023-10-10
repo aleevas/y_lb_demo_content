@@ -54,6 +54,9 @@ source:
     - id: testimonials_image_1
       name: 'Testimonial image 1'
       file: testimonials_image_1
+    - id: testimonials_image_2
+      name: 'Testimonial image 2'
+      file: testimonials_image_2
     - id: partner_logo_1
       name: 'Partner logo 1'
       file: partner_logo_1
@@ -120,6 +123,30 @@ source:
     - id: icon_13
       name: 'Icon 13'
       file: icon_13
+    - id: icon_14
+      name: 'Icon 14'
+      file: icon_14
+    - id: icon_15
+      name: 'Icon 15'
+      file: icon_15
+    - id: icon_16
+      name: 'Icon 16'
+      file: icon_16
+    - id: icon_17
+      name: 'Icon 17'
+      file: icon_17
+    - id: icon_18
+      name: 'Icon 18'
+      file: icon_18
+    - id: icon_19
+      name: 'Icon 19'
+      file: icon_19
+    - id: icon_20
+      name: 'Icon 20'
+      file: icon_20
+    - id: icon_21
+      name: 'Icon 21'
+      file: icon_21
     - id: program_overview_page_image_1
       name: 'Program Overview 1'
       file: program_overview_page_image_1
@@ -252,6 +279,24 @@ source:
     - id: jointhey_page_image_2
       name: 'Join the Y image 2'
       file: jointhey_page_image_2
+    - id: donate_page_image_1
+      name: 'Donate image 1'
+      file: donate_page_image_1
+    - id: donate_page_image_2
+      name: 'Donate image 2'
+      file: donate_page_image_2
+    - id: donate_page_image_3
+      name: 'Donate image 3'
+      file: donate_page_image_3
+    - id: donate_page_image_4
+      name: 'Donate image 4'
+      file: donate_page_image_4
+    - id: donate_page_image_5
+      name: 'Donate image 5'
+      file: donate_page_image_5
+    - id: donate_page_image_6
+      name: 'Donate image 6'
+      file: donate_page_image_6
   ids:
     id:
       type: string

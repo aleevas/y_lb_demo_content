@@ -69,6 +69,7 @@ source:
       item_description: "The Y has long been a leading voice on health and well-being. From sports and fitness to safety training and family time, we have countless programs supporting our mission of a balanced, healthier lifestyle."
       image: wwa_page_image_3
       image_position: 'left'
+
     -
       id: 125
       uuid: '0a9bf49f-98c3-4dff-9q5d-671417545d2c'
@@ -78,6 +79,7 @@ source:
       item_description: "We're committed to supporting a healthy, safe community. If you're interested in donating or volunteering, or are in need of our Safe Place Services, we're here for you."
       image: wwa_page_image_4
       image_position: 'right'
+
     -
       id: 126
       uuid: '0ce0cba7-fef3-4016-9ebc-061b1eff95dd'
@@ -90,6 +92,7 @@ source:
       cta:
         - uri: 'internal:/'
           title: 'See Program Details'
+
     -
       id: 127
       uuid: '3b1f74d9-d51b-455a-8aac-f7e185210b54'
@@ -201,6 +204,41 @@ source:
         - uri: 'internal:/'
           title: 'See Locations'
 
+    -
+      id: 136
+      uuid: '75baa433-ee5f-4d09-9f5a-44df487b0687'
+      section_title: ''
+      section_subtitle: ''
+      item_title: 'Annual Campaign'
+      item_description: "Our largest, most integrated fundraising of the year brings community members, businesses, foundations, Y volunteers and staff together. In the past year, [YMCA of Springfield] has provided more than [$Dollar Amount] to local families and individuals."
+      image: donate_page_image_2
+      image_position: 'right'
+
+    -
+      id: 137
+      uuid: '869bf531-25dc-4111-8c73-77535f2cd55b'
+      section_title: ''
+      section_subtitle: ''
+      item_title: 'Heritage Club'
+      item_description: "Endowment and planned giving is another way to support future generations. Planned giving has tax-saving benefits while also helping you achieve your philanthropic goals."
+      image: donate_page_image_3
+      image_position: 'left'
+      cta:
+        - uri: 'internal:/'
+          title: 'Get in Touch'
+
+    -
+      id: 138
+      uuid: '629e42ba-e07f-4d54-8988-1c5ce8a71792'
+      section_title: ''
+      section_subtitle: ''
+      item_title: 'Securities and Stocks'
+      item_description: "Individuals, corporations, and foundations can donate appreciated stocks, bonds, and mutual fund shares that have been owned for more than one year. Donors can avoid capital gains tax and also receive an income tax deduction for the fair market value of the gift."
+      image: donate_page_image_4
+      image_position: 'right'
+      cta:
+        - uri: 'internal:/'
+          title: 'Contact Us'
   ids:
     id:
       type: integer

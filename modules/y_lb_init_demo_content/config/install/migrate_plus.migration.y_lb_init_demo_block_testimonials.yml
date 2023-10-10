@@ -14,7 +14,7 @@ source:
   plugin: embedded_data
   data_rows:
     -
-      id: 333
+      id: 1
       uuid: '3ef481d1-0c7c-49c9-ac7a-6a3794df75dd'
       title: 'What Our Members Say'
       subtitle: ''
@@ -22,6 +22,16 @@ source:
         - content_id: testimonial_1
         - content_id: testimonial_2
         - content_id: testimonial_3
+
+    -
+      id: 2
+      uuid: '664bc3ab-15bf-4d92-b56d-7a6078c90fa0'
+      title: 'What Our Community Says'
+      subtitle: ''
+      content_ids:
+        - content_id: testimonial_4
+        - content_id: testimonial_5
+        - content_id: testimonial_6
   ids:
     id:
       type: integer

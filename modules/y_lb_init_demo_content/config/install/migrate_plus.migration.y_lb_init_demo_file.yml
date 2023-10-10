@@ -40,6 +40,8 @@ source:
       name: 2e4a44bbb7ae69a87fac3e48d64757b1.jpeg
     - id: testimonials_image_1
       name: 6c3bb9ebf6c96083a2c4a32f94b04578.jpeg
+    - id: testimonials_image_2
+      name: 2fc092e291b6f3df144b46ac833a900c.jpeg
     - id: partner_logo_1
       name: logo-ab5cc8314658dcbce4226affc4772f78.jpg
     - id: partner_logo_2
@@ -84,6 +86,22 @@ source:
       name: icon-vector.png
     - id: icon_13
       name: icon-theY.png
+    - id: icon_14
+      name: icon-library.png
+    - id: icon_15
+      name: icon-baseball.png
+    - id: icon_16
+      name: icon-flag.png
+    - id: icon_17
+      name: icon-grape.png
+    - id: icon_18
+      name: icon-swim.png
+    - id: icon_19
+      name: icon-mail.png
+    - id: icon_20
+      name: icon-phone.png
+    - id: icon_21
+      name: icon-wire.png
     - id: program_overview_page_image_1
       name: 16f6a90318a46adb0b11ed6730e24300.jpeg
     - id: program_overview_page_image_2
@@ -172,6 +190,18 @@ source:
       name: a2cd21570dfa7f9b6860e38b3c9fc8d3.jpeg
     - id: jointhey_page_image_2
       name: bcc9ab6734eda80eb14cb1c7a59b09df.jpeg
+    - id: donate_page_image_1
+      name: 98699b4f537cfeeab6892f9d9464f135.jpeg
+    - id: donate_page_image_2
+      name: 27bbd895877ff2653733e9f1d6e7419e.jpeg
+    - id: donate_page_image_3
+      name: b3340c4c80e3e85f0cda8b1867518978.jpeg
+    - id: donate_page_image_4
+      name: 508b1c23b17edcfea74b878c316187c2.jpeg
+    - id: donate_page_image_5
+      name: 1e3567e9ecd1db19c9e23461fc090926.jpeg
+    - id: donate_page_image_6
+      name: 217ea1ced3b93ff7412464a8abbfbb98.jpeg
   ids:
     id:
       type: string

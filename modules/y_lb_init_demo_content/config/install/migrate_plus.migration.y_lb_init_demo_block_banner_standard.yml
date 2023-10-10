@@ -88,6 +88,14 @@ source:
       description: "Be a part of something greater that will bring you, your family and your entire community meaningful change."
       media: jointhey_page_image_1
 
+    - id: 12
+      uuid: 'b48e88fb-3012-461b-a295-71c8ca2e9354'
+      title: 'Impact Your Community'
+      description: "Donations to the YMCA of [Springfield] bring meaningful change to the community."
+      media: donate_page_image_1
+      cta:
+        - uri: 'internal:/'
+          title: 'Make a gift'
   ids:
     id:
       type: integer

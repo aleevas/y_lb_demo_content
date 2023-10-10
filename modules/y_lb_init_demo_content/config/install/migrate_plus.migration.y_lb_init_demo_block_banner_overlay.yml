@@ -31,6 +31,16 @@ source:
       cta:
         - uri: 'internal:/'
           title: 'Get Your Guest Pass'
+
+    -
+      id: 22
+      uuid: '8bb277c5-e09d-4e67-bef4-541eed0c0caa'
+      title: 'Protecting Your Privacy'
+      description: "We generally acknowledge contributors in our annual report. If you do not wish to have your name recognized in print or online, you can request anonymity when you make your pledge. Donors can also opt out of involvement in future campaigns and mailing lists at any time."
+      media: donate_page_image_6
+      cta:
+        - uri: 'internal:/'
+          title: 'View Our Full Privacy Policy'
   ids:
     id:
       type: integer

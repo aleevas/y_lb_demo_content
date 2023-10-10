@@ -53,6 +53,34 @@ source:
       content_ids:
         - content_id: icon_grid_item_9
 
+    -
+      id: 5
+      uuid: '111efcf3-6921-42d5-bb4a-96a55bc8f501'
+      title: 'Every Gift Makes a Difference'
+      subtitle: 'Your support keeps the Y accessible for those who need us. Here are just a few examples of what donations can provide.'
+      columns: 3
+      cta:
+        - uri: 'internal:/'
+          title: 'Make a gift'
+      content_ids:
+        - content_id: icon_grid_item_10
+        - content_id: icon_grid_item_11
+        - content_id: icon_grid_item_12
+        - content_id: icon_grid_item_13
+        - content_id: icon_grid_item_14
+        - content_id: icon_grid_item_15
+
+    -
+      id: 6
+      uuid: '1e7b780b-a237-4b38-a7e6-94d2f87a546c'
+      title: 'Other Ways To Donate'
+      subtitle: ''
+      columns: 3
+      content_ids:
+        - content_id: icon_grid_item_16
+        - content_id: icon_grid_item_17
+        - content_id: icon_grid_item_18
+
   ids:
     id:
       type: integer
@@ -74,6 +102,7 @@ process:
   field_section_title: title
   field_section_subtitle: subtitle
   field_icon_columns: columns
+  field_cta: cta
   field_grid_items:
     plugin: sub_process
     source: content_ids
