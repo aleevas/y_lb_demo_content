@@ -62,6 +62,43 @@ source:
       parent_id: 41
       title: 'Try the Y Guest Pass'
       body: "<p>Give us a try! Check out our fitness facilities, get to know our staff and learn more about all the programs we offer you and your family with a Y guest pass. Fill out the form below to get a complimentary one-time guest pass that gives you access to all of our facilities.</p><p>Guest Pass Details<br/><ul><li>Guests must be at least 18 years old to request a guest pass online. Guests under 18 must be accompanied by an adult when visiting the branch.</li><li>Limit one complimentary visit per local guest per year.</li><liGuests must show a photo ID to use the facilities.</li><li>Out of town guests may be asked to pay $20 per visit. Limit one paid visit per year.</li><li>When visiting a YMCA branch, all guests are required to follow established health and safety guidelines.</li><li>Some branches may restrict guest access during specific peak hours. Check with your local branch for details.</li><li>Other restrictions may apply. Contact your local branch for full details.</li></ul></p>"
+
+
+    -
+      id: accordion_item_8
+      uuid: 'b5d685a3-fd8b-4549-8ffa-a83c8d57db2c'
+      parent_id: 42
+      title: 'Do I have to sign a contract?'
+      body: "<p>Definitely not! We offer month-to-month memberships with a 30-day money-back guarantee if you're not completely satisfied.</p><p>Plus, you can cancel anytime. Simply call or stop by your home branch at least five days before your next payment to cancel completely.</p>"
+
+    -
+      id: accordion_item_9
+      uuid: 'afba1e22-8162-4095-b310-33a7417ec931'
+      parent_id: 42
+      title: 'Does the Y offer financial assistance for membership and programs?'
+      body: "<p>Absolutely. The Y is for everyone! We offer affordable rates for both memberships and programs based on household income.</p><p>Learn more about our financial assistance program and whether you are eligible by visiting our Membership page or contacting your local branch.</p>"
+
+    -
+      id: accordion_item_10
+      uuid: '96cad898-dcf3-4285-9620-5cf9d8bd16e9'
+      parent_id: 42
+      title: 'Who is included in a family membership?'
+      body: "<p>Our family membership covers up to two adults and dependent children up to age 25 who live in the same household.</p><p>You can add additional adults over age 25 who live in the same household for $20 per month (per adult) by calling or stopping by your local branch.</p>"
+
+    -
+      id: accordion_item_11
+      uuid: '5c8d7c73-ac61-40ae-aa0a-e9c7703dc23f'
+      parent_id: 42
+      title: 'Do you offer child care while I work out?'
+      body: "<p>You bet! If your children are included in a family membership, you can use our free child care service while you work out. Check with your local branch for hours and details.</p>"
+
+    -
+      id: accordion_item_12
+      uuid: '5774ef63-6961-4a6c-aef8-58867c7e3cb8'
+      parent_id: 42
+      title: 'Can I use other Ys while I’m traveling?'
+      body: "<p>Yes! When you get a Nationwide Membership plan, you can visit any participating Y in the U.S. When using this plan, you must:</p><ul><li>Use your home Y at least 50% of the time</li><li>Sign a universal liability waiver and privacy policy</li><li>Provide a valid photo ID, YMCA membership card, and basic membership data (like name and email) when visiting a Y outside your home area</li></ul><p>This plan is valid for active, full facility YMCA members. Program-only participants and some special memberships are not eligible, so please check with your local Y for any questions or details.</p>"
+
   ids:
     id:
       type: string

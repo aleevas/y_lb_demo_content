@@ -22,6 +22,15 @@ source:
       cta:
         - uri: 'internal:/'
           title: 'Explore Membership'
+    -
+      id: 21
+      uuid: '1ec959c2-fe76-4d39-8b41-26fba78cc5d2'
+      title: 'Try the Y for Free'
+      description: "Not quite ready to join? With a complimentary guest pass, you can come try out your preferred location."
+      media: jointhey_page_image_2
+      cta:
+        - uri: 'internal:/'
+          title: 'Get Your Guest Pass'
   ids:
     id:
       type: integer

@@ -168,6 +168,10 @@ source:
       name: a738b6fe7373feb5c4803d5b29859123.jpeg
     - id: contactus_page_image_1
       name: cf9a31313144607395c0e68c37ed24d7.jpeg
+    - id: jointhey_page_image_1
+      name: a2cd21570dfa7f9b6860e38b3c9fc8d3.jpeg
+    - id: jointhey_page_image_2
+      name: bcc9ab6734eda80eb14cb1c7a59b09df.jpeg
   ids:
     id:
       type: string

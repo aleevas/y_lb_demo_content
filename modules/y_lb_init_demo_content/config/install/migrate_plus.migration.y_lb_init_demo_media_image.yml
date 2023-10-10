@@ -246,6 +246,12 @@ source:
     - id: contactus_page_image_1
       name: 'Contact Us Image 1'
       file: contactus_page_image_1
+    - id: jointhey_page_image_1
+      name: 'Join the Y image 1'
+      file: jointhey_page_image_1
+    - id: jointhey_page_image_2
+      name: 'Join the Y image 2'
+      file: jointhey_page_image_2
   ids:
     id:
       type: string

@@ -74,6 +74,16 @@ source:
       text: "<div class='ml-md-4'><h2 class='text-align-center'><b>We want to hear from you!</b></h2><p >&nbsp;</p><ul><li><b>For membership changes or cancellations</b>, please contact your home branch directly.</li><li><b>For media inquiries</b>, check out our media room section.</li><li><b>For questions or comments on our programs, becoming a sponsor, or anything else</b>, reach out via the form below, and we will get back to you as soon as we can.</li></ul></div>"
       format: 'full_html'
 
+
+    - id: 123
+      uuid: 'c4709456-71d4-4514-b198-219a0e059d19'
+      text: "<div class='ml-md-4'><h3><b>Use the membership builder below to select the level and location that are right for you.</b></h3><p>When you reach the final step, you will be transferred to our registration site to finalize and set up your account. From there, you can sign up for specific programs and more.</p><p>Feel free to contact us with any questions throughout the process.</p><p>&nbsp;</p></div>"
+      format: 'full_html'
+
+    - id: 124
+      uuid: '79f79fd2-74ff-438a-aea3-35cefe0b782c'
+      text: "<div class='ml-md-4'><h2 class='text-align-center'>Find the membership that's Best for You</h2><p >&nbsp;</p><p>Placeholder for the membership finder block.</p></div>"
+      format: 'full_html'
   ids:
     id:
       type: integer

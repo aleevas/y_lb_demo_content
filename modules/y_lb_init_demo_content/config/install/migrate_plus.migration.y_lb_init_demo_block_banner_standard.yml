@@ -81,6 +81,13 @@ source:
       uuid: '582be3f4-f097-42eb-b009-f89566d23010'
       title: 'Media Room'
       description: "Contact media@ymcaspringfield.org to arrange to speak with one of our staff experts in health, community outreach, child care, water safety and more."
+
+    - id: 11
+      uuid: 'c7fc9bbf-98a3-4443-a38a-7a8bb39b84b1'
+      title: 'Join the Y'
+      description: "Be a part of something greater that will bring you, your family and your entire community meaningful change."
+      media: jointhey_page_image_1
+
   ids:
     id:
       type: integer

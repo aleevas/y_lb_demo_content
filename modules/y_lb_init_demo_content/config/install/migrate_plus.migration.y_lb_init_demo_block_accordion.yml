@@ -31,6 +31,17 @@ source:
         - content_id: accordion_item_5
         - content_id: accordion_item_6
         - content_id: accordion_item_7
+
+    -
+      id: 42
+      uuid: '993cee78-4c4d-412f-8c58-c68598c628b1'
+      title: 'Frequently Asked Questions'
+      content_ids:
+        - content_id: accordion_item_8
+        - content_id: accordion_item_9
+        - content_id: accordion_item_10
+        - content_id: accordion_item_11
+        - content_id: accordion_item_12
   ids:
     id:
       type: integer
