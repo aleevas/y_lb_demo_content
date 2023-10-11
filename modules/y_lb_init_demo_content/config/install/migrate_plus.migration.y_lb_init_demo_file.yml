@@ -104,6 +104,8 @@ source:
       name: icon-wire.png
     - id: icon_22
       name: icon-thing.png
+    - id: icon_23
+      name: icon-raise-hand.png
     - id: program_overview_page_image_1
       name: 16f6a90318a46adb0b11ed6730e24300.jpeg
     - id: program_overview_page_image_2
@@ -222,6 +224,18 @@ source:
       name: 52defea6e4bf4f6f9d6b9fc3b5fa0ed9.jpeg
     - id: jobs_page_image_9
       name: 325d1e492f917f3a5bd46156e3a3c08a.jpeg
+    - id: volunteer_ops_page_image_1
+      name: 492f1ac9211f0c81b4de47bc41c95bf7.jpeg
+    - id: volunteer_ops_page_image_2
+      name: c290a2eb412d932e394a8e64176118bf.jpeg
+    - id: volunteer_ops_page_image_3
+      name: 41cd8f1917f5bb5dd2fba73d0444a85c.jpeg
+    - id: volunteer_ops_page_image_4
+      name: 6ce42d60bfc896f7720589b5e44b3cea.jpeg
+    - id: volunteer_ops_page_image_5
+      name: 5a44e47c5c09f207f11a164e91a73ffd.jpeg
+    - id: volunteer_ops_page_image_6
+      name: 72283869c0cbf51c397e2b113d8563fc.jpeg
   ids:
     id:
       type: string

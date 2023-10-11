@@ -309,6 +309,56 @@ source:
       item_description: "Get paid to ref your favorite youth sport, including soccer, baseball, basketball and more."
       image: jobs_page_image_8
       image_position: 'right'
+
+    -
+      id: 146
+      uuid: 'eec6cd9d-93fe-4d6b-b8d4-4bfdfbd03592'
+      section_title: 'Current Needs'
+      section_subtitle: ''
+      item_title: 'Youth Sports Coach'
+      item_description: "Impact children's lives by giving just a couple hours each week to coaching your favorite youth sport — from soccer to baseball to basketball and more."
+      image: volunteer_ops_page_image_2
+      image_position: 'right'
+
+    -
+      id: 147
+      uuid: 'ef27d1c7-7707-4bb2-9fa1-595bb63cfd92'
+      section_title: ''
+      section_subtitle: ''
+      item_title: 'Advisory Board Member'
+      item_description: "Use your unique skills, guidance, and knowledge to help strengthen the Y and our mission."
+      image: volunteer_ops_page_image_3
+      image_position: 'left'
+
+    -
+      id: 148
+      uuid: '79374cf0-e190-4cc2-8e19-6977434b5bac'
+      section_title: ''
+      section_subtitle: ''
+      item_title: 'Annual Campaign Fundraiser'
+      item_description: "We couldn't do what we do without support from others! Help organize and raise funds for our big annual campaign by making calls and getting out in the community."
+      image: volunteer_ops_page_image_4
+      image_position: 'right'
+
+    -
+      id: 149
+      uuid: 'afea2329-3b45-464b-ab5d-fd9174c5b6d2'
+      section_title: ''
+      section_subtitle: ''
+      item_title: 'Special Events Volunteer'
+      item_description: "From races and picnics to festivals and more, bring family-friendly fun to life by helping us run some of our special events."
+      image: volunteer_ops_page_image_5
+      image_position: 'left'
+
+    -
+      id: 150
+      uuid: 'b81316f9-8a72-477a-b0f6-5fa73158a84c'
+      section_title: ''
+      section_subtitle: ''
+      item_title: 'New Member Ambassador'
+      item_description: "Welcome new members to the Y by not only connecting them to our mission and community but also by providing encouragement in their health and wellness journey."
+      image: volunteer_ops_page_image_6
+      image_position: 'right'
   ids:
     id:
       type: integer

@@ -89,6 +89,11 @@ source:
       uuid: 'a86e7918-7127-4929-b362-ace81cc28846'
       text: "<div class='ml-md-4'><h2 class='text-align-center'>Love What You Do</h2><p>You’ll find more than just a job when you work at the Y. You’ll find a fun, caring community where you can truly thrive, learn and grow.</p><p>We offer a wide range of full-time, part-time and seasonal jobs. Benefits vary based on your position but can include:</p><ul><li>Free membership and program discounts</li><li>Comprehensive benefits for medical, dental, vision, life and long-term disability</li><li>Opportunity to participate in the Y retirement fund</li><li>Access to our employee assistance program (EAP)</li></ul><p>Explore the below positions to learn more and apply.</p></div>"
       format: 'full_html'
+
+    - id: 126
+      uuid: '8c1ec495-8933-49c2-9234-243c335d565e'
+      text: "<div class='ml-md-4'><h2 class='text-align-center'>Make a Difference as a Y Volunteer</h2><p>Our volunteers are key to our mission of supporting all people in our community. No matter the opportunity you pursue, your involvement with the Y will help bring about positive, meaningful change to local families and children.</p><p>Check out our open volunteer positions below and fill out an interest form to learn more.</p></div>"
+      format: 'full_html'
   ids:
     id:
       type: integer

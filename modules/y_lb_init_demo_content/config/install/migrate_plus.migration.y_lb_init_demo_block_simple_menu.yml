@@ -134,6 +134,22 @@ source:
           title: 'Membership Services Rep'
         - uri: 'internal:/init-demo-jobs#youth-sports-referee'
           title: 'Youth Sports Referee'
+    -
+      id: 9
+      uuid: '196dcaed-2f52-41c9-bf7a-bd88a1e9dbfa'
+      title: 'Quick Links'
+      image: icon_23
+      links:
+        - uri: 'internal:/init-demo-volunteer-opportunities#youth-sports-coach'
+          title: 'Youth Sports Coach'
+        - uri: 'internal:/init-demo-volunteer-opportunities#advisory-board-member'
+          title: 'Advisory Board Member'
+        - uri: 'internal:/init-demo-volunteer-opportunities#annual-campaign-fundraiser'
+          title: 'Annual Fundraiser'
+        - uri: 'internal:/init-demo-volunteer-opportunities#special-events-volunteer'
+          title: 'Special Events Volunteer'
+        - uri: 'internal:/init-demo-volunteer-opportunities#new-member-ambassador'
+          title: 'New Member Ambassador'
 
   ids:
     id:

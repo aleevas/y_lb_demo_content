@@ -50,6 +50,13 @@ source:
       description: ""
       media: contactus_page_image_1
       cta: { }
+
+    -
+      id: 23
+      uuid: '96c7d0ca-93ae-4fd5-82ae-f163504d6e85'
+      title: 'Volunteer Opportunities'
+      description: "Help lead the YMCA of [Springfield] in responding to our community's needs."
+      media: volunteer_ops_page_image_1
   ids:
     id:
       type: integer
