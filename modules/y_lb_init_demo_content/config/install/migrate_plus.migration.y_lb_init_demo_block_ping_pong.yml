@@ -124,7 +124,7 @@ source:
       section_subtitle: ''
       item_title: 'Youth Soccer'
       item_description: "<p>Designed to introduce players of any skill level to the world's most popular sport, our program encourages teamwork and builds confidence.</p>"
-      image: program_category_page_image_2
+      image: jobs_page_image_2
       image_position: 'right'
       cta:
         - uri: 'internal:/'
@@ -136,7 +136,7 @@ source:
       section_subtitle: ''
       item_title: 'Youth Tee-Ball and Baseball'
       item_description: "<p>Kids ages 3–8 balance fun with fundamentals as they learn to hit, catch and throw in a team-building environment.</p>"
-      image: program_category_page_image_3
+      image: jobs_page_image_3
       image_position: 'left'
       cta:
         - uri: 'internal:/'
@@ -161,7 +161,7 @@ source:
       section_subtitle: ''
       item_title: 'Lorem Ipsum'
       item_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut."
-      image: program_category_page_image_2
+      image: jobs_page_image_2
       image_position: 'right'
       cta:
         - uri: 'internal:/'
@@ -173,7 +173,7 @@ source:
       section_subtitle: ''
       item_title: 'Lorem Ipsum'
       item_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut."
-      image: program_category_page_image_3
+      image: jobs_page_image_3
       image_position: 'left'
       cta:
         - uri: 'internal:/'
@@ -226,7 +226,6 @@ source:
       cta:
         - uri: 'internal:/'
           title: 'Get in Touch'
-
     -
       id: 138
       uuid: '629e42ba-e07f-4d54-8988-1c5ce8a71792'
@@ -239,6 +238,77 @@ source:
       cta:
         - uri: 'internal:/'
           title: 'Contact Us'
+
+    -
+      id: 139
+      uuid: '810e3e11-6125-4cbb-99df-1762702af643'
+      section_title: 'Current Openings'
+      section_subtitle: ''
+      item_title: 'Lifeguard'
+      item_description: "Help keep everyone safe and learn life-saving skills — all while working by the pool."
+      image: jobs_page_image_2
+      image_position: 'right'
+
+    -
+      id: 140
+      uuid: '6b1baaaf-8b98-4133-8dbb-14d5f9ce5e09'
+      section_title: ''
+      section_subtitle: ''
+      item_title: 'Swim Instructor'
+      item_description: "Provide swimmers of all ages the critical lessons and confidence needed for water safety."
+      image: jobs_page_image_3
+      image_position: 'left'
+
+    -
+      id: 141
+      uuid: '8b74b0a8-8f79-4562-a4fb-218b610fde3d'
+      section_title: ''
+      section_subtitle: ''
+      item_title: 'Camp Counselor'
+      item_description: "Make a huge impact on kids in our community at one of our amazing camps."
+      image: jobs_page_image_4
+      image_position: 'right'
+
+    -
+      id: 142
+      uuid: 'de57a774-0e83-4f1c-819e-9278e7ef9ee1'
+      section_title: ''
+      section_subtitle: ''
+      item_title: 'Child Care Provider'
+      item_description: "Engage and play with kids during the day or while their parents and caregivers work out at the Y."
+      image: jobs_page_image_5
+      image_position: 'left'
+
+    -
+      id: 143
+      uuid: '8a737860-8c7f-478d-95ac-aa5e66e1ab3e'
+      section_title: ''
+      section_subtitle: ''
+      item_title: 'Healthy Living Coach'
+      item_description: "Help encourage and coach members to reach their health goals in the gym and beyond."
+      image: jobs_page_image_6
+      image_position: 'right'
+
+
+    -
+      id: 144
+      uuid: 'fc5ccf04-801f-4e36-9ed0-06e7ca338350'
+      section_title: ''
+      section_subtitle: ''
+      item_title: 'Membership Services Rep'
+      item_description: "Create a welcoming environment and guide members through account sign-up, program registrations, and more."
+      image: jobs_page_image_7
+      image_position: 'left'
+
+    -
+      id: 145
+      uuid: 'f4419a04-04e1-4608-a645-eb1f1da3f3d2'
+      section_title: ''
+      section_subtitle: ''
+      item_title: 'Youth Sports Referee'
+      item_description: "Get paid to ref your favorite youth sport, including soccer, baseball, basketball and more."
+      image: jobs_page_image_8
+      image_position: 'right'
   ids:
     id:
       type: integer

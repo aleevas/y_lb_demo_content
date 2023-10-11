@@ -84,6 +84,11 @@ source:
       uuid: '79f79fd2-74ff-438a-aea3-35cefe0b782c'
       text: "<div class='ml-md-4'><h2 class='text-align-center'>Find the membership that's Best for You</h2><p >&nbsp;</p><p>Placeholder for the membership finder block.</p></div>"
       format: 'full_html'
+
+    - id: 125
+      uuid: 'a86e7918-7127-4929-b362-ace81cc28846'
+      text: "<div class='ml-md-4'><h2 class='text-align-center'>Love What You Do</h2><p>You’ll find more than just a job when you work at the Y. You’ll find a fun, caring community where you can truly thrive, learn and grow.</p><p>We offer a wide range of full-time, part-time and seasonal jobs. Benefits vary based on your position but can include:</p><ul><li>Free membership and program discounts</li><li>Comprehensive benefits for medical, dental, vision, life and long-term disability</li><li>Opportunity to participate in the Y retirement fund</li><li>Access to our employee assistance program (EAP)</li></ul><p>Explore the below positions to learn more and apply.</p></div>"
+      format: 'full_html'
   ids:
     id:
       type: integer

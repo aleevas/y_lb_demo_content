@@ -102,6 +102,8 @@ source:
       name: icon-phone.png
     - id: icon_21
       name: icon-wire.png
+    - id: icon_22
+      name: icon-thing.png
     - id: program_overview_page_image_1
       name: 16f6a90318a46adb0b11ed6730e24300.jpeg
     - id: program_overview_page_image_2
@@ -202,6 +204,24 @@ source:
       name: 1e3567e9ecd1db19c9e23461fc090926.jpeg
     - id: donate_page_image_6
       name: 217ea1ced3b93ff7412464a8abbfbb98.jpeg
+    - id: jobs_page_image_1
+      name: 1ee1c49e5aae525799456af0c67ac5a8.jpeg
+    - id: jobs_page_image_2
+      name: 3a15b4653bc75bc2576c777b3c7dcb96.jpeg
+    - id: jobs_page_image_3
+      name: aa4bec3feb385c931ef8919984fe4180.jpeg
+    - id: jobs_page_image_4
+      name: ef8ff48a67ec4ed6a432f4d916af13a0.jpeg
+    - id: jobs_page_image_5
+      name: 8202d52e862d7c502b5f2a1610fa4468.jpeg
+    - id: jobs_page_image_6
+      name: ab25ae75a5008de3ea12b8dfff3f3657.jpeg
+    - id: jobs_page_image_7
+      name: e76ec65cbfd5fbfe80b29751562bf00d.jpeg
+    - id: jobs_page_image_8
+      name: 52defea6e4bf4f6f9d6b9fc3b5fa0ed9.jpeg
+    - id: jobs_page_image_9
+      name: 325d1e492f917f3a5bd46156e3a3c08a.jpeg
   ids:
     id:
       type: string

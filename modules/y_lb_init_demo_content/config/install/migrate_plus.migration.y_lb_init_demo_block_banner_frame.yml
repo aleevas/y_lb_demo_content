@@ -46,6 +46,16 @@ source:
       description: "The Y is here for you, even on your busiest days. Scroll on to learn more about our scheduled offerings."
       media: schedules_page_image_1
 
+    -
+      id: 5
+      uuid: '2a0ea806-7478-43b1-bf26-d49219ea0e9b'
+      title: 'YMCA of [Springfield] Jobs'
+      description: "Get paid to play at work with the Y. Explore a range of full-time and part-time jobs close to your home."
+      media: jobs_page_image_1
+      cta:
+        - uri: 'internal:/'
+          title: 'See Current Openings'
+
   ids:
     id:
       type: integer

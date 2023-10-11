@@ -96,6 +96,15 @@ source:
       cta:
         - uri: 'internal:/'
           title: 'Make a gift'
+
+    - id: 13
+      uuid: 'fc1dd4ba-858b-475f-9e89-f7c78c257b31'
+      title: "Ready for a Job You'll Love?"
+      description: "View all of our open positions and submit an application."
+      media: jobs_page_image_9
+      cta:
+        - uri: 'internal:/'
+          title: 'Explore Openings'
   ids:
     id:
       type: integer

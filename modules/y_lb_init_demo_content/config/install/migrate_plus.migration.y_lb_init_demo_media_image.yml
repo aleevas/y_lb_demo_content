@@ -297,6 +297,33 @@ source:
     - id: donate_page_image_6
       name: 'Donate image 6'
       file: donate_page_image_6
+    - id: jobs_page_image_1
+      name: 'Jobs image 1'
+      file: jobs_page_image_1
+    - id: jobs_page_image_2
+      name: 'Jobs image 2'
+      file: jobs_page_image_2
+    - id: jobs_page_image_3
+      name: 'Jobs image 3'
+      file: jobs_page_image_3
+    - id: jobs_page_image_4
+      name: 'Jobs image 4'
+      file: jobs_page_image_4
+    - id: jobs_page_image_5
+      name: 'Jobs image 5'
+      file: jobs_page_image_5
+    - id: jobs_page_image_6
+      name: 'Jobs image 6'
+      file: jobs_page_image_6
+    - id: jobs_page_image_7
+      name: 'Jobs image 7'
+      file: jobs_page_image_7
+    - id: jobs_page_image_8
+      name: 'Jobs image 8'
+      file: jobs_page_image_8
+    - id: jobs_page_image_9
+      name: 'Jobs image 9'
+      file: jobs_page_image_9
   ids:
     id:
       type: string

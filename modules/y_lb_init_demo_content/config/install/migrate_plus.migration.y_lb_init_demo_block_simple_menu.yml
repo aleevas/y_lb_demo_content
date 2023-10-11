@@ -114,6 +114,27 @@ source:
           title: 'Class Schedules'
         - uri: 'internal:/init-demo-schedules#holiday-hours'
           title: 'Holiday Hours'
+    -
+      id: 8
+      uuid: 'e7fc68bd-9b82-4308-b38b-ca6e672cc5fd'
+      title: 'Quick Links'
+      image: icon_22
+      links:
+        - uri: 'internal:/init-demo-jobs#lifeguard'
+          title: 'Lifeguard'
+        - uri: 'internal:/init-demo-jobs#swim-instructor'
+          title: 'Swim Instructor'
+        - uri: 'internal:/init-demo-jobs#camp-counselor'
+          title: 'Camp Counselor'
+        - uri: 'internal:/init-demo-jobs#child-care-provider'
+          title: 'Child Care Provider'
+        - uri: 'internal:/init-demo-jobs#healthy-living-coach'
+          title: 'Healthy Living Coach'
+        - uri: 'internal:/init-demo-jobs#membership-service-rep'
+          title: 'Membership Services Rep'
+        - uri: 'internal:/init-demo-jobs#youth-sports-referee'
+          title: 'Youth Sports Referee'
+
   ids:
     id:
       type: integer
