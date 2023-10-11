@@ -114,6 +114,12 @@ source:
       cta:
         - uri: 'internal:/'
           title: 'Fill Out Interest Form'
+
+    - id: 15
+      uuid: 'cac81455-bb5e-4296-93ed-c06613646763'
+      title: "Activity Finder"
+      description: "Find activities that suit your interests, age, location, and schedule!"
+      media: af_page_image_1
   ids:
     id:
       type: integer

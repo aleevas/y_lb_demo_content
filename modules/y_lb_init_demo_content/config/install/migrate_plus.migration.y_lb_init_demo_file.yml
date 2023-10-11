@@ -236,6 +236,8 @@ source:
       name: 5a44e47c5c09f207f11a164e91a73ffd.jpeg
     - id: volunteer_ops_page_image_6
       name: 72283869c0cbf51c397e2b113d8563fc.jpeg
+    - id: af_page_image_1
+      name: 88b230b52b18517fab947c61c60643f4.jpeg
   ids:
     id:
       type: string

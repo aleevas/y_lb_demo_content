@@ -325,23 +325,26 @@ source:
       name: 'Jobs image 9'
       file: jobs_page_image_9
     - id: volunteer_ops_page_image_1
-      name: 'Jobs image 1'
+      name: 'Volunteer ops image 1'
       file: volunteer_ops_page_image_1
     - id: volunteer_ops_page_image_2
-      name: 'Jobs image 2'
+      name: 'Volunteer ops image 2'
       file: volunteer_ops_page_image_2
     - id: volunteer_ops_page_image_3
-      name: 'Jobs image 3'
+      name: 'Volunteer ops image 3'
       file: volunteer_ops_page_image_3
     - id: volunteer_ops_page_image_4
-      name: 'Jobs image 4'
+      name: 'Volunteer ops image 4'
       file: volunteer_ops_page_image_4
     - id: volunteer_ops_page_image_5
-      name: 'Jobs image 5'
+      name: 'Volunteer ops image 5'
       file: volunteer_ops_page_image_5
     - id: volunteer_ops_page_image_6
-      name: 'Jobs image 6'
+      name: 'Volunteer ops image 6'
       file: volunteer_ops_page_image_6
+    - id: af_page_image_1
+      name: 'Activity Finder page image 1'
+      file: af_page_image_1
   ids:
     id:
       type: string
