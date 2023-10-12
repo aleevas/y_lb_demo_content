@@ -1,0 +1,219 @@
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - y_lb_init_demo_content
+id: y_lb_init_demo_menu_link_main
+migration_tags: {  }
+migration_group: y_lb_init_demo_content
+label: 'Create demo main menu links'
+source:
+  plugin: embedded_data
+  data_rows:
+    -
+      id: 1
+      title: 'Who We Are'
+      menu_name: 'demo-main'
+      link: 'internal:/'
+      weight: 1
+      parent_id: 0
+      expanded: 0
+      parent_link_path: ''
+    -
+      id: 2
+      title: 'Programs'
+      menu_name: 'demo-main'
+      link: 'internal:/'
+      weight: 2
+      parent_id: 0
+      expanded: 1
+      parent_link_path: ''
+    -
+      id: 3
+      title: 'Youth Sports'
+      menu_name: 'demo-main'
+      link: 'internal:/'
+      weight: 1
+      parent_id: 2
+      expanded: 1
+      parent_link_path: ''
+    -
+      id: 4
+      title: 'Health and Fitness'
+      menu_name: 'demo-main'
+      link: 'internal:/'
+      weight: 2
+      parent_id: 2
+      expanded: 1
+      parent_link_path: ''
+    -
+      id: 5
+      title: 'Community'
+      menu_name: 'demo-main'
+      link: 'internal:/'
+      weight: 3
+      parent_id: 2
+      expanded: 1
+      parent_link_path: ''
+    -
+      id: 6
+      title: 'Youth Soccer'
+      menu_name: 'demo-main'
+      link: 'internal:/'
+      weight: 1
+      parent_id: 3
+      expanded: 0
+      parent_link_path: ''
+    -
+      id: 7
+      title: 'Youth Sport 2*'
+      menu_name: 'demo-main'
+      link: 'internal:/'
+      weight: 3
+      parent_id: 3
+      expanded: 0
+      parent_link_path: ''
+    -
+      id: 8
+      title: 'Youth Sport 3*'
+      menu_name: 'demo-main'
+      link: 'internal:/'
+      weight: 4
+      parent_id: 3
+      expanded: 0
+      parent_link_path: ''
+    -
+      id: 9
+      title: 'Lorem ipsum 1'
+      menu_name: 'demo-main'
+      link: 'internal:/'
+      weight: 1
+      parent_id: 4
+      expanded: 0
+      parent_link_path: ''
+    -
+      id: 10
+      title: 'Lorem ipsum 2'
+      menu_name: 'demo-main'
+      link: 'internal:/'
+      weight: 2
+      parent_id: 4
+      expanded: 0
+      parent_link_path: ''
+    -
+      id: 11
+      title: 'Events'
+      menu_name: 'demo-main'
+      link: 'internal:/'
+      weight: 1
+      parent_id: 4
+      expanded: 0
+      parent_link_path: ''
+    -
+      id: 12
+      title: 'Volunteer Opportunities'
+      menu_name: 'demo-main'
+      link: 'internal:/'
+      weight: 1
+      parent_id: 4
+      expanded: 0
+      parent_link_path: ''
+    -
+      id: 13
+      title: 'Locations'
+      menu_name: 'demo-main'
+      link: 'internal:/'
+      weight: 3
+      parent_id: 0
+      expanded: 1
+      parent_link_path: ''
+    -
+      id: 14
+      title: 'Downtown'
+      menu_name: 'demo-main'
+      link: 'internal:/'
+      weight: 1
+      parent_id: 12
+      expanded: 0
+      parent_link_path: ''
+    -
+      id: 15
+      title: 'North'
+      menu_name: 'demo-main'
+      link: 'internal:/'
+      weight: 2
+      parent_id: 12
+      expanded: 0
+      parent_link_path: ''
+    -
+      id: 16
+      title: 'South'
+      menu_name: 'demo-main'
+      link: 'internal:/'
+      weight: 3
+      parent_id: 12
+      expanded: 0
+      parent_link_path: ''
+    -
+      id: 17
+      title: 'East'
+      menu_name: 'demo-main'
+      link: 'internal:/'
+      weight: 4
+      parent_id: 12
+      expanded: 0
+      parent_link_path: ''
+    -
+      id: 18
+      title: 'West'
+      menu_name: 'demo-main'
+      link: 'internal:/'
+      weight: 5
+      parent_id: 12
+      expanded: 0
+      parent_link_path: ''
+    -
+      id: 19
+      title: 'Membership'
+      menu_name: 'demo-main'
+      link: 'internal:/'
+      weight: 4
+      parent_id: 0
+      expanded: 0
+      parent_link_path: ''
+    -
+      id: 20
+      title: 'Schedules'
+      menu_name: 'demo-main'
+      link: 'internal:/'
+      weight: 5
+      parent_id: 0
+      expanded: 0
+      parent_link_path: ''
+  ids:
+    id:
+      type: integer
+process:
+  langcode:
+    plugin: default_value
+    source: language
+    default_value: en
+  bundle:
+    plugin: default_value
+    default_value: menu_link_content
+  title: title
+  menu_name: menu_name
+  link/uri:
+    plugin: link_uri
+    source: link
+  weight: weight
+  expanded: expanded
+  parent:
+    plugin: menu_link_parent
+    source:
+      - parent_id
+      - menu_name
+      - parent_link_path
+destination:
+  plugin: entity:menu_link_content

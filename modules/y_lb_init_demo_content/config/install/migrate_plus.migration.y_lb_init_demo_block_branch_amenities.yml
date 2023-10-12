@@ -1,0 +1,50 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - lb_hero
+  enforced:
+    module:
+      - y_lb_init_demo_content
+id: y_lb_init_demo_block_branch_amenities
+migration_tags: {}
+migration_group: y_lb_init_demo_content
+label: 'Import demo Layout Builder - Branch Amenities'
+source:
+  plugin: embedded_data
+  data_rows:
+    -
+      id: 1
+      uuid: '8c2b6b8d-49d9-4cd2-b282-30f77bbd8519'
+      title: "Branch Amenities"
+      subtitle: "Members have full access to all facilities at the YMCA of [Downtown Springfield]."
+      image: location_individual_page_image_1
+  ids:
+    id:
+      type: integer
+process:
+  langcode:
+    plugin: default_value
+    source: language
+    default_value: en
+  status:
+    plugin: default_value
+    default_value: 1
+  reusable:
+    plugin: default_value
+    default_value: 0
+  field_section_title: title
+  field_section_subtitle: subtitle
+  field_image:
+    - plugin: migration_lookup
+      migration: y_lb_init_demo_media_image
+      source: image
+  type:
+    plugin: default_value
+    default_value: lb_branch_amenities_blocks
+  uuid: uuid
+
+destination:
+  plugin: entity:block_content
+  default_bundle: 'lb_branch_amenities_blocks'
+migration_dependencies: {  }

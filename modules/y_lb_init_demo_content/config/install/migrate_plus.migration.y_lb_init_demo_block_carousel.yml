@@ -1,0 +1,66 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - y_lb_init_demo_content
+  enforced:
+    module:
+      - y_lb_init_demo_content
+id: y_lb_init_demo_block_carousel
+migration_tags: {}
+migration_group: y_lb_init_demo_content
+label: 'Import demo Layout Builder - Carousel block'
+source:
+  plugin: embedded_data
+  data_rows:
+    -
+      id: 777
+      uuid: '4ce867f2-41d9-44de-9b1c-6dab4df7b6ce'
+      title: 'Explore Our Facilities'
+      subtitle: ''
+      content_ids:
+        - content_id: carousel_1
+        - content_id: carousel_2
+        - content_id: carousel_3
+        - content_id: carousel_4
+  ids:
+    id:
+      type: integer
+process:
+  langcode:
+    plugin: default_value
+    source: language
+    default_value: en
+  status:
+    plugin: default_value
+    default_value: 1
+  reusable:
+    plugin: default_value
+    default_value: 0
+  type:
+    plugin: default_value
+    default_value: lb_carousel
+  uuid: uuid
+  field_section_title: title
+  field_subtitle: subtitle
+  field_carousel_items:
+    plugin: sub_process
+    source: content_ids
+    process:
+      target_id:
+        plugin: migration_lookup
+        migration:
+          - y_lb_init_demo_paragraph_carousel
+        source: content_id
+      target_revision_id:
+        plugin: migration_lookup
+        migration:
+          - y_lb_init_demo_paragraph_carousel
+        source: content_id
+
+destination:
+  plugin: entity:block_content
+migration_dependencies:
+  required:
+    - y_lb_init_demo_paragraph_carousel
+  optional: {}

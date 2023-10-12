@@ -1,0 +1,86 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - y_lb_init_demo_content
+  enforced:
+    module:
+      - y_lb_init_demo_content
+id: y_lb_init_demo_block_accordion
+migration_tags: {}
+migration_group: y_lb_init_demo_content
+label: 'Import Init demo Layout Builder - Accordion block'
+source:
+  plugin: embedded_data
+  data_rows:
+    -
+      id: 40
+      uuid: '138c8c29-7d3b-4f32-94a1-991a264657b9'
+      title: 'Frequently Asked Questions'
+      content_ids:
+        - content_id: accordion_item_1
+        - content_id: accordion_item_2
+        - content_id: accordion_item_3
+        - content_id: accordion_item_4
+
+    -
+      id: 41
+      uuid: '6e5a856d-c0dd-4eec-903e-9d1904816288'
+      title: 'Other Membership Options'
+      content_ids:
+        - content_id: accordion_item_5
+        - content_id: accordion_item_6
+        - content_id: accordion_item_7
+
+    -
+      id: 42
+      uuid: '993cee78-4c4d-412f-8c58-c68598c628b1'
+      title: 'Frequently Asked Questions'
+      content_ids:
+        - content_id: accordion_item_8
+        - content_id: accordion_item_9
+        - content_id: accordion_item_10
+        - content_id: accordion_item_11
+        - content_id: accordion_item_12
+  ids:
+    id:
+      type: integer
+process:
+  langcode:
+    plugin: default_value
+    source: language
+    default_value: en
+  status:
+    plugin: default_value
+    default_value: 1
+  reusable:
+    plugin: default_value
+    default_value: 0
+  type:
+    plugin: default_value
+    default_value: lb_accordion
+  uuid: uuid
+  field_is_faq:
+    plugin: default_value
+    default_value: 1
+  field_entity_reference_paragraph:
+    plugin: sub_process
+    source: content_ids
+    process:
+      target_id:
+        plugin: migration_lookup
+        migration:
+          - y_lb_init_demo_paragraph_accordion
+        source: content_id
+      target_revision_id:
+        plugin: migration_lookup
+        migration:
+          - y_lb_init_demo_paragraph_accordion
+        source: content_id
+
+destination:
+  plugin: entity:block_content
+migration_dependencies:
+  required:
+    - y_lb_init_demo_paragraph_accordion
+  optional: {}

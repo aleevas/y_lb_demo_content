@@ -1,0 +1,102 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - lb_grid_cta
+  enforced:
+    module:
+      - y_lb_init_demo_content
+id: y_lb_init_demo_block_cards
+migration_tags: {}
+migration_group: y_lb_init_demo_content
+label: 'Import init demo Layout Builder - Cards block'
+source:
+  plugin: embedded_data
+  data_rows:
+    -
+      id: 1
+      uuid: 'ef5f3285-4066-44e9-b4e6-4e275526b456'
+      title: 'Program Levels and Requirements'
+      subtitle: 'Teams of all levels are coached by YMCA volunteers. Registration includes a jersey and socks. Shin guards are required for all age groups, and cleats are recommended for ages 9 and up.'
+      columns: 3
+      content_ids:
+        - content_id: card_item_1
+        - content_id: card_item_2
+        - content_id: card_item_3
+        - content_id: card_item_4
+        - content_id: card_item_5
+
+    -
+      id: 2
+      uuid: 'bca4f067-8b7b-4fb5-b20a-91887b98088e'
+      title: 'Other Youth Programs'
+      subtitle: ''
+      columns: 3
+      content_ids:
+        - content_id: card_item_6
+        - content_id: card_item_7
+        - content_id: card_item_8
+
+    -
+      id: 3
+      uuid: '369e92ff-f6cb-476b-9bc5-1362232165f2'
+      title: 'Featured Programs'
+      subtitle: ''
+      columns: 3
+      content_ids:
+        - content_id: card_item_9
+        - content_id: card_item_10
+        - content_id: card_item_11
+
+    -
+      id: 6
+      uuid: '74168959-2134-42e8-8e38-f03ffe6f9053'
+      title: 'Some of Our Programs'
+      subtitle: ''
+      columns: 3
+      content_ids:
+        - content_id: card_item_20
+        - content_id: card_item_21
+        - content_id: card_item_22
+  ids:
+    id:
+      type: integer
+process:
+  langcode:
+    plugin: default_value
+    source: language
+    default_value: en
+  status:
+    plugin: default_value
+    default_value: 1
+  reusable:
+    plugin: default_value
+    default_value: 0
+  type:
+    plugin: default_value
+    default_value: lb_cards
+  uuid: uuid
+  field_section_title: title
+  field_subtitle: subtitle
+  field_cta: cta
+  field_columns: columns
+  field_cards:
+    plugin: sub_process
+    source: content_ids
+    process:
+      target_id:
+        plugin: migration_lookup
+        migration:
+          - y_lb_init_demo_paragraph_cards
+        source: content_id
+      target_revision_id:
+        plugin: migration_lookup
+        migration:
+          - y_lb_init_demo_paragraph_cards
+        source: content_id
+
+destination:
+  plugin: entity:block_content
+migration_dependencies:
+  required:
+    - y_lb_init_demo_paragraph_cards

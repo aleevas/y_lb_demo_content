@@ -1,0 +1,126 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - lb_grid_icon
+  enforced:
+    module:
+      - y_lb_init_demo_content
+id: y_lb_init_demo_block_icon_grid
+migration_tags: {}
+migration_group: y_lb_init_demo_content
+label: 'Import Init demo Layout Builder - Icon grid blocks'
+source:
+  plugin: embedded_data
+  data_rows:
+    -
+      id: 1
+      uuid: '84bb81fe-e458-44d4-bf23-6a3794df75dd'
+      title: 'Guiding Principles'
+      subtitle: ''
+      columns: 3
+      content_ids:
+        - content_id: icon_grid_item_1
+        - content_id: icon_grid_item_2
+        - content_id: icon_grid_item_3
+    -
+      id: 2
+      uuid: '201c31a6-572a-4568-97dc-ffc45b786f04'
+      title: ''
+      subtitle: ''
+      columns: 2
+      content_ids:
+        - content_id: icon_grid_item_4
+        - content_id: icon_grid_item_5
+
+    -
+      id: 3
+      uuid: '84ff78d9-a5ac-412a-a7a6-880b0b247364'
+      title: ''
+      subtitle: ''
+      columns: 3
+      content_ids:
+        - content_id: icon_grid_item_6
+        - content_id: icon_grid_item_7
+        - content_id: icon_grid_item_8
+
+    -
+      id: 4
+      uuid: 'b0f1ef18-309d-4f5a-9077-aa8916875890'
+      title: 'Icon'
+      subtitle: ''
+      columns: 1
+      content_ids:
+        - content_id: icon_grid_item_9
+
+    -
+      id: 5
+      uuid: '111efcf3-6921-42d5-bb4a-96a55bc8f501'
+      title: 'Every Gift Makes a Difference'
+      subtitle: 'Your support keeps the Y accessible for those who need us. Here are just a few examples of what donations can provide.'
+      columns: 3
+      cta:
+        - uri: 'internal:/'
+          title: 'Make a gift'
+      content_ids:
+        - content_id: icon_grid_item_10
+        - content_id: icon_grid_item_11
+        - content_id: icon_grid_item_12
+        - content_id: icon_grid_item_13
+        - content_id: icon_grid_item_14
+        - content_id: icon_grid_item_15
+
+    -
+      id: 6
+      uuid: '1e7b780b-a237-4b38-a7e6-94d2f87a546c'
+      title: 'Other Ways To Donate'
+      subtitle: ''
+      columns: 3
+      content_ids:
+        - content_id: icon_grid_item_16
+        - content_id: icon_grid_item_17
+        - content_id: icon_grid_item_18
+
+  ids:
+    id:
+      type: integer
+process:
+  langcode:
+    plugin: default_value
+    source: language
+    default_value: en
+  status:
+    plugin: default_value
+    default_value: 1
+  reusable:
+    plugin: default_value
+    default_value: 0
+  type:
+    plugin: default_value
+    default_value: lb_icon_grid
+  uuid: uuid
+  field_section_title: title
+  field_section_subtitle: subtitle
+  field_icon_columns: columns
+  field_cta: cta
+  field_grid_items:
+    plugin: sub_process
+    source: content_ids
+    process:
+      target_id:
+        plugin: migration_lookup
+        migration:
+          - y_lb_init_demo_paragraph_icon_grid
+        source: content_id
+      target_revision_id:
+        plugin: migration_lookup
+        migration:
+          - y_lb_init_demo_paragraph_icon_grid
+        source: content_id
+destination:
+  plugin: entity:block_content
+  default_bundle: lb_icon_grid
+migration_dependencies:
+  required:
+    - y_lb_init_demo_paragraph_icon_grid
+  optional: {  }

@@ -1,0 +1,89 @@
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - y_lb_init_demo_content
+id: y_lb_init_demo_paragraph_grid_cta
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags: {  }
+migration_group: y_lb_init_demo_content
+label: 'Create Grid Item paragraphs for Grid CTA component'
+source:
+  plugin: embedded_data
+  data_rows:
+    -
+      id: grid_item_1
+      uuid: 'be3aeb06-0915-4c01-94c5-af55437d9123'
+      parent_id: 31
+      title: 'Youth Sports'
+      body: "<p>We're dedicated to making sure our leagues are safe, fair and, most of all, fun. Learn the basics, improve your skills and make new friends!</p>"
+      image: homepage_image_2
+      cta:
+        - uri: 'internal:/'
+          title: 'See Youth Sports'
+    -
+      id: grid_item_2
+      uuid: 'ae3aeb06-0915-94c5-4c01-af55437d9125'
+      parent_id: 31
+      title: 'Health and Fitness'
+      body: "<p>Take advantage of group fitness classes, personal training, and sports leagues that improve strength and mindfulness.</p>"
+      image: homepage_image_3
+      cta:
+        - uri: 'internal:/'
+          title: 'Explore Options'
+    -
+      id: grid_item_3
+      uuid: 'af55437d-0915-94c5-4c01-ae3aeb069456'
+      parent_id: 31
+      title: 'Community'
+      body: "<p>These programs aim to bring members together, because we're all stronger when we're looking out for one another.</p>"
+      image: homepage_image_4
+      cta:
+        - uri: 'internal:/'
+          title: 'Get Involved'
+  ids:
+    id:
+      type: string
+process:
+  langcode:
+    plugin: default_value
+    source: language
+    default_value: en
+  status:
+    plugin: default_value
+    default_value: 1
+  uuid:  uuid
+  parent_id:
+    plugin: migration_lookup
+    migration: y_lb_init_demo_block_grid_cta
+    no_stub: true
+    source: parent_id
+  parent_type:
+    plugin: default_value
+    default_value: block_content
+  parent_field_name:
+    plugin: default_value
+    default_value: field_grid_items
+  type:
+    plugin: skip_if_bundle_not_exist
+    method: row
+    entity: paragraph
+    bundle: lb_cta_item
+  field_grid_item_title: title
+  field_grid_item_description/value: body
+  field_grid_item_description/format:
+    plugin: default_value
+    default_value: full_html
+  field_grid_item_icon:
+    -
+      plugin: migration_lookup
+      migration: y_lb_init_demo_media_image
+      source: image
+  field_grid_item_cta_link: cta
+destination:
+  plugin: 'entity:paragraph'
+  default_bundle: 'lb_cta_item'
+migration_dependencies: {  }
