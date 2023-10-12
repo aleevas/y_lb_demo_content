@@ -20,7 +20,7 @@ source:
       description: "We're so excited to welcome you on your journey of wellness, activity and community. Discover everything we have to offer across all of our programs."
       media: homepage_image_1
       cta:
-        - uri: 'internal:/'
+        - uri: 'internal:/init-demo-location-finder'
           title: 'Find a Y'
     -
       id: 19
@@ -56,6 +56,13 @@ source:
       uuid: '96c7d0ca-93ae-4fd5-82ae-f163504d6e85'
       title: 'Volunteer Opportunities'
       description: "Help lead the YMCA of [Springfield] in responding to our community's needs."
+      media: volunteer_ops_page_image_1
+
+    -
+      id: 24
+      uuid: 'cbba2fc0-0b89-4a0b-8d97-ca24692fc7cb'
+      title: 'Lorem ipsum dolor sit amet'
+      description: "Maecenas accumsan lacus vel facilisis volutpat est velit egestas dui. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula ipsum. Etiam dignissim diam quis enim lobortis."
       media: volunteer_ops_page_image_1
   ids:
     id:

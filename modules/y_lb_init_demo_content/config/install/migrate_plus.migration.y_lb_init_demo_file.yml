@@ -105,7 +105,7 @@ source:
     - id: icon_22
       name: icon-thing.png
     - id: icon_23
-      name: icon-raise-hand.png
+      name: icon-raise_hand.png
     - id: program_overview_page_image_1
       name: 16f6a90318a46adb0b11ed6730e24300.jpeg
     - id: program_overview_page_image_2

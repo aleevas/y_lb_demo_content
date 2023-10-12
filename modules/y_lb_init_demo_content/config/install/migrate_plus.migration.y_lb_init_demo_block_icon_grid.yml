@@ -52,6 +52,9 @@ source:
       columns: 1
       content_ids:
         - content_id: icon_grid_item_9
+      cta:
+        - uri: 'internal:/init-demo-dummy-page'
+          title: 'Redeem'
 
     -
       id: 5
@@ -60,7 +63,7 @@ source:
       subtitle: 'Your support keeps the Y accessible for those who need us. Here are just a few examples of what donations can provide.'
       columns: 3
       cta:
-        - uri: 'internal:/'
+        - uri: 'internal:/init-demo-donate#donate'
           title: 'Make a gift'
       content_ids:
         - content_id: icon_grid_item_10

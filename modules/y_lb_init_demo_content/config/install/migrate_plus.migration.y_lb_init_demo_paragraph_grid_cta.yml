@@ -22,7 +22,7 @@ source:
       body: "<p>We're dedicated to making sure our leagues are safe, fair and, most of all, fun. Learn the basics, improve your skills and make new friends!</p>"
       image: homepage_image_2
       cta:
-        - uri: 'internal:/'
+        - uri: 'internal:/init-demo-programs-category'
           title: 'See Youth Sports'
     -
       id: grid_item_2
@@ -32,7 +32,7 @@ source:
       body: "<p>Take advantage of group fitness classes, personal training, and sports leagues that improve strength and mindfulness.</p>"
       image: homepage_image_3
       cta:
-        - uri: 'internal:/'
+        - uri: 'internal:/init-demo-dummy-page'
           title: 'Explore Options'
     -
       id: grid_item_3
@@ -42,7 +42,7 @@ source:
       body: "<p>These programs aim to bring members together, because we're all stronger when we're looking out for one another.</p>"
       image: homepage_image_4
       cta:
-        - uri: 'internal:/'
+        - uri: 'internal:/init-demo-dummy-page'
           title: 'Get Involved'
   ids:
     id:

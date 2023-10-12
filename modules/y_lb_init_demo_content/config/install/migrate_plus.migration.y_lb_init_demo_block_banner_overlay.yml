@@ -20,7 +20,7 @@ source:
       description: "It's always a good time to join the Y! We have motivating group fitness classes, swimming, programs for all ages and a community of support. You'll find welcoming staff ready to help you meet your goals and live your healthiest, happiest life."
       media: homepage_image_13
       cta:
-        - uri: 'internal:/'
+        - uri: 'internal:/init-demo-membership'
           title: 'Explore Membership'
     -
       id: 21
@@ -29,7 +29,7 @@ source:
       description: "Not quite ready to join? With a complimentary guest pass, you can come try out your preferred location."
       media: jointhey_page_image_2
       cta:
-        - uri: 'internal:/'
+        - uri: 'internal:/init-demo-membership'
           title: 'Get Your Guest Pass'
 
     -
@@ -39,7 +39,7 @@ source:
       description: "We generally acknowledge contributors in our annual report. If you do not wish to have your name recognized in print or online, you can request anonymity when you make your pledge. Donors can also opt out of involvement in future campaigns and mailing lists at any time."
       media: donate_page_image_6
       cta:
-        - uri: 'internal:/'
+        - uri: 'internal:/init-demo-dummy-page'
           title: 'View Our Full Privacy Policy'
   ids:
     id:

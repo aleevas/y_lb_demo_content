@@ -23,7 +23,7 @@ source:
       image: homepage_image_10
       image_position: 'right'
       cta:
-        - uri: 'internal:/'
+        - uri: 'internal:/init-demo-schedules'
           title: 'View Schedules'
 
     -
@@ -36,7 +36,7 @@ source:
       image: homepage_image_11
       image_position: 'left'
       cta:
-        - uri: 'internal:/'
+        - uri: 'internal:/init-demo-jobs'
           title: 'View Openings'
 
     -
@@ -49,7 +49,7 @@ source:
       image: homepage_image_12
       image_position: 'right'
       cta:
-        - uri: 'internal:/'
+        - uri: 'internal:/init-demo-volunteer-opportunities'
           title: 'Learn More'
     -
       id: 123
@@ -90,7 +90,7 @@ source:
       image: program_overview_page_image_2
       image_position: 'right'
       cta:
-        - uri: 'internal:/'
+        - uri: 'internal:/init-demo-programs-category'
           title: 'See Program Details'
 
     -
@@ -103,7 +103,7 @@ source:
       image: program_overview_page_image_3
       image_position: 'left'
       cta:
-        - uri: 'internal:/'
+        - uri: 'internal:/init-demo-dummy-page'
           title: 'Explore Options'
     -
       id: 128
@@ -115,7 +115,7 @@ source:
       image: program_overview_page_image_4
       image_position: 'right'
       cta:
-        - uri: 'internal:/'
+        - uri: 'internal:/init-demo-dummy-page'
           title: 'Get Involved'
     -
       id: 129
@@ -127,7 +127,7 @@ source:
       image: jobs_page_image_2
       image_position: 'right'
       cta:
-        - uri: 'internal:/'
+        - uri: 'internal:/init-demo-program-individual-page'
           title: 'See Program Details'
     -
       id: 130
@@ -139,7 +139,7 @@ source:
       image: jobs_page_image_3
       image_position: 'left'
       cta:
-        - uri: 'internal:/'
+        - uri: 'internal:/init-demo-dummy-page'
           title: 'See Program Details'
     -
       id: 131
@@ -151,7 +151,7 @@ source:
       image: program_overview_page_image_4
       image_position: 'right'
       cta:
-        - uri: 'internal:/'
+        - uri: 'internal:/init-demo-dummy-page'
           title: 'See Program Details'
 
     -
@@ -164,7 +164,7 @@ source:
       image: jobs_page_image_2
       image_position: 'right'
       cta:
-        - uri: 'internal:/'
+        - uri: 'internal:/init-demo-dummy-page'
           title: 'Lorem Ipsum'
     -
       id: 133
@@ -176,7 +176,7 @@ source:
       image: jobs_page_image_3
       image_position: 'left'
       cta:
-        - uri: 'internal:/'
+        - uri: 'internal:/init-demo-dummy-page'
           title: 'Lorem Ipsum'
     -
       id: 134
@@ -188,7 +188,7 @@ source:
       image: program_overview_page_image_4
       image_position: 'right'
       cta:
-        - uri: 'internal:/'
+        - uri: 'internal:/init-demo-dummy-page'
           title: 'Lorem Ipsum'
 
     -
@@ -201,7 +201,7 @@ source:
       image: schedules_page_image_2
       image_position: 'left'
       cta:
-        - uri: 'internal:/'
+        - uri: 'internal:/init-demo-location-finder'
           title: 'See Locations'
 
     -
@@ -224,7 +224,7 @@ source:
       image: donate_page_image_3
       image_position: 'left'
       cta:
-        - uri: 'internal:/'
+        - uri: 'internal:/init-demo-contact-us'
           title: 'Get in Touch'
     -
       id: 138
@@ -236,7 +236,7 @@ source:
       image: donate_page_image_4
       image_position: 'right'
       cta:
-        - uri: 'internal:/'
+        - uri: 'internal:/init-demo-contact-us'
           title: 'Contact Us'
 
     -

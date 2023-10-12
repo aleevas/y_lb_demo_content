@@ -84,11 +84,11 @@ source:
       title: 'Quick Links'
       image: icon_9
       links:
-        - uri: 'internal:/'
+        - uri: 'internal:/init-demo-dummy-page'
           title: 'Lorem Ipsum '
-        - uri: 'internal:/'
+        - uri: 'internal:/init-demo-dummy-page'
           title: 'Lorem Ipsum'
-        - uri: 'internal:/'
+        - uri: 'internal:/init-demo-dummy-page'
           title: 'Lorem Ipsum'
 
     -

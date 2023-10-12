@@ -54,7 +54,7 @@ source:
               block_config: true
               region: 'header_bottom_right'
               config:
-                id: 'system_menu_block:demo-utility'
+                id: 'system_menu_block:demo-account'
                 label: 'Demo Utility menu'
                 label_display: '0'
                 provider: system
@@ -255,6 +255,8 @@ process:
         container: "w-100"
         remove_gutters: "1"
         section_classes: 'mt-5'
+        container_wrapper_attributes:
+          id: 'media-room'
       6footer:
         label: "Footer"
         id: 'ws_footer'

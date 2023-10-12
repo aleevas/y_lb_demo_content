@@ -62,7 +62,7 @@ source:
       body: "Kids ages 3–8 balance fun with fundamentals as they learn to hit, catch and throw in a team-building environment."
       image: program_individual_page_image_8
       cta:
-        - uri: 'internal:/'
+        - uri: 'internal:/init-demo-program-individual-page'
           title: 'See Program Details'
     -
       id: card_item_7
@@ -72,7 +72,7 @@ source:
       body: "Our basketball program teaches kids the fundamentals while helping them make friends, stay active and learn sportsmanship."
       image: program_individual_page_image_9
       cta:
-        - uri: 'internal:/'
+        - uri: 'internal:/init-demo-program-individual-page'
           title: 'See Program Details'
     -
       id: card_item_8
@@ -82,7 +82,7 @@ source:
       body: "You don't need to be an advanced swimmer to join the team! We teach kids of all abilities competitive swimming skills."
       image: location_individual_page_image_6
       cta:
-        - uri: 'internal:/'
+        - uri: 'internal:/init-demo-program-individual-page'
           title: 'See Program Details'
 
     -
@@ -93,7 +93,7 @@ source:
       body: "A vast array of activities, including group classes, personal training, and adult sport leagues, are designed to help members grow strong and enjoy life."
       image: location_individual_page_image_7
       cta:
-        - uri: 'internal:/'
+        - uri: 'internal:/init-demo-dummy-page'
           title: 'Explore Options'
     -
       id: card_item_10
@@ -103,7 +103,7 @@ source:
       body: "We're dedicated to helping young people become their best selves with programs that encompass all that kids can achieve."
       image: location_individual_page_image_8
       cta:
-        - uri: 'internal:/'
+        - uri: 'internal:/init-demo-programs-category'
           title: 'View Programs'
     -
       id: card_item_11
@@ -113,7 +113,7 @@ source:
       body: "The Y is all about community — which is why we also host events, lead volunteer opportunities and offer safety certification training."
       image: program_individual_page_image_9
       cta:
-        - uri: 'internal:/'
+        - uri: 'internal:/init-demo-dummy-page'
           title: 'Get Involved'
 
     -
@@ -124,28 +124,28 @@ source:
       body: "Our leagues include soccer, basketball, baseball, and more for kids ages 3 and up."
       image: membership_page_image_4
       cta:
-        - uri: 'internal:/'
+        - uri: 'internal:/init-demo-programs-category'
           title: 'See Youth Sports'
-    -
-      id: card_item_21
-      uuid: 'da32b1a7-32ff-4be3-844e-3c324829dbab'
-      parent_id: 4
-      title: 'Volunteer Opportunities'
-      body: "You can mentor young people, support your neighbors, be a new member ambassador and more."
-      image: membership_page_image_5
-      cta:
-        - uri: 'internal:/'
-          title: 'Get Involved'
 
-    - id: card_item_22
+    - id: card_item_21
       uuid: "cb3ba3b9-d596-4a4f-903e-11994bfd074e"
       parent_id: 4
       title: 'Group Fitness Classes'
       body: "From aquatics to Zumba, we have a robust mix of classes that'll help you stay active."
       image: membership_page_image_3
       cta:
-        - uri: 'internal:/'
+        - uri: 'internal:/init-demo-schedules'
           title: 'View Schedule'
+
+    - id: card_item_22
+      uuid: 'da32b1a7-32ff-4be3-844e-3c324829dbab'
+      parent_id: 4
+      title: 'Volunteer Opportunities'
+      body: "You can mentor young people, support your neighbors, be a new member ambassador and more."
+      image: membership_page_image_5
+      cta:
+        - uri: 'internal:/init-demo-volunteer-opportunities'
+          title: 'Get Involved'
   ids:
     id:
       type: string

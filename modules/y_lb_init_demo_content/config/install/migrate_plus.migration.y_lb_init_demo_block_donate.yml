@@ -20,7 +20,7 @@ source:
       subtitle: "We're a 501(c)(3) nonprofit organization, and we'll allocate 100% of your gift to your local community. Plus your donation is tax deductible."
       image: donate_page_image_5
       cta:
-        - uri: 'internal:/'
+        - uri: 'https://www.daxko.com'
           title: 'Donate'
       content_ids:
         - content_id: giving_amount_1

@@ -25,6 +25,9 @@ source:
       title: 'Calling All Coaches!'
       description: "Strengthening our community is at the core of everything we do, which is why we work side by side with our neighbors to give everyone the opportunity to grow, learn and thrive."
       media: program_category_page_image_5
+      cta:
+        - uri: 'internal:/init-demo-volunteer-opportunities'
+          title: 'Sign Up'
 
     - id: 3
       uuid: '341eed75-0857-4ea3-a2be-945179a14182'
@@ -37,13 +40,13 @@ source:
       description: "The Y introduces kids to the world's most popular sport with a focus on fun. Players of all levels can keep building skills, confidence and teamwork."
       media: program_individual_page_image_1
       cta:
-        - uri: 'internal:/'
+        - uri: 'https://www.daxko.com'
           title: 'Register Now'
 
     - id: 5
       uuid: 'fd8a8026-c151-43f3-ae86-640c076d86d6'
       title: 'Financial Aid'
-      description: "Our leagues are for all kids. If our standard rates aren't in your budget, ask about membership or program rates based on household income. Please stop by or call us to find out if you're eligible for assistance, or visit our membership page to learn more."
+      description: "Our leagues are for all kids. If our standard rates aren't in your budget, ask about membership or program rates based on household income. Please stop by or call us to find out if you're eligible for assistance, or visit our <a href='/init-demo-membership#membership-options'>membership page</a> to learn more."
 
     - id: 6
       uuid: '51805784-16b8-46dc-bfa2-7f612dc03582'
@@ -51,7 +54,7 @@ source:
       description: "Click below to see which sessions are available for online registration."
       media: program_individual_page_image_7
       cta:
-        - uri: 'internal:/'
+        - uri: 'https://www.daxko.com'
           title: 'Register Now'
 
     - id: 7
@@ -60,7 +63,7 @@ source:
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
       media: program_category_page_image_5
       cta:
-        - uri: 'internal:/'
+        - uri: 'internal:/init-demo-dummy-page'
           title: 'Lorem Ipsum'
 
     - id: 8
@@ -74,7 +77,7 @@ source:
       description: "In just a few easy steps, we'll get your membership up and running."
       media: membership_page_image_2
       cta:
-        - uri: 'internal:/'
+        - uri: 'internal:/init-demo-join-y'
           title: 'Get Started'
 
     - id: 10
@@ -94,7 +97,7 @@ source:
       description: "Donations to the YMCA of [Springfield] bring meaningful change to the community."
       media: donate_page_image_1
       cta:
-        - uri: 'internal:/'
+        - uri: 'internal:/init-demo-donate#donate'
           title: 'Make a gift'
 
     - id: 13
@@ -103,7 +106,7 @@ source:
       description: "View all of our open positions and submit an application."
       media: jobs_page_image_9
       cta:
-        - uri: 'internal:/'
+        - uri: 'https://www.daxko.com'
           title: 'Explore Openings'
 
     - id: 14
@@ -112,7 +115,7 @@ source:
       description: "Complete a short interest form, and one of our team members will be in touch with you shortly to discuss details and next steps."
       media: homepage_image_11
       cta:
-        - uri: 'internal:/'
+        - uri: 'https://www.jotform.com'
           title: 'Fill Out Interest Form'
 
     - id: 15

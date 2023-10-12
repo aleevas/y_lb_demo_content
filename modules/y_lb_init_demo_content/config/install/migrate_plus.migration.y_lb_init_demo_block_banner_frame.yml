@@ -20,7 +20,7 @@ source:
       description: "Strengthening the [Springfield] community is at the core of everything we do. Every day, we work side by side with our neighbors to make sure everyone has the opportunity to grow. See how we put our ambitions into action."
       media: homepage_image_5
       cta:
-        - uri: 'internal:/'
+        - uri: 'internal:/init-demo-who-we-are-page'
           title: 'Learn more'
     -
       id: 2
@@ -29,7 +29,7 @@ source:
       description: "The Y introduces kids to the world's most popular sport with a focus on fun. Players of all levels can keep building skills, confidence and teamwork."
       media: program_category_page_image_1
       cta:
-        - uri: 'internal:/'
+        - uri: 'https://www.daxko.com/'
           title: 'Register Now'
 
     -
@@ -53,7 +53,7 @@ source:
       description: "Get paid to play at work with the Y. Explore a range of full-time and part-time jobs close to your home."
       media: jobs_page_image_1
       cta:
-        - uri: 'internal:/'
+        - uri: 'https://www.daxko.com'
           title: 'See Current Openings'
 
   ids:
