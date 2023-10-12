@@ -15,7 +15,7 @@ source:
       id: 1
       title: 'Who We Are'
       menu_name: 'demo-main'
-      link: 'internal:/'
+      link: 'internal:/init-demo-who-we-are-page'
       weight: 1
       parent_id: 0
       expanded: 0
@@ -51,7 +51,7 @@ source:
       id: 5
       title: 'Community'
       menu_name: 'demo-main'
-      link: 'internal:/'
+      link: 'internal:/init-demo-dummy-page'
       weight: 3
       parent_id: 2
       expanded: 1
@@ -60,7 +60,7 @@ source:
       id: 6
       title: 'Youth Soccer'
       menu_name: 'demo-main'
-      link: 'internal:/'
+      link: 'internal:/init-demo-program-individual-page'
       weight: 1
       parent_id: 3
       expanded: 0
@@ -69,7 +69,7 @@ source:
       id: 7
       title: 'Youth Sport 2*'
       menu_name: 'demo-main'
-      link: 'internal:/'
+      link: 'internal:/init-demo-dummy-page'
       weight: 3
       parent_id: 3
       expanded: 0
@@ -78,7 +78,7 @@ source:
       id: 8
       title: 'Youth Sport 3*'
       menu_name: 'demo-main'
-      link: 'internal:/'
+      link: 'internal:/init-demo-dummy-page'
       weight: 4
       parent_id: 3
       expanded: 0
@@ -87,7 +87,7 @@ source:
       id: 9
       title: 'Lorem ipsum 1'
       menu_name: 'demo-main'
-      link: 'internal:/'
+      link: 'internal:/init-demo-dummy-page'
       weight: 1
       parent_id: 4
       expanded: 0
@@ -96,7 +96,7 @@ source:
       id: 10
       title: 'Lorem ipsum 2'
       menu_name: 'demo-main'
-      link: 'internal:/'
+      link: 'internal:/init-demo-dummy-page'
       weight: 2
       parent_id: 4
       expanded: 0
@@ -105,79 +105,79 @@ source:
       id: 11
       title: 'Events'
       menu_name: 'demo-main'
-      link: 'internal:/'
+      link: 'internal:/init-demo-events'
       weight: 1
-      parent_id: 4
+      parent_id: 5
       expanded: 0
       parent_link_path: ''
     -
       id: 12
       title: 'Volunteer Opportunities'
       menu_name: 'demo-main'
-      link: 'internal:/'
+      link: 'internal:/init-demo-volunteer-opportunities'
       weight: 1
-      parent_id: 4
+      parent_id: 5
       expanded: 0
       parent_link_path: ''
     -
       id: 13
       title: 'Locations'
       menu_name: 'demo-main'
-      link: 'internal:/'
+      link: 'internal:/init-demo-location-finder'
       weight: 3
       parent_id: 0
       expanded: 1
       parent_link_path: ''
     -
       id: 14
-      title: 'Downtown'
+      title: 'Downtown [Springfield]'
       menu_name: 'demo-main'
-      link: 'internal:/'
+      link: 'internal:/locations/downtown-springfield'
       weight: 1
-      parent_id: 12
+      parent_id: 13
       expanded: 0
       parent_link_path: ''
     -
       id: 15
       title: 'North'
       menu_name: 'demo-main'
-      link: 'internal:/'
+      link: 'internal:/init-demo-dummy-page'
       weight: 2
-      parent_id: 12
+      parent_id: 13
       expanded: 0
       parent_link_path: ''
     -
       id: 16
       title: 'South'
       menu_name: 'demo-main'
-      link: 'internal:/'
+      link: 'internal:/init-demo-dummy-page'
       weight: 3
-      parent_id: 12
+      parent_id: 13
       expanded: 0
       parent_link_path: ''
     -
       id: 17
       title: 'East'
       menu_name: 'demo-main'
-      link: 'internal:/'
+      link: 'internal:/init-demo-dummy-page'
       weight: 4
-      parent_id: 12
+      parent_id: 13
       expanded: 0
       parent_link_path: ''
     -
       id: 18
       title: 'West'
       menu_name: 'demo-main'
-      link: 'internal:/'
+      link: 'internal:/init-demo-dummy-page'
       weight: 5
-      parent_id: 12
+      parent_id: 13
       expanded: 0
       parent_link_path: ''
     -
       id: 19
       title: 'Membership'
       menu_name: 'demo-main'
-      link: 'internal:/'
+      link: 'internal:/init-demo-membership'
       weight: 4
       parent_id: 0
       expanded: 0
@@ -186,7 +186,7 @@ source:
       id: 20
       title: 'Schedules'
       menu_name: 'demo-main'
-      link: 'internal:/'
+      link: 'internal:/init-demo-schedules'
       weight: 5
       parent_id: 0
       expanded: 0

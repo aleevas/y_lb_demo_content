@@ -4,32 +4,23 @@ dependencies:
   enforced:
     module:
       - y_lb_init_demo_content
-id: y_lb_init_demo_menu_link_utility
+id: y_lb_init_demo_menu_link_account
 migration_tags: {  }
 migration_group: y_lb_init_demo_content
-label: 'Create demo Utility menu links'
+label: 'Create demo Account menu links'
 source:
   plugin: embedded_data
   data_rows:
     -
       id: 1
-      title: 'Jobs'
-      menu_name: 'demo-utility'
-      link: 'internal:/init-demo-jobs'
+      title: 'Join'
+      menu_name: 'demo-account'
+      link: 'internal:/'
       weight: 1
       parent_id: 0
       expanded: 0
       parent_link_path: ''
-
-    -
-      id: 2
-      title: 'Donate'
-      menu_name: 'demo-utility'
-      link: 'internal:/init-demo-donate'
-      weight: 2
-      parent_id: 0
-      expanded: 0
-      parent_link_path: ''
+      class: 'highlighted'
   ids:
     id:
       type: integer
