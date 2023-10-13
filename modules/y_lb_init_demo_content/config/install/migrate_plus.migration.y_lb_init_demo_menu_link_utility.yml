@@ -5,7 +5,8 @@ dependencies:
     module:
       - y_lb_init_demo_content
 id: y_lb_init_demo_menu_link_utility
-migration_tags: {  }
+migration_tags:
+  - openy_complete_installation
 migration_group: y_lb_init_demo_content
 label: 'Create demo Utility menu links'
 source:

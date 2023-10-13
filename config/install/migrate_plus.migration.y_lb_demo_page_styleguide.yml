@@ -7,7 +7,8 @@ dependencies:
     module:
       - y_lb_demo_content
 id: y_lb_demo_page_styleguide
-migration_tags: {}
+migration_tags:
+  - openy_complete_installation
 migration_group: y_lb_demo_content_page
 label: 'Import demo Layout Builder pages'
 source:

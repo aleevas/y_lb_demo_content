@@ -7,7 +7,8 @@ dependencies:
     module:
       - y_lb_demo_content
 id: y_lb_demo_block_grid_cta
-migration_tags: {}
+migration_tags:
+  - openy_complete_installation
 migration_group: y_lb_demo_content
 label: 'Import demo Layout Builder - Grid CTA block'
 source:
