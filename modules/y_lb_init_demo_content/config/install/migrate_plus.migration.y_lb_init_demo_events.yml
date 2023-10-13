@@ -5,7 +5,8 @@ dependencies:
     module:
       - y_lb_init_demo_content
 id: y_lb_init_demo_events
-migration_tags: {}
+migration_tags:
+  - openy_complete_installation
 migration_group: y_lb_init_demo_content
 label: 'Create demo events'
 source:
@@ -15,7 +16,7 @@ source:
       id: 1
       title: 'Forever Young Picnic Lunch Cruise'
       body: "<h2 class='text-align-center'>All Aboard, Seniors!</h2><p>Take in the city's sights from the placid waters of the Springfield River — you can even bring the grandkids! This casual, two-hour tour on the RMS Springfield includes a boxed lunch from Springfield Restaurant as well as activities for all ages. Meet at the West River Dock no later than 11:45 am. Carpool options from the YMCA of [Springfield] will also be available.</p><a href='https://www.daxko.com' target='_blank' class='btn btn-primary'>RSVP</a>"
-      summary: "All aboard, seniors! Take a 2-hour tour 
+      summary: "All aboard, seniors! Take a 2-hour tour
         of the city on this casual riverboat picnic
         that includes a boxed lunch."
       contact_email: sXyimJuV@example.com

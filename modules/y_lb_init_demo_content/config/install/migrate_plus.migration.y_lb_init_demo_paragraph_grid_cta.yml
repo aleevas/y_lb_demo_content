@@ -8,7 +8,8 @@ id: y_lb_init_demo_paragraph_grid_cta
 class: null
 field_plugin_method: null
 cck_plugin_method: null
-migration_tags: {  }
+migration_tags:
+  - openy_complete_installation
 migration_group: y_lb_init_demo_content
 label: 'Create Grid Item paragraphs for Grid CTA component'
 source:
