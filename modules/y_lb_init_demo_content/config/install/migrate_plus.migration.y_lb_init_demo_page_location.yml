@@ -236,7 +236,7 @@ source:
                       border_style_component: ws_border_style_component_drop_shadow
                       text_alignment_component: ws_text_alignment_component_left
                       button_position_component: ws_button_position_component_inside
-                      button_fill_component: ws_button_fill_component_outlined
+                      button_fill_component: ws_button_fill_component_filled
         10third_banner:
           components:
             lb_hero:
@@ -418,16 +418,16 @@ process:
         section_classes: 'mt-5'
         breakpoints:
           desktop: 'blb_col_8_4'
-          tablet: 'blb_col_8_4'
+          tablet: 'blb_col_12'
           mobile: 'blb_col_12'
         layout_regions_classes:
           blb_region_col_1:
             - 'col-lg-8'
-            - 'col-md-8'
+            - 'col-12'
             - 'col-12'
           blb_region_col_2:
             - 'col-lg-4'
-            - 'col-md-4'
+            - 'col-md-12'
             - 'col-12'
       7carousel:
         bs_col: "blb_col_1"

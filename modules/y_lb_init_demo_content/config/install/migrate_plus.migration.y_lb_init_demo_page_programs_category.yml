@@ -97,7 +97,7 @@ source:
                   block_style:
                     ws_style_option:
                       hero_banner: lb_hero_frame
-                      button_fill_component: ws_button_fill_component_outlined
+                      button_fill_component: ws_button_fill_component_filled
         3two_columns:
           components:
             lb_simple_menu:
@@ -126,6 +126,8 @@ source:
                 id: "inline_block:lb_ping_pong"
                 label: "Youth Soccer"
                 provider: "layout_builder"
+        5ping_pong:
+          components:
             lb_ping_pong_2:
               uuid: "d96ddec6-f5d0-4321-bca8-9fdd415220eb"
               region: 'blb_region_col_1'
@@ -133,6 +135,8 @@ source:
                 id: "inline_block:lb_ping_pong"
                 label: "Youth Tee-Ball and Baseball"
                 provider: "layout_builder"
+        6ping_pong:
+          components:
             lb_ping_pong_3:
               uuid: "aca2d18a-37fa-4dbf-8d52-680ae7972d76"
               region: 'blb_region_col_1'
@@ -140,7 +144,7 @@ source:
                 id: "inline_block:lb_ping_pong"
                 label: "Youth Basketball"
                 provider: "layout_builder"
-        5second_banner:
+        7second_banner:
           components:
             lb_hero:
               uuid: "36b0d5ea-04e0-4098-90f4-dee8ca937b8c"
@@ -156,8 +160,8 @@ source:
                   block_style:
                     ws_style_option:
                       hero_banner: lb_hero_standard
-                      button_fill_component: ws_button_fill_component_outlined
-        6partners:
+                      button_fill_component: ws_button_fill_component_filled
+        8partners:
           components:
             lb_code_block:
               uuid: "06466af2-9449-4494-8bb5-aed8b1452050"
@@ -168,7 +172,7 @@ source:
                 label_display: "hidden"
                 provider: "layout_builder"
                 "view_mode": "full"
-        7third_banner:
+        9third_banner:
           components:
             lb_hero:
               uuid: "341eed75-0857-4ea3-a2be-945179a14182"
@@ -184,8 +188,8 @@ source:
                   block_style:
                     ws_style_option:
                       hero_banner: lb_hero_small
-                      button_fill_component: ws_button_fill_component_outlined
-        8footer:
+                      button_fill_component: ws_button_fill_component_filled
+        10footer:
           components:
             copyright:
               region: 'footer_bottom_left'
@@ -294,16 +298,16 @@ process:
           section_classes: 'mt-5'
           breakpoints:
             desktop: 'blb_col_9_3'
-            tablet: 'blb_col_9_3'
+            tablet: 'blb_col_12'
             mobile: 'blb_col_12'
           layout_regions_classes:
             blb_region_col_1:
               - 'col-lg-3'
-              - 'col-md-3'
+              - 'col-12'
               - 'col-12'
             blb_region_col_2:
               - 'col-lg-9'
-              - 'col-md-9'
+              - 'col-12'
               - 'col-12'
       4ping_pong:
         bs_col: "blb_col_1"
@@ -311,24 +315,40 @@ process:
         container: "container-fluid"
         remove_gutters: "1"
         section_classes: 'mt-5'
-      5second_banner:
+        container_wrapper_attributes:
+          id: 'youth-soccer'
+      5ping_pong:
+        bs_col: "blb_col_1"
+        label: "Ping Pong"
+        container: "container-fluid"
+        remove_gutters: "1"
+        container_wrapper_attributes:
+          id: 'tee-baseball'
+      6ping_pong:
+        bs_col: "blb_col_1"
+        label: "Ping Pong"
+        container: "container-fluid"
+        remove_gutters: "1"
+        container_wrapper_attributes:
+          id: 'tee-basketball'
+      7second_banner:
         bs_col: "blb_col_1"
         label: "Ping Pong"
         container: "w-100"
         remove_gutters: "1"
         section_classes: 'mt-5'
-      6partners:
+      8partners:
         bs_col: "blb_col_1"
         label: "Our Sponsors"
         container: "container"
         remove_gutters: "0"
         section_classes: 'mt-5'
-      7third_banner:
+      9third_banner:
         bs_col: "blb_col_1"
         label: "Have questions?"
         container: "w-100"
         remove_gutters: "1"
-      8footer:
+      10footer:
         label: "Footer"
         id: 'ws_footer'
         wrapper_classes: ''

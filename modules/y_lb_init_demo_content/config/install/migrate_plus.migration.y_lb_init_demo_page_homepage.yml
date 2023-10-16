@@ -97,7 +97,7 @@ source:
                   block_style:
                     ws_style_option:
                       hero_banner: lb_hero_chevron
-                      button_fill_component: ws_button_fill_component_outlined
+                      button_fill_component: ws_button_fill_component_filled
         3grid_cta:
           components:
             lb_grid_cta:
@@ -128,7 +128,7 @@ source:
                   block_style:
                     ws_style_option:
                       hero_banner: lb_hero_frame
-                      button_fill_component: ws_button_fill_component_outlined
+                      button_fill_component: ws_button_fill_component_filled
         5events:
           components:
             events_filter:
@@ -206,7 +206,7 @@ source:
                   block_style:
                     ws_style_option:
                       hero_banner: lb_hero_overlay
-                      button_fill_component: ws_button_fill_component_outlined
+                      button_fill_component: ws_button_fill_component_filled
         9footer:
           components:
             copyright:
@@ -330,7 +330,7 @@ process:
       6ping_pong:
         bs_col: "blb_col_1"
         label: "Ping Pong"
-        container: "container"
+        container: "container-fluid"
         remove_gutters: "1"
         section_classes: 'mt-5'
       7testimonials:

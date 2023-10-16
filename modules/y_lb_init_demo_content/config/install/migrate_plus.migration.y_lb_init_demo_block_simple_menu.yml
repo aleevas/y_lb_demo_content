@@ -21,19 +21,19 @@ source:
       image: icon_1
       links:
         -
-          uri: 'internal:/init-demo-who-we-are-page#what-we-do'
+          uri: 'internal:#what-we-do'
           title: 'What We Do'
         -
-          uri: 'internal:/init-demo-who-we-are-page#guiding-principles'
+          uri: 'internal:#guiding-principles'
           title: 'Guiding Principles'
         -
-          uri: 'internal:/init-demo-who-we-are-page#our-impact'
+          uri: 'internal:#our-impact'
           title: 'Our Impact'
         -
-          uri: 'internal:/init-demo-who-we-are-page#history-and-mission'
+          uri: 'internal:#history-and-mission'
           title: 'History & Mission'
         -
-          uri: 'internal:/init-demo-who-we-are-page#our-partners'
+          uri: 'internal:#our-partners'
           title: 'Our Partners'
     -
       id: 2
@@ -42,13 +42,13 @@ source:
       image: icon_7
       links:
         -
-          uri: 'internal:/init-demo-programs-overview#inline-blocklb-ping-pong126'
+          uri: 'internal:#youth-sports'
           title: 'Youth Sports'
         -
-          uri: 'internal:/init-demo-programs-overview#inline-blocklb-ping-pong127'
+          uri: 'internal:#health-fitness'
           title: 'Health & Fitness'
         -
-          uri: 'internal:/init-demo-programs-overview#inline-blocklb-ping-pong128'
+          uri: 'internal:#community'
           title: 'Community'
     -
       id: 3
@@ -56,11 +56,11 @@ source:
       title: 'Quick Links'
       image: icon_8
       links:
-        - uri: 'internal:/init-demo-programs-category#inline-blocklb-ping-pong129'
+        - uri: 'internal:#youth-soccer'
           title: 'Youth Soccer'
-        - uri: 'internal:/init-demo-programs-category#inline-blocklb-ping-pong130'
+        - uri: 'internal:#tee-baseball'
           title: 'Tee-Ball/Baseball'
-        - uri: 'internal:/init-demo-programs-category#inline-blocklb-ping-pong131'
+        - uri: 'internal:#tee-basketball'
           title: 'Basketball'
     -
       id: 4
@@ -68,15 +68,15 @@ source:
       title: 'Quick Links'
       image: icon_9
       links:
-        - uri: 'internal:/init-demo-program-individual-page#schedules-ages-pricing'
+        - uri: 'internal:#schedules-ages-pricing'
           title: 'Schedules, Ages & Pricing '
-        - uri: 'internal:/init-demo-program-individual-page#financial-aid'
+        - uri: 'internal:#financial-aid'
           title: 'Financial Aid'
-        - uri: 'internal:/init-demo-program-individual-page#program-levels-requirements'
+        - uri: 'internal:#program-levels-requirements'
           title: 'Levels & Requirements'
-        - uri: 'internal:/init-demo-program-individual-page#how-to-register'
+        - uri: 'internal:#how-to-register'
           title: 'How to Register'
-        - uri: 'internal:/init-demo-program-individual-page#faq'
+        - uri: 'internal:#faq'
           title: 'FAQs'
 
     -
@@ -98,11 +98,11 @@ source:
       title: 'Quick Links'
       image: icon_13
       links:
-        - uri: 'internal:/init-demo-membership#membership-options'
+        - uri: 'internal:#membership-options'
           title: 'Membership Options'
-        - uri: 'internal:/init-demo-membership#try-the-y'
+        - uri: 'internal:#try-the-y'
           title: 'Guest Passes'
-        - uri: 'internal:/init-demo-membership#our-programs'
+        - uri: 'internal:#our-programs'
           title: 'Available Programs'
 
     -
@@ -111,9 +111,9 @@ source:
       title: 'Quick Links'
       image: icon_10
       links:
-        - uri: 'internal:/init-demo-schedules#schedules'
+        - uri: 'internal:#schedules'
           title: 'Class Schedules'
-        - uri: 'internal:/init-demo-schedules#holiday-hours'
+        - uri: 'internal:#holiday-hours'
           title: 'Holiday Hours'
     -
       id: 8
@@ -121,19 +121,19 @@ source:
       title: 'Quick Links'
       image: icon_22
       links:
-        - uri: 'internal:/init-demo-jobs#lifeguard'
+        - uri: 'internal:#lifeguard'
           title: 'Lifeguard'
-        - uri: 'internal:/init-demo-jobs#swim-instructor'
+        - uri: 'internal:#swim-instructor'
           title: 'Swim Instructor'
-        - uri: 'internal:/init-demo-jobs#camp-counselor'
+        - uri: 'internal:#camp-counselor'
           title: 'Camp Counselor'
-        - uri: 'internal:/init-demo-jobs#child-care-provider'
+        - uri: 'internal:#child-care-provider'
           title: 'Child Care Provider'
-        - uri: 'internal:/init-demo-jobs#healthy-living-coach'
+        - uri: 'internal:#healthy-living-coach'
           title: 'Healthy Living Coach'
-        - uri: 'internal:/init-demo-jobs#membership-service-rep'
+        - uri: 'internal:#membership-service-rep'
           title: 'Membership Services Rep'
-        - uri: 'internal:/init-demo-jobs#youth-sports-referee'
+        - uri: 'internal:#youth-sports-referee'
           title: 'Youth Sports Referee'
     -
       id: 9
@@ -141,15 +141,15 @@ source:
       title: 'Quick Links'
       image: icon_23
       links:
-        - uri: 'internal:/init-demo-volunteer-opportunities#youth-sports-coach'
+        - uri: 'internal:#youth-sports-coach'
           title: 'Youth Sports Coach'
-        - uri: 'internal:/init-demo-volunteer-opportunities#advisory-board-member'
+        - uri: 'internal:#advisory-board-member'
           title: 'Advisory Board Member'
-        - uri: 'internal:/init-demo-volunteer-opportunities#annual-campaign-fundraiser'
+        - uri: 'internal:#annual-campaign-fundraiser'
           title: 'Annual Fundraiser'
-        - uri: 'internal:/init-demo-volunteer-opportunities#special-events-volunteer'
+        - uri: 'internal:#special-events-volunteer'
           title: 'Special Events Volunteer'
-        - uri: 'internal:/init-demo-volunteer-opportunities#new-member-ambassador'
+        - uri: 'internal:#new-member-ambassador'
           title: 'New Member Ambassador'
 
   ids:

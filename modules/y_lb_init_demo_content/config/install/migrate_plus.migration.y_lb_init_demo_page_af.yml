@@ -97,7 +97,7 @@ source:
                   block_style:
                     ws_style_option:
                       hero_banner: lb_hero_standard
-                      button_fill_component: ws_button_fill_component_outlined
+                      button_fill_component: ws_button_fill_component_filled
         3activity_finder:
           components:
             lb_code_block:
@@ -217,7 +217,7 @@ process:
         label: "Activity Finder"
         container: "container"
         remove_gutters: "1"
-        section_classes: 'mt-5 mb-5'
+        section_classes: 'mt-5'
         container_wrapper_attributes:
           id: 'membership-options'
       4footer:

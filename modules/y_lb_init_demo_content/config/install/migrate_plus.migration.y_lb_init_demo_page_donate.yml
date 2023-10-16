@@ -97,7 +97,7 @@ source:
                   block_style:
                     ws_style_option:
                       hero_banner: lb_hero_standard
-                      button_fill_component: ws_button_fill_component_outlined
+                      button_fill_component: ws_button_fill_component_filled
         3icon_grid:
           components:
             lb_icon_grid:
@@ -175,7 +175,7 @@ source:
                   block_style:
                     ws_style_option:
                       hero_banner: lb_hero_overlay
-                      button_fill_component: ws_button_fill_component_outlined
+                      button_fill_component: ws_button_fill_component_filled
         9footer:
           components:
             copyright:

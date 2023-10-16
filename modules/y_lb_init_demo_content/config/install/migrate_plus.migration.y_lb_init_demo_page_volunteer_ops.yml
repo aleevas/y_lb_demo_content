@@ -97,7 +97,7 @@ source:
                   block_style:
                     ws_style_option:
                       hero_banner: lb_hero_chevron
-                      button_fill_component: ws_button_fill_component_outlined
+                      button_fill_component: ws_button_fill_component_filled
         3two_columns:
           components:
             lb_simple_menu:
@@ -178,7 +178,7 @@ source:
                   block_style:
                     ws_style_option:
                       hero_banner: lb_hero_standard
-                      button_fill_component: ws_button_fill_component_outlined
+                      button_fill_component: ws_button_fill_component_filled
         6footer:
           components:
             copyright:
@@ -287,16 +287,16 @@ process:
         section_classes: 'mt-5'
         breakpoints:
           desktop: 'blb_col_8_4'
-          tablet: 'blb_col_8_4'
+          tablet: 'blb_col_12'
           mobile: 'blb_col_12'
         layout_regions_classes:
           blb_region_col_1:
             - 'col-lg-4'
-            - 'col-md-4'
+            - 'col-md-12'
             - 'col-12'
           blb_region_col_2:
             - 'col-lg-8'
-            - 'col-md-8'
+            - 'col-12'
             - 'col-12'
       4ping_pong:
         bs_col: "blb_col_1"

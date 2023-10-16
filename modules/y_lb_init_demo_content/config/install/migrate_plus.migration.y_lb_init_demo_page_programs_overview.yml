@@ -97,7 +97,7 @@ source:
                   block_style:
                     ws_style_option:
                       hero_banner: lb_hero_chevron
-                      button_fill_component: ws_button_fill_component_outlined
+                      button_fill_component: ws_button_fill_component_filled
         3two_columns:
           components:
             lb_simple_menu:
@@ -126,6 +126,8 @@ source:
                 id: "inline_block:lb_ping_pong"
                 label: "Youth Sports"
                 provider: "layout_builder"
+        5ping_pong:
+          components:
             lb_ping_pong_2:
               uuid: "3b1f74d9-d51b-455a-8aac-f7e185210b54"
               region: 'blb_region_col_1'
@@ -133,6 +135,8 @@ source:
                 id: "inline_block:lb_ping_pong"
                 label: "Health & Fitness"
                 provider: "layout_builder"
+        6ping_pong:
+          components:
             lb_ping_pong_3:
               uuid: "bdad32ab-7c9e-4a1d-975d-6ae1390c7a05"
               region: 'blb_region_col_1'
@@ -140,7 +144,7 @@ source:
                 id: "inline_block:lb_ping_pong"
                 label: "Community"
                 provider: "layout_builder"
-        5footer:
+        7footer:
           components:
             copyright:
               region: 'footer_bottom_left'
@@ -249,28 +253,41 @@ process:
         section_classes: 'mt-5'
         breakpoints:
           desktop: 'blb_col_9_3'
-          tablet: 'blb_col_9_3'
+          tablet: 'blb_col_12'
           mobile: 'blb_col_12'
         layout_regions_classes:
           blb_region_col_1:
             - 'col-lg-3'
-            - 'col-md-3'
+            - 'col-12'
             - 'col-12'
           blb_region_col_2:
             - 'col-lg-9'
-            - 'col-md-9'
+            - 'col-12'
             - 'col-12'
       4ping_pong:
         bs_col: "blb_col_1"
         label: "Ping Pong"
         container: "container-fluid"
         remove_gutters: "1"
-        section_classes: 'mt-5 mb-5'
-        container_wrapper:
-          bootstrap_styles:
-            margin_top:
-              class: "bs-mt-4"
-      5footer:
+        section_classes: 'mt-5'
+        container_wrapper_attributes:
+          id: 'youth-sports'
+      5ping_pong:
+        bs_col: "blb_col_1"
+        label: "Ping Pong"
+        container: "container-fluid"
+        remove_gutters: "1"
+        container_wrapper_attributes:
+          id: 'health-fitness'
+      6ping_pong:
+        bs_col: "blb_col_1"
+        label: "Ping Pong"
+        container: "container-fluid"
+        remove_gutters: "1"
+        section_classes: 'mt-5'
+        container_wrapper_attributes:
+          id: 'community'
+      7footer:
         label: "Footer"
         id: 'ws_footer'
         wrapper_classes: ''

@@ -12,10 +12,10 @@ source:
   data_rows:
     -
       tid: 101
-      title: 'Category 1'
+      title: 'Seniors'
     -
       tid: 102
-      title: 'Category 2'
+      title: 'Family'
     -
       tid: 103
       title: 'Category 3'

@@ -20,7 +20,7 @@ source:
       section_title: ''
       section_subtitle: ''
       item_title: 'Schedules'
-      item_description: "<p>View class and program times, and reserve a spot in all of your favorite classes.</p>"
+      item_description: "View class and program times, and reserve a spot in all of your favorite classes."
       image: homepage_image_10
       image_position: 'right'
       cta:
@@ -33,7 +33,7 @@ source:
       section_title: ''
       section_subtitle: ''
       item_title: 'Jobs'
-      item_description: "<p>Discover your passion while helping solve some of the nation's most pressing social issues.</p>"
+      item_description: "Discover your passion while helping solve some of the nation's most pressing social issues."
       image: homepage_image_11
       image_position: 'left'
       cta:
@@ -46,7 +46,7 @@ source:
       section_title: ''
       section_subtitle: ''
       item_title: 'Volunteer Opportunities'
-      item_description: "<p>Become part of something bigger than yourself. Volunteer with the Y and help your community in direct and meaningful ways.</p>"
+      item_description: "Become part of something bigger than yourself. Volunteer with the Y and help your community in direct and meaningful ways."
       image: homepage_image_12
       image_position: 'right'
       cta:
@@ -58,7 +58,7 @@ source:
       section_title: 'What We Do'
       section_subtitle: ''
       item_title: 'Youth Development'
-      item_description: "<p>All kids deserve a chance to discover who they are and what they can achieve. Through the Y, millions of youth are cultivating the values, skills and relationships that lead to a lifetime of enrichment.</p>"
+      item_description: "All kids deserve a chance to discover who they are and what they can achieve. Through the Y, millions of youth are cultivating the values, skills and relationships that lead to a lifetime of enrichment."
       image: wwa_page_image_2
       image_position: 'right'
     -
@@ -87,7 +87,7 @@ source:
       section_title: ''
       section_subtitle: ''
       item_title: 'Youth Sports'
-      item_description: "<p>Our leagues are safe, fair and, most of all, fun. Kids will learn the basics, improve their skills and make new friends!</p>"
+      item_description: "Our leagues are safe, fair and, most of all, fun. Kids will learn the basics, improve their skills and make new friends!"
       image: program_overview_page_image_2
       image_position: 'right'
       cta:
@@ -100,7 +100,7 @@ source:
       section_title: ''
       section_subtitle: ''
       item_title: 'Health & Fitness'
-      item_description: "<p>Take advantage of group fitness classes, personal training, and sports leagues that improve strength and mindfulness.</p>"
+      item_description: "Take advantage of group fitness classes, personal training, and sports leagues that improve strength and mindfulness."
       image: program_overview_page_image_3
       image_position: 'left'
       cta:
@@ -112,7 +112,7 @@ source:
       section_title: ''
       section_subtitle: ''
       item_title: 'Community'
-      item_description: "<p>These programs aim to bring members together, because we're all stronger when we're looking out for one another.</p>"
+      item_description: "These programs aim to bring members together, because we're all stronger when we're looking out for one another."
       image: program_overview_page_image_4
       image_position: 'right'
       cta:
@@ -124,7 +124,7 @@ source:
       section_title: ''
       section_subtitle: ''
       item_title: 'Youth Soccer'
-      item_description: "<p>Designed to introduce players of any skill level to the world's most popular sport, our program encourages teamwork and builds confidence.</p>"
+      item_description: "Designed to introduce players of any skill level to the world's most popular sport, our program encourages teamwork and builds confidence."
       image: jobs_page_image_2
       image_position: 'right'
       cta:
@@ -136,7 +136,7 @@ source:
       section_title: ''
       section_subtitle: ''
       item_title: 'Youth Tee-Ball and Baseball'
-      item_description: "<p>Kids ages 3–8 balance fun with fundamentals as they learn to hit, catch and throw in a team-building environment.</p>"
+      item_description: "Kids ages 3–8 balance fun with fundamentals as they learn to hit, catch and throw in a team-building environment."
       image: jobs_page_image_3
       image_position: 'left'
       cta:
@@ -148,7 +148,7 @@ source:
       section_title: ''
       section_subtitle: ''
       item_title: 'Youth Basketball'
-      item_description: "<p>These programs aim to bring members together, because we're all stronger when we're looking out for one another.</p>"
+      item_description: "These programs aim to bring members together, because we're all stronger when we're looking out for one another."
       image: program_overview_page_image_4
       image_position: 'right'
       cta:
