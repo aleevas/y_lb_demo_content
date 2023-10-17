@@ -1,0 +1,77 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - lb_hero
+  enforced:
+    module:
+      - y_lb_demo_content
+id: y_lb_demo_block_banner_overlay
+migration_tags:
+  - openy_complete_installation
+  - y_lb_demo_content
+migration_group: y_lb_demo_content
+label: 'Import demo Layout Builder - Overlay banner'
+source:
+  plugin: embedded_data
+  data_rows:
+    -
+      id: 20
+      uuid: '2caea7c1-3ed5-468a-8691-a5bbdcef979f'
+      title: 'Join Our Community and Expand Your Horizons'
+      description: "<p>It's always a good time to join the Y! We have motivating group fitness classes, swimming, programs for all ages and a community of support. You'll find welcoming staff ready to help you meet your goals and live your healthiest, happiest life.</p>"
+      media: homepage_image_13
+      cta:
+        - uri: 'internal:/demo-membership'
+          title: 'Explore Membership'
+    -
+      id: 21
+      uuid: '1ec959c2-fe76-4d39-8b41-26fba78cc5d2'
+      title: 'Try the Y for Free'
+      description: "<p>Not quite ready to join? With a complimentary guest pass, you can come try out your preferred location.</p>"
+      media: jointhey_page_image_2
+      cta:
+        - uri: 'internal:/demo-membership'
+          title: 'Get Your Guest Pass'
+
+    -
+      id: 22
+      uuid: '8bb277c5-e09d-4e67-bef4-541eed0c0caa'
+      title: 'Protecting Your Privacy'
+      description: "<p>We generally acknowledge contributors in our annual report. If you do not wish to have your name recognized in print or online, you can request anonymity when you make your pledge. Donors can also opt out of involvement in future campaigns and mailing lists at any time.</p>"
+      media: donate_page_image_6
+      cta:
+        - uri: 'internal:/demo-dummy'
+          title: 'View Our Full Privacy Policy'
+  ids:
+    id:
+      type: integer
+process:
+  langcode:
+    plugin: default_value
+    source: language
+    default_value: en
+  status:
+    plugin: default_value
+    default_value: 1
+  reusable:
+    plugin: default_value
+    default_value: 0
+  type:
+    plugin: default_value
+    default_value: lb_hero
+  uuid: uuid
+  field_title: title
+  field_description/value: description
+  field_description/format:
+    plugin: default_value
+    default_value: full_html
+  field_hero_cta: cta
+  field_media:
+    - plugin: migration_lookup
+      migration: y_lb_demo_media_image
+      source: media
+
+destination:
+  plugin: entity:block_content
+migration_dependencies: {  }

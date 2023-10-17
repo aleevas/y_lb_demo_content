@@ -15,40 +15,36 @@ label: 'Create Grid Item paragraphs for Grid CTA component'
 source:
   plugin: embedded_data
   data_rows:
-    - id: grid_cta_1
-      parent_id: 22
-      title: 'YMCA Camps'
-      body: '<p>Our summer camp programs for kids and teens offer powerful learning environments.</p>'
-      image: lb_image_9
-      cta:
-        - uri: 'internal:/'
-          title: 'Let’s go camp'
     -
-      id: grid_cta_2
-      parent_id: 22
-      title: 'Swim Lessons'
-      body: "<p>The YMCA is the nation's favorite swim instructor. We teach people of all ages and from all backgrounds that water can be fun — not feared.</p>"
-      image: 'drop-in_swim'
+      id: grid_item_1
+      uuid: 'be3aeb06-0915-4c01-94c5-af55437d9123'
+      parent_id: 31
+      title: 'Youth Sports'
+      body: "<p>We're dedicated to making sure our leagues are safe, fair and, most of all, fun. Learn the basics, improve your skills and make new friends!</p>"
+      image: homepage_image_2
       cta:
-        - uri: 'internal:/'
-          title: 'Find your pool'
+        - uri: 'internal:/demo-programs-category'
+          title: 'See Youth Sports'
     -
-      id: grid_cta_3
-      parent_id: 22
+      id: grid_item_2
+      uuid: 'ae3aeb06-0915-94c5-4c01-af55437d9125'
+      parent_id: 31
       title: 'Health and Fitness'
-      body: '<p>The YMCA is dedicated to helping everyone in our community become their best selves.</p>'
-      image: lb_image_12
+      body: "<p>Take advantage of group fitness classes, personal training, and sports leagues that improve strength and mindfulness.</p>"
+      image: homepage_image_3
       cta:
-        - uri: 'internal:/'
-          title: 'See our schedule'
-    - id: grid_cta_4
-      parent_id: 22
-      title: 'YMCA Careers'
-      body: "<p>At the Y, you can discover your passion and a lifelong career helping solve some of the nation's most pressing social issues. Find a job with the Y today!</p>"
-      image: lb_image_11
+        - uri: 'internal:/demo-dummy'
+          title: 'Explore Options'
+    -
+      id: grid_item_3
+      uuid: 'af55437d-0915-94c5-4c01-ae3aeb069456'
+      parent_id: 31
+      title: 'Community'
+      body: "<p>These programs aim to bring members together, because we're all stronger when we're looking out for one another.</p>"
+      image: homepage_image_4
       cta:
-        - uri: 'internal:/'
-          title: 'Work at the Y'
+        - uri: 'internal:/demo-dummy'
+          title: 'Get Involved'
   ids:
     id:
       type: string
@@ -60,9 +56,7 @@ process:
   status:
     plugin: default_value
     default_value: 1
-  uid:
-    plugin: default_value
-    default_value: 1
+  uuid:  uuid
   parent_id:
     plugin: migration_lookup
     migration: y_lb_demo_block_grid_cta
@@ -93,6 +87,4 @@ process:
 destination:
   plugin: 'entity:paragraph'
   default_bundle: 'lb_cta_item'
-migration_dependencies:
-  required:
-    - y_lb_demo_media_image
+migration_dependencies: {  }

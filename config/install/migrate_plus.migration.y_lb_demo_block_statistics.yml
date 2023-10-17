@@ -15,12 +15,12 @@ source:
   plugin: embedded_data
   data_rows:
     -
-      id: 24
-      uuid: 'ad542225-af8e-4a5b-a4fb-3a5828b4bd06'
+      id: 224
+      uuid: 'da542225-af8e-4a5b-a4fa-3a5828b4bd06'
       title: 'Our Impact'
-      subtitle: 'Each year, we strive to transform lives and strengthen communities worldwide.'
+      subtitle: ''
       columns: 4
-      image: day_camps
+      image: wwa_page_image_5
       cta: {}
       content_ids:
         -
@@ -35,8 +35,6 @@ source:
     id:
       type: integer
 process:
-  id: id
-  revision_id: id
   langcode:
     plugin: default_value
     source: language

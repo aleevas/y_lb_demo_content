@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: demo-account
+label: 'Demo Account navigations'
+description: 'Demo Account menu links'
+locked: false

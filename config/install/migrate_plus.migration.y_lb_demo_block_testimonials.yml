@@ -2,28 +2,37 @@ langcode: en
 status: true
 dependencies:
   module:
-    - y_lb_demo_content
+    - lb_testimonial_blocks
   enforced:
     module:
       - y_lb_demo_content
-id: y_lb_demo_block_carousel
+id: y_lb_demo_block_testimonials
 migration_tags:
   - openy_complete_installation
 migration_group: y_lb_demo_content
-label: 'Import demo Layout Builder - Carousel block'
+label: 'Import Demo Layout Builder - Testimonials block'
 source:
   plugin: embedded_data
   data_rows:
     -
-      id: 777
-      uuid: '4ce867f2-41d9-44de-9b1c-6dab4df7b6ce'
-      title: 'Explore Our Facilities'
+      id: 1
+      uuid: '3ef481d1-0c7c-49c9-ac7a-6a3794df75dd'
+      title: 'What Our Members Say'
       subtitle: ''
       content_ids:
-        - content_id: carousel_1
-        - content_id: carousel_2
-        - content_id: carousel_3
-        - content_id: carousel_4
+        - content_id: testimonial_1
+        - content_id: testimonial_2
+        - content_id: testimonial_3
+
+    -
+      id: 2
+      uuid: '664bc3ab-15bf-4d92-b56d-7a6078c90fa0'
+      title: 'What Our Community Says'
+      subtitle: ''
+      content_ids:
+        - content_id: testimonial_4
+        - content_id: testimonial_5
+        - content_id: testimonial_6
   ids:
     id:
       type: integer
@@ -40,28 +49,24 @@ process:
     default_value: 0
   type:
     plugin: default_value
-    default_value: lb_carousel
+    default_value: lb_testimonials
   uuid: uuid
   field_section_title: title
-  field_subtitle: subtitle
-  field_carousel_items:
+  field_section_subtitle: subtitle
+  field_testimonial_item:
     plugin: sub_process
     source: content_ids
     process:
       target_id:
         plugin: migration_lookup
         migration:
-          - y_lb_demo_paragraph_carousel
-        source: content_id
-      target_revision_id:
-        plugin: migration_lookup
-        migration:
-          - y_lb_demo_paragraph_carousel
+          - y_lb_demo_block_testimonial_item
         source: content_id
 
 destination:
   plugin: entity:block_content
+  default_bundle: 'lb_testimonials'
 migration_dependencies:
   required:
-    - y_lb_demo_paragraph_carousel
-  optional: {}
+    - y_lb_demo_block_testimonial_item
+  optional: {  }

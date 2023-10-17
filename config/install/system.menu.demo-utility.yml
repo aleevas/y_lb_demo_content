@@ -1,0 +1,7 @@
+langcode: en
+status: true
+id: demo-utility
+dependencies: {  }
+label: 'Demo Utility navigations'
+description: 'Demo Utility menu links'
+locked: false

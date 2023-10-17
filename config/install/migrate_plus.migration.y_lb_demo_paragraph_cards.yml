@@ -11,50 +11,141 @@ cck_plugin_method: null
 migration_tags:
   - openy_complete_installation
 migration_group: y_lb_demo_content
-label: 'Create Card paragraphs for Cards component'
+label: 'Create Card Item paragraphs for Cards component'
 source:
   plugin: embedded_data
   data_rows:
     -
-      id: cards_1
-      parent_id: 21
-      title: 'Operating with Care'
-      body: "We're excited to welcome you to our Ys! The health and safety of our members, volunteers and staff are always our top priority."
-      image: lb_image_10
-      cta:
-        - uri: 'internal:/'
-          title: 'Read our guidelines'
-      topic_tag: 67
+      id: card_item_1
+      uuid: '6aeabc44-d285-4a29-86a5-c98fb97ba0f8'
+      parent_id: 1
+      title: 'Ages 3-4 Coed'
+      body: "This is an introduction to the sport that focuses on social skills, teamwork and fundamentals. This level will have six practices and games."
+      image: program_individual_page_image_2
+
     -
-      id: cards_2
-      parent_id: 21
-      title: 'Make a Reservation'
-      body: 'To ensure you have a great visit, reservations are available for areas where capacity is limited.'
-      image: lb_image_7
-      cta:
-        - uri: 'internal:/'
-          title: 'Make a reservation'
-      topic_tag: 67
+      id: card_item_2
+      uuid: '81bdea78-ff4d-4d9f-9b8a-d29204889786'
+      parent_id: 1
+      title: 'Ages 5-6 Coed'
+      body: "At this level, we nurture skill development, teamwork, positioning and fun. Teams play seven games throughout the season and use a size 3 ball."
+      image: program_individual_page_image_3
+
     -
-      id: cards_3
-      parent_id: 21
-      title: 'Capacity at your Local Y'
-      body: 'See how active your local YMCA branch is if you plan to visit today.'
-      image: recreation
-      cta:
-        - uri: 'internal:/'
-          title: 'View capacity'
-      topic_tag: 67
+      id: card_item_3
+      uuid: '49a2491d-ec1d-42ba-bfe1-32fe0fb42dc5'
+      parent_id: 1
+      title: 'Ages 7-8 Boys/7–8 Girls'
+      body: "Well-rounded instruction continues with an introduction to strategy added in. Teams play seven games and may travel to play other Ys in the area. A size 4 ball is used."
+      image: program_individual_page_image_4
+
     -
-      id: cards_4
-      parent_id: 21
-      title: 'Free Virtual Resources'
-      body: 'We invite you to try our online fitness classes! Visit our Virtual Y site and check in using your member barcode to access our resources.'
-      image: small_group_and_specialty_training
+      id: card_item_4
+      uuid: '770335ad-4ac3-4d86-8dbb-aed8efaebdc5'
+      parent_id: 1
+      title: 'Ages 9-11 Boys/9-11 Girls'
+      body: "Players continue to build their social and athletic skills during a seven-game travel season that culminates in a tournament. A size 4 ball is used."
+      image: program_individual_page_image_5
+
+    -
+      id: card_item_5
+      uuid: 'eab12048-d7a4-4e0e-8aff-0e0e91383a85'
+      parent_id: 1
+      title: 'Ages 12-14 Boys/12-14 Girls'
+      body: "This level emphasizes skill development, strategy and positioning as well as camaraderie. Teams will travel to play other Ys during a seven-game season that culminates in a tournament. A size 5 ball is used."
+      image: program_individual_page_image_6
+
+    -
+      id: card_item_6
+      uuid: 'a6e79525-904f-42d1-9fe8-0df202f31f8f'
+      parent_id: 2
+      title: 'Tee-Ball and Baseball'
+      body: "Kids ages 3–8 balance fun with fundamentals as they learn to hit, catch and throw in a team-building environment."
+      image: program_individual_page_image_8
       cta:
-        - uri: 'internal:/'
-          title: 'Visit VirtualY'
-      topic_tag: 67
+        - uri: 'internal:/demo-program-individual'
+          title: 'See Program Details'
+    -
+      id: card_item_7
+      uuid: 'bcbce36c-a7dd-4703-91d1-8131986b7112'
+      parent_id: 2
+      title: 'Basketball'
+      body: "Our basketball program teaches kids the fundamentals while helping them make friends, stay active and learn sportsmanship."
+      image: program_individual_page_image_9
+      cta:
+        - uri: 'internal:/demo-program-individual'
+          title: 'See Program Details'
+    -
+      id: card_item_8
+      uuid: '93aa73da-ff9a-40d5-8af9-c59db0b9b347'
+      parent_id: 2
+      title: 'Swim Team'
+      body: "You don't need to be an advanced swimmer to join the team! We teach kids of all abilities competitive swimming skills."
+      image: location_individual_page_image_6
+      cta:
+        - uri: 'internal:/demo-program-individual'
+          title: 'See Program Details'
+
+    -
+      id: card_item_9
+      uuid: '47d40b39-9a0f-498a-95e6-a8bc516e6198'
+      parent_id: 3
+      title: 'Health and Fitness Programs'
+      body: "A vast array of activities, including group classes, personal training, and adult sport leagues, are designed to help members grow strong and enjoy life."
+      image: location_individual_page_image_7
+      cta:
+        - uri: 'internal:/demo-dummy'
+          title: 'Explore Options'
+    -
+      id: card_item_10
+      uuid: 'b549d519-6aa1-481c-bd4d-39cf7e6fa3c8'
+      parent_id: 3
+      title: 'Youth Sports Programs'
+      body: "We're dedicated to helping young people become their best selves with programs that encompass all that kids can achieve."
+      image: location_individual_page_image_8
+      cta:
+        - uri: 'internal:/demo-programs-category'
+          title: 'View Programs'
+    -
+      id: card_item_11
+      uuid: '009b9dea-9b58-4f44-9975-dd283b42950c'
+      parent_id: 3
+      title: 'Community Programs and Events'
+      body: "The Y is all about community — which is why we also host events, lead volunteer opportunities and offer safety certification training."
+      image: program_individual_page_image_9
+      cta:
+        - uri: 'internal:/demo-dummy'
+          title: 'Get Involved'
+
+    - id: card_item_12
+      uuid: "cb3ba3b9-d596-4a4f-903e-11994bfd074e"
+      parent_id: 4
+      title: 'Group Fitness Classes'
+      body: "From aquatics to Zumba, we have a robust mix of classes that'll help you stay active."
+      image: membership_page_image_3
+      cta:
+        - uri: 'internal:/demo-schedules'
+          title: 'View Schedule'
+    -
+      id: card_item_13
+      uuid: '5a47746d-9de2-422b-a164-0b99e0841ed6'
+      parent_id: 4
+      title: 'Youth Sports'
+      body: "Our leagues include soccer, basketball, baseball, and more for kids ages 3 and up."
+      image: membership_page_image_4
+      cta:
+        - uri: 'internal:/demo-programs-category'
+          title: 'See Youth Sports'
+
+    - id: card_item_14
+      uuid: 'da32b1a7-32ff-4be3-844e-3c324829dbab'
+      parent_id: 4
+      title: 'Volunteer Opportunities'
+      body: "You can mentor young people, support your neighbors, be a new member ambassador and more."
+      image: membership_page_image_5
+      cta:
+        - uri: 'internal:/demo-volunteer-opportunities'
+          title: 'Get Involved'
   ids:
     id:
       type: string
@@ -66,9 +157,7 @@ process:
   status:
     plugin: default_value
     default_value: 1
-  uid:
-    plugin: default_value
-    default_value: 1
+  uuid: uuid
   parent_id:
     plugin: migration_lookup
     migration: y_lb_demo_block_cards
@@ -86,20 +175,17 @@ process:
     entity: paragraph
     bundle: lb_card
   field_card_title: title
-  field_card_description: body
+  field_card_description/value: body
+  field_card_description/format:
+    plugin: default_value
+    default_value: full_html
   field_card_image:
     -
       plugin: migration_lookup
       migration: y_lb_demo_media_image
       source: image
   field_card_cta: cta
-  field_card_topic_tag/target_id: topic_tag
 destination:
   plugin: 'entity:paragraph'
   default_bundle: 'lb_card'
-migration_dependencies:
-  required:
-    - y_lb_demo_media_image
-  optional:
-    - openy_demo_taxonomy_term_blog_category
-    - openy_demo_taxonomy_term_news_category
+migration_dependencies: {  }
