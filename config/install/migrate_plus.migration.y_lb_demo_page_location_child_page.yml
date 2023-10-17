@@ -306,7 +306,7 @@ process:
       4ping_pong:
         bs_col: "blb_col_1"
         label: "Ping Pong"
-        container: "container-fluid"
+        container: "w-100"
         remove_gutters: "1"
         section_classes: 'mt-5'
       5second_banner:

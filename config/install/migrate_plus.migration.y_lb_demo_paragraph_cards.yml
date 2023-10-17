@@ -117,18 +117,7 @@ source:
         - uri: 'internal:/demo-dummy'
           title: 'Get Involved'
 
-    -
-      id: card_item_20
-      uuid: '5a47746d-9de2-422b-a164-0b99e0841ed6'
-      parent_id: 4
-      title: 'Youth Sports'
-      body: "Our leagues include soccer, basketball, baseball, and more for kids ages 3 and up."
-      image: membership_page_image_4
-      cta:
-        - uri: 'internal:/demo-programs-category'
-          title: 'See Youth Sports'
-
-    - id: card_item_21
+    - id: card_item_20
       uuid: "cb3ba3b9-d596-4a4f-903e-11994bfd074e"
       parent_id: 4
       title: 'Group Fitness Classes'
@@ -137,6 +126,16 @@ source:
       cta:
         - uri: 'internal:/demo-schedules'
           title: 'View Schedule'
+    -
+      id: card_item_21
+      uuid: '5a47746d-9de2-422b-a164-0b99e0841ed6'
+      parent_id: 4
+      title: 'Youth Sports'
+      body: "Our leagues include soccer, basketball, baseball, and more for kids ages 3 and up."
+      image: membership_page_image_4
+      cta:
+        - uri: 'internal:/demo-programs-category'
+          title: 'See Youth Sports'
 
     - id: card_item_22
       uuid: 'da32b1a7-32ff-4be3-844e-3c324829dbab'

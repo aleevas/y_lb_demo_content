@@ -151,6 +151,9 @@ source:
     - id: icon_22
       name: 'Icon 22'
       file: icon_22
+    - id: icon_23
+      name: 'Icon 23'
+      file: icon_23
     - id: program_overview_page_image_1
       name: 'Program Overview 1'
       file: program_overview_page_image_1

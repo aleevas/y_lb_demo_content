@@ -308,7 +308,7 @@ process:
       4ping_pong:
         bs_col: "blb_col_1"
         label: "What We Do"
-        container: "container-fluid"
+        container: "w-100"
         remove_gutters: "1"
         section_classes: 'mt-5'
         container_wrapper_attributes:

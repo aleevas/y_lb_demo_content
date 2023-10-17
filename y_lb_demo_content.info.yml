@@ -21,6 +21,6 @@ dependencies:
   - drupal:lb_ping_pong
   - drupal:lb_partners_blocks
   - drupal:lb_webform
-  - drupal:y_donate
+  - drupal:lb_donate
   - drupal:y_branch
   - drupal:y_branch_menu

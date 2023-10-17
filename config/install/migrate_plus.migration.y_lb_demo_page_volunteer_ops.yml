@@ -300,7 +300,7 @@ process:
       4ping_pong:
         bs_col: "blb_col_1"
         label: "Current Needs"
-        container: "container-fluid"
+        container: "w-100"
         remove_gutters: "1"
         container_wrapper_attributes:
           id: 'youth-sports-coach'

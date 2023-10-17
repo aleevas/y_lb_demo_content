@@ -9,6 +9,7 @@ dependencies:
 id: y_lb_demo_block_banner_chevron
 migration_tags:
   - openy_complete_installation
+  - y_lb_demo_content
 migration_group: y_lb_demo_content
 label: 'Import demo Layout Builder - Chevron banner'
 source:
