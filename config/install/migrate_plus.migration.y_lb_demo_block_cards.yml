@@ -56,9 +56,9 @@ source:
       subtitle: ''
       columns: 3
       content_ids:
-        - content_id: card_item_20
-        - content_id: card_item_21
-        - content_id: card_item_22
+        - content_id: card_item_12
+        - content_id: card_item_13
+        - content_id: card_item_14
   ids:
     id:
       type: integer

@@ -1,11 +1,6 @@
 langcode: en
 status: true
-dependencies:
-  module:
-    - y_lb_demo_content
-  enforced:
-    module:
-      - y_lb_demo_content
+dependencies: {  }
 id: demo-helpful-links
 label: 'Demo helpful links navigations'
 description: 'Demo Helpful links menu'

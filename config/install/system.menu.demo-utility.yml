@@ -1,12 +1,7 @@
 langcode: en
 status: true
-dependencies:
-  module:
-    - y_lb_demo_content
-  enforced:
-    module:
-      - y_lb_demo_content
 id: demo-utility
+dependencies: {  }
 label: 'Demo Utility navigations'
 description: 'Demo Utility menu links'
 locked: false

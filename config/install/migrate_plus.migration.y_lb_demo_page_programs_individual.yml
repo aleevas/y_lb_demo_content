@@ -202,7 +202,24 @@ source:
                 provider: "layout_builder"
                 view_mode: "full"
                 label_display: 'visible'
-        10cards:
+        10fourth_banner:
+          components:
+            lb_hero:
+              uuid: "c06f76be-c65c-457a-a9b0-c305fb3ef396"
+              region: 'blb_region_col_1'
+              config:
+                id: "inline_block:lb_hero"
+                label_display: "hidden"
+                label: "Still Have Questions?"
+                view_mode: "full"
+                provider: "layout_builder"
+              additional:
+                bootstrap_styles:
+                  block_style:
+                    ws_style_option:
+                      hero_banner: lb_hero_small
+                      button_fill_component: ws_button_fill_component_filled
+        11cards:
           components:
             lb_cards:
               uuid: "bca4f067-8b7b-4fb5-b20a-91887b98088e"
@@ -222,7 +239,7 @@ source:
                       text_alignment_component: ws_text_alignment_component_left
                       button_position_component: ws_button_position_component_inside
                       button_fill_component: ws_button_fill_component_filled
-        11footer:
+        12footer:
           components:
             copyright:
               region: 'footer_bottom_left'
@@ -386,13 +403,19 @@ process:
         section_classes: 'mt-5'
         container_wrapper_attributes:
           id: 'faq'
-      10cards:
+      10fourth_banner:
+        bs_col: "blb_col_1"
+        label: "Still Have Questions?"
+        container: "w-100"
+        remove_gutters: "1"
+        section_classes: 'mt-5'
+      11cards:
         bs_col: "blb_col_1"
         label: "How to register"
         container: "container"
         remove_gutters: "0"
         section_classes: 'mt-5'
-      11footer:
+      12footer:
         label: "Footer"
         id: 'ws_footer'
         wrapper_classes: ''

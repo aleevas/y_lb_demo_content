@@ -307,14 +307,14 @@ process:
       4ping_pong2:
         bs_col: "blb_col_1"
         label: "Current Needs"
-        container: "container-fluid"
+        container: "w-100"
         remove_gutters: "0"
         container_wrapper_attributes:
           id: 'advisory-board-member'
       4ping_pong3:
         bs_col: "blb_col_1"
         label: "Current Needs"
-        container: "container-fluid"
+        container: "w-100"
         remove_gutters: "0"
         container_wrapper_attributes:
           id: 'annual-campaign-fundraiser'

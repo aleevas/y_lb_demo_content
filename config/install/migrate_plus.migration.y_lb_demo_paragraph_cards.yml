@@ -117,7 +117,7 @@ source:
         - uri: 'internal:/demo-dummy'
           title: 'Get Involved'
 
-    - id: card_item_20
+    - id: card_item_12
       uuid: "cb3ba3b9-d596-4a4f-903e-11994bfd074e"
       parent_id: 4
       title: 'Group Fitness Classes'
@@ -127,7 +127,7 @@ source:
         - uri: 'internal:/demo-schedules'
           title: 'View Schedule'
     -
-      id: card_item_21
+      id: card_item_13
       uuid: '5a47746d-9de2-422b-a164-0b99e0841ed6'
       parent_id: 4
       title: 'Youth Sports'
@@ -137,7 +137,7 @@ source:
         - uri: 'internal:/demo-programs-category'
           title: 'See Youth Sports'
 
-    - id: card_item_22
+    - id: card_item_14
       uuid: 'da32b1a7-32ff-4be3-844e-3c324829dbab'
       parent_id: 4
       title: 'Volunteer Opportunities'

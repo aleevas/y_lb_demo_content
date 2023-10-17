@@ -325,42 +325,42 @@ process:
       4ping_pong2:
         bs_col: "blb_col_1"
         label: "Current Openings"
-        container: "container-fluid"
+        container: "w-100"
         remove_gutters: "0"
         container_wrapper_attributes:
           id: 'swim-instructor'
       4ping_pong3:
         bs_col: "blb_col_1"
         label: "Current Openings"
-        container: "container-fluid"
+        container: "w-100"
         remove_gutters: "0"
         container_wrapper_attributes:
           id: 'camp-counselor'
       4ping_pong4:
         bs_col: "blb_col_1"
         label: "Current Openings"
-        container: "container-fluid"
+        container: "w-100"
         remove_gutters: "0"
         container_wrapper_attributes:
           id: 'child-care-provider'
       4ping_pong5:
         bs_col: "blb_col_1"
         label: "Current Openings"
-        container: "container-fluid"
+        container: "w-100"
         remove_gutters: "0"
         container_wrapper_attributes:
           id: 'healthy-living-coach'
       4ping_pong6:
         bs_col: "blb_col_1"
         label: "Current Openings"
-        container: "container-fluid"
+        container: "w-100"
         remove_gutters: "0"
         container_wrapper_attributes:
           id: 'membership-service-rep'
       4ping_pong7:
         bs_col: "blb_col_1"
         label: "Current Openings"
-        container: "container-fluid"
+        container: "w-100"
         remove_gutters: "0"
         container_wrapper_attributes:
           id: 'youth-sports-referee'
