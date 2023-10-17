@@ -1,7 +1,0 @@
-langcode: en
-status: true
-dependencies: {  }
-id: y_lb_init_demo_content
-label: 'Y Layout Builder - Init Demo content'
-description: 'Imports Y Layout Builder init demo content.'
-module: y_lb_init_demo_content

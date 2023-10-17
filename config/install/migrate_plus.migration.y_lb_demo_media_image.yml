@@ -9,94 +9,346 @@ migration_tags:
   - openy_complete_installation
 # No need to add migration tag, migration started by dependency.
 migration_group: y_lb_demo_content
-label: Import LB demo media images
+label: Import LB Demo media images
 source:
   plugin: embedded_data
   data_rows:
-    - id: lb_image_1
-      name: 'LB image 1'
-      file: lb_image_1
-    - id: lb_image_3
-      name: 'LB image 3'
-      file: lb_image_3
-    - id: lb_image_4
-      name: 'LB image 4'
-      file: lb_image_4
-    - id: lb_image_5
-      name: 'LB image 5'
-      file: lb_image_5
-    - id: lb_image_6
-      name: 'LB image 6'
-      file: lb_image_6
-    - id: lb_image_7
-      name: 'LB image 7'
-      file: lb_image_7
-    - id: lb_image_8
-      name: 'LB image 8'
-      file: lb_image_8
-    - id: lb_image_9
-      name: 'LB image 9'
-      file: lb_image_9
-    - id: lb_image_10
-      name: 'LB image 10'
-      file: lb_image_10
-    - id: lb_image_11
-      name: 'LB image 11'
-      file: lb_image_11
-    - id: lb_image_12
-      name: 'LB image 12'
-      file: lb_image_12
-    - id: homepage_banner
-      name: 'Home page banner'
-      file: homepage_banner
-    - id: about
-      name: 'About'
-      file: about
-    - id: give
-      name: 'Give'
-      file: give
-    - id: accelerator_one
-      name: 'Accelerator One'
-      file: accelerator_one
-    - id: accelerator_two
-      name: 'Accelerator Two'
-      file: accelerator_two
-    - id: accelerator_three
-      name: 'Accelerator Three'
-      file: accelerator_three
-    - id: education_and_employment
-      name: 'Education & Employment'
-      file: education_and_employment
-    - id: housing_and_transition_planning
-      name: 'Housing & Transition Planning'
-      file: housing_and_transition_planning
-    - id: join_one
-      name: 'Join One'
-      file: join_one
-    - id: join_two
-      name: 'Join Two'
-      file: join_two
-    - id: join_three
-      name: 'Join Three'
-      file: join_three
-    - id: swimming_banner
-      name: 'Swimming Lessons banner'
-      file: swimming_banner
-    - id: drop-in_swim
-      name: 'Drop-in Swim'
-      file: drop-in_swim
-    - id: day_camps
-      name: 'Day Camps'
-      file: day_camps
-    - id: recreation
-      name: 'Recreation'
-      file: recreation
-    - id: small_group_and_specialty_training
-      name: 'Small Group & Specialty Training'
-      file: small_group_and_specialty_training
-    - id: active_older_adults
-      name: 'Active Older Adults'
-      file: active_older_adults
+    - id: homepage_image_1
+      name: 'Demo homepage image 1'
+      file: homepage_image_1
+    - id: homepage_image_2
+      name: 'Demo homepage image 2'
+      file: homepage_image_2
+    - id: homepage_image_3
+      name: 'Demo homepage image 3'
+      file: homepage_image_3
+    - id: homepage_image_4
+      name: 'Demo homepage image 4'
+      file: homepage_image_4
+    - id: homepage_image_5
+      name: 'Demo homepage image 5'
+      file: homepage_image_5
+    - id: homepage_image_6
+      name: 'Demo homepage image 6'
+      file: homepage_image_6
+    - id: homepage_image_7
+      name: 'Demo homepage image 7'
+      file: homepage_image_7
+    - id: homepage_image_8
+      name: 'Demo homepage image 8'
+      file: homepage_image_8
+    - id: homepage_image_9
+      name: 'Demo homepage image 9'
+      file: homepage_image_9
+    - id: homepage_image_10
+      name: 'Demo homepage image 10'
+      file: homepage_image_10
+    - id: homepage_image_11
+      name: 'Demo homepage image 11'
+      file: homepage_image_11
+    - id: homepage_image_12
+      name: 'Demo homepage image 12'
+      file: homepage_image_12
+    - id: homepage_image_13
+      name: 'Demo homepage image 13'
+      file: homepage_image_13
+    - id: testimonials_image_1
+      name: 'Testimonial image 1'
+      file: testimonials_image_1
+    - id: testimonials_image_2
+      name: 'Testimonial image 2'
+      file: testimonials_image_2
+    - id: partner_logo_1
+      name: 'Partner logo 1'
+      file: partner_logo_1
+    - id: partner_logo_2
+      name: 'Partner logo 2'
+      file: partner_logo_2
+    - id: partner_logo_3
+      name: 'Partner logo 3'
+      file: partner_logo_3
+    - id: partner_logo_4
+      name: 'Partner logo 4'
+      file: partner_logo_4
+    - id: wwa_page_image_1
+      name: 'Who we are image 1'
+      file: wwa_page_image_1
+    - id: wwa_page_image_2
+      name: 'Who we are image 2'
+      file: wwa_page_image_2
+    - id: wwa_page_image_3
+      name: 'Who we are image 3'
+      file: wwa_page_image_3
+    - id: wwa_page_image_4
+      name: 'Who we are image 4'
+      file: wwa_page_image_4
+    - id: wwa_page_image_5
+      name: 'Who we are image 5'
+      file: wwa_page_image_5
+    - id: icon_1
+      name: 'Icon 1'
+      file: icon_1
+    - id: icon_2
+      name: 'Icon 2'
+      file: icon_2
+    - id: icon_3
+      name: 'Icon 3'
+      file: icon_3
+    - id: icon_4
+      name: 'Icon 4'
+      file: icon_4
+    - id: icon_5
+      name: 'Icon 5'
+      file: icon_5
+    - id: icon_6
+      name: 'Icon 6'
+      file: icon_6
+    - id: icon_7
+      name: 'Icon 7'
+      file: icon_7
+    - id: icon_8
+      name: 'Icon 8'
+      file: icon_8
+    - id: icon_9
+      name: 'Icon 9'
+      file: icon_9
+    - id: icon_10
+      name: 'Icon 10'
+      file: icon_10
+    - id: icon_11
+      name: 'Icon 11'
+      file: icon_11
+    - id: icon_12
+      name: 'Icon 12'
+      file: icon_12
+    - id: icon_13
+      name: 'Icon 13'
+      file: icon_13
+    - id: icon_14
+      name: 'Icon 14'
+      file: icon_14
+    - id: icon_15
+      name: 'Icon 15'
+      file: icon_15
+    - id: icon_16
+      name: 'Icon 16'
+      file: icon_16
+    - id: icon_17
+      name: 'Icon 17'
+      file: icon_17
+    - id: icon_18
+      name: 'Icon 18'
+      file: icon_18
+    - id: icon_19
+      name: 'Icon 19'
+      file: icon_19
+    - id: icon_20
+      name: 'Icon 20'
+      file: icon_20
+    - id: icon_21
+      name: 'Icon 21'
+      file: icon_21
+    - id: icon_22
+      name: 'Icon 22'
+      file: icon_22
+    - id: program_overview_page_image_1
+      name: 'Program Overview 1'
+      file: program_overview_page_image_1
+    - id: program_overview_page_image_2
+      name: 'Program Overview 2'
+      file: program_overview_page_image_2
+    - id: program_overview_page_image_3
+      name: 'Program Overview 3'
+      file: program_overview_page_image_3
+    - id: program_overview_page_image_4
+      name: 'Program Overview 4'
+      file: program_overview_page_image_4
+    - id: program_category_page_image_1
+      name: 'Program Category 1'
+      file: program_category_page_image_1
+    - id: program_category_page_image_2
+      name: 'Program Category 2'
+      file: program_category_page_image_2
+    - id: program_category_page_image_3
+      name: 'Program Category 3'
+      file: program_category_page_image_3
+    - id: program_category_page_image_4
+      name: 'Program Category 4'
+      file: program_category_page_image_4
+    - id: program_category_page_image_5
+      name: 'Program Category 5'
+      file: program_category_page_image_5
+    - id: program_individual_page_image_1
+      name: 'Program Individual 1'
+      file: program_individual_page_image_1
+    - id: program_individual_page_image_2
+      name: 'Program Individual 2'
+      file: program_individual_page_image_2
+    - id: program_individual_page_image_3
+      name: 'Program Individual 3'
+      file: program_individual_page_image_3
+    - id: program_individual_page_image_4
+      name: 'Program Individual 4'
+      file: program_individual_page_image_4
+    - id: program_individual_page_image_5
+      name: 'Program Individual 5'
+      file: program_individual_page_image_5
+    - id: program_individual_page_image_6
+      name: 'Program Individual 6'
+      file: program_individual_page_image_6
+    - id: program_individual_page_image_7
+      name: 'Program Individual 7'
+      file: program_individual_page_image_7
+    - id: program_individual_page_image_8
+      name: 'Program Individual 8'
+      file: program_individual_page_image_8
+    - id: program_individual_page_image_9
+      name: 'Program Individual 9'
+      file: program_individual_page_image_9
+    - id: program_individual_page_image_10
+      name: 'Program Individual 10'
+      file: program_individual_page_image_10
+    - id: location_individual_page_image_1
+      name: 'Location Individual 1'
+      file: location_individual_page_image_1
+    - id: location_individual_page_image_2
+      name: 'Location Individual 2'
+      file: location_individual_page_image_2
+    - id: location_individual_page_image_3
+      name: 'Location Individual 3'
+      file: location_individual_page_image_3
+    - id: location_individual_page_image_4
+      name: 'Location Individual 4'
+      file: location_individual_page_image_4
+    - id: location_individual_page_image_5
+      name: 'Location Individual 5'
+      file: location_individual_page_image_5
+    - id: location_individual_page_image_6
+      name: 'Location Individual 6'
+      file: location_individual_page_image_6
+    - id: location_individual_page_image_7
+      name: 'Location Individual 7'
+      file: location_individual_page_image_7
+    - id: location_individual_page_image_8
+      name: 'Location Individual 8'
+      file: location_individual_page_image_8
+    - id: carousel_image_1
+      name: 'Carousel Image 1'
+      file: carousel_image_1
+    - id: carousel_image_2
+      name: 'Carousel Image 2'
+      file: carousel_image_2
+    - id: carousel_image_3
+      name: 'Carousel Image 3'
+      file: carousel_image_3
+    - id: carousel_image_4
+      name: 'Carousel Image 4'
+      file: carousel_image_4
+    - id: carousel_image_5
+      name: 'Carousel Image 5'
+      file: carousel_image_5
+    - id: carousel_image_6
+      name: 'Carousel Image 6'
+      file: carousel_image_6
+    - id: membership_page_image_1
+      name: 'Membership Image 1'
+      file: membership_page_image_1
+    - id: membership_page_image_2
+      name: 'Membership Image 2'
+      file: membership_page_image_2
+    - id: membership_page_image_3
+      name: 'Membership Image 3'
+      file: membership_page_image_3
+    - id: membership_page_image_4
+      name: 'Membership Image 4'
+      file: membership_page_image_4
+    - id: membership_page_image_5
+      name: 'Membership Image 5'
+      file: membership_page_image_5
+    - id: schedules_page_image_1
+      name: 'Schedules Image 1'
+      file: schedules_page_image_1
+    - id: schedules_page_image_2
+      name: 'Schedules Image 2'
+      file: schedules_page_image_2
+    - id: events_page_image_1
+      name: 'Events Image 1'
+      file: events_page_image_1
+    - id: contactus_page_image_1
+      name: 'Contact Us Image 1'
+      file: contactus_page_image_1
+    - id: jointhey_page_image_1
+      name: 'Join the Y image 1'
+      file: jointhey_page_image_1
+    - id: jointhey_page_image_2
+      name: 'Join the Y image 2'
+      file: jointhey_page_image_2
+    - id: donate_page_image_1
+      name: 'Donate image 1'
+      file: donate_page_image_1
+    - id: donate_page_image_2
+      name: 'Donate image 2'
+      file: donate_page_image_2
+    - id: donate_page_image_3
+      name: 'Donate image 3'
+      file: donate_page_image_3
+    - id: donate_page_image_4
+      name: 'Donate image 4'
+      file: donate_page_image_4
+    - id: donate_page_image_5
+      name: 'Donate image 5'
+      file: donate_page_image_5
+    - id: donate_page_image_6
+      name: 'Donate image 6'
+      file: donate_page_image_6
+    - id: jobs_page_image_1
+      name: 'Jobs image 1'
+      file: jobs_page_image_1
+    - id: jobs_page_image_2
+      name: 'Jobs image 2'
+      file: jobs_page_image_2
+    - id: jobs_page_image_3
+      name: 'Jobs image 3'
+      file: jobs_page_image_3
+    - id: jobs_page_image_4
+      name: 'Jobs image 4'
+      file: jobs_page_image_4
+    - id: jobs_page_image_5
+      name: 'Jobs image 5'
+      file: jobs_page_image_5
+    - id: jobs_page_image_6
+      name: 'Jobs image 6'
+      file: jobs_page_image_6
+    - id: jobs_page_image_7
+      name: 'Jobs image 7'
+      file: jobs_page_image_7
+    - id: jobs_page_image_8
+      name: 'Jobs image 8'
+      file: jobs_page_image_8
+    - id: jobs_page_image_9
+      name: 'Jobs image 9'
+      file: jobs_page_image_9
+    - id: volunteer_ops_page_image_1
+      name: 'Volunteer ops image 1'
+      file: volunteer_ops_page_image_1
+    - id: volunteer_ops_page_image_2
+      name: 'Volunteer ops image 2'
+      file: volunteer_ops_page_image_2
+    - id: volunteer_ops_page_image_3
+      name: 'Volunteer ops image 3'
+      file: volunteer_ops_page_image_3
+    - id: volunteer_ops_page_image_4
+      name: 'Volunteer ops image 4'
+      file: volunteer_ops_page_image_4
+    - id: volunteer_ops_page_image_5
+      name: 'Volunteer ops image 5'
+      file: volunteer_ops_page_image_5
+    - id: volunteer_ops_page_image_6
+      name: 'Volunteer ops image 6'
+      file: volunteer_ops_page_image_6
+    - id: af_page_image_1
+      name: 'Activity Finder page image 1'
+      file: af_page_image_1
   ids:
     id:
       type: string

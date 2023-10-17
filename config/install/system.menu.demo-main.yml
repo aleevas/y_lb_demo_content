@@ -1,0 +1,12 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - y_lb_demo_content
+  enforced:
+    module:
+      - y_lb_demo_content
+id: demo-main
+label: 'Demo Main navigation'
+description: 'Demo Main menu'
+locked: false

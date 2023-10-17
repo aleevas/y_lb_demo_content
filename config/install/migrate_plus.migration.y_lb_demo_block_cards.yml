@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies:
   module:
-    - y_lb_demo_content
+    - lb_grid_cta
   enforced:
     module:
       - y_lb_demo_content
@@ -10,30 +10,59 @@ id: y_lb_demo_block_cards
 migration_tags:
   - openy_complete_installation
 migration_group: y_lb_demo_content
-label: 'Import demo Layout Builder - Cards block'
+label: 'Import Demo Layout Builder - Cards block'
 source:
   plugin: embedded_data
   data_rows:
     -
-      id: 21
-      uuid: '37ee3c4a-f66c-4247-affa-c65e35d97994'
-      title: 'Welcome Back!'
-      subtitle: 'We are excited to welcome you back'
-      columns: 4
-      cta:
-        - uri: 'entity:node/41'
-          title: 'Find your Y - locations'
+      id: 1
+      uuid: 'ef5f3285-4066-44e9-b4e6-4e275526b456'
+      title: 'Program Levels and Requirements'
+      subtitle: 'Teams of all levels are coached by YMCA volunteers. Registration includes a jersey and socks. Shin guards are required for all age groups, and cleats are recommended for ages 9 and up.'
+      columns: 3
       content_ids:
-        - content_id: cards_1
-        - content_id: cards_2
-        - content_id: cards_3
-        - content_id: cards_4
+        - content_id: card_item_1
+        - content_id: card_item_2
+        - content_id: card_item_3
+        - content_id: card_item_4
+        - content_id: card_item_5
+
+    -
+      id: 2
+      uuid: 'bca4f067-8b7b-4fb5-b20a-91887b98088e'
+      title: 'Other Youth Programs'
+      subtitle: ''
+      columns: 3
+      content_ids:
+        - content_id: card_item_6
+        - content_id: card_item_7
+        - content_id: card_item_8
+
+    -
+      id: 3
+      uuid: '369e92ff-f6cb-476b-9bc5-1362232165f2'
+      title: 'Featured Programs'
+      subtitle: ''
+      columns: 3
+      content_ids:
+        - content_id: card_item_9
+        - content_id: card_item_10
+        - content_id: card_item_11
+
+    -
+      id: 6
+      uuid: '74168959-2134-42e8-8e38-f03ffe6f9053'
+      title: 'Some of Our Programs'
+      subtitle: ''
+      columns: 3
+      content_ids:
+        - content_id: card_item_20
+        - content_id: card_item_21
+        - content_id: card_item_22
   ids:
     id:
       type: integer
 process:
-  id: id
-  revision_id: id
   langcode:
     plugin: default_value
     source: language
@@ -72,4 +101,3 @@ destination:
 migration_dependencies:
   required:
     - y_lb_demo_paragraph_cards
-  optional: {}

@@ -15,30 +15,91 @@ label: 'Create Accordion paragraphs for Accordion component'
 source:
   plugin: embedded_data
   data_rows:
-    - id: accordion_1
-      parent_id: 19
-      title: 'Love Your Heart'
-      body: '<p>Love and hearts often come to mind at the mention February. During this month in American culture, we traditionally celebrate Valentine’s Day on February 14th. February is also American Heart Month.</p>'
-    - id: accordion_2
-      parent_id: 19
-      title: '5 Ways to do Parents Night Out'
-      body: "<p>Parents Night Out (PNO) is offered at branches across King and south Snohomish counties. Whether you want to catch the newest movie in Bellevue, enjoy a romantic dinner in the University District or catch up on chores at home, there’s a Y nearby. If you need a little bit of date night inspiration, we've got you covered: Around the World in a Single Yelp.</p>"
-    - id: accordion_3
-      parent_id: 19
-      title: 'Motivational Mondays'
-      body: "<p>Get Some Sleep! You're never too old for a bedtime. Getting enough sleep is crucial for cognitive function that helps you to make healthy decisions throughout the day.</p>"
-    - id: accordion_4
-      parent_id: 19
-      title: 'Learning Skills, Developing Character & Making Friends'
-      body: '<p>At the heart of YMCA youth activities is learning skills, developing character and making friends. But few program environments are as special as summer day camp, where kids become a community as they learn both how to be more independent and how to contribute to a group as they engage in physical, social and educational activities.</p>'
-    - id: accordion_5
-      parent_id: 19
-      title: '5 Ways to be a Great Sports Parent'
-      body: '<p>Think you are raising the next LeBron James or Michael Phelps? Probably not, but parents’ behavior can be a reason children stop wanting to play sports. Check out these five ways to be a great sports parent to keep your child happy and playing.</p>'
-    - id: accordion_6
-      parent_id: 19
-      title: 'Yoga for Stress Resilience'
-      body: '<p>Breathe, Stretch, Re-charge Join instructor Jenny Leung as she helps you use yoga as a therapeutic antidote to stress: slowing down, doing less, and open to receiving. The practice of restorative yoga allows the release of mental, physical and emotional exhaustion, tension and patterning, thus building resilience on all levels.</p>'
+    -
+      id: accordion_item_1
+      uuid: 'be53a74d-5d5c-4912-b9e8-a29c0b365849'
+      parent_id: 40
+      title: 'Which nearby locations offer youth soccer?'
+      body: '<p>Visit the <a href="/demo-location-finder">Locations page</a> to find the youth soccer program(s) nearest you.</p>'
+
+    -
+      id: accordion_item_2
+      uuid: 'dcc15cba-0c46-4ee8-a204-20a98ed6ebc3'
+      parent_id: 40
+      title: 'Is youth soccer available year-round?'
+      body: "<p>Generally, yes! In the spring, we offer outdoor soccer from March–May. In the summer, we offer indoor soccer from June–August. In the fall, we offer outdoor soccer from August–October. In the winter, we offer indoor soccer from January–March.</p>"
+
+    -
+      id: accordion_item_3
+      uuid: 'bcc4780c-7b74-4a63-8362-6941b58cc726'
+      parent_id: 40
+      title: 'How often do the teams practice and play?'
+      body: "<p>Teams practice once a week on weeknights for an hour. Most games are played on Saturdays, but there may be a few weeknight games to accommodate holidays, school breaks, and make up games. Players are assigned to teams based on practice availability, requests, skill level and age in order to best balance teams.</p>"
+
+    -
+      id: accordion_item_4
+      uuid: '6188b49e-4205-4454-98b0-00e1d23c161c'
+      parent_id: 40
+      title: 'Can I sign up to be a coach?'
+      body: "<p>Yes! We can always use more volunteer coaches. It's only a few hours a week, and it makes a big difference in your community and in the lives of many children. <a href='/demo-volunteer-opportunities'>Find out more about volunteer opportunities here.</a></p>"
+
+    -
+      id: accordion_item_5
+      uuid: '4eaac7f1-7382-4824-96a6-e890eb537890'
+      parent_id: 41
+      title: 'Financial Assistance Program'
+      body: "<p>We believe the Y is for everyone — which is why we offer sliding scale fees designed to fit various financial situations. You can apply for financial assistance for Y facility memberships, child care, youth sports and other programs. To see if you’re eligible, <a href='/demo-dummy'>download the financial assistance application (PDF)</a> or pick one up at <a href='/demo-location-finder'>your local branch</a>.</p><p>Note:<br/><ul><li>Applicants who qualify for government subsidy assistance must use that in lieu of Y assistance.</li><li>Completed applications will be processed within 7–10 business days. Approval letters will be sent via email or mail.</li><li>Our school-age child care also accepts government and other third-party subsidy payments. Contact <a href='/demo-location-finder'>your local branch</a> for details.</li></ul></p>"
+
+    -
+      id: accordion_item_6
+      uuid: 'e2dd2eee-c555-4486-94dc-ad21ba7241bd'
+      parent_id: 41
+      title: 'Through Insurance'
+      body: "<p>We work with a variety of insurance companies and related programs that offer reimbursements, discounts and even free memberships to make the Y as accessible as possible. Each program is unique and specific in regard to who is covered.</p><p>Want to learn more? Check with your insurance provider or contact <a href='/demo-location-finder'>your local branch</a> to see if you qualify.</p>"
+
+    -
+      id: accordion_item_7
+      uuid: 'ba1c3391-5b22-4963-b047-cbb06a06400c'
+      parent_id: 41
+      title: 'Try the Y Guest Pass'
+      body: "<p>Give us a try! Check out our fitness facilities, get to know our staff and learn more about all the programs we offer you and your family with a Y guest pass. Fill out the form below to get a complimentary one-time guest pass that gives you access to all of our facilities.</p><p>Guest Pass Details<br/><ul><li>Guests must be at least 18 years old to request a guest pass online. Guests under 18 must be accompanied by an adult when visiting the branch.</li><li>Limit one complimentary visit per local guest per year.</li><liGuests must show a photo ID to use the facilities.</li><li>Out of town guests may be asked to pay $20 per visit. Limit one paid visit per year.</li><li>When visiting a YMCA branch, all guests are required to follow established health and safety guidelines.</li><li>Some branches may restrict guest access during specific peak hours. <a href='/demo-location-finder'>Check with your local branch</a> for details.</li><li>Other restrictions may apply. Contact <a href='/demo-location-finder'>your local branch</a> for full details.</li></ul></p>"
+
+
+    -
+      id: accordion_item_8
+      uuid: 'b5d685a3-fd8b-4549-8ffa-a83c8d57db2c'
+      parent_id: 42
+      title: 'Do I have to sign a contract?'
+      body: "<p>Definitely not! We offer month-to-month memberships with a 30-day money-back guarantee if you're not completely satisfied.</p><p>Plus, you can cancel anytime. Simply call or stop by your home branch at least five days before your next payment to cancel completely.</p>"
+
+    -
+      id: accordion_item_9
+      uuid: 'afba1e22-8162-4095-b310-33a7417ec931'
+      parent_id: 42
+      title: 'Does the Y offer financial assistance for membership and programs?'
+      body: "<p>Absolutely. The Y is for everyone! We offer affordable rates for both memberships and programs based on household income.</p><p>Learn more about our financial assistance program and whether you are eligible by visiting our <a href='/demo-membership'>Membership page</a> or contacting <a href='/demo-location-finder'>your local branch</a>.</p>"
+
+    -
+      id: accordion_item_10
+      uuid: '96cad898-dcf3-4285-9620-5cf9d8bd16e9'
+      parent_id: 42
+      title: 'Who is included in a family membership?'
+      body: "<p>Our family membership covers up to two adults and dependent children up to age 25 who live in the same household.</p><p>You can add additional adults over age 25 who live in the same household for $20 per month (per adult) by calling or stopping by<a href='/demo-location-finder'> your local branch</a>.</p>"
+
+    -
+      id: accordion_item_11
+      uuid: '5c8d7c73-ac61-40ae-aa0a-e9c7703dc23f'
+      parent_id: 42
+      title: 'Do you offer child care while I work out?'
+      body: "<p>You bet! If your children are included in a family membership, you can use our free child care service while you work out. Check with <a href='/demo-location-finder'>your local branch</a> for hours and details.</p>"
+
+    -
+      id: accordion_item_12
+      uuid: '5774ef63-6961-4a6c-aef8-58867c7e3cb8'
+      parent_id: 42
+      title: 'Can I use other Ys while I’m traveling?'
+      body: "<p>Yes! When you get a Nationwide Membership plan, you can visit any participating Y in the U.S. When using this plan, you must:</p><ul><li>Use your home Y at least 50% of the time</li><li>Sign a universal liability waiver and privacy policy</li><li>Provide a valid photo ID, YMCA membership card, and basic membership data (like name and email) when visiting a Y outside your home area</li></ul><p>This plan is valid for active, full facility YMCA members. Program-only participants and some special memberships are not eligible, so please check with your local Y for any questions or details.</p>"
+
   ids:
     id:
       type: string
@@ -50,9 +111,7 @@ process:
   status:
     plugin: default_value
     default_value: 1
-  uid:
-    plugin: default_value
-    default_value: 1
+  uuid:  uuid
   parent_id:
     plugin: migration_lookup
     migration: y_lb_demo_block_accordion
@@ -76,5 +135,5 @@ process:
     default_value: full_html
 destination:
   plugin: 'entity:paragraph'
-  default_bundle: lb_accordion_item
+  default_bundle: 'lb_accordion_item'
 migration_dependencies: {  }

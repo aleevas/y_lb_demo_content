@@ -17,31 +17,37 @@ source:
   data_rows:
     -
       id: carousel_1
-      parent_id: 23
-      title: 'Y Membership'
-      body: "<p>It's always a good time to join the Y! Become a member today.</p>"
-      image: active_older_adults
-      cta:
-        - uri: 'entity:node/45'
-          title: 'Join Today'
+      uuid: 'b459d8fd-e7d7-4f23-9d86-bb70945dcacb'
+      parent_id: 777
+      title: ''
+      body: ""
+      image: carousel_image_1
+      cta: {  }
     -
       id: carousel_2
-      parent_id: 23
-      title: 'Group Exercise Classes'
-      body: '<p>The secret to sticking with a health and fitness program is finding activities you enjoy and that keep you moving.</p>'
-      image: active_older_adults
-      cta:
-        - uri: 'internal:/programs/health-and-fitness/group-exercise-classes?location=All&program=58&category=66&activity=All'
-          title: 'Find Classes'
+      uuid: '2e0a2a56-02a5-4707-92b7-4f169c1e1400'
+      parent_id: 777
+      title: ''
+      body: ""
+      image: carousel_image_2
+      cta: {  }
     -
       id: carousel_3
-      parent_id: 23
-      title: 'YMCA Gift Certificates'
-      body: '<p>Give a gift of experience with YMCA Holiday Gift Certificates for membership and programs.</p>'
-      image: active_older_adults
-      cta:
-        - uri: 'entity:node/38'
-          title: 'Buy now'
+      uuid: 'b7b0dd99-6bba-48c9-8745-158dfbf318d4'
+      parent_id: 777
+      title: ''
+      body: ""
+      image: carousel_image_3
+      cta: {  }
+
+    -
+      id: carousel_4
+      uuid: 'b5401999-4d40-4665-a1ce-72f5dd06888e'
+      parent_id: 777
+      title: ''
+      body: ""
+      image: carousel_image_4
+      cta: {  }
   ids:
     id:
       type: string
@@ -53,9 +59,7 @@ process:
   status:
     plugin: default_value
     default_value: 1
-  uid:
-    plugin: default_value
-    default_value: 1
+  uuid: uuid
   parent_id:
     plugin: migration_lookup
     migration: y_lb_demo_block_carousel
@@ -66,7 +70,7 @@ process:
     default_value: block_content
   parent_field_name:
     plugin: default_value
-    default_value: field_grid_items
+    default_value: field_carousel_items
   type:
     plugin: skip_if_bundle_not_exist
     method: row
@@ -82,10 +86,7 @@ process:
       plugin: migration_lookup
       migration: y_lb_demo_media_image
       source: image
-  field_carousel_cta: cta
 destination:
   plugin: 'entity:paragraph'
   default_bundle: 'lb_carousel_item'
-migration_dependencies:
-  required:
-    - y_lb_demo_media_image
+migration_dependencies: {  }

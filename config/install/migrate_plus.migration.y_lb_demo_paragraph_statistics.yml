@@ -16,21 +16,21 @@ source:
   plugin: embedded_data
   data_rows:
     - id: statistics_1
-      parent_id: 20
-      number: '11M'
-      body: 'people reached in communities across the USA'
+      parent_id: 224
+      number: '4M'
+      body: 'kids engaged and empowered to adopt positive behaviors.'
     - id: statistics_2
-      parent_id: 20
-      number: '$4M'
-      body: 'in groceries provided to families each month'
+      parent_id: 224
+      number: '40M'
+      body: 'people served in 120 countries around the world.'
     - id: statistics_3
-      parent_id: 20
-      number: '10000'
-      body: 'campers each year building lifelong skills, confidence and friendships'
+      parent_id: 224
+      number: '233K'
+      body: 'U.S.–based volunteers who have given their time and talent.'
     - id: statistics_4
-      parent_id: 20
-      number: '2650'
-      body: 'locations across 50 states, plus the District of Columbia and Puerto Rico'
+      parent_id: 224
+      number: '5.7K'
+      body: 'distribution sites fighting food insecurity.'
   ids:
     id:
       type: string
