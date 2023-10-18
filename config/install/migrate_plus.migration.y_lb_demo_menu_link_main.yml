@@ -559,3 +559,7 @@ process:
       - parent_link_path
 destination:
   plugin: entity:menu_link_content
+migration_dependencies:
+  required:
+    - openy_demo_menu_link_main
+  optional: { }
