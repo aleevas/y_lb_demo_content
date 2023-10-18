@@ -96,7 +96,7 @@ source:
               block_config: true
               region: 'header_bottom_middle'
               config:
-                id: 'system_menu_block:demo-main'
+                id: 'system_menu_block:main'
                 label: 'Demo Main navigation'
                 label_display: '0'
                 provider: system
@@ -108,7 +108,7 @@ source:
               block_config: true
               region: 'header_bottom_right'
               config:
-                id: 'system_menu_block:demo-account'
+                id: 'system_menu_block:account'
                 label: 'Demo Utility menu'
                 label_display: '0'
                 provider: system
@@ -282,7 +282,7 @@ source:
               block_config: true
               region: 'footer_top_middle'
               config:
-                id: 'system_menu_block:demo-helpful-links'
+                id: 'system_menu_block:footer-menu-left'
                 label: 'Helpful Links'
                 label_display: 1
                 provider: system
@@ -411,12 +411,12 @@ process:
       4social_links:
         bs_col: "blb_col_1"
         label: "Social LInks"
-        container: "container-fluid"
+        container: "w-100"
         remove_gutters: "1"
       5branch_amenities:
         bs_col: "blb_col_1"
         label: "Amenities"
-        container: "container-fluid"
+        container: "w-100"
         remove_gutters: "1"
       6two_columns:
         bs_col: "blb_col_2"
@@ -459,6 +459,7 @@ process:
         label: "Banner"
         container: "w-100"
         remove_gutters: "1"
+        section_classes: 'mt-5'
       11footer:
         label: "Footer"
         id: 'ws_footer'

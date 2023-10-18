@@ -18,35 +18,35 @@ source:
       id: testimonial_1
       uuid: 'c6e7dd8e-2bn2-4d64-aded-8cvb3e0ef581'
       name: 'Operating with Care'
-      body: "<p>I joined the [Southwest Family YMCA] four years ago at the suggestion of a friend. I have MS, and poor balance is a big part of that. Tai chi has helped my balance and muscle control, and the water classes have helped my muscle tone!</p>"
+      body: "I joined the [Southwest Family YMCA] four years ago at the suggestion of a friend. I have MS, and poor balance is a big part of that. Tai chi has helped my balance and muscle control, and the water classes have helped my muscle tone!"
       image: testimonials_image_1
     -
       id: testimonial_2
       uuid: 'q5v7dd8e-2bd2-4d67-afef-8cff3e0ef321'
       name: 'Lorem ipsum'
-      body: '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et do.</p>'
+      body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et do.'
     -
       id: testimonial_3
       uuid: 'c517dd8e-2bd2-4d64-bfef-8cff3e0ef521'
       name: 'Dolor sit amet'
-      body: '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>'
+      body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
 
     -
       id: testimonial_4
       uuid: 'f004208e-f52c-4071-be73-c65255e1f171'
       name: 'MORGAN WALTON'
-      body: "<p>Thanks to the support my local Y receives, I'm able to send my son to summer camp — his favorite time of the year.</p>"
+      body: "Thanks to the support my local Y receives, I'm able to send my son to summer camp — his favorite time of the year."
       image: testimonials_image_2
     -
       id: testimonial_5
       uuid: '1ef74883-8139-4450-b515-1c419230adcb'
       name: 'Lorem ipsum'
-      body: '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et do.</p>'
+      body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et do.'
     -
       id: testimonial_6
       uuid: '1bb96d2d-56e3-4a1d-aa67-e1658fc96301'
       name: 'Dolor sit amet'
-      body: '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>'
+      body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
   ids:
     id:
       type: string

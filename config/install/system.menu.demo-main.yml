@@ -1,7 +1,0 @@
-langcode: en
-status: true
-dependencies: {  }
-id: demo-main
-label: 'Demo Main navigation'
-description: 'Demo Main menu'
-locked: false

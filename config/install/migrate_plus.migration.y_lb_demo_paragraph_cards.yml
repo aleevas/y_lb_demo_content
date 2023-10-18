@@ -146,10 +146,43 @@ source:
       cta:
         - uri: 'internal:/demo-volunteer-opportunities'
           title: 'Get Involved'
+
+    - id: card_item_15
+      uuid: 'be3aeb06-0915-4c01-94c5-af55437d9123'
+      parent_id: 7
+      title: 'Youth Sports'
+      body: "We're dedicated to making sure our leagues are safe, fair and, most of all, fun. Learn the basics, improve your skills and make new friends!"
+      image: homepage_image_2
+      cta:
+        - uri: 'internal:/demo-programs-category'
+          title: 'See Youth Sports'
+
+    - id: card_item_16
+      uuid: 'ae3aeb06-0915-94c5-4c01-af55437d9125'
+      parent_id: 7
+      title: 'Health and Fitness'
+      body: "Take advantage of group fitness classes, personal training, and sports leagues that improve strength and mindfulness."
+      image: homepage_image_3
+      cta:
+        - uri: 'internal:/demo-dummy'
+          title: 'Explore Options'
+
+    - id: card_item_17
+      uuid: 'af55437d-0915-94c5-4c01-ae3aeb069456'
+      parent_id: 7
+      title: 'Community'
+      body: "These programs aim to bring members together, because we're all stronger when we're looking out for one another."
+      image: homepage_image_4
+      cta:
+        - uri: 'internal:/demo-dummy'
+          title: 'Get Involved'
   ids:
     id:
       type: string
 process:
+  uid:
+    plugin: default_value
+    default_value: 1
   langcode:
     plugin: default_value
     source: language

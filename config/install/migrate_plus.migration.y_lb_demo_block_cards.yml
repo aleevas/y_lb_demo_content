@@ -59,6 +59,16 @@ source:
         - content_id: card_item_12
         - content_id: card_item_13
         - content_id: card_item_14
+    -
+      id: 7
+      uuid: 'ab47f6ed-0456-4044-a1a0-8fd407a8e9c4'
+      title: 'Featured Programs'
+      subtitle: 'Here are just a few of the programs we offer our members.'
+      columns: 3
+      content_ids:
+        - content_id: card_item_15
+        - content_id: card_item_16
+        - content_id: card_item_17
   ids:
     id:
       type: integer
