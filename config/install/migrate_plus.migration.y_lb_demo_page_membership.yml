@@ -43,7 +43,7 @@ source:
               block_config: true
               region: 'header_bottom_middle'
               config:
-                id: 'system_menu_block:demo-main'
+                id: 'system_menu_block:main'
                 label: 'Demo Main navigation'
                 label_display: '0'
                 provider: system
@@ -55,7 +55,7 @@ source:
               block_config: true
               region: 'header_bottom_right'
               config:
-                id: 'system_menu_block:demo-account'
+                id: 'system_menu_block:account'
                 label: 'Demo Utility menu'
                 label_display: '0'
                 provider: system
@@ -204,7 +204,7 @@ source:
               block_config: true
               region: 'footer_top_middle'
               config:
-                id: 'system_menu_block:demo-helpful-links'
+                id: 'system_menu_block:footer-menu-left'
                 label: 'Helpful Links'
                 label_display: 1
                 provider: system

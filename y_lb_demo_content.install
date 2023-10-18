@@ -1,0 +1,17 @@
+<?php
+
+/**
+ * @file
+ * Install, update and uninstall functions for the y_lb_demo_content module.
+ */
+
+/**
+ * y_lb_init_demo_content install.
+ */
+function y_lb_demo_content_install() {
+  $system_site = \Drupal::configFactory()->getEditable('system.site');
+  $system_site
+    ->set('name', 'YMCA OF [SPRINGFIELD]')
+    ->set('page.front', '/demo-home-page')
+    ->save();
+}

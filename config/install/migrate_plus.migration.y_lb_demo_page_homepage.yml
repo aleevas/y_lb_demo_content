@@ -43,7 +43,7 @@ source:
               block_config: true
               region: 'header_bottom_middle'
               config:
-                id: 'system_menu_block:demo-main'
+                id: 'system_menu_block:main'
                 label: 'Demo Main navigation'
                 label_display: '0'
                 provider: system
@@ -55,7 +55,7 @@ source:
               block_config: true
               region: 'header_bottom_right'
               config:
-                id: 'system_menu_block:demo-account'
+                id: 'system_menu_block:account'
                 label: 'Demo Utility menu'
                 label_display: '0'
                 provider: system
@@ -98,20 +98,26 @@ source:
                     ws_style_option:
                       hero_banner: lb_hero_chevron
                       button_fill_component: ws_button_fill_component_filled
-        3grid_cta:
+        3cards:
           components:
             lb_grid_cta:
               uuid: "ab47f6ed-0456-4044-a1a0-8fd407a8e9c4"
               region: 'blb_region_col_1'
               config:
-                id: "inline_block:lb_grid_cta"
+                id: "inline_block:lb_cards"
+                label_display: "hidden"
                 label: "Featured Programs"
+                view_mode: "full"
                 provider: "layout_builder"
               additional:
                 bootstrap_styles:
                   block_style:
                     ws_style_option:
-                      border_style_component: ws_border_style_component_solid
+                      lb_cards: lb_cards_standard
+                      border_style_component: ws_border_style_component_drop_shadow
+                      text_alignment_component: ws_text_alignment_component_left
+                      button_position_component: ws_button_position_component_inside
+                      button_fill_component: ws_button_fill_component_filled
         4second_banner:
           components:
             lb_hero:
@@ -235,7 +241,7 @@ source:
               block_config: true
               region: 'footer_top_middle'
               config:
-                id: 'system_menu_block:demo-helpful-links'
+                id: 'system_menu_block:footer-menu-left'
                 label: 'Helpful Links'
                 label_display: 1
                 provider: system
@@ -307,10 +313,10 @@ process:
         label: "Banner"
         container: "w-100"
         remove_gutters: "1"
-      3grid_cta:
+      3cards:
         bs_col: "blb_col_1"
         label: "Body"
-        container: "container-fluid"
+        container: "container"
         remove_gutters: "0"
         section_classes: 'mt-5'
       4second_banner:
@@ -362,14 +368,11 @@ migration_dependencies:
     - y_lb_demo_block_banner_chevron
     - y_lb_demo_block_banner_frame
     - y_lb_demo_block_banner_overlay
-    - y_lb_demo_block_grid_cta
+    - y_lb_demo_block_cards
     - y_lb_demo_block_ping_pong
     - y_lb_demo_block_testimonials
     - y_lb_demo_block_featured_event
     - y_lb_demo_block_events_filter
     - y_lb_demo_block_events_listing
     - y_lb_demo_events
-    - y_lb_demo_menu_link_main
-    - y_lb_demo_menu_link_helpful_links
-    - y_lb_demo_menu_link_utility
   optional: { }

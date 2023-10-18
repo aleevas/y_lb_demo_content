@@ -1,0 +1,6 @@
+services:
+  migration_subscriber:
+    class: Drupal\y_lb_demo_content\EventSubscriber\YLbDemoContentMigrationSubscriber
+    arguments: ['@entity_type.manager']
+    tags:
+      - { name: 'event_subscriber' }
