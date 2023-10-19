@@ -30,6 +30,8 @@ source:
       parent_id: 0
       expanded: 1
       parent_link_path: ''
+      cta_block_info: 'Demo Menu CTA block'
+
     -
       id: 3
       title: 'Youth Sports'
@@ -541,6 +543,9 @@ process:
     default_value: menu_link_content
   title: title
   menu_name: menu_name
+  field_cta_block:
+    plugin: y_lb_menu_cta_block
+    source: cta_block_info
   link/uri:
     plugin: link_uri
     source: link
@@ -556,5 +561,5 @@ destination:
   plugin: entity:menu_link_content
 migration_dependencies:
   required:
-    - openy_demo_menu_link_main
+    - y_lb_demo_block_menu_cta
   optional: { }
