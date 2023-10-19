@@ -1,9 +1,5 @@
 langcode: en
 status: true
-dependencies:
-  enforced:
-    module:
-      - y_lb_demo_content
 id: helpful-links
 label: 'Helpful links navigations'
 description: 'Demo Helpful links menu'

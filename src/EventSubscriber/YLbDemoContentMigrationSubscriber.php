@@ -2,6 +2,7 @@
 
 namespace Drupal\y_lb_demo_content\EventSubscriber;
 
+use Drupal\block_content\Entity\BlockContent;
 use Drupal\Core\Entity\EntityTypeManagerInterface;
 use Drupal\migrate\Event\MigrateEvents;
 use Drupal\migrate\Event\MigrateImportEvent;
@@ -76,7 +77,6 @@ class YLbDemoContentMigrationSubscriber implements EventSubscriberInterface {
    * @param string $menu_name
    *
    * @return void
-
    */
   private function removeMenuItems(string $menu_name) {
     $menu_links = $this->entityTypeManager->getStorage('menu_link_content')
@@ -103,7 +103,15 @@ class YLbDemoContentMigrationSubscriber implements EventSubscriberInterface {
     $migration_id = $event->getMigration()->getBaseId();
 
     if ($migration_id === 'y_lb_demo_menu_link_main') {
-      // Add the menu CTA field to the menu items.
+      $this->addMenuCtaBlockFieldtoMenuItems();
+      $this->addDemoCtaBlockToMenuItem();
+    }
+  }
+
+  /**
+   * We have to attach extra field to the created menu items after import.
+   */
+  private function addMenuCtaBlockFieldtoMenuItems() {
       \Drupal::entityTypeManager()->clearCachedDefinitions();
       $menus = \Drupal::entityTypeManager()
         ->getStorage('menu')
@@ -120,6 +128,27 @@ class YLbDemoContentMigrationSubscriber implements EventSubscriberInterface {
       }
       $mlc_helper->doBundleFieldUpdate();
     }
-  }
 
+    /**
+     * Find and add created Menu CTA block to menu item.
+     */
+    private function addDemoCtaBlockToMenuItem() {
+      $blocks = \Drupal::entityQuery('block_content')
+        ->accessCheck(FALSE)
+        // We've created a block with this info field.
+        ->condition('info', 'Demo Menu CTA block')
+        ->execute();
+      $block = BlockContent::load(reset($blocks));
+      if ($block) {
+        $menu_links = \Drupal::entityTypeManager()
+          ->getStorage('menu_link_content')
+          ->loadByProperties(['title' => 'Programs']);
+        foreach ($menu_links as $menu_link) {
+          if ($menu_link->link->uri === 'internal:/demo-programs-overview') {
+            $menu_link->field_cta_block->target_id = $block->id();
+            $menu_link->save();
+          }
+        }
+      }
+    }
 }
