@@ -15,7 +15,7 @@ source:
     -
       id: 1
       title: 'Contact Us'
-      menu_name: 'footer-menu-left'
+      menu_name: 'helpful-links'
       link: 'internal:/demo-contact-us'
       weight: 1
       parent_id: 0
@@ -24,7 +24,7 @@ source:
     -
       id: 2
       title: 'Donate'
-      menu_name: 'footer-menu-left'
+      menu_name: 'helpful-links'
       link: 'internal:/demo-donate'
       weight: 2
       parent_id: 0
@@ -33,7 +33,7 @@ source:
     -
       id: 3
       title: 'Find a Y'
-      menu_name: 'footer-menu-left'
+      menu_name: 'helpful-links'
       link: 'internal:/demo-location-finder'
       weight: 3
       parent_id: 0
@@ -42,7 +42,7 @@ source:
     -
       id: 4
       title: 'Jobs'
-      menu_name: 'footer-menu-left'
+      menu_name: 'helpful-links'
       link: 'internal:/demo-jobs'
       weight: 4
       parent_id: 0
@@ -51,7 +51,7 @@ source:
     -
       id: 5
       title: 'Media Room'
-      menu_name: 'footer-menu-left'
+      menu_name: 'helpful-links'
       link: 'internal:/demo-contact-us#media-room'
       weight: 5
       parent_id: 0
@@ -83,7 +83,4 @@ process:
       - parent_link_path
 destination:
   plugin: entity:menu_link_content
-migration_dependencies:
-  required:
-    - openy_demo_menu_link_footer
-  optional: { }
+

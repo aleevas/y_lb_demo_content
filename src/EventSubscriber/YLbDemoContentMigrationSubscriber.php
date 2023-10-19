@@ -40,6 +40,7 @@ class YLbDemoContentMigrationSubscriber implements EventSubscriberInterface {
    */
   public static function getSubscribedEvents() {
     $events[MigrateEvents::PRE_IMPORT][] = ['onMigratePreImport'];
+    $events[MigrateEvents::POST_IMPORT][] = ['onMigratePostImport'];
     return $events;
   }
 
@@ -89,6 +90,35 @@ class YLbDemoContentMigrationSubscriber implements EventSubscriberInterface {
       foreach ($menu_links as $menu_link) {
         $menu_link->delete();
       }
+    }
+  }
+
+  /**
+   * Do stuff after migration rollback.
+   *
+   * @param \Drupal\migrate\Event\MigrateRollbackEvent $event
+   *   The import event object.
+   */
+  public function onMigratePostImport(MigrateImportEvent $event) {
+    $migration_id = $event->getMigration()->getBaseId();
+
+    if ($migration_id === 'y_lb_demo_menu_link_main') {
+      // Add the menu CTA field to the menu items.
+      \Drupal::entityTypeManager()->clearCachedDefinitions();
+      $menus = \Drupal::entityTypeManager()
+        ->getStorage('menu')
+        ->loadMultiple();
+      /** @var \Drupal\menu_item_extras\Service\MenuLinkContentService $mlc_helper */
+      $mlc_helper = \Drupal::service('menu_item_extras.menu_link_content_helper');
+      $mlc_helper->doEntityUpdate();
+      $mlc_helper->updateMenuLinkContentBundle();
+      $mlc_helper->installViewModeField();
+      if (!empty($menus)) {
+        foreach ($menus as $menu_id => $menu) {
+          $mlc_helper->updateMenuItemsBundle($menu_id);
+        }
+      }
+      $mlc_helper->doBundleFieldUpdate();
     }
   }
 

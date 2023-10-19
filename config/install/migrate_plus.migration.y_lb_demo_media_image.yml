@@ -352,6 +352,9 @@ source:
     - id: af_page_image_1
       name: 'Activity Finder page image 1'
       file: af_page_image_1
+    - id: menu_cta_image_1
+      name: 'Menu CTA image 1'
+      file: menu_cta_image_1
   ids:
     id:
       type: string
