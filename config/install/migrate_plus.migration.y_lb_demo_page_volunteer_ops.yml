@@ -207,7 +207,7 @@ source:
               block_config: true
               region: 'footer_top_middle'
               config:
-                id: 'system_menu_block:footer-menu-left'
+                id: 'system_menu_block:helpful-links'
                 label: 'Helpful Links'
                 label_display: 1
                 provider: system

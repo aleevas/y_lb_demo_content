@@ -239,6 +239,8 @@ source:
       name: 72283869c0cbf51c397e2b113d8563fc.jpeg
     - id: af_page_image_1
       name: 88b230b52b18517fab947c61c60643f4.jpeg
+    - id: menu_cta_image_1
+      name: 9ae7d201bb2597ee50813d931c7f73d8.jpeg
   ids:
     id:
       type: string
