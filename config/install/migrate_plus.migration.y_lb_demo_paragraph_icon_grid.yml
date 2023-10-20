@@ -50,7 +50,7 @@ source:
       id: icon_grid_item_5
       uuid: '725307ba-42fd-41a4-bd07-f463bfa2b027'
       parent_id: 2
-      title: 'Nurturing'
+      title: 'Determined'
       body: "<p>We work relentlessly to strengthen communities, starting with you.</p>"
       image: icon_6
 
@@ -107,7 +107,7 @@ source:
       uuid: '85989117-eeaf-47fe-9054-4ad911b7bccf'
       parent_id: 5
       title: '$320'
-      body: "<p>Gives four kids a fun, safe, nurturing place a night by providing food and shelter to go after school for one week</p>"
+      body: "<p>Gives four kids a fun, safe, nurturing place to go after school for one week</p>"
       image: icon_16
 
     -

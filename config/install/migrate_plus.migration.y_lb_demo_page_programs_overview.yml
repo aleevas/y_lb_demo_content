@@ -55,7 +55,7 @@ source:
               block_config: true
               region: 'header_bottom_right'
               config:
-                id: 'system_menu_block:account'
+                id: 'system_menu_block:demo-account'
                 label: 'Demo Utility menu'
                 label_display: '0'
                 provider: system
@@ -282,7 +282,6 @@ process:
         label: "Ping Pong"
         container: "w-100"
         remove_gutters: "1"
-        section_classes: 'mt-5'
         container_wrapper_attributes:
           id: 'community'
       7footer:

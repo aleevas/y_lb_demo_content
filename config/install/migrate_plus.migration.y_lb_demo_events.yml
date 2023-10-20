@@ -19,9 +19,9 @@ source:
       summary: "All aboard, seniors! Take a 2-hour tour
         of the city on this casual riverboat picnic
         that includes a boxed lunch."
-      contact_email: sXyimJuV@example.com
-      contact_name: 'John Doe'
-      contact_phone: '+1 (888) 123-4567'
+      contact_email: events@ymcaspringfield.org
+      contact_name: 'YMCA of [Springfield]'
+      contact_phone: '(123) 456-7890'
       image: homepage_image_6
       start_date: '+15 days 15:00'
       date_end: '+15 days 17:00'
@@ -34,9 +34,9 @@ source:
       title: 'Event Title'
       body: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
       summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-      contact_email: sXyimJuV@example.com
-      contact_name: 'John Doe'
-      contact_phone: '+1 (888) 123-4567'
+      contact_email: events@ymcaspringfield.org
+      contact_name: 'YMCA of [Springfield]'
+      contact_phone: '(123) 456-7890'
       image: homepage_image_7
       start_date: '+11 days 15:00'
       date_end: '+11 days 17:00'
@@ -48,9 +48,9 @@ source:
       title: 'Event Title'
       body: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
       summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-      contact_email: sXyimJuV@example.com
-      contact_name: 'John Doe'
-      contact_phone: '+1 (888) 123-4567'
+      contact_email: events@ymcaspringfield.org
+      contact_name: 'YMCA of [Springfield]'
+      contact_phone: '(123) 456-7890'
       image: homepage_image_8
       start_date: '+8 days 15:00'
       date_end: '+8 days 17:00'
@@ -63,9 +63,9 @@ source:
       title: 'Event Title'
       body: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
       summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-      contact_email: sXyimJuV@example.com
-      contact_name: 'John Doe'
-      contact_phone: '+1 (888) 123-4567'
+      contact_email: events@ymcaspringfield.org
+      contact_name: 'YMCA of [Springfield]'
+      contact_phone: '(123) 456-7890'
       image: homepage_image_9
       start_date: '+7 days 15:00'
       date_end: '+7 days 17:00'
@@ -150,6 +150,12 @@ process:
     source:
       - constants/date_format
       - '@event_end_date'
+  override_styles:
+    - plugin: default_value
+      default_value: 1
+  styles/value:
+    - plugin: default_value
+      default_value: 'a:6:{s:8:"colorway";s:17:"ws_colorway_green";s:13:"border_radius";s:19:"ws_border_radius_10";s:19:"border_style_global";s:34:"ws_border_style_global_drop_shadow";s:21:"text_alignment_global";s:29:"ws_text_alignment_global_left";s:22:"button_position_global";s:32:"ws_button_position_global_inside";s:18:"button_fill_global";s:28:"ws_button_fill_global_filled";}'
 destination:
   plugin: 'entity:node'
   default_bundle: lb_event

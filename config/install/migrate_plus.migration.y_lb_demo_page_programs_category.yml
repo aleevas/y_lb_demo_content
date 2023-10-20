@@ -55,7 +55,7 @@ source:
               block_config: true
               region: 'header_bottom_right'
               config:
-                id: 'system_menu_block:account'
+                id: 'system_menu_block:demo-account'
                 label: 'Demo Utility menu'
                 label_display: '0'
                 provider: system
@@ -89,7 +89,7 @@ source:
               config:
                 id: "inline_block:lb_hero"
                 label_display: "hidden"
-                label: "Youth Soccer"
+                label: "Youth Sports"
                 view_mode: "full"
                 provider: "layout_builder"
               additional:
@@ -334,13 +334,11 @@ process:
         label: "Ping Pong"
         container: "w-100"
         remove_gutters: "1"
-        section_classes: 'mt-5'
       8partners:
         bs_col: "blb_col_1"
         label: "Our Sponsors"
         container: "container"
         remove_gutters: "0"
-        section_classes: 'mt-5'
       9third_banner:
         bs_col: "blb_col_1"
         label: "Have questions?"

@@ -55,7 +55,7 @@ source:
               block_config: true
               region: 'header_bottom_right'
               config:
-                id: 'system_menu_block:account'
+                id: 'system_menu_block:demo-account'
                 label: 'Demo Utility menu'
                 label_display: '0'
                 provider: system

@@ -39,7 +39,7 @@ source:
           title: 'Child Care'
       work_hours:
         -
-          hours_label: 'Work hours'
+          hours_label: 'Branch Hours'
           hours_mon: '9am - 10pm'
           hours_tue: '9am - 10pm'
           hours_wed: '9am - 10pm'
@@ -48,28 +48,18 @@ source:
           hours_sat: '9am - 6pm'
           hours_sun: '9am - 4pm'
       amenities:
-        - target_id: 23
-        - target_id: 24
-        - target_id: 25
-        - target_id: 26
-        - target_id: 27
-        - target_id: 28
-        - target_id: 29
-        - target_id: 30
-        - target_id: 31
-        - target_id: 32
-        - target_id: 33
-        - target_id: 34
-        - target_id: 35
-        - target_id: 36
         - target_id: 37
-        - target_id: 38
-        - target_id: 39
-        - target_id: 40
-        - target_id: 42
+        - target_id: 31
+        - target_id: 26
+        - target_id: 32
+        - target_id: 35
         - target_id: 44
+        - target_id: 29
+        - target_id: 25
+        - target_id: 45
         - target_id: 46
-        - target_id: 48
+        - target_id: 38
+        - target_id: 41
       sections:
         1header:
           components:
@@ -108,7 +98,7 @@ source:
               block_config: true
               region: 'header_bottom_right'
               config:
-                id: 'system_menu_block:account'
+                id: 'system_menu_block:demo-account'
                 label: 'Demo Utility menu'
                 label_display: '0'
                 provider: system
@@ -179,7 +169,7 @@ source:
         6two_columns:
           components:
             lb_code_block:
-              uuid: "4c16df42-b839-4af3-8eab-841e22d981c6"
+              uuid: "959d8ff5-4704-4bb3-b5d9-774431f67546"
               region: 'blb_region_col_1'
               config:
                 id: "inline_block:lb_code_block"

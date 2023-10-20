@@ -22,7 +22,7 @@ source:
     -
       id: partner_2
       uuid: '90b0b4ed-acc2-4b2d-4de0-a2ee-8da5d268f9vc'
-      name: 'Big Dummy'
+      name: 'Lorem ipsum'
       image: partner_logo_2
     -
       id: partner_3
@@ -32,7 +32,7 @@ source:
     -
       id: partner_4
       uuid: '90b0b4ed-abb2-4b2d-a2ee-4de0-8da5d268f9wa'
-      name: 'Trolley cart'
+      name: 'Lorem ipsum'
       image: partner_logo_4
   ids:
     id:

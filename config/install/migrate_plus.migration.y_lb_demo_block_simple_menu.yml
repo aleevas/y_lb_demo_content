@@ -139,7 +139,7 @@ source:
       id: 9
       uuid: '196dcaed-2f52-41c9-bf7a-bd88a1e9dbfa'
       title: 'Quick Links'
-      image: icon_23
+      image: icon_2
       links:
         - uri: 'internal:#youth-sports-coach'
           title: 'Youth Sports Coach'
