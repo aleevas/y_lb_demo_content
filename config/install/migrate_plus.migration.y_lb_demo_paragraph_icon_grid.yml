@@ -140,7 +140,7 @@ source:
       parent_id: 6
       title: 'By Phone'
       body: "<p>Give our YMCA Operations Center a call at [PHONE NUMBER] to donate with a debit or credit card.</p>"
-      image: icon_19
+      image: icon_20
 
     -
       id: icon_grid_item_17
@@ -148,7 +148,7 @@ source:
       parent_id: 6
       title: 'By Mail'
       body: "<p>Make checks payable to the YMCA and send to: ATTN: Development Office YMCA of [SPRINGFIELD] [123 Main St.] [City, ST 12345]</p>"
-      image: icon_20
+      image: icon_19
 
     -
       id: icon_grid_item_18

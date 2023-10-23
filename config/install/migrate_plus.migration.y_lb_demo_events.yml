@@ -19,7 +19,7 @@ source:
       summary: "All aboard, seniors! Take a 2-hour tour
         of the city on this casual riverboat picnic
         that includes a boxed lunch."
-      contact_email: events@ymcaspringfield.org
+      contact_email: events@example.org
       contact_name: 'YMCA of [Springfield]'
       contact_phone: '(123) 456-7890'
       image: homepage_image_6
@@ -29,12 +29,229 @@ source:
       tags:
         - tag: 101
         - tag: 102
+      sections:
+        1header:
+          components:
+            logo:
+              block_config: true
+              region: 'header_bottom_left'
+              config:
+                id: 'ws_site_logo'
+                label: 'Site Logo Block'
+                label_display: visible
+                provider: y_lb
+                context_mapping: { }
+                logo_type: colorway
+            website_name:
+              block_config: true
+              region: 'header_top_left'
+              config:
+                id: 'ws_site_name'
+                label: 'Website Name Block'
+                label_display: '0'
+                provider: y_lb
+                context_mapping: { }
+            menu:
+              block_config: true
+              region: 'header_bottom_middle'
+              config:
+                id: 'system_menu_block:main'
+                label: 'Demo Main navigation'
+                label_display: '0'
+                provider: system
+                context_mapping: { }
+                level: 1
+                depth: 0
+                expand_all_items: false
+            account:
+              block_config: true
+              region: 'header_bottom_right'
+              config:
+                id: 'system_menu_block:demo-account'
+                label: 'Demo Utility menu'
+                label_display: '0'
+                provider: system
+                context_mapping: { }
+                level: 1
+                depth: 0
+                expand_all_items: false
+            translate:
+              block_config: true
+              region: 'header_top_right'
+              config:
+                id: openy_gtranslate_block
+                label: 'Open Y Google Translate'
+                label_display: '0'
+                provider: openy_gtranslate
+                context_mapping: { }
+            search:
+              block_config: true
+              region: 'header_bottom_middle'
+              config:
+                id: ws_search_bar
+                label: 'Search Bar Block'
+                label_display: '0'
+                provider: y_lb
+                context_mapping: { }
+        2event_header:
+          components:
+            node_tile:
+              uuid: "4ef1deb8-3dcb-43b1-af24-e0627fea69db"
+              region: 'blb_region_col_1'
+              config:
+                id: "lb_node_title"
+                label_display: "hidden"
+                label: "Event Title"
+                provider: "y_lb"
+                weight: -1
+            breadcrumbs:
+              uuid: "3dadc26a-f7e8-46b1-93cf-4c981668f4ec"
+              region: 'blb_region_col_1'
+              config:
+                id: "system_breadcrumb_block"
+                label_display: "hidden"
+                label: "Breadcrumbs"
+                provider: "system"
+                weight: 0
+        3body:
+          components:
+            lb_event_info:
+              uuid: "c010833b-c73d-45b1-82f1-2dfb095e727f"
+              region: 'blb_region_col_1'
+              config:
+                id: "inline_block:lb_code_block"
+                label: "Event Info Block"
+                label_display: 0
+                provider: "ws_event"
+            lb_event_image:
+              uuid: "b3a5606d-c0a3-40d5-a9e7-7608a741eb85"
+              region: 'blb_region_col_2'
+              config:
+                id: "inline_block:lb_event_image"
+                label: "Event Image"
+                label_display: 0
+                provider: "ws_event"
+            lb_node_tags:
+              uuid: "bb1965de-e9fd-42b0-a743-ce9f7c1ec6e6"
+              region: 'blb_region_col_2'
+              config:
+                id: "inline_block:lb_node_tags"
+                label: "Tags Block"
+                label_display: 0
+                provider: "ws_event"
+            lb_node_share:
+              uuid: "12f4909a-52a3-4f4a-a3dd-0d7363b91da0"
+              region: 'blb_region_col_2'
+              config:
+                id: "inline_block:lb_node_share"
+                label: "Share Block"
+                label_display: 0
+                provider: "ws_event"
+            lb_event_body:
+              uuid: "9eca8bcd-8ecd-4b8a-82f9-cc54ca17e809"
+              region: 'blb_region_col_2'
+              config:
+                id: "field_block:node:lb_event:body"
+                label: "Body"
+                label_display: 0
+                provider: "layout_builder"
+                context_mapping:
+                  entity: layout_builder.entity
+                  view_mode: view_mode.entity
+        4event_bottom:
+          components:
+            lb_node_share:
+              uuid: "5cf04f73-9ec9-4b9b-a29d-c35db80b2d21"
+              region: 'blb_region_col_1'
+              config:
+                id: "lb_node_locations"
+                label: "Node Locations"
+                label_display: 0
+                provider: "y_lb"
+            lb_event_contacts:
+              uuid: "1f9dd590-75d4-42a5-9c96-9fa929b21eb3"
+              region: 'blb_region_col_1'
+              config:
+                id: "lb_event_contacts"
+                label: "Event Contacts"
+                label_display: 0
+                provider: "ws_event"
+        5related_events:
+          components:
+            lb_node_share:
+              uuid: "ab17c2aa-2c5a-4064-b2cd-1dae0dedda5b"
+              region: 'blb_region_col_1'
+              config:
+                id: "inline_block:lb_related_events"
+                label: "Related events"
+                label_display: 0
+                provider: "layout_builder"
+        6footer:
+          components:
+            copyright:
+              region: 'footer_bottom_left'
+              uuid: 'cb76bc7c-a957-4b69-96fb-e565ee85f38a'
+              config:
+                id: 'block_content:cb76bc7c-a957-4b69-96fb-e565ee85f38a'
+                label: 'Footer Copyright Block'
+                label_display: 0
+                provider: block_content
+                status: true
+                info: ''
+                view_mode: full
+                context_mapping: { }
+            site_logo:
+              block_config: true
+              region: 'footer_top_left'
+              config:
+                id: ws_site_logo
+                label: 'Site Logo'
+                label_display: '0'
+                provider: y_lb
+                context_mapping: { }
+                logo_type: white
+            menu_right:
+              block_config: true
+              region: 'footer_top_middle'
+              config:
+                id: 'system_menu_block:helpful-links'
+                label: 'Helpful Links'
+                label_display: 1
+                provider: system
+                context_mapping: { }
+                level: 1
+                depth: 0
+                expand_all_items: false
+            stay_connected:
+              block_config: true
+              region: 'footer_top_right'
+              config:
+                id: 'block_content:e350fe26-bc73-4c69-af18-a51a052dbcd3'
+                label: 'Stay Connected'
+                label_display: visible
+                provider: block_content
+                status: true
+                info: ''
+                view_mode: full
+                context_mapping: { }
+            menu:
+              block_config: true
+              region: 'footer_bottom_right'
+              config:
+                id: 'system_menu_block:footer'
+                label: Footer
+                label_display: 0
+                provider: system
+                context_mapping: { }
+                level: 1
+                depth: 0
+                expand_all_items: false
     -
       id: 2
       title: 'Event Title'
       body: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
       summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-      contact_email: events@ymcaspringfield.org
+      contact_email: events@example.org
       contact_name: 'YMCA of [Springfield]'
       contact_phone: '(123) 456-7890'
       image: homepage_image_7
@@ -48,7 +265,7 @@ source:
       title: 'Event Title'
       body: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
       summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-      contact_email: events@ymcaspringfield.org
+      contact_email: events@example.org
       contact_name: 'YMCA of [Springfield]'
       contact_phone: '(123) 456-7890'
       image: homepage_image_8
@@ -63,7 +280,7 @@ source:
       title: 'Event Title'
       body: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
       summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-      contact_email: events@ymcaspringfield.org
+      contact_email: events@example.org
       contact_name: 'YMCA of [Springfield]'
       contact_phone: '(123) 456-7890'
       image: homepage_image_9
@@ -156,6 +373,49 @@ process:
   styles/value:
     - plugin: default_value
       default_value: 'a:6:{s:8:"colorway";s:17:"ws_colorway_green";s:13:"border_radius";s:19:"ws_border_radius_10";s:19:"border_style_global";s:34:"ws_border_style_global_drop_shadow";s:21:"text_alignment_global";s:29:"ws_text_alignment_global_left";s:22:"button_position_global";s:32:"ws_button_position_global_inside";s:18:"button_fill_global";s:28:"ws_button_fill_global_filled";}'
+  __layout_builder__layout: sections
+  __layout_builder__layout_defaults:
+    plugin: default_value
+    default_value:
+      1header:
+        label: "Header"
+        id: 'ws_header'
+        wrapper_classes: ''
+      2event_header:
+        bs_col: "blb_col_1"
+        label: "Event Header"
+        container: "container"
+        remove_gutters: "1"
+      3body:
+        bs_col: "blb_col_2"
+        label: "Body"
+        container: "container"
+        remove_gutters: "1"
+        section_classes: 'mt-5'
+      4event_bottom:
+        bs_col: "blb_col_1"
+        label: "Event Bottom"
+        container: "container"
+        remove_gutters: "0"
+        section_classes: 'mt-5'
+      5related_events:
+        bs_col: "blb_col_1"
+        label: "Related Events"
+        container: "container"
+        remove_gutters: "1"
+        section_classes: 'mt-5'
+        container_wrapper_attributes:
+          id: 'media-room'
+      6footer:
+        label: "Footer"
+        id: 'ws_footer'
+        wrapper_classes: ''
+  layout_builder__layout:
+    - plugin: merge_recursive
+      source:
+        - '@__layout_builder__layout_defaults'
+        - '@__layout_builder__layout'
+    - plugin: lb_sections
 destination:
   plugin: 'entity:node'
   default_bundle: lb_event
