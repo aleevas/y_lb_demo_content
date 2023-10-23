@@ -1,18 +1,15 @@
 langcode: en
 status: open
-dependencies:
-  module:
-    - y_lb_demo_content
-    - webform
+dependencies: {  }
 weight: 0
 open: null
 close: null
 uid: 1
 template: false
 archive: false
-id: try_the_y
-title: 'Try the Y'
-description: ''
+id: contact_us
+title: 'Contact Us'
+description: '<p>Demo Contact Us</p>'
 categories: {  }
 elements: |-
   flexbox:
@@ -21,54 +18,29 @@ elements: |-
       '#type': textfield
       '#title': Name
       '#required': true
-  flexbox_01:
-    '#type': webform_flexbox
     email:
       '#type': email
       '#title': Email
       '#required': true
-    phone_number:
-      '#type': tel
-      '#title': 'Phone number'
+  flexbox_01:
+    '#type': webform_flexbox
+    which_ymca_location_would_you_like_to_talk_to_us_about_:
+      '#type': webform_entity_select
+      '#title': 'Which YMCA location would you like to talk to us about?'
       '#required': true
-      '#attributes':
-        class:
-          - form-tel
-          - form-control
-          - required
-  markup:
-    '#type': webform_markup
-    '#markup': '<p>Fill out the form below to get your complimentary one-time guest pass.</p>'
-  fill_out_the_form_below_to_get_your_complimentary_one_time_guest:
-    '#type': checkboxes
-    '#title': 'Fill out the form below to get your complimentary one-time guest pass.'
-    '#options':
-      'Better Health Overall': 'Better Health Overall'
-      'Meet New People': 'Meet New People'
-      'Programs for Kids': 'Programs for Kids'
-      'Weight Loss': 'Weight Loss'
-      'Family Fun': 'Family Fun'
-    '#required': true
-  which_y_location_would_you_like_to_visit_:
-    '#type': checkboxes
-    '#title': 'Which Y location would you like to visit? '
-    '#options':
-      'Chestnut SChestnut Street Family YMCAtreet Family YMCA': 'Chestnut SChestnut Street Family YMCAtreet Family YMCA'
-      'Downtown Family YMCA': 'Downtown Family YMCA'
-      'Northeast Family YMCA': 'Northeast Family YMCA'
-      'Clark County Family YMCA': 'Clark County Family YMCA'
-      'Floyd County Family YMCA': 'Floyd County Family YMCA'
-      'Republic Bank Foundation YMCA': 'Republic Bank Foundation YMCA'
-    '#required': true
-  _i_confirm_i_am_at_least_18_years_of_age_:
-    '#type': checkbox
-    '#title': ' I confirm I am at least 18 years of age.'
-    '#required': true
-  i_agree_to_receive_additional_information_from_the_ymca_of_sprin:
-    '#type': checkbox
-    '#title': 'I agree to receive additional information from the YMCA of [Springfield] about membership, programs and other offerings.'
-    '#required': true
-css: ".form-type-textfield,.form-tel, .form-item.form-item-email { width: 100% !important;}.form-item label {font-size: 16px;text-transform: none !important;}.form-type-checkbox {display: flex; gap: 15px;align-items: baseline;}"
+      '#target_type': node
+      '#selection_handler': 'default:node'
+      '#selection_settings':
+        target_bundles:
+          branch: branch
+          camp: camp
+  what_comments_questions_or_concerns_would_you_like_to_share_:
+    '#type': textarea
+    '#title': 'What comments, questions or concerns would you like to share?'
+  actions:
+    '#type': webform_actions
+    '#title': 'Submit button(s)'
+css: ".form-item, .form-item.form-type-email {width: 100% !important;}.form-item label {font-size: 16px;text-transform: none !important;}.form-select {border-radius: var(--wsBorderRadius,unset) !important;border-color: rgba(35,31,32,0.4) !important;font-size: 18px !important;}"
 javascript: ''
 settings:
   ajax: false

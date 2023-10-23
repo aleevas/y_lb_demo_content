@@ -25,12 +25,11 @@ source:
       id: 2
       title: 'Programs'
       menu_name: 'main'
-      link: 'internal:/'
+      link: 'internal:/demo-programs-overview'
       weight: 2
       parent_id: 0
       expanded: 1
       parent_link_path: ''
-      cta_block_info: 'Demo Menu CTA block'
 
     -
       id: 3
@@ -543,9 +542,6 @@ process:
     default_value: menu_link_content
   title: title
   menu_name: menu_name
-  field_cta_block:
-    plugin: y_lb_menu_cta_block
-    source: cta_block_info
   link/uri:
     plugin: link_uri
     source: link

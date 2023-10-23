@@ -55,7 +55,7 @@ source:
               block_config: true
               region: 'header_bottom_right'
               config:
-                id: 'system_menu_block:account'
+                id: 'system_menu_block:demo-account'
                 label: 'Demo Utility menu'
                 label_display: '0'
                 provider: system
@@ -150,6 +150,11 @@ source:
                 label_display: 0
                 provider: "layout_builder"
                 view_mode: "full"
+              additional:
+                bootstrap_styles:
+                  block_style:
+                    ws_style_option:
+                      button_fill_component: ws_button_fill_component_outlined
         7icon_grid:
           components:
             lb_icon_grid:

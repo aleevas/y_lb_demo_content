@@ -15,8 +15,8 @@ source:
     -
       id: 1
       title: 'Join'
-      menu_name: 'account'
-      link: 'internal:/'
+      menu_name: 'demo-account'
+      link: 'internal:/demo-join-y'
       weight: 1
       parent_id: 0
       expanded: 0

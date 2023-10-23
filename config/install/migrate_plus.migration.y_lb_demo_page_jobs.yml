@@ -55,7 +55,7 @@ source:
               block_config: true
               region: 'header_bottom_right'
               config:
-                id: 'system_menu_block:account'
+                id: 'system_menu_block:demo-account'
                 label: 'Demo Utility menu'
                 label_display: '0'
                 provider: system
@@ -303,16 +303,16 @@ process:
         container: "container"
         section_classes: 'mt-5'
         breakpoints:
-          desktop: 'blb_col_9_3'
+          desktop: 'blb_col_8_8'
           tablet: 'blb_col_12'
           mobile: 'blb_col_12'
         layout_regions_classes:
           blb_region_col_1:
-            - 'col-lg-3'
+            - 'col-lg-4'
             - 'col-12'
             - 'col-12'
           blb_region_col_2:
-            - 'col-lg-9'
+            - 'col-lg-8'
             - 'col-12'
             - 'col-12'
       4ping_pong:

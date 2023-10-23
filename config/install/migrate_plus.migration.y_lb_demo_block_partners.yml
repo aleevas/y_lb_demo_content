@@ -28,7 +28,7 @@ source:
     - id: 381
       uuid: '06466af2-9449-4494-8bb5-aed8b1452050'
       title: "Our Sponsors"
-      subtitle: "Want to be a sponsor? Email us at youthsports@ymcaspringfield.org for details."
+      subtitle: "Want to be a sponsor? Email us at youthsports@example.org for details."
       format: full_html
       content_ids:
         - content_id: partner_1

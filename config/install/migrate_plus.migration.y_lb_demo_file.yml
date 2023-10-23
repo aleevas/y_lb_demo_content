@@ -64,9 +64,9 @@ source:
     - id: icon_1
       name: icon-handshake.png
     - id: icon_2
-      name: icon-look-at-me.png
+      name: icon-volunteerism.png
     - id: icon_3
-      name: icon-summer.png
+      name: icon-responsibility.png
     - id: icon_4
       name: icon-sports-yoga.png
     - id: icon_5
@@ -76,7 +76,7 @@ source:
     - id: icon_7
       name: icon-heartbeat.png
     - id: icon_8
-      name: icon-corners.png
+      name: icon-youthdevelopment.png
     - id: icon_9
       name: icon-ball.png
     - id: icon_10
@@ -84,11 +84,11 @@ source:
     - id: icon_11
       name: icon-kids.png
     - id: icon_12
-      name: icon-vector.png
+      name: icon-fundraising.png
     - id: icon_13
-      name: icon-theY.png
+      name: icon-membership.png
     - id: icon_14
-      name: icon-library.png
+      name: icon-generalcamp.png
     - id: icon_15
       name: icon-baseball.png
     - id: icon_16
@@ -96,7 +96,7 @@ source:
     - id: icon_17
       name: icon-grape.png
     - id: icon_18
-      name: icon-swim.png
+      name: icon-swimming.png
     - id: icon_19
       name: icon-mail.png
     - id: icon_20
@@ -104,9 +104,7 @@ source:
     - id: icon_21
       name: icon-wire.png
     - id: icon_22
-      name: icon-thing.png
-    - id: icon_23
-      name: icon-raise_hand.png
+      name: icon-careers.png
     - id: program_overview_page_image_1
       name: 16f6a90318a46adb0b11ed6730e24300.jpeg
     - id: program_overview_page_image_2

@@ -125,7 +125,7 @@ source:
       section_subtitle: ''
       item_title: 'Youth Soccer'
       item_description: "<p>Designed to introduce players of any skill level to the world's most popular sport, our program encourages teamwork and builds confidence.</p>"
-      image: jobs_page_image_2
+      image: program_category_page_image_2
       image_position: 'right'
       cta:
         - uri: 'internal:/demo-program-individual'
@@ -137,7 +137,7 @@ source:
       section_subtitle: ''
       item_title: 'Youth Tee-Ball and Baseball'
       item_description: "<p>Kids ages 3–8 balance fun with fundamentals as they learn to hit, catch and throw in a team-building environment.</p>"
-      image: jobs_page_image_3
+      image: program_category_page_image_3
       image_position: 'left'
       cta:
         - uri: 'internal:/demo-dummy'
@@ -149,7 +149,7 @@ source:
       section_subtitle: ''
       item_title: 'Youth Basketball'
       item_description: "<p>These programs aim to bring members together, because we're all stronger when we're looking out for one another.</p>"
-      image: program_overview_page_image_4
+      image: program_category_page_image_4
       image_position: 'right'
       cta:
         - uri: 'internal:/demo-dummy'
