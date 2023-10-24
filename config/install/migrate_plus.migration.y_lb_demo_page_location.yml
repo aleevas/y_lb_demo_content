@@ -60,6 +60,10 @@ source:
         - target_id: 46
         - target_id: 38
         - target_id: 41
+      closed_amenities:
+        - target_id: 46
+        - target_id: 38
+        - target_id: 41
       sections:
         1header:
           components:
@@ -353,6 +357,7 @@ process:
       migration: openy_demo_taxonomy_term_area
       source: area
   field_location_amenities: amenities
+  field_location_amenities_closed: closed_amenities
   type:
     -
       plugin: default_value
