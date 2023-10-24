@@ -67,7 +67,7 @@ source:
 
     - id: 121
       uuid: '44e37de7-cafc-499d-a7fb-c1a4cb75daa7'
-      text: "<div style='font-size:20px;position: relative;left:-15px;'><h2 style='font-size: 50px'>Something for Everyone</h2><p>From parents night out to activities for the whole family, and from cooking classes to turkey trots, our calendar of events reflects the diverse interests of our community.</p><p>Tap or click on any of the events below for more details and to register for a spot.</p></div>"
+      text: "<div style='font-size:20px;position: relative;left:-10px;'><h2 style='font-size: 50px'>Something for Everyone</h2><p>From parents night out to activities for the whole family, and from cooking classes to turkey trots, our calendar of events reflects the diverse interests of our community.</p><p>Tap or click on any of the events below for more details and to register for a spot.</p></div>"
       format: 'full_html'
 
     - id: 122

@@ -51,17 +51,17 @@ process:
       target_id:
         plugin: migration_lookup
         migration:
-          - y_lb_demo_paragraph_carousel
+          - y_lb_demo_block_carousel_item
         source: content_id
       target_revision_id:
         plugin: migration_lookup
         migration:
-          - y_lb_demo_paragraph_carousel
+          - y_lb_demo_block_carousel_item
         source: content_id
 
 destination:
   plugin: entity:block_content
 migration_dependencies:
   required:
-    - y_lb_demo_paragraph_carousel
+    - y_lb_demo_block_carousel_item
   optional: {}

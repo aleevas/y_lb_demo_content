@@ -1,0 +1,56 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - lb_hero
+  enforced:
+    module:
+      - y_lb_demo_content
+id: y_lb_demo_block_events_related
+migration_tags:
+  - openy_complete_installation
+migration_group: y_lb_demo_content
+label: 'Import demo Layout Builder - Related Events'
+source:
+  plugin: embedded_data
+  data_rows:
+    -
+      id: 1
+      uuid: 'f06fd601-bbfc-414a-972a-2d0b39e6ef56'
+      related_link:
+        - uri: 'internal:/demo-events'
+          title: 'All events'
+      location_reference: 1
+      section_title: 'Related Events'
+      widget_type: 'upcoming'
+      count_to_display: 3
+  ids:
+    id:
+      type: integer
+process:
+  langcode:
+    plugin: default_value
+    source: language
+    default_value: en
+  status:
+    plugin: default_value
+    default_value: 1
+  reusable:
+    plugin: default_value
+    default_value: 0
+  type:
+    plugin: default_value
+    default_value: lb_related_events
+  uuid: uuid
+  field_related_events_widget_type: widget_type
+  field_section_title: section_title
+  field_items_count_to_display: count_to_display
+  field_related_link: related_link
+  field_location_reference/target_id:
+    - plugin: migration_lookup
+      migration: y_lb_demo_page_location
+      source: location_reference
+destination:
+  plugin: entity:block_content
+  default_bundle: 'lb_related_events'
+migration_dependencies: {  }
