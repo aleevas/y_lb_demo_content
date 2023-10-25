@@ -42,13 +42,13 @@ source:
       image: icon_7
       links:
         -
-          uri: 'internal:#youth-sports'
+          uri: 'internal:/demo-programs-category'
           title: 'Youth Sports'
         -
-          uri: 'internal:#health-fitness'
+          uri: 'internal:/demo-dummy'
           title: 'Health & Fitness'
         -
-          uri: 'internal:#community'
+          uri: 'internal:/demo-dummy'
           title: 'Community'
     -
       id: 3

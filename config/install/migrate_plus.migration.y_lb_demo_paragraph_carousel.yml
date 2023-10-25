@@ -22,7 +22,6 @@ source:
       title: ''
       body: ""
       image: carousel_image_1
-      cta: {  }
     -
       id: carousel_2
       uuid: '2e0a2a56-02a5-4707-92b7-4f169c1e1400'
@@ -30,7 +29,6 @@ source:
       title: ''
       body: ""
       image: carousel_image_2
-      cta: {  }
     -
       id: carousel_3
       uuid: 'b7b0dd99-6bba-48c9-8745-158dfbf318d4'
@@ -38,7 +36,6 @@ source:
       title: ''
       body: ""
       image: carousel_image_3
-      cta: {  }
 
     -
       id: carousel_4
@@ -47,7 +44,6 @@ source:
       title: ''
       body: ""
       image: carousel_image_4
-      cta: {  }
   ids:
     id:
       type: string
