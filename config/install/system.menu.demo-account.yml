@@ -1,6 +1,0 @@
-langcode: en
-status: true
-id: demo-account
-label: 'Demo account navigations'
-description: 'Demo Account links menu'
-locked: false
