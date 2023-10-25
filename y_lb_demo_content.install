@@ -14,4 +14,8 @@ function y_lb_demo_content_install() {
     ->set('name', 'YMCA OF [SPRINGFIELD]')
     ->set('page.front', '/demo-home-page')
     ->save();
+  // Set custom label for the Branch blocks on the Locations page.
+  $block_labels = \Drupal::configFactory()->getEditable('openy_map.settings');
+  $block_labels->set('block_labels.branch', 'Branches')
+  ->save();
 }

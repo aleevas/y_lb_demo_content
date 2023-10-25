@@ -67,18 +67,18 @@ source:
 
     - id: 121
       uuid: '44e37de7-cafc-499d-a7fb-c1a4cb75daa7'
-      text: "<div style='font-size:20px;position: relative;left:-15px;'><h2 style='font-size: 50px'>Something for Everyone</h2><p>From parents night out to activities for the whole family, and from cooking classes to turkey trots, our calendar of events reflects the diverse interests of our community.</p><p>Tap or click on any of the events below for more details and to register for a spot.</p></div>"
+      text: "<div class='ml-3 ml-md-0' style='font-size:20px;position: relative;left:-15px;'><h2 style='font-size: 50px'>Something for Everyone</h2><p>From parents night out to activities for the whole family, and from cooking classes to turkey trots, our calendar of events reflects the diverse interests of our community.</p><p>Tap or click on any of the events below for more details and to register for a spot.</p></div>"
       format: 'full_html'
 
     - id: 122
       uuid: '4f2ef641-f3ef-4572-9a08-e3f52fd11e00'
-      text: "<div class='ml-md-4' style='font-size:20px'><h2 style='font-size: 50px'>We want to hear from you!</h2><ul><li><b>For membership changes or cancellations</b>, please contact <a href='/demo-location-finder'>your home branch</a> directly.</li><li><b>For media inquiries</b>, check out our <a href='#media-room'>media room section</a>.</li><li><b>For questions or comments on our programs, becoming a sponsor, or anything else</b>, reach out via the form below, and we will get back to you as soon as we can.</li></ul></div>"
+      text: "<div class='ml-md-4' style='font-size:20px'><h2 style='font-size: 50px'>We want to hear from you!</h2><ul><li><b>For membership changes or cancellations</b>, please contact <a href='[site:url]demo-location-finder'>your home branch</a> directly.</li><li><b>For media inquiries</b>, check out our <a href='#media-room'>media room section</a>.</li><li><b>For questions or comments on our programs, becoming a sponsor, or anything else</b>, reach out via the form below, and we will get back to you as soon as we can.</li></ul></div>"
       format: 'full_html'
 
 
     - id: 123
       uuid: 'c4709456-71d4-4514-b198-219a0e059d19'
-      text: "<div class='ml-md-4' style='font-size:20px'><h2 style='font-size: 50px'>Use the membership builder below to select the level and location that are right for you.</h2><p>When you reach the final step, you will be transferred to our registration site to finalize and set up your account. From there, you can sign up for specific programs and more.</p><p>Feel free to <a href='/demo-contact-us'>contact us</a> with any questions throughout the process.</p><p>&nbsp;</p></div>"
+      text: "<div class='ml-md-4' style='font-size:20px'><h2 style='font-size: 50px'>Use the membership builder below to select the level and location that are right for you.</h2><p>When you reach the final step, you will be transferred to our registration site to finalize and set up your account. From there, you can sign up for specific programs and more.</p><p>Feel free to <a href='[site:url]demo-contact-us'>contact us</a> with any questions throughout the process.</p><p>&nbsp;</p></div>"
       format: 'full_html'
 
     - id: 124

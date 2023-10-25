@@ -434,7 +434,7 @@ process:
       7carousel:
         bs_col: "blb_col_1"
         label: "Carousel"
-        container: "container"
+        container: "w-100"
         remove_gutters: "1"
         section_classes: 'mt-5'
       8upcoming_events:
