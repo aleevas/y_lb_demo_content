@@ -48,7 +48,7 @@ source:
     - id: 5
       uuid: 'fd8a8026-c151-43f3-ae86-640c076d86d6'
       title: 'Financial Aid'
-      description: "<p>Our leagues are for all kids. If our standard rates aren't in your budget, ask about membership or program rates based on household income. Please stop by or call us to find out if you're eligible for assistance, or visit our <a href='/demo-membership#membership-options'>membership page</a> to learn more.</p>"
+      description: "<p>Our leagues are for all kids. If our standard rates aren't in your budget, ask about membership or program rates based on household income. Please stop by or call us to find out if you're eligible for assistance, or visit our <a href='[site:url]demo-membership#membership-options'>membership page</a> to learn more.</p>"
 
     - id: 6
       uuid: '51805784-16b8-46dc-bfa2-7f612dc03582'

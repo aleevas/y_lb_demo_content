@@ -198,7 +198,7 @@ source:
       section_title: ''
       section_subtitle: ''
       item_title: 'Holiday Hours'
-      item_description: "<p>We may be closed or have modified hours and class offerings on various holidays. Branch amenities may also be modified or closed. <a href='/demo-location-finder'>Check with your local branch for details</a>.</p>"
+      item_description: "<p>We may be closed or have modified hours and class offerings on various holidays. Branch amenities may also be modified or closed. <a href='[site:url]demo-location-finder'>Check with your local branch for details</a>.</p>"
       image: schedules_page_image_2
       image_position: 'left'
       cta:

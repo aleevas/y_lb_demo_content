@@ -77,7 +77,7 @@ source:
       uuid: 'afba1e22-8162-4095-b310-33a7417ec931'
       parent_id: 42
       title: 'Does the Y offer financial assistance for membership and programs?'
-      body: "<p>Absolutely. The Y is for everyone! We offer affordable rates for both memberships and programs based on household income.</p><p>Learn more about our financial assistance program and whether you are eligible by visiting our <a href='/demo-membership'>Membership page</a> or contacting <a href='[site:url]demo-location-finder'>your local branch</a>.</p>"
+      body: "<p>Absolutely. The Y is for everyone! We offer affordable rates for both memberships and programs based on household income.</p><p>Learn more about our financial assistance program and whether you are eligible by visiting our <a href='[site:url]demo-membership'>Membership page</a> or contacting <a href='[site:url]demo-location-finder'>your local branch</a>.</p>"
 
     -
       id: accordion_item_10
