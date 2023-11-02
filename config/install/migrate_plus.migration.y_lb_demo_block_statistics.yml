@@ -57,23 +57,17 @@ process:
     - plugin: migration_lookup
       migration: y_lb_demo_media_image
       source: image
-  field_items:
+  field_block_item:
     plugin: sub_process
     source: content_ids
     process:
       target_id:
         plugin: migration_lookup
         migration:
-          - y_lb_demo_paragraph_statistics
-        source: content_id
-      target_revision_id:
-        plugin: migration_lookup
-        migration:
-          - y_lb_demo_paragraph_statistics
+          - y_lb_demo_block_statistics_item
         source: content_id
 destination:
   plugin: entity:block_content
 migration_dependencies:
   required:
-    - y_lb_demo_paragraph_statistics
-  optional: {}
+    - y_lb_demo_block_statistics_item

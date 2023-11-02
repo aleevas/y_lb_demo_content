@@ -107,24 +107,19 @@ process:
   field_section_subtitle: subtitle
   field_icon_columns: columns
   field_cta: cta
-  field_grid_items:
+  field_block_item:
     plugin: sub_process
     source: content_ids
     process:
       target_id:
         plugin: migration_lookup
         migration:
-          - y_lb_demo_paragraph_icon_grid
-        source: content_id
-      target_revision_id:
-        plugin: migration_lookup
-        migration:
-          - y_lb_demo_paragraph_icon_grid
+          - y_lb_demo_block_icon_grid_item
         source: content_id
 destination:
   plugin: entity:block_content
   default_bundle: lb_icon_grid
 migration_dependencies:
   required:
-    - y_lb_demo_paragraph_icon_grid
+    - y_lb_demo_block_icon_grid_item
   optional: {  }

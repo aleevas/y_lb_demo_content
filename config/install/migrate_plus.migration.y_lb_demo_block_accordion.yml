@@ -9,7 +9,6 @@ dependencies:
 id: y_lb_demo_block_accordion
 migration_tags:
   - openy_complete_installation
-  - y_lb_demo_content
 migration_group: y_lb_demo_content
 label: 'Import Demo Layout Builder - Accordion block'
 source:
@@ -65,24 +64,19 @@ process:
   field_is_faq:
     plugin: default_value
     default_value: 1
-  field_entity_reference_paragraph:
+  field_block_item:
     plugin: sub_process
     source: content_ids
     process:
       target_id:
         plugin: migration_lookup
         migration:
-          - y_lb_demo_paragraph_accordion
+          - y_lb_demo_block_accordion_item
         source: content_id
-      target_revision_id:
-        plugin: migration_lookup
-        migration:
-          - y_lb_demo_paragraph_accordion
-        source: content_id
-
 destination:
   plugin: entity:block_content
+  default_bundle: 'lb_accordion'
 migration_dependencies:
   required:
-    - y_lb_demo_paragraph_accordion
+    - y_lb_demo_block_accordion_item
   optional: {}
