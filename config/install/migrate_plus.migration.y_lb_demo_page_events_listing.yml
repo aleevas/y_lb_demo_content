@@ -104,7 +104,7 @@ source:
               uuid: "44e37de7-cafc-499d-a7fb-c1a4cb75daa7"
               region: 'blb_region_col_1'
               config:
-                id: "inline_block:lb_code_block"
+                id: "inline_block:lb_table"
                 label: "Something for Everyone"
                 label_display: 0
                 provider: "layout_builder"
@@ -267,7 +267,7 @@ destination:
 migration_dependencies:
   required:
     - y_lb_demo_block_banner_chevron
-    - y_lb_demo_block_code_block
+    - y_lb_demo_block_table_block
     - y_lb_demo_block_featured_event
     - y_lb_demo_block_events_filter
     - y_lb_demo_block_events_listing

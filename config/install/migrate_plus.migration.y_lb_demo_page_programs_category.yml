@@ -112,7 +112,7 @@ source:
               uuid: "4c16df42-b839-4af3-8eab-841e22d981c6"
               region: 'blb_region_col_2'
               config:
-                id: "inline_block:lb_code_block"
+                id: "inline_block:lb_table"
                 label: ""
                 label_display: 0
                 provider: "layout_builder"
@@ -163,7 +163,7 @@ source:
                       button_fill_component: ws_button_fill_component_filled
         8partners:
           components:
-            lb_code_block:
+            lb_partners:
               uuid: "06466af2-9449-4494-8bb5-aed8b1452050"
               region: 'blb_region_col_1'
               config:
@@ -363,7 +363,7 @@ migration_dependencies:
     - y_lb_demo_block_banner_standard
     - y_lb_demo_block_banner_frame
     - y_lb_demo_block_simple_menu
-    - y_lb_demo_block_code_block
+    - y_lb_demo_block_table_block
     - y_lb_demo_block_ping_pong
     - y_lb_demo_block_partners
   optional: { }

@@ -24,13 +24,6 @@ source:
         - content_id: icon_grid_item_1
         - content_id: icon_grid_item_2
         - content_id: icon_grid_item_3
-    -
-      id: 2
-      uuid: '201c31a6-572a-4568-97dc-ffc45b786f04'
-      title: ''
-      subtitle: ''
-      columns: 2
-      content_ids:
         - content_id: icon_grid_item_4
         - content_id: icon_grid_item_5
 

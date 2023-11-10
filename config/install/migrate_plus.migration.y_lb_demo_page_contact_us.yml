@@ -104,7 +104,7 @@ source:
               uuid: "4f2ef641-f3ef-4572-9a08-e3f52fd11e00"
               region: 'blb_region_col_1'
               config:
-                id: "inline_block:lb_code_block"
+                id: "inline_block:lb_table"
                 label: "We want to hear from you!"
                 label_display: 0
                 provider: "layout_builder"
@@ -275,6 +275,6 @@ migration_dependencies:
   required:
     - y_lb_demo_block_banner_chevron
     - y_lb_demo_block_banner_standard
-    - y_lb_demo_block_code_block
+    - y_lb_demo_block_table_block
     - y_lb_demo_block_webform
   optional: { }

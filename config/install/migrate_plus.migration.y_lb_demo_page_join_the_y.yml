@@ -104,7 +104,7 @@ source:
               uuid: "c4709456-71d4-4514-b198-219a0e059d19"
               region: 'blb_region_col_1'
               config:
-                id: "inline_block:lb_code_block"
+                id: "inline_block:lb_table"
                 label: "We want to hear from you!"
                 label_display: 0
                 provider: "layout_builder"
@@ -115,7 +115,7 @@ source:
               uuid: "79f79fd2-74ff-438a-aea3-35cefe0b782c"
               region: 'blb_region_col_1'
               config:
-                id: "inline_block:lb_code_block"
+                id: "inline_block:lb_table"
                 label: "Membership Builder"
                 label_display: 0
                 provider: "layout_builder"
@@ -290,5 +290,5 @@ migration_dependencies:
   required:
     - y_lb_demo_block_banner_overlay
     - y_lb_demo_block_banner_standard
-    - y_lb_demo_block_code_block
+    - y_lb_demo_block_table_block
   optional: { }

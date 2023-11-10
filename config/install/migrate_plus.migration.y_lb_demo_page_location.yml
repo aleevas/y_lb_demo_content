@@ -176,7 +176,7 @@ source:
               uuid: "959d8ff5-4704-4bb3-b5d9-774431f67546"
               region: 'blb_region_col_1'
               config:
-                id: "inline_block:lb_code_block"
+                id: "inline_block:lb_table"
                 label: "Join Our Community"
                 label_display: 0
                 provider: "layout_builder"
@@ -473,7 +473,7 @@ migration_dependencies:
   required:
     - y_lb_demo_block_banner_overlay
     - y_lb_demo_block_social_links
-    - y_lb_demo_block_code_block
+    - y_lb_demo_block_table_block
     - y_lb_demo_block_branch_amenities
     - y_lb_demo_block_icon_grid
     - y_lb_demo_block_cards

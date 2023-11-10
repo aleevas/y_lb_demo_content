@@ -73,7 +73,7 @@ source:
       uuid: '93aa73da-ff9a-40d5-8af9-c59db0b9b347'
       title: 'Swim Team'
       body: "You don't need to be an advanced swimmer to join the team! We teach kids of all abilities competitive swimming skills."
-      image: location_individual_page_image_6
+      image: program_individual_page_image_10
       cta:
         - uri: 'internal:/demo-program-individual'
           title: 'See Program Details'

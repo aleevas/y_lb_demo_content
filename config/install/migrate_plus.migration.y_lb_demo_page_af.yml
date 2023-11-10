@@ -104,7 +104,7 @@ source:
               uuid: "99e2e22f-b50d-4f63-ba40-b05b19f3f191"
               region: 'blb_region_col_1'
               config:
-                id: "inline_block:lb_code_block"
+                id: "inline_block:lb_table"
                 label: "Activity Finder"
                 label_display: 0
                 provider: "layout_builder"

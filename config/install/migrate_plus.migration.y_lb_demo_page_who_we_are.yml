@@ -112,7 +112,7 @@ source:
               uuid: "aaa97648-dafa-4ce6-8e38-7ae6c98a1d71"
               region: 'blb_region_col_2'
               config:
-                id: "inline_block:lb_code_block"
+                id: "inline_block:lb_table"
                 label: ""
                 label_display: 0
                 provider: "layout_builder"
@@ -149,13 +149,6 @@ source:
                 id: "inline_block:lb_icon_grid"
                 label: "Guiding Principles"
                 provider: "layout_builder"
-            lb_icon_grid2:
-              uuid: "201c31a6-572a-4568-97dc-ffc45b786f04"
-              region: 'blb_region_col_1'
-              config:
-                id: "inline_block:lb_icon_grid"
-                label: "Guiding Principles 2"
-                provider: "layout_builder"
         8statistics:
           components:
             lb_statistics:
@@ -171,7 +164,7 @@ source:
               uuid: "3e04cbed-0edd-4a5b-a4fa-8da5d268f9aa"
               region: 'blb_region_col_1'
               config:
-                id: "inline_block:lb_code_block"
+                id: "inline_block:lb_table"
                 label: ""
                 label_display: 0
                 provider: "layout_builder"
@@ -363,7 +356,7 @@ migration_dependencies:
   required:
     - y_lb_demo_block_banner_standard
     - y_lb_demo_block_simple_menu
-    - y_lb_demo_block_code_block
+    - y_lb_demo_block_table_block
     - y_lb_demo_block_ping_pong
     - y_lb_demo_block_icon_grid
     - y_lb_demo_block_statistics
