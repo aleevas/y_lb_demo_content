@@ -18,7 +18,7 @@ source:
       id: 1
       uuid: '63b5be7f-85b7-4005-9011-15cd9d7d2119'
       title: 'Quick Links'
-      image: icon_1
+      image: icon_27
       links:
         -
           uri: 'internal:#what-we-do'
@@ -39,7 +39,7 @@ source:
       id: 2
       uuid: 'a59eca39-1d02-4744-84c5-2a063c534d91'
       title: 'Quick Links'
-      image: icon_7
+      image: icon_25
       links:
         -
           uri: 'internal:/demo-programs-category'
@@ -54,19 +54,19 @@ source:
       id: 3
       uuid: '58aae4de-b835-4cd8-9d4b-d6c45ebf24e5'
       title: 'Quick Links'
-      image: icon_8
+      image: icon_30
       links:
         - uri: 'internal:#youth-soccer'
           title: 'Youth Soccer'
         - uri: 'internal:#tee-baseball'
           title: 'Tee-Ball/Baseball'
-        - uri: 'internal:#tee-basketball'
+        - uri: 'internal:#basketball'
           title: 'Basketball'
     -
       id: 4
       uuid: '798aa271-a9b3-49f9-baa8-74b94f907905'
       title: 'Quick Links'
-      image: icon_9
+      image: icon_28
       links:
         - uri: 'internal:#schedules-ages-pricing'
           title: 'Schedules, Ages & Pricing '
@@ -83,7 +83,7 @@ source:
       id: 5
       uuid: '627dabec-1bc3-4736-9d6e-759bf423324b'
       title: 'Quick Links'
-      image: icon_9
+      image: icon_28
       links:
         - uri: 'internal:/demo-dummy'
           title: 'Lorem Ipsum '
@@ -96,7 +96,7 @@ source:
       id: 6
       uuid: 'a0ee4eaa-4cec-4b9b-b138-39039e675fe8'
       title: 'Quick Links'
-      image: icon_13
+      image: icon_26
       links:
         - uri: 'internal:#membership-options'
           title: 'Membership Options'
@@ -109,7 +109,7 @@ source:
       id: 7
       uuid: '96a79505-9725-41c7-b497-9dc2665400e5'
       title: 'Quick Links'
-      image: icon_10
+      image: icon_23
       links:
         - uri: 'internal:#schedules'
           title: 'Class Schedules'
@@ -119,7 +119,7 @@ source:
       id: 8
       uuid: 'e7fc68bd-9b82-4308-b38b-ca6e672cc5fd'
       title: 'Quick Links'
-      image: icon_22
+      image: icon_24
       links:
         - uri: 'internal:#lifeguard'
           title: 'Lifeguard'
@@ -139,7 +139,7 @@ source:
       id: 9
       uuid: '196dcaed-2f52-41c9-bf7a-bd88a1e9dbfa'
       title: 'Quick Links'
-      image: icon_2
+      image: icon_29
       links:
         - uri: 'internal:#youth-sports-coach'
           title: 'Youth Sports Coach'

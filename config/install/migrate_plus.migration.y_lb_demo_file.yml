@@ -78,7 +78,7 @@ source:
     - id: icon_8
       name: icon-youthdevelopment.png
     - id: icon_9
-      name: icon-ball.png
+      name: icon-soccer.png
     - id: icon_10
       name: icon-calendar.png
     - id: icon_11
@@ -90,7 +90,7 @@ source:
     - id: icon_14
       name: icon-generalcamp.png
     - id: icon_15
-      name: icon-baseball.png
+      name: icon-basketball.png
     - id: icon_16
       name: icon-flag.png
     - id: icon_17
@@ -105,6 +105,22 @@ source:
       name: icon-wire.png
     - id: icon_22
       name: icon-careers.png
+    - id: icon_23
+      name: icon-calendar-bg-white.png
+    - id: icon_24
+      name: icon-careers-bg-white.png
+    - id: icon_25
+      name: icon-general-fitness-bg-white.png
+    - id: icon_26
+      name: icon-membership-bg-white.png
+    - id: icon_27
+      name: icon-partnership-bg-white.png
+    - id: icon_28
+      name: icon-soccer-bg-white.png
+    - id: icon_29
+      name: icon-volunteerism-bg-white.png
+    - id: icon_30
+      name: icon-youthdevelopment-bg-white.png
     - id: program_overview_page_image_1
       name: 16f6a90318a46adb0b11ed6730e24300.jpeg
     - id: program_overview_page_image_2

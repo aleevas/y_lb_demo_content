@@ -86,71 +86,95 @@ source:
       name: 'Who we are image 5'
       file: wwa_page_image_5
     - id: icon_1
-      name: 'Icon 1'
+      name: 'Icon Handshake'
       file: icon_1
     - id: icon_2
-      name: 'Icon 2'
+      name: 'Icon Volunteerism'
       file: icon_2
     - id: icon_3
-      name: 'Icon 3'
+      name: 'Icon Responsibility'
       file: icon_3
     - id: icon_4
-      name: 'Icon 4'
+      name: 'Icon Yoga'
       file: icon_4
     - id: icon_5
-      name: 'Icon 5'
+      name: 'Icon Aerobics'
       file: icon_5
     - id: icon_6
-      name: 'Icon 6'
+      name: 'Icon Climbing'
       file: icon_6
     - id: icon_7
-      name: 'Icon 7'
+      name: 'Icon Heartbeat'
       file: icon_7
     - id: icon_8
-      name: 'Icon 8'
+      name: 'Icon Youth Development'
       file: icon_8
     - id: icon_9
-      name: 'Icon 9'
+      name: 'Icon Soccer'
       file: icon_9
     - id: icon_10
-      name: 'Icon 10'
+      name: 'Icon Calendar'
       file: icon_10
     - id: icon_11
-      name: 'Icon 11'
+      name: 'Icon Kids'
       file: icon_11
     - id: icon_12
-      name: 'Icon 12'
+      name: 'Icon Fundraising'
       file: icon_12
     - id: icon_13
-      name: 'Icon 13'
+      name: 'Icon Membership'
       file: icon_13
     - id: icon_14
-      name: 'Icon 14'
+      name: 'Icon General Camp'
       file: icon_14
     - id: icon_15
-      name: 'Icon 15'
+      name: 'Icon Basketball'
       file: icon_15
     - id: icon_16
-      name: 'Icon 16'
+      name: 'Icon Flag'
       file: icon_16
     - id: icon_17
-      name: 'Icon 17'
+      name: 'Icon Grape'
       file: icon_17
     - id: icon_18
-      name: 'Icon 18'
+      name: 'Icon Swimming'
       file: icon_18
     - id: icon_19
-      name: 'Icon 19'
+      name: 'Icon Mail'
       file: icon_19
     - id: icon_20
-      name: 'Icon 20'
+      name: 'Icon Phone'
       file: icon_20
     - id: icon_21
-      name: 'Icon 21'
+      name: 'Icon Wire'
       file: icon_21
     - id: icon_22
-      name: 'Icon 22'
+      name: 'Icon Careers'
       file: icon_22
+    - id: icon_23
+      name: 'Icon Calendar (white background)'
+      file: icon_23
+    - id: icon_24
+      name: 'Icon Careers (white background)'
+      file: icon_24
+    - id: icon_25
+      name: 'Icon General Fitness (white background)'
+      file: icon_25
+    - id: icon_26
+      name: 'Icon Membership (white background)'
+      file: icon_26
+    - id: icon_27
+      name: 'Icon Partnership (white background)'
+      file: icon_27
+    - id: icon_28
+      name: 'Icon Soccer (white background)'
+      file: icon_28
+    - id: icon_29
+      name: 'Icon Volunteerism (white background)'
+      file: icon_29
+    - id: icon_30
+      name: 'Icon Youth Development (white background)'
+      file: icon_30
     - id: program_overview_page_image_1
       name: 'Program Overview 1'
       file: program_overview_page_image_1
