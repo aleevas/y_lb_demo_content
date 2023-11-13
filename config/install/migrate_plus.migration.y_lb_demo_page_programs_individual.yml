@@ -123,7 +123,7 @@ source:
               uuid: "30229bec-7348-46ef-baf8-624c867ee7e7"
               region: 'blb_region_col_2'
               config:
-                id: "inline_block:lb_code_block"
+                id: "inline_block:lb_table"
                 label: ""
                 label_display: 0
                 provider: "layout_builder"
@@ -434,7 +434,7 @@ migration_dependencies:
     - y_lb_demo_block_banner_chevron
     - y_lb_demo_block_banner_standard
     - y_lb_demo_block_simple_menu
-    - y_lb_demo_block_code_block
+    - y_lb_demo_block_table_block
     - y_lb_demo_block_cards
     - y_lb_demo_block_partners
     - y_lb_demo_block_icon_grid

@@ -112,7 +112,7 @@ source:
               uuid: "8c1ec495-8933-49c2-9234-243c335d565e"
               region: 'blb_region_col_2'
               config:
-                id: "inline_block:lb_code_block"
+                id: "inline_block:lb_table"
                 label: "Make a Difference as a Y Volunteer"
                 label_display: 0
                 provider: "layout_builder"
@@ -355,6 +355,6 @@ migration_dependencies:
   required:
     - y_lb_demo_block_banner_chevron
     - y_lb_demo_block_banner_standard
-    - y_lb_demo_block_code_block
+    - y_lb_demo_block_table_block
     - y_lb_demo_block_ping_pong
   optional: { }

@@ -35,7 +35,7 @@ source:
       id: 3
       title: 'Youth Sports'
       menu_name: 'main'
-      link: 'internal:/'
+      link: 'internal:/demo-programs-category'
       weight: 1
       parent_id: 2
       expanded: 1

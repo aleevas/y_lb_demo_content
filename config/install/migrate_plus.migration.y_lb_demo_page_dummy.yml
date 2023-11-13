@@ -104,7 +104,7 @@ source:
               uuid: "5af8bcaf-180a-404b-a2ec-323fe4b8d6f9"
               region: 'blb_region_col_1'
               config:
-                id: "inline_block:lb_code_block"
+                id: "inline_block:lb_table"
                 label: ""
                 provider: "layout_builder"
         4ping_pong:
@@ -261,7 +261,7 @@ migration_dependencies:
     - y_lb_demo_block_banner_standard
     - y_lb_demo_block_banner_frame
     - y_lb_demo_block_simple_menu
-    - y_lb_demo_block_code_block
+    - y_lb_demo_block_table_block
     - y_lb_demo_block_ping_pong
     - y_lb_demo_block_partners
   optional: { }

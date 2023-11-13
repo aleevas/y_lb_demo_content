@@ -112,7 +112,7 @@ source:
               uuid: "46df1521-d8e2-46f5-8f5a-9aa043c2a527"
               region: 'blb_region_col_2'
               config:
-                id: "inline_block:lb_code_block"
+                id: "inline_block:lb_table"
                 label: "Joining the Y"
                 label_display: 0
                 provider: "layout_builder"

@@ -112,7 +112,7 @@ source:
               uuid: "295e1e55-28ea-4ce4-a430-fc9a25d2fa34"
               region: 'blb_region_col_2'
               config:
-                id: "inline_block:lb_code_block"
+                id: "inline_block:lb_table"
                 label: ""
                 label_display: 0
                 provider: "layout_builder"
@@ -344,7 +344,7 @@ migration_dependencies:
     - y_lb_demo_block_banner_standard
     - y_lb_demo_block_banner_frame
     - y_lb_demo_block_simple_menu
-    - y_lb_demo_block_code_block
+    - y_lb_demo_block_table_block
     - y_lb_demo_block_ping_pong
     - y_lb_demo_block_partners
   optional: { }

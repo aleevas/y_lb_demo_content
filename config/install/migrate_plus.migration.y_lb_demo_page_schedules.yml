@@ -112,7 +112,7 @@ source:
               uuid: "e230ee9c-8852-4bf2-860f-af965608793f"
               region: 'blb_region_col_2'
               config:
-                id: "inline_block:lb_code_block"
+                id: "inline_block:lb_table"
                 label: ""
                 label_display: 0
                 provider: "layout_builder"
@@ -123,7 +123,7 @@ source:
               uuid: "e257a477-c857-4d5e-91c6-bc01b31fba5a"
               region: 'blb_region_col_1'
               config:
-                id: "inline_block:lb_code_block"
+                id: "inline_block:lb_table"
                 label: "Class Schedules placeholder"
                 label_display: 0
                 provider: "layout_builder"
@@ -313,6 +313,6 @@ migration_dependencies:
     - y_lb_demo_block_banner_frame
     - y_lb_demo_block_banner_overlay
     - y_lb_demo_block_simple_menu
-    - y_lb_demo_block_code_block
+    - y_lb_demo_block_table_block
     - y_lb_demo_block_ping_pong
   optional: { }
