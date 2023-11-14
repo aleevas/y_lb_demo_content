@@ -317,7 +317,7 @@ process:
       6partners:
         bs_col: "blb_col_1"
         label: "Our Sponsors"
-        container: "container"
+        container: "w-100"
         remove_gutters: "0"
         section_classes: 'mt-5'
       7third_banner:

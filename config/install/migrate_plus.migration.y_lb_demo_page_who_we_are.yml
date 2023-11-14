@@ -333,7 +333,7 @@ process:
       10partners:
         bs_col: "blb_col_1"
         label: "Our Partners"
-        container: "container"
+        container: "w-100"
         remove_gutters: "0"
         section_classes: 'mt-5'
         container_wrapper_attributes:
