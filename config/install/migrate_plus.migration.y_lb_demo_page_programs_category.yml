@@ -337,7 +337,7 @@ process:
       8partners:
         bs_col: "blb_col_1"
         label: "Our Sponsors"
-        container: "container"
+        container: "w-100"
         remove_gutters: "0"
       9third_banner:
         bs_col: "blb_col_1"

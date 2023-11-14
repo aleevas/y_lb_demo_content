@@ -342,8 +342,8 @@ process:
       3sponsors:
         bs_col: "blb_col_1"
         label: "Our Sponsors"
-        container: "container"
-        remove_gutters: "1"
+        container: "w-100"
+        remove_gutters: "0"
         container_wrapper_attributes:
           id: 'our-sponsors'
       4two_columns:
