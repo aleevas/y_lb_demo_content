@@ -1,0 +1,100 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - lb_hero
+  enforced:
+    module:
+      - y_lb_demo_content
+id: y_lb_demo_block_banner_chevron
+migration_tags:
+  - openy_complete_installation
+  - y_lb_demo_content
+migration_group: y_lb_demo_content
+label: 'Import demo Layout Builder - Chevron banner'
+source:
+  plugin: embedded_data
+  data_rows:
+    -
+      id: 18
+      uuid: '92468ff3-8ce8-42ef-9baf-74871b74b214'
+      title: 'YMCA of [Springfield]'
+      description: "<p>We're so excited to welcome you on your journey of wellness, activity and community. Discover everything we have to offer across all of our programs.</p>"
+      media: homepage_image_1
+      cta:
+        - uri: 'internal:/demo-location-finder'
+          title: 'Find a Y'
+    -
+      id: 19
+      uuid: 'a41b3c4c-b422-4e34-8445-2a80436b19fc'
+      title: 'YMCA of [Springfield] Programs'
+      description: "<p>From fitness and sports to events and volunteering, there are countless ways to live your best life with us.</p>"
+      media: program_overview_page_image_1
+      cta: {  }
+
+    - id: 20
+      uuid: '4e4de786-6c2f-4d6b-a736-395b21cc403b'
+      title: 'YMCA Membership'
+      description: "<p>Becoming a member makes you part of a community that's dedicated to bringing about meaningful change for you, your family and your neighbors. Scroll on to explore all our membership options.</p>"
+      media: membership_page_image_1
+      cta: { }
+
+    - id: 21
+      uuid: '8e457df4-2415-4319-97e5-1b9a76127de2'
+      title: 'Events'
+      description: "<p>We can't serve our community without having some fun. Scroll on to see what events are happening near you.</p>"
+      media: events_page_image_1
+      cta: { }
+
+    - id: 22
+      uuid: '40c2d581-68a7-4228-952d-7fa82fae45a9'
+      title: 'Contact Us'
+      description: ""
+      media: contactus_page_image_1
+      cta: { }
+
+    -
+      id: 23
+      uuid: '96c7d0ca-93ae-4fd5-82ae-f163504d6e85'
+      title: 'Volunteer Opportunities'
+      description: "<p>Help lead the YMCA of [Springfield] in responding to our community's needs.</p>"
+      media: volunteer_ops_page_image_1
+
+    -
+      id: 24
+      uuid: 'cbba2fc0-0b89-4a0b-8d97-ca24692fc7cb'
+      title: 'Lorem ipsum dolor sit amet'
+      description: "<p>Maecenas accumsan lacus vel facilisis volutpat est velit egestas dui. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula ipsum. Etiam dignissim diam quis enim lobortis.</p>"
+      media: volunteer_ops_page_image_1
+  ids:
+    id:
+      type: integer
+process:
+  langcode:
+    plugin: default_value
+    source: language
+    default_value: en
+  status:
+    plugin: default_value
+    default_value: 1
+  reusable:
+    plugin: default_value
+    default_value: 0
+  type:
+    plugin: default_value
+    default_value: lb_hero
+  uuid: uuid
+  field_title: title
+  field_description/value: description
+  field_description/format:
+    plugin: default_value
+    default_value: full_html
+  field_hero_cta: cta
+  field_media:
+    - plugin: migration_lookup
+      migration: y_lb_demo_media_image
+      source: media
+
+destination:
+  plugin: entity:block_content
+migration_dependencies: {  }

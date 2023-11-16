@@ -3,5 +3,5 @@ status: true
 dependencies: {  }
 id: y_lb_demo_content
 label: 'Y Layout Builder - Demo content'
-description: 'Imports Y Layout Builder demo content.'
+description: 'Imports Y Layout Builder Demo content.'
 module: y_lb_demo_content

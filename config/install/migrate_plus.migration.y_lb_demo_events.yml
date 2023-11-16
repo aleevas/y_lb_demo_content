@@ -1,0 +1,165 @@
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - y_lb_demo_content
+id: y_lb_demo_events
+migration_tags:
+  - openy_complete_installation
+migration_group: y_lb_demo_content
+label: 'Create demo events'
+source:
+  plugin: embedded_data
+  data_rows:
+    -
+      id: 1
+      title: 'Forever Young Picnic Lunch Cruise'
+      body: "<h2>All Aboard, Seniors!</h2><p>Take in the city's sights from the placid waters of the Springfield River — you can even bring the grandkids! This casual, two-hour tour on the RMS Springfield includes a boxed lunch from Springfield Restaurant as well as activities for all ages. Meet at the West River Dock no later than 11:45 am. Carpool options from the YMCA of [Springfield] will also be available.</p><a href='[site:url]demo-donate' target='_blank' class='btn btn-primary filled'>RSVP</a>"
+      summary: "All aboard, seniors! Take a 2-hour tour
+        of the city on this casual riverboat picnic
+        that includes a boxed lunch."
+      contact_email: events@example.org
+      contact_name: 'YMCA of [Springfield]'
+      contact_phone: '(123) 456-7890'
+      image: homepage_image_6
+      start_date: '+15 days 15:00'
+      date_end: '+15 days 17:00'
+      location_reference: 1
+      tags:
+        - tag: 101
+        - tag: 102
+    -
+      id: 2
+      title: 'Event Title'
+      body: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
+      summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      contact_email: events@example.org
+      contact_name: 'YMCA of [Springfield]'
+      contact_phone: '(123) 456-7890'
+      image: homepage_image_7
+      start_date: '+11 days 15:00'
+      date_end: '+11 days 17:00'
+      location_reference: 1
+      tags:
+        - tag: 102
+    -
+      id: 3
+      title: 'Event Title'
+      body: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
+      summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      contact_email: events@example.org
+      contact_name: 'YMCA of [Springfield]'
+      contact_phone: '(123) 456-7890'
+      image: homepage_image_8
+      start_date: '+8 days 15:00'
+      date_end: '+8 days 17:00'
+      location_reference: 1
+      tags:
+        - tag: 103
+
+    -
+      id: 4
+      title: 'Event Title'
+      body: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
+      summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      contact_email: events@example.org
+      contact_name: 'YMCA of [Springfield]'
+      contact_phone: '(123) 456-7890'
+      image: homepage_image_9
+      start_date: '+7 days 15:00'
+      date_end: '+7 days 17:00'
+      location_reference: 1
+      tags:
+        - tag: 103
+
+  ids:
+    id:
+      type: integer
+  constants:
+    date_format: 'Y-m-d\TH:i:s'
+process:
+  langcode:
+    plugin: default_value
+    source: language
+    default_value: en
+  status:
+    -
+      plugin: get
+      source: publish_status
+    -
+      plugin: default_value
+      default_value: 1
+  uid:
+    plugin: default_value
+    default_value: 1
+  title: title
+  body/value: body
+  body/summary: summary
+  body/format:
+    plugin: default_value
+    default_value: full_html
+  field_contact_email: contact_email
+  field_contact_name: contact_name
+  field_contact_phone: contact_phone
+  field_location_reference/target_id:
+    -
+      plugin: migration_lookup
+      migration: y_lb_demo_page_location
+      source: location_reference
+  field_header_image:
+    -
+      plugin: migration_lookup
+      migration: y_lb_demo_media_image
+      source: image
+  field_tags:
+      plugin: sub_process
+      source: tags
+      process:
+        target_id:
+          plugin: migration_lookup
+          migration: y_lb_demo_tags
+          source: tag
+  event_start_date:
+    -
+      plugin: get
+      source: start_date
+    -
+      plugin: callback
+      callable: strtotime
+  field_event_dates/value:
+    -
+      plugin: callback
+      callable: date
+      unpack_source: true
+      source:
+        - constants/date_format
+        - '@event_start_date'
+  event_end_date:
+    -
+      plugin: get
+      source: date_end
+    -
+      plugin: callback
+      callable: strtotime
+  field_event_dates/end_value:
+  -
+    plugin: callback
+    callable: date
+    unpack_source: true
+    source:
+      - constants/date_format
+      - '@event_end_date'
+  override_styles:
+    - plugin: default_value
+      default_value: 1
+  styles/value:
+    - plugin: default_value
+      default_value: 'a:6:{s:8:"colorway";s:17:"ws_colorway_green";s:13:"border_radius";s:19:"ws_border_radius_10";s:19:"border_style_global";s:34:"ws_border_style_global_drop_shadow";s:21:"text_alignment_global";s:29:"ws_text_alignment_global_left";s:22:"button_position_global";s:32:"ws_button_position_global_inside";s:18:"button_fill_global";s:28:"ws_button_fill_global_filled";}'
+destination:
+  plugin: 'entity:node'
+  default_bundle: lb_event
+migration_dependencies:
+  required:
+    - y_lb_demo_tags
+  optional: {}

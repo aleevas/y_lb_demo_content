@@ -1,0 +1,164 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - lb_hero
+  enforced:
+    module:
+      - y_lb_demo_content
+id: y_lb_demo_block_banner_standard
+migration_tags:
+  - openy_complete_installation
+  - y_lb_demo_content
+migration_group: y_lb_demo_content
+label: 'Import demo Layout Builder - Who We Are banner'
+source:
+  plugin: embedded_data
+  data_rows:
+    -
+      id: 1
+      uuid: '6qcf50bc-2197-4988-8fc4-f843ca6730da'
+      title: 'Who We Are'
+      description: "<p>Strengthening our community is at the core of everything we do, which is why we work side by side with our neighbors to give everyone the opportunity to grow, learn and thrive.</p>"
+      media: wwa_page_image_1
+
+    - id: 2
+      uuid: '36b0d5ea-04e0-4098-90f4-dee8ca937b8c'
+      title: 'Calling All Coaches!'
+      description: "<p>Strengthening our community is at the core of everything we do, which is why we work side by side with our neighbors to give everyone the opportunity to grow, learn and thrive.</p>"
+      media: program_category_page_image_5
+      cta:
+        - uri: 'internal:/demo-volunteer-opportunities'
+          title: 'Sign Up'
+
+    - id: 3
+      uuid: '341eed75-0857-4ea3-a2be-945179a14182'
+      title: 'Have questions?'
+      description: "<p>Reach out to us anytime at youthsports@example.org.</p>"
+
+    - id: 4
+      uuid: 'd8f14c28-0869-492b-b1e2-e95294da14e8'
+      title: 'Youth Soccer'
+      description: "<p>The Y introduces kids to the world's most popular sport with a focus on fun. Players of all levels can keep building skills, confidence and teamwork.</p>"
+      media: program_individual_page_image_1
+      cta:
+        - uri: 'https://www.daxko.com'
+          title: 'Register Now'
+
+    - id: 5
+      uuid: 'fd8a8026-c151-43f3-ae86-640c076d86d6'
+      title: 'Financial Aid'
+      description: "<p>Our leagues are for all kids. If our standard rates aren't in your budget, ask about membership or program rates based on household income. Please stop by or call us to find out if you're eligible for assistance, or visit our <a href='[site:url]demo-membership#membership-options'>membership page</a> to learn more.</p>"
+
+    - id: 6
+      uuid: '51805784-16b8-46dc-bfa2-7f612dc03582'
+      title: 'Ready to Register?'
+      description: "<p>Click below to see which sessions are available for online registration.</p>"
+      media: program_individual_page_image_7
+      cta:
+        - uri: 'https://www.daxko.com'
+          title: 'Register Now'
+
+    - id: 7
+      uuid: '741a2672-8044-439a-b96a-68b0c70d9ffc'
+      title: 'Lorem Ipsum'
+      description: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>"
+      media: program_category_page_image_5
+      cta:
+        - uri: 'internal:/demo-dummy'
+          title: 'Lorem Ipsum'
+
+    - id: 8
+      uuid: '8eaffb4c-8e04-44fb-9e19-c3fe1cf34804'
+      title: 'Lorem Ipsum'
+      description: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>"
+
+    - id: 9
+      uuid: '5582c997-92df-485a-8ac8-b0fc22fdc757'
+      title: 'Ready To Join?'
+      description: "<p>In just a few easy steps, we'll get your membership up and running.</p>"
+      media: membership_page_image_2
+      cta:
+        - uri: 'internal:/demo-join-y'
+          title: 'Get Started'
+
+    - id: 10
+      uuid: '582be3f4-f097-42eb-b009-f89566d23010'
+      title: 'Media Room'
+      description: "<p>Contact media@example.org to arrange to speak with one of our staff experts in health, community outreach, child care, water safety and more.</p>"
+
+    - id: 11
+      uuid: 'c7fc9bbf-98a3-4443-a38a-7a8bb39b84b1'
+      title: 'Join the Y'
+      description: "<p>Be a part of something greater that will bring you, your family and your entire community meaningful change.</p>"
+      media: jointhey_page_image_1
+
+    - id: 12
+      uuid: 'b48e88fb-3012-461b-a295-71c8ca2e9354'
+      title: 'Impact Your Community'
+      description: "<p>Donations to the YMCA of [Springfield] bring meaningful change to the community.</p>"
+      media: donate_page_image_1
+      cta:
+        - uri: 'internal:/demo-donate#donate'
+          title: 'Make a gift'
+
+    - id: 13
+      uuid: 'fc1dd4ba-858b-475f-9e89-f7c78c257b31'
+      title: "Ready for a Job You'll Love?"
+      description: "<p>View all of our open positions and submit an application.</p>"
+      media: jobs_page_image_9
+      cta:
+        - uri: 'https://www.daxko.com'
+          title: 'Explore Openings'
+
+    - id: 14
+      uuid: 'c8a98810-3a22-4d1a-be77-def5d42d7efa'
+      title: "Let Us Know You're Interested in Volunteering"
+      description: "<p>Complete a short interest form, and one of our team members will be in touch with you shortly to discuss details and next steps.</p>"
+      media: homepage_image_11
+      cta:
+        - uri: 'https://www.jotform.com'
+          title: 'Fill Out Interest Form'
+
+    - id: 15
+      uuid: 'cac81455-bb5e-4296-93ed-c06613646763'
+      title: "Activity Finder"
+      description: "<p>Find activities that suit your interests, age, location, and schedule!</p>"
+      media: af_page_image_1
+
+    - id: 16
+      uuid: 'c06f76be-c65c-457a-a9b0-c305fb3ef396'
+      title: "Still Have Questions?"
+      description: "<p>Contact our Youth Sports team anytime at youthsports@example.org.</p>"
+  ids:
+    id:
+      type: integer
+process:
+  langcode:
+    plugin: default_value
+    source: language
+    default_value: en
+  status:
+    plugin: default_value
+    default_value: 1
+  reusable:
+    plugin: default_value
+    default_value: 0
+  type:
+    plugin: default_value
+    default_value: lb_hero
+  uuid: uuid
+  field_title: title
+  field_description/value: description
+  field_description/format:
+    plugin: default_value
+    default_value: full_html
+  field_hero_cta: cta
+  field_media:
+    - plugin: migration_lookup
+      migration: y_lb_demo_media_image
+      source: media
+
+destination:
+  plugin: entity:block_content
+migration_dependencies: {  }

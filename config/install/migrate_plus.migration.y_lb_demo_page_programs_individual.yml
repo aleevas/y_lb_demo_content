@@ -1,0 +1,442 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - y_lb_demo_content
+  enforced:
+    module:
+      - y_lb_demo_content
+id: y_lb_demo_page_programs_individual
+migration_tags:
+  - openy_complete_installation
+migration_group: y_lb_demo_content
+label: 'Import demo Layout Builder page - Program Individual'
+source:
+  plugin: embedded_data
+  data_rows:
+    -
+      id: 1
+      title: 'Demo - Program Individual'
+      sections:
+        1header:
+          components:
+            logo:
+              block_config: true
+              region: 'header_bottom_left'
+              config:
+                id: 'ws_site_logo'
+                label: 'Site Logo Block'
+                label_display: visible
+                provider: y_lb
+                context_mapping: { }
+                logo_type: colorway
+            website_name:
+              block_config: true
+              region: 'header_top_left'
+              config:
+                id: 'ws_site_name'
+                label: 'Website Name Block'
+                label_display: '0'
+                provider: y_lb
+                context_mapping: { }
+            menu:
+              block_config: true
+              region: 'header_bottom_middle'
+              config:
+                id: 'system_menu_block:main'
+                label: 'Demo Main navigation'
+                label_display: '0'
+                provider: system
+                context_mapping: { }
+                level: 1
+                depth: 0
+                expand_all_items: false
+            account:
+              block_config: true
+              region: 'header_bottom_right'
+              config:
+                id: 'system_menu_block:account'
+                label: 'Demo Utility menu'
+                label_display: '0'
+                provider: system
+                context_mapping: { }
+                level: 1
+                depth: 0
+                expand_all_items: false
+            translate:
+              block_config: true
+              region: 'header_top_right'
+              config:
+                id: openy_gtranslate_block
+                label: 'Open Y Google Translate'
+                label_display: '0'
+                provider: openy_gtranslate
+                context_mapping: { }
+            search:
+              block_config: true
+              region: 'header_bottom_middle'
+              config:
+                id: ws_search_bar
+                label: 'Search Bar Block'
+                label_display: '0'
+                provider: y_lb
+                context_mapping: { }
+        2banner:
+          components:
+            lb_hero:
+              uuid: "d8f14c28-0869-492b-b1e2-e95294da14e8"
+              region: 'blb_region_col_1'
+              config:
+                id: "inline_block:lb_hero"
+                label_display: "hidden"
+                label: "Youth Soccer"
+                view_mode: "full"
+                provider: "layout_builder"
+              additional:
+                bootstrap_styles:
+                  block_style:
+                    ws_style_option:
+                      hero_banner: lb_hero_standard
+                      button_fill_component: ws_button_fill_component_filled
+        3sponsors:
+          components:
+            lb_code_block:
+              uuid: "a3ab972b-e6f5-4a6c-9c1e-1c7ccb94d7d4"
+              region: 'blb_region_col_1'
+              config:
+                id: "inline_block:lb_partners"
+                label: "Our Sponsors"
+                label_display: "hidden"
+                provider: "layout_builder"
+                "view_mode": "full"
+        4two_columns:
+          components:
+            lb_simple_menu:
+              uuid: "798aa271-a9b3-49f9-baa8-74b94f907905"
+              region: 'blb_region_col_1'
+              config:
+                id: "inline_block:lb_simple_menu"
+                label: "Quick links"
+                label_display: "visible"
+                provider: "layout_builder"
+            lb_code_block:
+              uuid: "30229bec-7348-46ef-baf8-624c867ee7e7"
+              region: 'blb_region_col_2'
+              config:
+                id: "inline_block:lb_table"
+                label: ""
+                label_display: 0
+                provider: "layout_builder"
+                "view_mode": "full"
+        5icon_grid:
+          components:
+            lb_icon_grid:
+              uuid: "84ff78d9-a5ac-412a-a7a6-880b0b247364"
+              region: 'blb_region_col_1'
+              config:
+                id: "inline_block:lb_icon_grid"
+                label: "Icons"
+                provider: "layout_builder"
+        6second_banner:
+          components:
+            lb_hero:
+              uuid: "fd8a8026-c151-43f3-ae86-640c076d86d6"
+              region: 'blb_region_col_1'
+              config:
+                id: "inline_block:lb_hero"
+                label_display: "hidden"
+                label: "Financial Aid"
+                view_mode: "full"
+                provider: "layout_builder"
+              additional:
+                bootstrap_styles:
+                  block_style:
+                    ws_style_option:
+                      hero_banner: lb_hero_small
+                      button_fill_component: ws_button_fill_component_filled
+        7cards:
+          components:
+            lb_cards:
+              uuid: "ef5f3285-4066-44e9-b4e6-4e275526b456"
+              region: 'blb_region_col_1'
+              config:
+                id: "inline_block:lb_cards"
+                label_display: "hidden"
+                label: "Program Levels and Requirements"
+                view_mode: "full"
+                provider: "layout_builder"
+              additional:
+                bootstrap_styles:
+                  block_style:
+                    ws_style_option:
+                      lb_cards: lb_cards_chevron
+                      border_style_component: ws_border_style_component_drop_shadow
+                      text_alignment_component: ws_text_alignment_component_left
+                      button_position_component: ws_button_position_component_inside
+                      button_fill_component: ws_button_fill_component_filled
+        8third_banner:
+          components:
+            lb_hero:
+              uuid: "51805784-16b8-46dc-bfa2-7f612dc03582"
+              region: 'blb_region_col_1'
+              config:
+                id: "inline_block:lb_hero"
+                label_display: "hidden"
+                label: "Ready to Register?"
+                view_mode: "full"
+                provider: "layout_builder"
+              additional:
+                bootstrap_styles:
+                  block_style:
+                    ws_style_option:
+                      hero_banner: lb_hero_standard
+                      button_fill_component: ws_button_fill_component_filled
+        9faqs:
+          components:
+            lb_accordion:
+              uuid: "138c8c29-7d3b-4f32-94a1-991a264657b9"
+              region: 'blb_region_col_1'
+              config:
+                id: "inline_block:lb_accordion"
+                label: "Frequently Asked Questions"
+                provider: "layout_builder"
+                view_mode: "full"
+                label_display: 'visible'
+        10fourth_banner:
+          components:
+            lb_hero:
+              uuid: "c06f76be-c65c-457a-a9b0-c305fb3ef396"
+              region: 'blb_region_col_1'
+              config:
+                id: "inline_block:lb_hero"
+                label_display: "hidden"
+                label: "Still Have Questions?"
+                view_mode: "full"
+                provider: "layout_builder"
+              additional:
+                bootstrap_styles:
+                  block_style:
+                    ws_style_option:
+                      hero_banner: lb_hero_small
+                      button_fill_component: ws_button_fill_component_filled
+        11cards:
+          components:
+            lb_cards:
+              uuid: "bca4f067-8b7b-4fb5-b20a-91887b98088e"
+              region: 'blb_region_col_1'
+              config:
+                id: "inline_block:lb_cards"
+                label_display: "hidden"
+                label: "Other Youth Programs"
+                view_mode: "full"
+                provider: "layout_builder"
+              additional:
+                bootstrap_styles:
+                  block_style:
+                    ws_style_option:
+                      lb_cards: lb_cards_standard
+                      border_style_component: ws_border_style_component_drop_shadow
+                      text_alignment_component: ws_text_alignment_component_left
+                      button_position_component: ws_button_position_component_inside
+                      button_fill_component: ws_button_fill_component_filled
+        12footer:
+          components:
+            copyright:
+              region: 'footer_bottom_left'
+              uuid: 'cb76bc7c-a957-4b69-96fb-e565ee85f38a'
+              config:
+                id: 'block_content:cb76bc7c-a957-4b69-96fb-e565ee85f38a'
+                label: 'Footer Copyright Block'
+                label_display: 0
+                provider: block_content
+                status: true
+                info: ''
+                view_mode: full
+                context_mapping: { }
+            site_logo:
+              block_config: true
+              region: 'footer_top_left'
+              config:
+                id: ws_site_logo
+                label: 'Site Logo'
+                label_display: '0'
+                provider: y_lb
+                context_mapping: { }
+                logo_type: white
+            menu_right:
+              block_config: true
+              region: 'footer_top_middle'
+              config:
+                id: 'system_menu_block:helpful-links'
+                label: 'Helpful Links'
+                label_display: 1
+                provider: system
+                context_mapping: { }
+                level: 1
+                depth: 0
+                expand_all_items: false
+            stay_connected:
+              block_config: true
+              region: 'footer_top_right'
+              config:
+                id: 'block_content:e350fe26-bc73-4c69-af18-a51a052dbcd3'
+                label: 'Stay Connected'
+                label_display: visible
+                provider: block_content
+                status: true
+                info: ''
+                view_mode: full
+                context_mapping: { }
+            menu:
+              block_config: true
+              region: 'footer_bottom_right'
+              config:
+                id: 'system_menu_block:footer'
+                label: Footer
+                label_display: 0
+                provider: system
+                context_mapping: { }
+                level: 1
+                depth: 0
+                expand_all_items: false
+  ids:
+    id:
+      type: integer
+process:
+  langcode:
+    plugin: default_value
+    source: language
+    default_value: en
+  title: title
+  type:
+    -
+      plugin: default_value
+      default_value: landing_page_lb
+  status:
+    -
+      plugin: default_value
+      default_value: 1
+  uid:
+    -
+      plugin: default_value
+      default_value: 1
+  override_styles:
+    - plugin: default_value
+      default_value: 1
+  styles/value:
+    - plugin: default_value
+      default_value: 'a:6:{s:8:"colorway";s:17:"ws_colorway_green";s:13:"border_radius";s:19:"ws_border_radius_10";s:19:"border_style_global";s:34:"ws_border_style_global_drop_shadow";s:21:"text_alignment_global";s:29:"ws_text_alignment_global_left";s:22:"button_position_global";s:32:"ws_button_position_global_inside";s:18:"button_fill_global";s:28:"ws_button_fill_global_filled";}'
+  __layout_builder__layout: sections
+  __layout_builder__layout_defaults:
+    plugin: default_value
+    default_value:
+      1header:
+        label: "Header"
+        id: 'ws_header'
+        wrapper_classes: ''
+      2banner:
+        bs_col: "blb_col_1"
+        label: "Banner"
+        container: "w-100"
+        remove_gutters: "1"
+      3sponsors:
+        bs_col: "blb_col_1"
+        label: "Our Sponsors"
+        container: "w-100"
+        remove_gutters: "0"
+        container_wrapper_attributes:
+          id: 'our-sponsors'
+      4two_columns:
+        bs_col: "blb_col_2"
+        label: "At a Glance"
+        container: "container"
+        section_classes: 'mt-5'
+        breakpoints:
+          desktop: 'blb_col_8_4'
+          tablet: 'blb_col_12'
+          mobile: 'blb_col_12'
+        layout_regions_classes:
+          blb_region_col_1:
+            - 'col-lg-4'
+            - 'col-md-12'
+            - 'col-12'
+          blb_region_col_2:
+            - 'col-lg-8'
+            - 'col-12'
+            - 'col-12'
+      5icon_grid:
+        bs_col: "blb_col_1"
+        label: "Icon grid"
+        container: "container"
+        remove_gutters: "0"
+        section_classes: 'mt-5'
+        container_wrapper_attributes:
+          id: 'schedules-ages-pricing'
+      6second_banner:
+        bs_col: "blb_col_1"
+        label: "Banner"
+        container: "w-100"
+        remove_gutters: "1"
+        container_wrapper_attributes:
+          id: 'financial-aid'
+      7cards:
+        bs_col: "blb_col_1"
+        label: "Program Levels and Requirements"
+        container: "container"
+        remove_gutters: "0"
+        section_classes: 'mt-5'
+        container_wrapper_attributes:
+          id: 'program-levels-requirements'
+      8third_banner:
+        bs_col: "blb_col_1"
+        label: "Banner"
+        container: "w-100"
+        remove_gutters: "1"
+        section_classes: 'mt-5'
+        container_wrapper_attributes:
+          id: 'how-to-register'
+      9faqs:
+        bs_col: "blb_col_1"
+        label: "FAQs"
+        container: "container"
+        remove_gutters: "1"
+        section_classes: 'mt-5'
+        container_wrapper_attributes:
+          id: 'faq'
+      10fourth_banner:
+        bs_col: "blb_col_1"
+        label: "Still Have Questions?"
+        container: "w-100"
+        remove_gutters: "1"
+        section_classes: 'mt-5'
+      11cards:
+        bs_col: "blb_col_1"
+        label: "How to register"
+        container: "container"
+        remove_gutters: "0"
+        section_classes: 'mt-5'
+      12footer:
+        label: "Footer"
+        id: 'ws_footer'
+        wrapper_classes: ''
+  layout_builder__layout:
+    -
+      plugin: merge_recursive
+      source:
+        - '@__layout_builder__layout_defaults'
+        - '@__layout_builder__layout'
+    - plugin: lb_sections
+destination:
+  plugin: 'entity:node'
+  default_bundle: landing_page_lb
+migration_dependencies:
+  required:
+    - y_lb_demo_block_banner_chevron
+    - y_lb_demo_block_banner_standard
+    - y_lb_demo_block_simple_menu
+    - y_lb_demo_block_table_block
+    - y_lb_demo_block_cards
+    - y_lb_demo_block_partners
+    - y_lb_demo_block_icon_grid
+    - y_lb_demo_block_accordion
+  optional: { }

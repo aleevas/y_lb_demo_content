@@ -7,17 +7,20 @@ dependencies:
   - drupal:migrate
   - migrate_plus:migrate_plus
   - migrate_tools:migrate_tools
-  - y_lb
+  - y_lb_main_menu_cta_block
+  - drupal:lb_grid_icon
   - drupal:lb_accordion
   - drupal:lb_cards
   - drupal:lb_carousel
   - drupal:lb_grid_cta
   - drupal:lb_hero
-  - drupal:lb_modal
   - drupal:lb_ping_pong
   - drupal:lb_promo
   - drupal:lb_simple_menu
   - drupal:lb_statistics
-  - drupal:lb_table
+  - drupal:lb_ping_pong
+  - drupal:lb_partners_blocks
   - drupal:lb_webform
-  - drupal:ws_lb_tabs
+  - drupal:lb_donate
+  - drupal:y_branch
+  - drupal:y_branch_menu

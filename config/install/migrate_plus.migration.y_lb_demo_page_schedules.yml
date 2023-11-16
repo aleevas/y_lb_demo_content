@@ -1,0 +1,318 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - y_lb_demo_content
+  enforced:
+    module:
+      - y_lb_demo_content
+id: y_lb_demo_page_schedules
+migration_tags:
+  - openy_complete_installation
+migration_group: y_lb_demo_content
+label: 'Import demo Layout Builder page - Schedules'
+source:
+  plugin: embedded_data
+  data_rows:
+    -
+      id: 1
+      title: 'Demo - Schedules'
+      sections:
+        1header:
+          components:
+            logo:
+              block_config: true
+              region: 'header_bottom_left'
+              config:
+                id: 'ws_site_logo'
+                label: 'Site Logo Block'
+                label_display: visible
+                provider: y_lb
+                context_mapping: { }
+                logo_type: colorway
+            website_name:
+              block_config: true
+              region: 'header_top_left'
+              config:
+                id: 'ws_site_name'
+                label: 'Website Name Block'
+                label_display: '0'
+                provider: y_lb
+                context_mapping: { }
+            menu:
+              block_config: true
+              region: 'header_bottom_middle'
+              config:
+                id: 'system_menu_block:main'
+                label: 'Demo Main navigation'
+                label_display: '0'
+                provider: system
+                context_mapping: { }
+                level: 1
+                depth: 0
+                expand_all_items: false
+            account:
+              block_config: true
+              region: 'header_bottom_right'
+              config:
+                id: 'system_menu_block:account'
+                label: 'Demo Utility menu'
+                label_display: '0'
+                provider: system
+                context_mapping: { }
+                level: 1
+                depth: 0
+                expand_all_items: false
+            translate:
+              block_config: true
+              region: 'header_top_right'
+              config:
+                id: openy_gtranslate_block
+                label: 'Open Y Google Translate'
+                label_display: '0'
+                provider: openy_gtranslate
+                context_mapping: { }
+            search:
+              block_config: true
+              region: 'header_bottom_middle'
+              config:
+                id: ws_search_bar
+                label: 'Search Bar Block'
+                label_display: '0'
+                provider: y_lb
+                context_mapping: { }
+        2banner:
+          components:
+            lb_hero:
+              uuid: "cb045fbe-0750-4db3-bf08-2f1fb29e9fa6"
+              region: 'blb_region_col_1'
+              config:
+                id: "inline_block:lb_hero"
+                label_display: "hidden"
+                label: "Schedules"
+                view_mode: "full"
+                provider: "layout_builder"
+              additional:
+                bootstrap_styles:
+                  block_style:
+                    ws_style_option:
+                      hero_banner: lb_hero_frame
+                      button_fill_component: ws_button_fill_component_filled
+        3two_columns:
+          components:
+            lb_simple_menu:
+              uuid: "96a79505-9725-41c7-b497-9dc2665400e5"
+              region: 'blb_region_col_1'
+              config:
+                id: "inline_block:lb_simple_menu"
+                label: "Quick links"
+                label_display: "visible"
+                provider: "layout_builder"
+            lb_code_block:
+              uuid: "e230ee9c-8852-4bf2-860f-af965608793f"
+              region: 'blb_region_col_2'
+              config:
+                id: "inline_block:lb_table"
+                label: ""
+                label_display: 0
+                provider: "layout_builder"
+                "view_mode": "full"
+        4schedules:
+          components:
+            lb_code_block:
+              uuid: "e257a477-c857-4d5e-91c6-bc01b31fba5a"
+              region: 'blb_region_col_1'
+              config:
+                id: "inline_block:lb_table"
+                label: "Class Schedules placeholder"
+                label_display: 0
+                provider: "layout_builder"
+                "view_mode": "full"
+        5ping_pong:
+          components:
+            lb_ping_pong_1:
+              uuid: "2864deeb-9b60-4510-807e-bc1210170f91"
+              region: 'blb_region_col_1'
+              config:
+                id: "inline_block:lb_ping_pong"
+                label: "Holiday Hours"
+                provider: "layout_builder"
+        6second_banner:
+          components:
+            lb_hero:
+              uuid: "2caea7c1-3ed5-468a-8691-a5bbdcef979f"
+              region: 'blb_region_col_1'
+              config:
+                id: "inline_block:lb_hero"
+                label_display: "hidden"
+                label: "Overlay banner"
+                view_mode: "full"
+                provider: "layout_builder"
+              additional:
+                bootstrap_styles:
+                  block_style:
+                    ws_style_option:
+                      hero_banner: lb_hero_overlay
+                      button_fill_component: ws_button_fill_component_outline
+        7footer:
+          components:
+            copyright:
+              region: 'footer_bottom_left'
+              uuid: 'cb76bc7c-a957-4b69-96fb-e565ee85f38a'
+              config:
+                id: 'block_content:cb76bc7c-a957-4b69-96fb-e565ee85f38a'
+                label: 'Footer Copyright Block'
+                label_display: 0
+                provider: block_content
+                status: true
+                info: ''
+                view_mode: full
+                context_mapping: { }
+            site_logo:
+              block_config: true
+              region: 'footer_top_left'
+              config:
+                id: ws_site_logo
+                label: 'Site Logo'
+                label_display: '0'
+                provider: y_lb
+                context_mapping: { }
+                logo_type: white
+            menu_right:
+              block_config: true
+              region: 'footer_top_middle'
+              config:
+                id: 'system_menu_block:helpful-links'
+                label: 'Helpful Links'
+                label_display: 1
+                provider: system
+                context_mapping: { }
+                level: 1
+                depth: 0
+                expand_all_items: false
+            stay_connected:
+              block_config: true
+              region: 'footer_top_right'
+              config:
+                id: 'block_content:e350fe26-bc73-4c69-af18-a51a052dbcd3'
+                label: 'Stay Connected'
+                label_display: visible
+                provider: block_content
+                status: true
+                info: ''
+                view_mode: full
+                context_mapping: { }
+            menu:
+              block_config: true
+              region: 'footer_bottom_right'
+              config:
+                id: 'system_menu_block:footer'
+                label: Footer
+                label_display: 0
+                provider: system
+                context_mapping: { }
+                level: 1
+                depth: 0
+                expand_all_items: false
+  ids:
+    id:
+      type: integer
+process:
+  langcode:
+    plugin: default_value
+    source: language
+    default_value: en
+  title: title
+  type:
+    -
+      plugin: default_value
+      default_value: landing_page_lb
+  status:
+    -
+      plugin: default_value
+      default_value: 1
+  uid:
+    -
+      plugin: default_value
+      default_value: 1
+  override_styles:
+    - plugin: default_value
+      default_value: 1
+  styles/value:
+    - plugin: default_value
+      default_value: 'a:6:{s:8:"colorway";s:17:"ws_colorway_green";s:13:"border_radius";s:19:"ws_border_radius_10";s:19:"border_style_global";s:34:"ws_border_style_global_drop_shadow";s:21:"text_alignment_global";s:29:"ws_text_alignment_global_left";s:22:"button_position_global";s:32:"ws_button_position_global_inside";s:18:"button_fill_global";s:28:"ws_button_fill_global_filled";}'
+  __layout_builder__layout: sections
+  __layout_builder__layout_defaults:
+    plugin: default_value
+    default_value:
+      1header:
+        label: "Header"
+        id: 'ws_header'
+        wrapper_classes: ''
+      2banner:
+        bs_col: "blb_col_1"
+        label: "Banner"
+        container: "w-100"
+        remove_gutters: "1"
+      3two_columns:
+        bs_col: "blb_col_2"
+        label: "Serving Our Community"
+        container: "container"
+        section_classes: 'mt-5'
+        breakpoints:
+          desktop: 'blb_col_9_3'
+          tablet: 'blb_col_12'
+          mobile: 'blb_col_12'
+        layout_regions_classes:
+          blb_region_col_1:
+            - 'col-lg-3'
+            - 'col-12'
+            - 'col-12'
+          blb_region_col_2:
+            - 'col-lg-9'
+            - 'col-12'
+            - 'col-12'
+      4schedules:
+        bs_col: "blb_col_1"
+        label: "Schedules"
+        container: "container"
+        remove_gutters: "1"
+        section_classes: 'mt-5'
+        container_wrapper_attributes:
+          id: 'schedules'
+      5ping_pong:
+        bs_col: "blb_col_1"
+        label: "Holiday Hours"
+        container: "w-100"
+        remove_gutters: "1"
+        section_classes: 'mt-5'
+        container_wrapper_attributes:
+          id: 'holiday-hours'
+      6second_banner:
+        bs_col: "blb_col_1"
+        label: "Banner"
+        container: "w-100"
+        remove_gutters: "1"
+        section_classes: ''
+      7footer:
+        label: "Footer"
+        id: 'ws_footer'
+        wrapper_classes: ''
+  layout_builder__layout:
+    -
+      plugin: merge_recursive
+      source:
+        - '@__layout_builder__layout_defaults'
+        - '@__layout_builder__layout'
+    - plugin: lb_sections
+destination:
+  plugin: 'entity:node'
+  default_bundle: landing_page_lb
+migration_dependencies:
+  required:
+    - y_lb_demo_block_banner_frame
+    - y_lb_demo_block_banner_overlay
+    - y_lb_demo_block_simple_menu
+    - y_lb_demo_block_table_block
+    - y_lb_demo_block_ping_pong
+  optional: { }

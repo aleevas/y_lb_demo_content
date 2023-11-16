@@ -7,32 +7,155 @@ dependencies:
     module:
       - y_lb_demo_content
 id: y_lb_demo_block_simple_menu
-migration_tags: {}
+migration_tags:
+  - openy_complete_installation
 migration_group: y_lb_demo_content
-label: 'Import demo Layout Builder - Simple Menu block'
+label: 'Import Demo Layout Builder - Simple Menu block'
 source:
   plugin: embedded_data
   data_rows:
     -
-      id: 12
-      uuid: '1a9725f1-d4ef-4bd1-aeeb-467bb0e704c7'
-      title: 'Simple Menu 1'
+      id: 1
+      uuid: '63b5be7f-85b7-4005-9011-15cd9d7d2119'
+      title: 'Quick Links'
+      image: icon_27
       links:
         -
-          uri: 'internal:/'
-          title: 'About the YMCA'
+          uri: 'internal:#what-we-do'
+          title: 'What We Do'
         -
-          uri: 'internal:/'
-          title: 'Join Now'
+          uri: 'internal:#guiding-principles'
+          title: 'Guiding Principles'
         -
-          uri: 'internal:/'
-          title: 'Check the Schedule'
+          uri: 'internal:#our-impact'
+          title: 'Our Impact'
+        -
+          uri: 'internal:#history-and-mission'
+          title: 'History & Mission'
+        -
+          uri: 'internal:#our-partners'
+          title: 'Our Partners'
+    -
+      id: 2
+      uuid: 'a59eca39-1d02-4744-84c5-2a063c534d91'
+      title: 'Quick Links'
+      image: icon_25
+      links:
+        -
+          uri: 'internal:/demo-programs-category'
+          title: 'Youth Sports'
+        -
+          uri: 'internal:/demo-dummy'
+          title: 'Health & Fitness'
+        -
+          uri: 'internal:/demo-dummy'
+          title: 'Community'
+    -
+      id: 3
+      uuid: '58aae4de-b835-4cd8-9d4b-d6c45ebf24e5'
+      title: 'Quick Links'
+      image: icon_30
+      links:
+        - uri: 'internal:#youth-soccer'
+          title: 'Youth Soccer'
+        - uri: 'internal:#tee-baseball'
+          title: 'Tee-Ball/Baseball'
+        - uri: 'internal:#basketball'
+          title: 'Basketball'
+    -
+      id: 4
+      uuid: '798aa271-a9b3-49f9-baa8-74b94f907905'
+      title: 'Quick Links'
+      image: icon_28
+      links:
+        - uri: 'internal:#schedules-ages-pricing'
+          title: 'Schedules, Ages & Pricing '
+        - uri: 'internal:#financial-aid'
+          title: 'Financial Aid'
+        - uri: 'internal:#program-levels-requirements'
+          title: 'Levels & Requirements'
+        - uri: 'internal:#how-to-register'
+          title: 'How to Register'
+        - uri: 'internal:#faq'
+          title: 'FAQs'
+
+    -
+      id: 5
+      uuid: '627dabec-1bc3-4736-9d6e-759bf423324b'
+      title: 'Quick Links'
+      image: icon_28
+      links:
+        - uri: 'internal:/demo-dummy'
+          title: 'Lorem Ipsum '
+        - uri: 'internal:/demo-dummy'
+          title: 'Lorem Ipsum'
+        - uri: 'internal:/demo-dummy'
+          title: 'Lorem Ipsum'
+
+    -
+      id: 6
+      uuid: 'a0ee4eaa-4cec-4b9b-b138-39039e675fe8'
+      title: 'Quick Links'
+      image: icon_26
+      links:
+        - uri: 'internal:#membership-options'
+          title: 'Membership Options'
+        - uri: 'internal:#try-the-y'
+          title: 'Guest Passes'
+        - uri: 'internal:#our-programs'
+          title: 'Available Programs'
+
+    -
+      id: 7
+      uuid: '96a79505-9725-41c7-b497-9dc2665400e5'
+      title: 'Quick Links'
+      image: icon_23
+      links:
+        - uri: 'internal:#schedules'
+          title: 'Class Schedules'
+        - uri: 'internal:#holiday-hours'
+          title: 'Holiday Hours'
+    -
+      id: 8
+      uuid: 'e7fc68bd-9b82-4308-b38b-ca6e672cc5fd'
+      title: 'Quick Links'
+      image: icon_24
+      links:
+        - uri: 'internal:#lifeguard'
+          title: 'Lifeguard'
+        - uri: 'internal:#swim-instructor'
+          title: 'Swim Instructor'
+        - uri: 'internal:#camp-counselor'
+          title: 'Camp Counselor'
+        - uri: 'internal:#child-care-provider'
+          title: 'Child Care Provider'
+        - uri: 'internal:#healthy-living-coach'
+          title: 'Healthy Living Coach'
+        - uri: 'internal:#membership-service-rep'
+          title: 'Membership Services Rep'
+        - uri: 'internal:#youth-sports-referee'
+          title: 'Youth Sports Referee'
+    -
+      id: 9
+      uuid: '196dcaed-2f52-41c9-bf7a-bd88a1e9dbfa'
+      title: 'Quick Links'
+      image: icon_29
+      links:
+        - uri: 'internal:#youth-sports-coach'
+          title: 'Youth Sports Coach'
+        - uri: 'internal:#advisory-board-member'
+          title: 'Advisory Board Member'
+        - uri: 'internal:#annual-campaign-fundraiser'
+          title: 'Annual Fundraiser'
+        - uri: 'internal:#special-events-volunteer'
+          title: 'Special Events Volunteer'
+        - uri: 'internal:#new-member-ambassador'
+          title: 'New Member Ambassador'
+
   ids:
     id:
       type: integer
 process:
-  id: id
-  revision_id: id
   langcode:
     plugin: default_value
     source: language
@@ -48,7 +171,11 @@ process:
     default_value: lb_simple_menu
   uuid: uuid
   field_lb_simple_menu_links: links
-
+  field_icon:
+    -
+      plugin: migration_lookup
+      migration: y_lb_demo_media_image
+      source: image
 destination:
   plugin: entity:block_content
 migration_dependencies:

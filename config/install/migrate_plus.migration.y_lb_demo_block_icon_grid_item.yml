@@ -1,0 +1,174 @@
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - y_lb_demo_content
+id: y_lb_demo_block_icon_grid_item
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags:
+  - openy_complete_installation
+migration_group: y_lb_demo_content
+label: 'Create Icon Grid Item for Icon Grid component'
+source:
+  plugin: embedded_data
+  data_rows:
+    -
+      id: icon_grid_item_1
+      uuid: '13ff2285-b1a2-42e3-90c7-8f11f6729a6f'
+      title: "Welcoming"
+      body: "<p>We're open to all and create spaces where you can be, belong, and become.</p>"
+      image: icon_2
+    -
+      id: icon_grid_item_2
+      uuid: '3341095f-63e4-4c19-b744-5790ceba64b2'
+      title: 'Genuine'
+      body: "<p>We value who you are and encourage you to be true to yourself and others.</p>"
+      image: icon_3
+
+    -
+      id: icon_grid_item_3
+      uuid: '9f0743f2-6927-4a36-a2ea-d361182823dd'
+      title: 'Nurturing'
+      body: "<p>We help you move along your path to reaching your full potential.</p>"
+      image: icon_4
+
+    -
+      id: icon_grid_item_4
+      uuid: 'a0c14f50-5107-46df-9e84-ee9ca243b690'
+      title: 'Hopeful'
+      body: "<p>We believe in you and your ability to inspire a brighter tomorrow.</p>"
+      image: icon_5
+
+    -
+      id: icon_grid_item_5
+      uuid: '725307ba-42fd-41a4-bd07-f463bfa2b027'
+      title: 'Determined'
+      body: "<p>We work relentlessly to strengthen communities, starting with you.</p>"
+      image: icon_6
+
+    -
+      id: icon_grid_item_6
+      uuid: '933ebc5a-7eb7-480a-abb8-980e72de1b6e'
+      title: 'Schedules'
+      body: "<p>Spring soccer registration typically opens in January, and the season runs from March to May. Fall soccer registration typically opens in July, and the season runs from August to October.</p>"
+      image: icon_10
+
+    -
+      id: icon_grid_item_7
+      uuid: 'fbfffb92-8ef8-4056-8913-4332ae6c538b'
+      title: 'Ages'
+      body: "<p>We offer leagues for kids ages 3–14, all with age-appropriate instruction as well as adjusted field sizes, ball sizes and number of players on the field.</p>"
+      image: icon_11
+
+    -
+      id: icon_grid_item_8
+      uuid: 'e73393c4-2698-4c0e-b7ac-a2f354eed816'
+      title: 'Pricing'
+      body: "<p>Prices vary by age division, but start at $90 for YMCA facility members and $115 for youth soccer program members.</p>"
+      image: icon_12
+
+    -
+      id: icon_grid_item_9
+      uuid: 'c7ddb5ff-7e86-4fe4-90dc-18bfe0fe5d13'
+      title: 'For new members'
+      body: "<p>Get 50% off your first month of membership</p>"
+      image: icon_13
+
+    -
+      id: icon_grid_item_10
+      uuid: 'b62420fc-be39-4531-9b0c-769b5d08c2eb'
+      title: '$1,350'
+      body: "<p>Sends two campers to [YMCA Camp Piomingo] for a week of new experiences</p>"
+      image: icon_14
+
+    -
+      id: icon_grid_item_11
+      uuid: '0e45a223-6c9d-4aab-b40a-032f61a41beb'
+      title: '$720'
+      body: "<p>Funds a whole sports season for six kids, helping them develop skills and make friends</p>"
+      image: icon_15
+
+    -
+      id: icon_grid_item_12
+      uuid: '85989117-eeaf-47fe-9054-4ad911b7bccf'
+      title: '$320'
+      body: "<p>Gives four kids a fun, safe, nurturing place to go after school for one week</p>"
+      image: icon_16
+
+    -
+      id: icon_grid_item_13
+      uuid: 'd6f1d244-cf04-4c76-b486-5e63cf2d041d'
+      title: '$150'
+      body: "<p>Keeps a teen in crisis off the street for a night by providing food and shelter</p>"
+      image: icon_17
+
+    -
+      id: icon_grid_item_14
+      uuid: '5fba160b-cd1a-4526-b759-8ef9b0791638'
+      title: '$97'
+      body: "<p>Allows an entire family to find support at the Y during a difficult time</p>"
+      image: icon_11
+
+    -
+      id: icon_grid_item_15
+      uuid: 'a0802e6b-ba14-4105-93c9-ce1dfd44ada3'
+      title: '$50'
+      body: "<p>Provides a life-saving skill by teaching a child swimming and water safety</p>"
+      image: icon_18
+
+    -
+      id: icon_grid_item_16
+      uuid: 'c0eb5ddc-11ae-4e2f-82d5-710c40da7a8f'
+      title: 'By Phone'
+      body: "<p>Give our YMCA Operations Center a call at [PHONE NUMBER] to donate with a debit or credit card.</p>"
+      image: icon_20
+
+    -
+      id: icon_grid_item_17
+      uuid: 'b2538ed6-54f5-401c-ac85-373f5f9d71f2'
+      title: 'By Mail'
+      body: "<p>Make checks payable to the YMCA and send to: ATTN: Development Office YMCA of [SPRINGFIELD] [123 Main St.] [City, ST 12345]</p>"
+      image: icon_19
+
+    -
+      id: icon_grid_item_18
+      uuid: 'd8576bbd-dab9-4eb4-bbe8-7ef176d4b9bf'
+      title: 'By Wire'
+      body: "<p>If you'd prefer to wire funds directly, contact our Development Office for instructions.</p>"
+      image: icon_21
+  ids:
+    id:
+      type: string
+process:
+  langcode:
+    plugin: default_value
+    source: language
+    default_value: en
+  reusable:
+    plugin: default_value
+    default_value: 0
+  uuid: uuid
+  status:
+    plugin: default_value
+    default_value: 1
+  type:
+    plugin: default_value
+    default_value: icon_grid_item
+  field_title: title
+  field_description/value: body
+  field_description/format:
+    plugin: default_value
+    default_value: full_html
+  field_media:
+    -
+      plugin: migration_lookup
+      migration: y_lb_demo_media_image
+      source: image
+  field_grid_item_cta_link: cta
+destination:
+  plugin: entity:block_content
+  default_bundle: 'icon_grid_item'
+migration_dependencies: {  }

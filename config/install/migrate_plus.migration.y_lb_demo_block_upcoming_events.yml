@@ -1,0 +1,48 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - y_lb_demo_content
+  enforced:
+    module:
+      - y_lb_demo_content
+id: y_lb_demo_block_upcoming_events
+migration_tags:
+  - openy_complete_installation
+migration_group: y_lb_demo_content
+label: 'Import Demo Layout Builder - Upcoming Events'
+source:
+  plugin: embedded_data
+  data_rows:
+    -
+      id: 60
+      uuid: 'e6a4908f-1efa-449d-a634-daddce35e27b'
+      title: 'Upcoming Events'
+      count_to_display: 3
+      location: 1
+      widget_type: upcoming
+  ids:
+    id:
+      type: integer
+process:
+  langcode:
+    plugin: default_value
+    source: language
+    default_value: en
+  status:
+    plugin: default_value
+    default_value: 1
+  reusable:
+    plugin: default_value
+    default_value: 0
+  type:
+    plugin: default_value
+    default_value: lb_related_events
+  uuid: uuid
+  field_items_count_to_display: count_to_display
+  field_section_title: title
+  field_content_items: items
+  field_related_events_widget_type: widget_type
+destination:
+  plugin: entity:block_content
+migration_dependencies: {  }

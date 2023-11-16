@@ -7,19 +7,20 @@ dependencies:
     module:
       - y_lb_demo_content
 id: y_lb_demo_block_statistics
-migration_tags: {}
+migration_tags:
+  - openy_complete_installation
 migration_group: y_lb_demo_content
 label: 'Import demo Layout Builder - Statistics block'
 source:
   plugin: embedded_data
   data_rows:
     -
-      id: 24
-      uuid: 'ad542225-af8e-4a5b-a4fb-3a5828b4bd06'
+      id: 224
+      uuid: 'da542225-af8e-4a5b-a4fa-3a5828b4bd06'
       title: 'Our Impact'
-      subtitle: 'Each year, we strive to transform lives and strengthen communities worldwide.'
+      subtitle: ''
       columns: 4
-      image: day_camps
+      image: wwa_page_image_5
       cta: {}
       content_ids:
         -
@@ -34,8 +35,6 @@ source:
     id:
       type: integer
 process:
-  id: id
-  revision_id: id
   langcode:
     plugin: default_value
     source: language
@@ -58,23 +57,17 @@ process:
     - plugin: migration_lookup
       migration: y_lb_demo_media_image
       source: image
-  field_items:
+  field_block_item:
     plugin: sub_process
     source: content_ids
     process:
       target_id:
         plugin: migration_lookup
         migration:
-          - y_lb_demo_paragraph_statistics
-        source: content_id
-      target_revision_id:
-        plugin: migration_lookup
-        migration:
-          - y_lb_demo_paragraph_statistics
+          - y_lb_demo_block_statistics_item
         source: content_id
 destination:
   plugin: entity:block_content
 migration_dependencies:
   required:
-    - y_lb_demo_paragraph_statistics
-  optional: {}
+    - y_lb_demo_block_statistics_item

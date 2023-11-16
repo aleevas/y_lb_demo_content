@@ -5,69 +5,256 @@ dependencies:
     module:
       - y_lb_demo_content
 id: y_lb_demo_file
-migration_tags: { }
+migration_tags:
+  - openy_complete_installation
 # No need to add migration tag, migration started by dependency.
 migration_group: y_lb_demo_content
-label: 'Import demo LB files'
+label: 'Import Demo LB files'
 source:
   plugin: embedded_data
   data_rows:
-    - id: lb_image_1
-      name: abigail-miller-r4sxIf0gTfs-unsplash.jpg
-    - id: lb_image_3
-      name: guillermo-diaz-mier-y-teran-UrsIDtdBDVQ-unsplash.jpg
-    - id: lb_image_4
-      name: sheri-hooley-khQYktTLkLc-unsplash.jpg
-    - id: lb_image_5
-      name: jesper-stechmann-nb2l7FmbSdA-unsplash.jpg
-    - id: lb_image_6
-      name: patricia-prudente-6UyWK8mDcWo-unsplash.jpg
-    - id: lb_image_7
-      name: erik-brolin-ZARfCYDaVg0-unsplash.jpg
-    - id: lb_image_8
-      name: eddy-billard-EJLpBC6rUv8-unsplash.jpg
-    - id: lb_image_9
-      name: rafaela-biazi-Z1gUDZusp7s-unsplash.jpg
-    - id: lb_image_10
-      name: inspired-horizons-digital-marketing-kufLAiPoIlI-unsplash.jpg
-    - id: lb_image_11
-      name: allgo-an-app-for-plus-size-people-lAXOrQqrEjM-unsplash.jpg
-    - id: lb_image_12
-      name: trust-tru-katsande-A_ftsTh53lM-unsplash.jpg
-    - id: homepage_banner
-      name: rawpixel-1137676-unsplash.jpg
-    - id: about
-      name: perry-grone-lbLgFFlADrY-unsplash.jpg
-    - id: give
-      name: matt-nelson-2Rb2I8TZ6O8-unsplash.jpg
-    - id: accelerator_one
-      name: rawpixel-284728-unsplash.jpg
-    - id: accelerator_two
-      name: brandless-jmIZ-q-qoZY-unsplash.jpg
-    - id: accelerator_three
-      name: blake-barlow-iHP1sEmn92I-unsplash.jpg
-    - id: education_and_employment
-      name: adeolu-eletu-134760-unsplash.jpg
-    - id: housing_and_transition_planning
-      name: maria-ziegler-jJnZg7vBfMs-unsplash.jpg
-    - id: join_one
-      name: clay-banks-LjqARJaJotc-unsplash.jpg
-    - id: join_two
-      name: bruce-mars-gJtDg6WfMlQ-unsplash.jpg
-    - id: join_three
-      name: meghan-holmes-buWcS7G1_28-unsplash.jpg
-    - id: swimming_banner
-      name: henry-russell-Jcb37oy1nU0-unsplash.jpg
-    - id: drop-in_swim
-      name: jeff-dunham-fq673rUxrsQ-unsplash.jpg
-    - id: day_camps
-      name: anna-samoylova-w55SpMmoPgE-unsplash.jpg
-    - id: recreation
-      name: stage-7-photography-1226559-unsplash.jpg
-    - id: small_group_and_specialty_training
-      name: justyn-warner-529957-unsplash.jpg
-    - id: active_older_adults
-      name: ekta-agarwal-AJdjW36KOQs-unsplash.jpg
+    - id: homepage_image_1
+      name: 51e7c03492ed63181c36c057a0cac20f.jpeg
+    - id: homepage_image_2
+      name: e33fddb7b02cd420316a02ff9ab59169.jpeg
+    - id: homepage_image_3
+      name: a111d2a84a37c483f34b564466aff554.jpeg
+    - id: homepage_image_4
+      name: ef12f667a36156fdf054d504c1a45931.jpeg
+    - id: homepage_image_5
+      name: f9d66171742d557e6a0134ad134f0b8a.jpeg
+    - id: homepage_image_6
+      name: 120fc9507c3b13faa809f14c1796c04e.jpeg
+    - id: homepage_image_7
+      name: a51a5c7ac15de774417574337a986f3c.jpeg
+    - id: homepage_image_8
+      name: 15afb3e70e4b1e2ae4b2ec51a6db876d.jpeg
+    - id: homepage_image_9
+      name: 628efddc21d234c06e66240325c44426.jpeg
+    - id: homepage_image_10
+      name: f1ff886f7df5408753215421007d66bd.jpeg
+    - id: homepage_image_11
+      name: fbf59b9df2bfa17497c242a574a0a443.jpeg
+    - id: homepage_image_12
+      name: 218381245a187a7275dbeb9ee963c502.jpeg
+    - id: homepage_image_13
+      name: 2e4a44bbb7ae69a87fac3e48d64757b1.jpeg
+    - id: testimonials_image_1
+      name: 6c3bb9ebf6c96083a2c4a32f94b04578.jpeg
+    - id: testimonials_image_2
+      name: 2fc092e291b6f3df144b46ac833a900c.jpeg
+    - id: partner_logo_1
+      name: logo-ab5cc8314658dcbce4226affc4772f78.jpg
+    - id: partner_logo_2
+      name: logo-dc5cc8314658dcbce4536affc4772f78.png
+    - id: partner_logo_3
+      name: logo-dc5cc9314658dcbad4536affc4772f78.jpg
+    - id: partner_logo_4
+      name: logo-dc8cc8314658dcbce4536afac4772f78.jpg
+    - id: wwa_page_image_1
+      name: 14f0a0ca67a74e24583ac88bdeb05a77.jpeg
+    - id: wwa_page_image_2
+      name: 91585918869935065ff0923c10f8511c.jpeg
+    - id: wwa_page_image_3
+      name: 5c040a9dead068de85843e6738a7f2d3.jpeg
+    - id: wwa_page_image_4
+      name: a9a5165a92faf4fd8327dadf46057e2c.jpeg
+    - id: wwa_page_image_5
+      name: a38f35b7c33ead52672563cd69b4a33e.jpeg
+    - id: icon_1
+      name: icon-handshake.png
+    - id: icon_2
+      name: icon-volunteerism.png
+    - id: icon_3
+      name: icon-responsibility.png
+    - id: icon_4
+      name: icon-sports-yoga.png
+    - id: icon_5
+      name: icon-sports-aerobics.png
+    - id: icon_6
+      name: icon-sports-climbing.png
+    - id: icon_7
+      name: icon-heartbeat.png
+    - id: icon_8
+      name: icon-youthdevelopment.png
+    - id: icon_9
+      name: icon-soccer.png
+    - id: icon_10
+      name: icon-calendar.png
+    - id: icon_11
+      name: icon-kids.png
+    - id: icon_12
+      name: icon-fundraising.png
+    - id: icon_13
+      name: icon-membership.png
+    - id: icon_14
+      name: icon-generalcamp.png
+    - id: icon_15
+      name: icon-basketball.png
+    - id: icon_16
+      name: icon-flag.png
+    - id: icon_17
+      name: icon-grape.png
+    - id: icon_18
+      name: icon-swimming.png
+    - id: icon_19
+      name: icon-mail.png
+    - id: icon_20
+      name: icon-phone.png
+    - id: icon_21
+      name: icon-wire.png
+    - id: icon_22
+      name: icon-careers.png
+    - id: icon_23
+      name: icon-calendar-bg-white.png
+    - id: icon_24
+      name: icon-careers-bg-white.png
+    - id: icon_25
+      name: icon-general-fitness-bg-white.png
+    - id: icon_26
+      name: icon-membership-bg-white.png
+    - id: icon_27
+      name: icon-partnership-bg-white.png
+    - id: icon_28
+      name: icon-soccer-bg-white.png
+    - id: icon_29
+      name: icon-volunteerism-bg-white.png
+    - id: icon_30
+      name: icon-youthdevelopment-bg-white.png
+    - id: program_overview_page_image_1
+      name: 16f6a90318a46adb0b11ed6730e24300.jpeg
+    - id: program_overview_page_image_2
+      name: fb7b49dbe072d1c3aa285cbafae45b68.jpeg
+    - id: program_overview_page_image_3
+      name: 752e2881d359abdbbe0aabdedd075375.jpeg
+    - id: program_overview_page_image_4
+      name: 10ad1686d46fdda3cd66173fb2771b4c.jpeg
+    - id: program_category_page_image_1
+      name: e321822085592bab6df847b5bfb0ab87.jpeg
+    - id: program_category_page_image_2
+      name: 4e6f6ba946dd75008073b141a5bac658.jpeg
+    - id: program_category_page_image_3
+      name: bfc005420880835e0984f7f70106a69f.jpeg
+    - id: program_category_page_image_4
+      name: decfdb1f76a83e7c3bba7d6040e5b2dd.jpeg
+    - id: program_category_page_image_5
+      name: 01043122af208d09f0006d0b56f8ccac.jpeg
+    - id: program_individual_page_image_1
+      name: d2e04c902e2a8203022e2a61afc497e6.jpeg
+    - id: program_individual_page_image_2
+      name: c9ef09c261e8a9c5a8ae5df29e405143.jpeg
+    - id: program_individual_page_image_3
+      name: b8a6b79f2d52d44aae1437cdea6c803c.jpeg
+    - id: program_individual_page_image_4
+      name: 8c669d1631431622611f8a346d4424f1.jpeg
+    - id: program_individual_page_image_5
+      name: 2ed97746554fdff700bb12717485a642.jpeg
+    - id: program_individual_page_image_6
+      name: cccc84632104497cb971766bc7bf56b3.jpeg
+    - id: program_individual_page_image_7
+      name: 818875ea685e70553829416bd56254c0.jpeg
+    - id: program_individual_page_image_8
+      name: fc43181e0e91e3134105465d81f75144.jpeg
+    - id: program_individual_page_image_9
+      name: e25597d2255d74a8d947d1916c0a8dc7.jpeg
+    - id: program_individual_page_image_10
+      name: 308bb99f95a24c97827db582c1766a14.jpeg
+    - id: location_individual_page_image_1
+      name: cbfff24e346a28702c24442df3566c9d.jpeg
+    - id: location_individual_page_image_2
+      name: a3ba9b5b75f0305b58dcd9a5a1a1ea67.jpeg
+    - id: location_individual_page_image_3
+      name: c2a2ffbc2669432f55ebc9420d66ccc3.jpeg
+    - id: location_individual_page_image_4
+      name: a3a89a0b5ee079c7456bdc0df2313eec.jpeg
+    - id: location_individual_page_image_5
+      name: 76a27478d7b90a372dc324c54fb75067.jpeg
+    - id: location_individual_page_image_6
+      name: 9efa8e57f87e9f1046c85d40e49998e7.jpeg
+    - id: location_individual_page_image_7
+      name: 1008a5283f4fc8b0374fbbab78d034f4.jpeg
+    - id: location_individual_page_image_8
+      name: a85fb98720bc72dead261051b754042e.jpeg
+    - id: carousel_image_1
+      name: 0c2e643554a85c0d985cc7c2800c9c15.jpeg
+    - id: carousel_image_2
+      name: 747f7f3aef8e9b0a50803598cf62bfeb.jpeg
+    - id: carousel_image_3
+      name: 969efa2f52a5073e3f1740ecf950cda8.jpeg
+    - id: carousel_image_4
+      name: cd74a7783d56263857c2eecdf750bfb2.jpeg
+    - id: carousel_image_5
+      name: deae4315c2a4695e623731aa1c9a9e8a.jpeg
+    - id: carousel_image_6
+      name: f642d499b58cf6e4dfe92772201b352e.jpeg
+    - id: membership_page_image_1
+      name: d376a00cf6767f605d314cb8b8f17f9e.jpeg
+    - id: membership_page_image_2
+      name: 7fd263dfd3f5e86d8b7088ae4498ab88.jpeg
+    - id: membership_page_image_3
+      name: 31d583df14b9bc0678ff13b62440c1f3.jpeg
+    - id: membership_page_image_4
+      name: 9eb776c2e1aa04e6f232963f0856e8a9.jpeg
+    - id: membership_page_image_5
+      name: b1e98dff0a2e1b1289dff05d8b39de4c.jpeg
+    - id: schedules_page_image_1
+      name: 83a77c2a3679ef576238fae5a1b8fc77.jpeg
+    - id: schedules_page_image_2
+      name: 3c5682cd54969eedb39de59cf781762d.jpeg
+    - id: events_page_image_1
+      name: a738b6fe7373feb5c4803d5b29859123.jpeg
+    - id: contactus_page_image_1
+      name: cf9a31313144607395c0e68c37ed24d7.jpeg
+    - id: jointhey_page_image_1
+      name: a2cd21570dfa7f9b6860e38b3c9fc8d3.jpeg
+    - id: jointhey_page_image_2
+      name: bcc9ab6734eda80eb14cb1c7a59b09df.jpeg
+    - id: donate_page_image_1
+      name: 98699b4f537cfeeab6892f9d9464f135.jpeg
+    - id: donate_page_image_2
+      name: 27bbd895877ff2653733e9f1d6e7419e.jpeg
+    - id: donate_page_image_3
+      name: b3340c4c80e3e85f0cda8b1867518978.jpeg
+    - id: donate_page_image_4
+      name: 508b1c23b17edcfea74b878c316187c2.jpeg
+    - id: donate_page_image_5
+      name: 1e3567e9ecd1db19c9e23461fc090926.jpeg
+    - id: donate_page_image_6
+      name: 217ea1ced3b93ff7412464a8abbfbb98.jpeg
+    - id: jobs_page_image_1
+      name: 1ee1c49e5aae525799456af0c67ac5a8.jpeg
+    - id: jobs_page_image_2
+      name: 3a15b4653bc75bc2576c777b3c7dcb96.jpeg
+    - id: jobs_page_image_3
+      name: aa4bec3feb385c931ef8919984fe4180.jpeg
+    - id: jobs_page_image_4
+      name: ef8ff48a67ec4ed6a432f4d916af13a0.jpeg
+    - id: jobs_page_image_5
+      name: 8202d52e862d7c502b5f2a1610fa4468.jpeg
+    - id: jobs_page_image_6
+      name: ab25ae75a5008de3ea12b8dfff3f3657.jpeg
+    - id: jobs_page_image_7
+      name: e76ec65cbfd5fbfe80b29751562bf00d.jpeg
+    - id: jobs_page_image_8
+      name: 52defea6e4bf4f6f9d6b9fc3b5fa0ed9.jpeg
+    - id: jobs_page_image_9
+      name: 325d1e492f917f3a5bd46156e3a3c08a.jpeg
+    - id: volunteer_ops_page_image_1
+      name: 492f1ac9211f0c81b4de47bc41c95bf7.jpeg
+    - id: volunteer_ops_page_image_2
+      name: c290a2eb412d932e394a8e64176118bf.jpeg
+    - id: volunteer_ops_page_image_3
+      name: 41cd8f1917f5bb5dd2fba73d0444a85c.jpeg
+    - id: volunteer_ops_page_image_4
+      name: 6ce42d60bfc896f7720589b5e44b3cea.jpeg
+    - id: volunteer_ops_page_image_5
+      name: 5a44e47c5c09f207f11a164e91a73ffd.jpeg
+    - id: volunteer_ops_page_image_6
+      name: 72283869c0cbf51c397e2b113d8563fc.jpeg
+    - id: af_page_image_1
+      name: 88b230b52b18517fab947c61c60643f4.jpeg
+    - id: menu_cta_image_1
+      name: 9ae7d201bb2597ee50813d931c7f73d8.jpeg
   ids:
     id:
       type: string

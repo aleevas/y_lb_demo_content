@@ -1,0 +1,6 @@
+langcode: en
+status: true
+id: helpful-links
+label: 'Helpful links navigations'
+description: 'Demo Helpful links menu'
+locked: false

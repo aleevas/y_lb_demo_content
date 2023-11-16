@@ -1,0 +1,561 @@
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - y_lb_demo_content
+id: y_lb_demo_menu_link_main
+migration_tags:
+  - openy_complete_installation
+migration_group: y_lb_demo_content
+label: 'Create demo main menu links'
+source:
+  plugin: embedded_data
+  data_rows:
+    -
+      id: 1
+      title: 'Who We Are'
+      menu_name: 'main'
+      link: 'internal:/demo-who-we-are'
+      weight: 1
+      parent_id: 0
+      expanded: 0
+      parent_link_path: ''
+    -
+      id: 2
+      title: 'Programs'
+      menu_name: 'main'
+      link: 'internal:/demo-programs-overview'
+      weight: 2
+      parent_id: 0
+      expanded: 1
+      parent_link_path: ''
+
+    -
+      id: 3
+      title: 'Youth Sports'
+      menu_name: 'main'
+      link: 'internal:/demo-programs-category'
+      weight: 1
+      parent_id: 2
+      expanded: 1
+      parent_link_path: ''
+    -
+      id: 4
+      title: 'Health and Fitness'
+      menu_name: 'main'
+      link: 'internal:/'
+      weight: 2
+      parent_id: 2
+      expanded: 1
+      parent_link_path: ''
+    -
+      id: 5
+      title: 'Community'
+      menu_name: 'main'
+      link: 'internal:/demo-dummy'
+      weight: 3
+      parent_id: 2
+      expanded: 1
+      parent_link_path: ''
+    -
+      id: 6
+      title: 'Youth Soccer'
+      menu_name: 'main'
+      link: 'internal:/demo-program-individual'
+      weight: 1
+      parent_id: 3
+      expanded: 0
+      parent_link_path: ''
+    -
+      id: 7
+      title: 'Youth Sport 2*'
+      menu_name: 'main'
+      link: 'internal:/demo-dummy'
+      weight: 3
+      parent_id: 3
+      expanded: 0
+      parent_link_path: ''
+    -
+      id: 8
+      title: 'Youth Sport 3*'
+      menu_name: 'main'
+      link: 'internal:/demo-dummy'
+      weight: 4
+      parent_id: 3
+      expanded: 0
+      parent_link_path: ''
+    -
+      id: 9
+      title: 'Lorem ipsum 1'
+      menu_name: 'main'
+      link: 'internal:/demo-dummy'
+      weight: 1
+      parent_id: 4
+      expanded: 0
+      parent_link_path: ''
+    -
+      id: 10
+      title: 'Lorem ipsum 2'
+      menu_name: 'main'
+      link: 'internal:/demo-dummy'
+      weight: 2
+      parent_id: 4
+      expanded: 0
+      parent_link_path: ''
+    -
+      id: 11
+      title: 'Events'
+      menu_name: 'main'
+      link: 'internal:/demo-events'
+      weight: 1
+      parent_id: 5
+      expanded: 0
+      parent_link_path: ''
+    -
+      id: 12
+      title: 'Volunteer Opportunities'
+      menu_name: 'main'
+      link: 'internal:/demo-volunteer-opportunities'
+      weight: 1
+      parent_id: 5
+      expanded: 0
+      parent_link_path: ''
+    -
+      id: 13
+      title: 'Locations'
+      menu_name: 'main'
+      link: 'internal:/demo-location-finder'
+      weight: 3
+      parent_id: 0
+      expanded: 1
+      parent_link_path: ''
+    -
+      id: 14
+      title: 'Downtown [Springfield]'
+      menu_name: 'main'
+      link: 'internal:/locations/downtown-springfield'
+      weight: 1
+      parent_id: 13
+      expanded: 0
+      parent_link_path: ''
+    -
+      id: 15
+      title: 'North'
+      menu_name: 'main'
+      link: 'internal:/demo-dummy'
+      weight: 2
+      parent_id: 13
+      expanded: 0
+      parent_link_path: ''
+    -
+      id: 16
+      title: 'South'
+      menu_name: 'main'
+      link: 'internal:/demo-dummy'
+      weight: 3
+      parent_id: 13
+      expanded: 0
+      parent_link_path: ''
+    -
+      id: 17
+      title: 'East'
+      menu_name: 'main'
+      link: 'internal:/demo-dummy'
+      weight: 4
+      parent_id: 13
+      expanded: 0
+      parent_link_path: ''
+    -
+      id: 18
+      title: 'West'
+      menu_name: 'main'
+      link: 'internal:/demo-dummy'
+      weight: 5
+      parent_id: 13
+      expanded: 0
+      parent_link_path: ''
+    -
+      id: 19
+      title: 'Membership'
+      menu_name: 'main'
+      link: 'internal:/demo-membership'
+      weight: 4
+      parent_id: 0
+      expanded: 0
+      parent_link_path: ''
+    -
+      id: 20
+      title: 'Schedules'
+      menu_name: 'main'
+      link: 'internal:/demo-schedules'
+      weight: 5
+      parent_id: 0
+      expanded: 0
+      parent_link_path: ''
+
+    - id: 21
+      title: 'More'
+      menu_name: 'main'
+      link: 'internal:/demo-dummy'
+      weight: 6
+      parent_id: 0
+      expanded: 1
+      parent_link_path: ''
+
+    -
+      id: 23
+      title: 'Programs'
+      menu_name: 'main'
+      link: 'internal:/'
+      weight: 2
+      parent_id: 21
+      expanded: 1
+      parent_link_path: ''
+    -
+      id: 24
+      title: 'Health and Fitness'
+      menu_name: 'main'
+      link: 'programs/health-and-fitness'
+      weight: 1
+      parent_id: 23
+      expanded: 0
+      parent_link_path: 'openy'
+      icon_id: health_and_fitness
+    -
+      id: 25
+      title: 'Swimming'
+      menu_name: 'main'
+      link: 'programs/swimming'
+      weight: 2
+      parent_id: 23
+      expanded: 0
+      parent_link_path: 'openy'
+      icon_id: swimming
+    -
+      id: 26
+      title: 'Kids and Family Activities'
+      menu_name: 'main'
+      link: 'programs/kids-and-family-activities'
+      weight: 3
+      parent_id: 23
+      expanded: 0
+      parent_link_path: 'openy'
+      icon_id: kids_and_family_activities
+    -
+      id: 27
+      title: 'Camps'
+      menu_name: 'main'
+      link: 'programs/camps'
+      weight: 4
+      parent_id: 23
+      expanded: 0
+      parent_link_path: 'openy'
+      icon_id: camps
+    -
+      id: 28
+      title: 'Child Care'
+      menu_name: 'main'
+      link: 'programs/child-care'
+      weight: 5
+      parent_id: 23
+      expanded: 0
+      parent_link_path: 'openy'
+      icon_id: child_care
+    -
+      id: 29
+      title: 'Youth Programs'
+      menu_name: 'main'
+      link: 'programs/youth-programs'
+      weight: 6
+      parent_id: 23
+      expanded: 0
+      parent_link_path: 'openy'
+      icon_id: youth_programs
+    -
+      id: 30
+      title: 'Locations'
+      menu_name: 'main'
+      link: 'locations'
+      weight: 3
+      parent_id: 21
+      expanded: 0
+      parent_link_path: ''
+
+    -
+      id: 31
+      title: 'About'
+      menu_name: 'main'
+      link: 'about'
+      weight: 5
+      parent_id: 21
+      expanded: 0
+      parent_link_path: ''
+    -
+      id: 32
+      title: 'Give'
+      menu_name: 'main'
+      link: 'give'
+      weight: 6
+      parent_id: 21
+      expanded: 0
+      parent_link_path: ''
+    -
+      id: 33
+      title: 'Accelerator'
+      menu_name: 'main'
+      link: 'accelerator'
+      weight: 7
+      parent_id: 21
+      expanded: 0
+      parent_link_path: ''
+    -
+      id: 34
+      title: 'Blog'
+      menu_name: 'main'
+      link: 'blog'
+      weight: 8
+      parent_id: 21
+      expanded: 0
+      parent_link_path: ''
+
+    -
+      id: 35
+      title: 'More'
+      menu_name: 'main'
+      link: 'internal:/demo-dummy'
+      weight: 12
+      parent_id: 21
+      expanded: 1
+    -
+      id: 36
+      title: 'Active Older Adults'
+      menu_name: 'main'
+      link: 'programs/health-and-fitness/active-older-adults'
+      weight: 1
+      parent_id: 23
+      expanded: 0
+      parent_link_path: 'programs/health-and-fitness'
+    -
+      id: 37
+      title: 'Health & Fitness for Kids & Teens'
+      menu_name: 'main'
+      link: 'programs/health-and-fitness/health-fitness-kids-teens'
+      weight: 2
+      parent_id: 23
+      expanded: 0
+      parent_link_path: 'programs/health-and-fitness'
+    -
+      id: 38
+      title: 'Personal Training'
+      menu_name: 'main'
+      link: 'programs/health-and-fitness/personal-training'
+      weight: 3
+      parent_id: 23
+      expanded: 0
+      parent_link_path: 'programs/health-and-fitness'
+    -
+      id: 39
+      title: 'Programs for Health'
+      menu_name: 'main'
+      link: 'programs/health-and-fitness/programs-health'
+      weight: 4
+      parent_id: 23
+      expanded: 0
+      parent_link_path: 'programs/health-and-fitness'
+    -
+      id: 40
+      title: 'Recreation'
+      menu_name: 'main'
+      link: 'programs/health-and-fitness/recreation'
+      weight: 5
+      parent_id: 23
+      expanded: 0
+      parent_link_path: 'programs/health-and-fitness'
+    -
+      id: 41
+      title: 'Small Group and Specialty Training'
+      menu_name: 'main'
+      link: 'programs/health-and-fitness/small-group-specialty-training'
+      weight: 6
+      parent_id: 23
+      expanded: 0
+      parent_link_path: 'programs/health-and-fitness'
+    -
+      id: 42
+      title: 'Swim Team'
+      menu_name: 'main'
+      link: 'programs/swimming/swim-team'
+      weight: 7
+      parent_id: 35
+      expanded: 0
+    -
+      id: 43
+      title: 'Weight Loss'
+      menu_name: 'main'
+      link: 'programs/health-and-fitness/weight-loss'
+      weight: 8
+      parent_id: 35
+      expanded: 0
+    -
+      id: 44
+      title: 'Drop-In Swim'
+      menu_name: 'main'
+      link: 'programs/swimming/drop-swim'
+      weight: 1
+      parent_id: 35
+      expanded: 0
+    -
+      id: 45
+      title: 'Swim Lessons'
+      menu_name: 'main'
+      link: 'programs/swimming/swim-lessons'
+      weight: 2
+      parent_id: 35
+      expanded: 0
+    -
+      id: 46
+      title: 'Cooking & Crafts'
+      menu_name: 'main'
+      link: 'programs/kids-and-family-activities/cooking-crafts'
+      weight: 1
+      parent_id: 35
+      expanded: 0
+    -
+      id: 47
+      title: 'Family Activities'
+      menu_name: 'main'
+      link: 'programs/kids-and-family-activities/family-activities'
+      weight: 2
+      parent_id: 35
+      expanded: 0
+    -
+      id: 48
+      title: 'Kids University & Enrichment Classes'
+      menu_name: 'main'
+      link: 'programs/kids-and-family-activities/kids-university-enrichment-classes'
+      weight: 3
+      parent_id: 35
+      expanded: 0
+    -
+      id: 49
+      title: 'Kids Zone Activity Centers'
+      menu_name: 'main'
+      link: 'programs/kids-and-family-activities/kids-zone-activity-centers'
+      weight: 4
+      parent_id: 35
+      expanded: 0
+    -
+      id: 50
+      title: 'Sports'
+      menu_name: 'main'
+      link: 'programs/kids-and-family-activities/sports'
+      weight: 5
+      parent_id: 35
+      expanded: 0
+    -
+      id: 51
+      title: 'Bold & Gold'
+      menu_name: 'main'
+      link: 'programs/camps/bold-gold'
+      weight: 1
+      parent_id: 35
+      expanded: 0
+    -
+      id: 52
+      title: 'Day Camps'
+      menu_name: 'main'
+      link: 'programs/camps/day-camps'
+      weight: 2
+      parent_id: 35
+      expanded: 0
+    -
+      id: 53
+      title: 'Before & After School Child Care'
+      menu_name: 'main'
+      link: 'programs/child-care/after-school-child-care'
+      weight: 1
+      parent_id: 35
+      expanded: 0
+    -
+      id: 54
+      title: 'Preschool'
+      menu_name: 'main'
+      link: 'programs/child-care/preschool'
+      weight: 2
+      parent_id: 35
+      expanded: 0
+    -
+      id: 55
+      title: 'Academic Success'
+      menu_name: 'main'
+      link: 'programs/youth-programs/academic-success'
+      weight: 1
+      parent_id: 35
+      expanded: 0
+    -
+      id: 56
+      title: 'Earth Service Corps'
+      menu_name: 'main'
+      link: 'programs/youth-programs/earth-service-corps'
+      weight: 2
+      parent_id: 35
+      expanded: 0
+    -
+      id: 57
+      title: 'Join'
+      menu_name: 'main'
+      link: 'join'
+      weight: 9
+      parent_id: 21
+      expanded: 0
+      parent_link_path: ''
+    -
+      id: 58
+      title: 'Schedules'
+      menu_name: 'main'
+      link: 'schedules'
+      weight: 4
+      parent_id: 21
+      expanded: 1
+      parent_link_path: ''
+    -
+      id: 59
+      title: 'Group Schedules (Embedded)'
+      menu_name: 'main'
+      link: 'schedules/group-schedules-embedded'
+      weight: 2
+      parent_id: 57
+      expanded: 0
+      parent_link_path: 'schedules'
+
+  ids:
+    id:
+      type: integer
+process:
+  langcode:
+    plugin: default_value
+    source: language
+    default_value: en
+  bundle:
+    plugin: default_value
+    default_value: menu_link_content
+  title: title
+  menu_name: menu_name
+  link/uri:
+    plugin: link_uri
+    source: link
+  weight: weight
+  expanded: expanded
+  parent:
+    plugin: menu_link_parent
+    source:
+      - parent_id
+      - menu_name
+      - parent_link_path
+destination:
+  plugin: entity:menu_link_content
+migration_dependencies:
+  required:
+    - y_lb_demo_block_menu_cta
+  optional: { }
