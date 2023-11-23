@@ -17,6 +17,8 @@ source:
     -
       id: 1
       title: 'Demo - Join the Y'
+      meta_description: "Be a part of something greater that will bring you, your family and your entire community meaningful change."
+      meta_image: jointhey_page_image_1
       sections:
         1header:
           components:
@@ -283,6 +285,11 @@ process:
         - '@__layout_builder__layout_defaults'
         - '@__layout_builder__layout'
     - plugin: lb_sections
+  field_meta_image:
+    - plugin: migration_lookup
+      migration: y_lb_demo_media_image
+      source: meta_image
+  field_meta_description: meta_description
 destination:
   plugin: 'entity:node'
   default_bundle: landing_page_lb
