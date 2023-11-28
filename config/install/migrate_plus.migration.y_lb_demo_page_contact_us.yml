@@ -17,7 +17,7 @@ source:
     -
       id: 1
       title: 'Demo - Contact Us'
-      meta_description: "Contact Us"
+      meta_description: "We want to hear from you."
       meta_image: contactus_page_image_1
       sections:
         1header:
