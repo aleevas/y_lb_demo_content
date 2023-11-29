@@ -10,6 +10,7 @@ id: y_lb_demo_page_programs_individual
 migration_tags:
   - openy_complete_installation
   - openy_standard_installation
+  - openy_extended_installation
 migration_group: y_lb_demo_content
 label: 'Import demo Layout Builder page - Program Individual'
 source:

@@ -11,6 +11,7 @@ cck_plugin_method: null
 migration_tags:
   - openy_complete_installation
   - openy_standard_installation
+  - openy_extended_installation
 migration_group: y_lb_demo_content
 label: 'Create Statistics Item for Statistics component'
 source:
