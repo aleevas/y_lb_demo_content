@@ -9,6 +9,7 @@ dependencies:
 id: y_lb_demo_block_featured_event
 migration_tags:
   - openy_complete_installation
+  - openy_standard_installation
 migration_group: y_lb_demo_content
 label: 'Import demo Layout Builder - Featured events'
 source:

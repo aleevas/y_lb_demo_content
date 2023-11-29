@@ -7,6 +7,7 @@ dependencies:
 id: y_lb_demo_media_image
 migration_tags:
   - openy_complete_installation
+  - openy_standard_installation
 # No need to add migration tag, migration started by dependency.
 migration_group: y_lb_demo_content
 label: Import LB Demo media images
