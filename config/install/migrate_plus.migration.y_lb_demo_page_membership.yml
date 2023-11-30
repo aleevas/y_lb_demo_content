@@ -20,7 +20,7 @@ source:
       id: 1
       title: 'Demo - Membership'
       meta_description: "Becoming a member makes you part of a community that's dedicated to bringing about meaningful change for you, your family and your neighbors. Scroll on to explore all our membership options."
-      meta_image: program_category_page_image_1
+      meta_image: membership_page_image_1
       sections:
         1header:
           components:
