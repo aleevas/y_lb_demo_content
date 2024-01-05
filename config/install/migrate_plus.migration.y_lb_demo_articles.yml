@@ -1,0 +1,194 @@
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - y_lb_demo_content
+id: y_lb_demo_articles
+migration_tags:
+  - openy_complete_installation
+  - openy_standard_installation
+  - openy_extended_installation
+migration_group: y_lb_demo_content
+label: 'Create demo Articles'
+source:
+  plugin: embedded_data
+  data_rows:
+    -
+      id: 1
+      title: 'Demo - Article Title'
+      subtitle: 'Article Sub Title'
+      body: "<p>Paragraph text. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Maecenas faucibus mollis interdum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p><h2>Header two</h2><h3>Header three</h3><p>Cras mattis consectetur purus sit amet fermentum. Maecenas sed diam eget risus varius blandit sit amet non magna. Sed posuere consectetur est at lobortis. Nullam id dolor id nibh ultricies vehicula ut id elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p><blockquote><p><strong>Quote text. Curabitur blandit tempus porttitor. Sed posuere consectetur est at lobortis. Maecenas faucibus mollis interdum.</strong></p><p><span>Someone famous in Source Title</span></p></blockquote><p>&nbsp;</p><p><span style=\"background-color:#0572c7;\"><span>You can use the mark tag to highlight text.</span></span></p><p><s>This line of text is meant to be treated as deleted text.</s></p><p><s>This line of text is meant to be treated as no longer accurate.</s></p><p>This line of text is meant to be treated as an addition to the document.</p><p><u>This line of text will render as underlined.</u></p><p><s>This line of text will render as strikethrough.</s></p><p><strong>This line is rendered as bold text.</strong></p><p><em>This line is rendered as italicized text.</em></p><h3>Header three</h3><p>Paragraph text. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Maecenas faucibus mollis interdum. Fusce dapibus, tellus ac cursus commodo.</p><ul><li>Bulleted List</li><li>Praesent commodo cursus magna, vel scelerisque nisl consectetur et lorem ipsum dolor sit amet, consectetur adipiscing elit</li><li>Nulla vitae elit libero, a pharetra augue</li><li>Donec sed odio dui<ul><li>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</li><li>Curabitur blandit tempus porttitor.</li></ul></li></ul><h4>Header four</h4><h5>Header five</h5><p>Paragraph text. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Maecenas faucibus mollis interdum. Fusce dapibus, tellus ac cursus commodo.</p><ol><li>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Etiam porta sem malesuada magna mollis euismod. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</li><li>Donec id elit non mi porta gravida at eget metus.</li><li>Curabitur blandit tempus porttitor. Maecenas sed diam eget risus varius blandit sit amet non magna.</li></ol><table><tbody><tr><th>Table Header</th><th>Table Header</th><th>Table Header</th><th>Table Header</th></tr><tr><th>Consectetur</th><th>Etiam Nullam</th><th>Tortor</th><th>Tellus Ornare</th></tr><tr><th>Consectetur</th><th>Etiam Nullam</th><th>Tortor</th><th>Tellus Ornare</th></tr><tr><th>Consectetur</th><th>Etiam Nullam</th><th>Tortor</th><th>Tellus Ornare</th></tr><tr><th>Consectetur</th><th>Etiam Nullam</th><th>Tortor</th><th>Tellus Ornare</th></tr></tbody></table>"
+      summary: "Paragraph text. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Maecenas faucibus mollis interdum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
+      image: article_image_1
+      published_date: '2024-01-04'
+      type: 'blog'
+      location_reference: 1
+      tags:
+        - tag: 101
+        - tag: 102
+        - tag: 103
+    -
+      id: 2
+      title: 'Demo - Article - Lorem ipsum dolor sit amet'
+      subtitle: 'Article Sub Title'
+      body: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>"
+      summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      image: article_image_2
+      published_date: '2023-01-08'
+      type: 'blog'
+      location_reference: 1
+      tags:
+        - tag: 101
+        - tag: 102
+    -
+      id: 3
+      title: 'Demo - Article - Lorem ipsum dolor sit amet'
+      subtitle: 'Article Sub Title'
+      body: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>"
+      summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      image: article_image_3
+      published_date: '2023-04-04'
+      type: 'blog'
+      location_reference: 1
+      tags:
+        - tag: 101
+        - tag: 103
+
+    -
+      id: 4
+      title: 'Demo - Article - Duis mollis, est non commodo luctus'
+      subtitle: 'Article Sub Title'
+      body: "<p>Duis mollis, est non commodo luctus ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>"
+      summary: "Duis mollis, est non commodo luctus. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      image: article_image_4
+      published_date: '2023-06-26'
+      type: 'blog'
+      location_reference: 1
+      tags:
+        - tag: 103
+    -
+      id: 5
+      title: 'Demo - Article - Lorem ipsum dolor sit amet'
+      subtitle: 'Article Sub Title'
+      body: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>"
+      summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      image: article_image_5
+      published_date: '2023-08-02'
+      type: 'blog'
+      location_reference: 1
+      tags:
+        - tag: 102
+    -
+      id: 6
+      title: 'Demo - Article - Lorem ipsum dolor sit amet'
+      subtitle: 'Article Sub Title'
+      body: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>"
+      summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      image: article_image_6
+      published_date: '2023-08-22'
+      type: 'blog'
+      location_reference: 1
+      tags:
+        - tag: 101
+        - tag: 102
+        - tag: 103
+    -
+      id: 7
+      title: 'Demo - Article - Lorem ipsum dolor sit amet'
+      subtitle: 'Article Sub Title'
+      body: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>"
+      summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      image: article_image_7
+      published_date: '2023-09-26'
+      type: 'blog'
+      location_reference: 1
+      tags:
+        - tag: 102
+        - tag: 103
+    -
+      id: 8
+      title: 'Demo - Article - Lorem ipsum dolor sit amet'
+      subtitle: 'Article Sub Title'
+      body: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>"
+      summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      image: article_image_8
+      published_date: '2023-12-26'
+      type: 'blog'
+      location_reference: 1
+      tags:
+        - tag: 101
+  ids:
+    id:
+      type: integer
+  constants:
+    date_format: 'Y-m-d'
+process:
+  langcode:
+    plugin: default_value
+    source: language
+    default_value: en
+  status:
+    -
+      plugin: get
+      source: publish_status
+    -
+      plugin: default_value
+      default_value: 1
+  uid:
+    plugin: default_value
+    default_value: 1
+  title: title
+  field_subtitle: subtitle
+  field_type: type
+  body/value: body
+  body/summary: summary
+  body/format:
+    plugin: default_value
+    default_value: full_html
+  field_location_reference/target_id:
+    -
+      plugin: migration_lookup
+      migration: y_lb_demo_page_location
+      source: location_reference
+  field_header_image:
+    -
+      plugin: migration_lookup
+      migration: y_lb_demo_media_image
+      source: image
+  field_tags:
+      plugin: sub_process
+      source: tags
+      process:
+        target_id:
+          plugin: migration_lookup
+          migration: y_lb_demo_tags
+          source: tag
+  published_date:
+    -
+      plugin: get
+      source: published_date
+    -
+      plugin: callback
+      callable: strtotime
+  field_published_date/value:
+    -
+      plugin: callback
+      callable: date
+      unpack_source: true
+      source:
+        - constants/date_format
+        - '@published_date'
+  override_styles:
+    - plugin: default_value
+      default_value: 1
+  styles/value:
+    - plugin: default_value
+      default_value: 'a:6:{s:8:"colorway";s:17:"ws_colorway_green";s:13:"border_radius";s:19:"ws_border_radius_10";s:19:"border_style_global";s:34:"ws_border_style_global_drop_shadow";s:21:"text_alignment_global";s:29:"ws_text_alignment_global_left";s:22:"button_position_global";s:32:"ws_button_position_global_inside";s:18:"button_fill_global";s:28:"ws_button_fill_global_filled";}'
+destination:
+  plugin: 'entity:node'
+  default_bundle: article_lb
+migration_dependencies:
+  required:
+    - y_lb_demo_tags
+  optional: {}

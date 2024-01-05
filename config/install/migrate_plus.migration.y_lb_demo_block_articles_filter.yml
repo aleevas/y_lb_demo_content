@@ -1,0 +1,47 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - lb_hero
+  enforced:
+    module:
+      - y_lb_demo_content
+id: y_lb_demo_block_articles_filter
+migration_tags:
+  - openy_complete_installation
+  - openy_standard_installation
+  - openy_extended_installation
+migration_group: y_lb_demo_content
+label: 'Import demo Layout Builder - Articles filter'
+source:
+  plugin: embedded_data
+  data_rows:
+    -
+      id: 1
+      uuid: '638cc455-3bec-4f21-af58-e3e08afbeeaf'
+      title: "Find Articles"
+      field_block: 'views_exposed_filter_block:listing_articles-block'
+  ids:
+    id:
+      type: integer
+process:
+  langcode:
+    plugin: default_value
+    source: language
+    default_value: en
+  status:
+    plugin: default_value
+    default_value: 1
+  reusable:
+    plugin: default_value
+    default_value: 0
+  type:
+    plugin: default_value
+    default_value: articles_filter
+  uuid: uuid
+  field_block/plugin_id: field_block
+
+destination:
+  plugin: entity:block_content
+  default_bundle: 'articles_filter'
+migration_dependencies: {  }
