@@ -377,6 +377,30 @@ source:
     - id: menu_cta_image_1
       name: 'Menu CTA image 1'
       file: menu_cta_image_1
+    - id: article_image_1
+      name: 'Article image 1'
+      file: article_image_1
+    - id: article_image_2
+      name: 'Article image 2'
+      file: article_image_2
+    - id: article_image_3
+      name: 'Article image 3'
+      file: article_image_3
+    - id: article_image_4
+      name: 'Article image 4'
+      file: article_image_4
+    - id: article_image_5
+      name: 'Article image 5'
+      file: article_image_5
+    - id: article_image_6
+      name: 'Article image 6'
+      file: article_image_6
+    - id: article_image_7
+      name: 'Article image 7'
+      file: article_image_7
+    - id: article_image_8
+      name: 'Article image 8'
+      file: article_image_8
   ids:
     id:
       type: string

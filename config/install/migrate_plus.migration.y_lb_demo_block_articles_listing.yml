@@ -1,0 +1,41 @@
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - y_lb_demo_content
+id: y_lb_demo_block_articles_listing
+migration_tags:
+  - openy_complete_installation
+  - openy_standard_installation
+  - openy_extended_installation
+migration_group: y_lb_demo_content
+label: 'Import demo Layout Builder - All Articles'
+source:
+  plugin: embedded_data
+  data_rows:
+    -
+      id: 1
+      uuid: 'be0073eb-16f7-42cf-93f9-71e4d6fdc10e'
+  ids:
+    id:
+      type: integer
+process:
+  langcode:
+    plugin: default_value
+    source: language
+    default_value: en
+  status:
+    plugin: default_value
+    default_value: 1
+  reusable:
+    plugin: default_value
+    default_value: 0
+  type:
+    plugin: default_value
+    default_value: articles_listing
+  uuid: uuid
+destination:
+  plugin: entity:block_content
+  default_bundle: 'articles_listing'
+migration_dependencies: {  }

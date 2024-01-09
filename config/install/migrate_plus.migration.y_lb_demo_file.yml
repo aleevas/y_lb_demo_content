@@ -256,6 +256,22 @@ source:
       name: 88b230b52b18517fab947c61c60643f4.jpeg
     - id: menu_cta_image_1
       name: 9ae7d201bb2597ee50813d931c7f73d8.jpeg
+    - id: article_image_1
+      name: a8b543802fa99a59284742db5ac8e0a3.jpeg
+    - id: article_image_2
+      name: 13b122698c3e4de84bceb9eea3c109a6.jpeg
+    - id: article_image_3
+      name: 6b23e4d7ff56880bd97f1bc7b6a84eed.jpeg
+    - id: article_image_4
+      name: 01704b582097202c65b0e69d9be850ee.jpeg
+    - id: article_image_5
+      name: edd41947a59b3ca07e94e7a4b50ba28d.jpeg
+    - id: article_image_6
+      name: 54995b5e097af81409d9a2238656862f.jpeg
+    - id: article_image_7
+      name: 4711e96001ff19b9bda7c7f4c1348847.jpeg
+    - id: article_image_8
+      name: 6658194bb21aaa43bb911cd6bf63fb0e.jpeg
   ids:
     id:
       type: string
