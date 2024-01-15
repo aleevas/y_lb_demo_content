@@ -272,6 +272,12 @@ source:
       name: 4711e96001ff19b9bda7c7f4c1348847.jpeg
     - id: article_image_8
       name: 6658194bb21aaa43bb911cd6bf63fb0e.jpeg
+    - id: promo_image_1
+      name: a6918fdd1d42d250230c2ecd8b4c9927.jpeg
+    - id: promo_image_2
+      name: 15f11332dec53c97403199978883e040.jpeg
+    - id: promo_image_3
+      name: 217ea1ced3b93ff7412464a8abbfbb98.jpeg
   ids:
     id:
       type: string

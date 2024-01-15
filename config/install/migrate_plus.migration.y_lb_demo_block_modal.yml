@@ -1,0 +1,53 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - lb_hero
+  enforced:
+    module:
+      - y_lb_demo_content
+id: y_lb_demo_block_modal
+migration_tags:
+  - openy_complete_installation
+  - openy_standard_installation
+  - openy_extended_installation
+migration_group: y_lb_demo_content
+label: 'Import demo Layout Builder - Modal block'
+source:
+  plugin: embedded_data
+  data_rows:
+    -
+      id: 1
+      uuid: '59dfb722-8993-4406-a56b-61f257dd9e48'
+      title: "Modal Promo"
+      description: "<p>Maecenas accumsan lacus vel facilisis volutpat est velit egestas dui. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula ipsum. Etiam dignissim diam quis enim lobortis.</p>"
+      modal_dismissible: 0
+      media: promo_image_1
+  ids:
+    id:
+      type: integer
+process:
+  langcode:
+    plugin: default_value
+    source: language
+    default_value: en
+  status:
+    plugin: default_value
+    default_value: 1
+  reusable:
+    plugin: default_value
+    default_value: 0
+  type:
+    plugin: default_value
+    default_value: lb_modal
+  uuid: uuid
+  field_title: title
+  body/value: body
+  body/format:
+    plugin: default_value
+    default_value: full_html
+  field_modal_dismissible: modal_dismissible
+  field_cta: cta
+destination:
+  plugin: entity:block_content
+  default_bundle: 'lb_modal'

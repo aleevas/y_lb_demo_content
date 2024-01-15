@@ -44,6 +44,13 @@ source:
       cta:
         - uri: 'internal:/demo-dummy'
           title: 'View Our Full Privacy Policy'
+    -
+      id: 23
+      uuid: 'f77c9f1c-0e09-4ac4-8ecb-a6aa1d25b76e'
+      title: 'Lorem ipsum dolor sit amet'
+      description: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>"
+      media: promo_image_2
+
   ids:
     id:
       type: integer
