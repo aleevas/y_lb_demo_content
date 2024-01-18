@@ -1,17 +1,13 @@
 langcode: en
 status: true
 dependencies:
-  module:
-    - lb_hero
   enforced:
     module:
-      - y_lb_demo_content
+      - y_lb_demo_content_af_promotion
 id: y_lb_demo_block_af
 migration_tags:
-  - openy_complete_installation
-  - openy_standard_installation
-  - openy_extended_installation
-migration_group: y_lb_demo_content
+  - y_lb_demo_content_af
+migration_group: y_lb_demo_content_af
 label: 'Import demo Layout Builder - Activity Finder'
 source:
   plugin: embedded_data

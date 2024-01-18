@@ -26,9 +26,7 @@ dependencies:
   - drupal:y_branch_menu
   - drupal:ws_promotion
   - drupal:ws_promotion_promo
-  - drupal:ws_promotion_activity_finder
   - drupal:ws_promotion_cards
   - drupal:ws_promotion_modal
   - drupal:ws_promotion_ping_pong
   - drupal:ws_promotion_hero
-  - openy_activity_finder
