@@ -1,0 +1,109 @@
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - y_lb_demo_content
+id: y_lb_demo_promotions
+migration_tags:
+  - openy_complete_installation
+  - openy_standard_installation
+  - openy_extended_installation
+migration_group: y_lb_demo_content
+label: 'Create demo Promotions'
+source:
+  plugin: embedded_data
+  data_rows:
+    -
+      id: 1
+      title: 'Promo - Swim lessons open for registration'
+      subtitle: 'Promotion Sub Title'
+      description: "<p>Vestibulum id ligula porta felis euismod semper.</p>"
+      image: promo_image_1
+      categories:
+        - category: 'swim_lessons_adult'
+        - category: 'group_exercise_classes'
+        - category: 'activity_personal_training'
+      promo_priority: '30'
+      cta:
+        - uri: 'internal:/demo-join-y'
+          title: 'Register today'
+    -
+      id: 2
+      title: 'Promo - One month free trial'
+      subtitle: 'One month free trial'
+      description: "<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>"
+      image: promo_image_2
+      categories:
+        - category: 'swim_lessons_adult'
+        - category: 'group_exercise_classes'
+        - category: 'activity_personal_training'
+      promo_priority: '30'
+      cta:
+        - uri: 'internal:/demo-join-y'
+          title: 'Register today'
+    -
+      id: 3
+      title: 'Promo - Vestibulum id ligula porta felis euismod semper.'
+      description: "<p>Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna.</p>"
+      image: promo_image_3
+      categories:
+        - category: 'swim_lessons_adult'
+        - category: 'group_exercise_classes'
+        - category: 'activity_personal_training'
+      promo_priority: '30'
+      cta:
+        - uri: 'internal:/demo-join-y'
+          title: 'Register today'
+  ids:
+    id:
+      type: integer
+process:
+  langcode:
+    plugin: default_value
+    source: language
+    default_value: en
+  status:
+    -
+      plugin: get
+      source: publish_status
+    -
+      plugin: default_value
+      default_value: 1
+  uid:
+    plugin: default_value
+    default_value: 1
+  title: title
+  field_subtitle: subtitle
+  field_promo_priority: promo_priority
+  field_promo_description/value: body
+  field_promo_description/format:
+    plugin: default_value
+    default_value: full_html
+  field_promo_media:
+    -
+      plugin: migration_lookup
+      migration: y_lb_demo_media_image
+      source: image
+  field_promo_category:
+      plugin: sub_process
+      source: categories
+      process:
+        target_id:
+          plugin: migration_lookup
+          migration: openy_demo_node_activity
+          source: category
+  field_link: cta
+  override_styles:
+    - plugin: default_value
+      default_value: 1
+  styles/value:
+    - plugin: default_value
+      default_value: 'a:6:{s:8:"colorway";s:17:"ws_colorway_green";s:13:"border_radius";s:19:"ws_border_radius_10";s:19:"border_style_global";s:34:"ws_border_style_global_drop_shadow";s:21:"text_alignment_global";s:29:"ws_text_alignment_global_left";s:22:"button_position_global";s:32:"ws_button_position_global_inside";s:18:"button_fill_global";s:28:"ws_button_fill_global_filled";}'
+destination:
+  plugin: 'entity:node'
+  default_bundle: promo
+migration_dependencies:
+  required:
+    - openy_demo_node_activity
+  optional: {}

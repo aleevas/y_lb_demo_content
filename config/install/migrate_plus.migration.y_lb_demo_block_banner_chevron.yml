@@ -67,6 +67,14 @@ source:
       title: 'Lorem ipsum dolor sit amet'
       description: "<p>Maecenas accumsan lacus vel facilisis volutpat est velit egestas dui. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula ipsum. Etiam dignissim diam quis enim lobortis.</p>"
       media: volunteer_ops_page_image_1
+
+    -
+      id: 25
+      uuid: '45747841-124e-4a7c-b38c-74272e01f604'
+      title: 'Lorem ipsum dolor sit amet'
+      description: "<p>Maecenas accumsan lacus vel facilisis volutpat est velit egestas dui. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula ipsum. Etiam dignissim diam quis enim lobortis.</p>"
+      media: promo_image_1
+      promotion_include: 1
   ids:
     id:
       type: integer

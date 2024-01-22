@@ -401,6 +401,15 @@ source:
     - id: article_image_8
       name: 'Article image 8'
       file: article_image_8
+    - id: promo_image_1
+      name: 'Promotion image 1'
+      file: promo_image_1
+    - id: promo_image_2
+      name: 'Promotion image 2'
+      file: promo_image_2
+    - id: promo_image_3
+      name: 'Promotion image 3'
+      file: promo_image_3
   ids:
     id:
       type: string

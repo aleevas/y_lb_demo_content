@@ -1,0 +1,22 @@
+<?php
+
+/**
+ * @file
+ * Install, update and uninstall functions for the y_lb_demo_content_af_promotion module.
+ */
+
+/**
+ * y_lb_demo_content_af_promotion_install install.
+ */
+function y_lb_demo_content_af_promotion_install() {
+  $importer = \Drupal::service('openy_migrate.importer');
+  $importer->importByTag('y_lb_demo_content_af');
+}
+
+/**
+ * y_lb_demo_content_af_promotion_uninstall uninstall.
+ */
+function y_lb_demo_content_af_promotion_uninstall() {
+  $importer = \Drupal::service('openy_migrate.importer');
+  $importer->rollbackByTag('y_lb_demo_content_af');
+}

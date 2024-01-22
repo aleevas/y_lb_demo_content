@@ -55,6 +55,12 @@ source:
       cta:
         - uri: 'https://www.daxko.com'
           title: 'See Current Openings'
+    -
+      id: 6
+      uuid: '4159eb7e-cc3e-4441-89e3-45c59e5e0eb2'
+      title: 'Lorem ipsum dolor sit amet'
+      description: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>"
+      media: promo_image_2
   ids:
     id:
       type: integer
