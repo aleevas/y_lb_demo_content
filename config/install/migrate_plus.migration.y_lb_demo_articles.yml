@@ -36,7 +36,7 @@ source:
       summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
       image: article_image_2
       published_date: '2023-01-08'
-      type: 'blog'
+      type: 'news'
       location_reference: 1
       tags:
         - tag: 101
@@ -49,7 +49,7 @@ source:
       summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
       image: article_image_3
       published_date: '2023-04-04'
-      type: 'blog'
+      type: 'news'
       location_reference: 1
       tags:
         - tag: 101
@@ -63,7 +63,7 @@ source:
       summary: "Duis mollis, est non commodo luctus. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
       image: article_image_4
       published_date: '2023-06-26'
-      type: 'blog'
+      type: 'press_release'
       location_reference: 1
       tags:
         - tag: 103
@@ -75,7 +75,7 @@ source:
       summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
       image: article_image_5
       published_date: '2023-08-02'
-      type: 'blog'
+      type: 'press_release'
       location_reference: 1
       tags:
         - tag: 102
@@ -87,7 +87,7 @@ source:
       summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
       image: article_image_6
       published_date: '2023-08-22'
-      type: 'blog'
+      type: 'news'
       location_reference: 1
       tags:
         - tag: 101
@@ -114,7 +114,7 @@ source:
       summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
       image: article_image_8
       published_date: '2023-12-26'
-      type: 'blog'
+      type: 'press_release'
       location_reference: 1
       tags:
         - tag: 101
