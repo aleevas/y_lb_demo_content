@@ -4,6 +4,7 @@
     "type": "drupal-module",
     "require": {
         "ycloudyusa/y_lb" : "^3.3.0",
+        "drupal/lb_testimonial_blocks": "^1.0",
         "php": ">=8.1",
         "open-y-subprojects/openy_custom": ">=2.4.0"
     },
