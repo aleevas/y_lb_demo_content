@@ -30,4 +30,4 @@ dependencies:
   - drupal:ws_promotion_modal
   - drupal:ws_promotion_ping_pong
   - drupal:ws_promotion_hero
-  - drupal:lb_testimonial
+  - drupal:lb_testimonials
