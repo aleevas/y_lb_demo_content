@@ -2,7 +2,7 @@ name: 'Y Layout Builder - Demo Components'
 type: module
 description: 'Stores migrations to import demo layout builder components and pages.'
 package: 'YMCA Website Services'
-core_version_requirement: ^8.7.7 || ^9 || ^10
+core_version_requirement: ^9 || ^10
 dependencies:
   - drupal:migrate
   - migrate_plus:migrate_plus
@@ -30,3 +30,4 @@ dependencies:
   - drupal:ws_promotion_modal
   - drupal:ws_promotion_ping_pong
   - drupal:ws_promotion_hero
+  - drupal:lb_testimonials
