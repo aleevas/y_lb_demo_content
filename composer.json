@@ -5,6 +5,7 @@
     "require": {
         "ycloudyusa/y_lb" : "^3.3.0",
         "php": ">=8.1",
+        "drupal/lb_cards": ">=2.0.15",
         "open-y-subprojects/openy_custom": ">=2.4.0"
     },
     "license": "GPL-2.0+",
