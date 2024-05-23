@@ -46,7 +46,7 @@ process:
     default_value: statistics_item
   reusable:
     plugin: default_value
-    default_value: 0
+    default_value: 1
   field_subtitle: number
   field_title: body
 destination:

@@ -151,7 +151,7 @@ process:
     default_value: en
   reusable:
     plugin: default_value
-    default_value: 0
+    default_value: 1
   uuid: uuid
   status:
     plugin: default_value

@@ -175,7 +175,7 @@ process:
   uuid: uuid
   reusable:
     plugin: default_value
-    default_value: 0
+    default_value: 1
   type:
     plugin: default_value
     default_value: card_item
